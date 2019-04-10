@@ -1,0 +1,567 @@
+{
+  "name": "SevereWeatherEvents",
+  "intents": [
+    {
+      "intent": "weatherdeaths",
+      "examples": [
+        {
+          "text": "Deaths from most common events"
+        },
+        {
+          "text": "What were the death tolls from the top 5 most severe weather events in 2018"
+        },
+        {
+          "text": "What were the number of deaths from each of the most common severe weather events in 2018?"
+        },
+        {
+          "text": "Deaths from the top 5 most common severe weather events in 2018"
+        },
+        {
+          "text": "The number of deaths associated with the top 5 most common events in 2018"
+        },
+        {
+          "text": "The death count from the most common severe weather events in 2018"
+        },
+        {
+          "text": "Deaths from most common weather events in 2018"
+        },
+        {
+          "text": "Deaths from most common weather events"
+        },
+        {
+          "text": "Deaths from most common severe weather events in 2018"
+        },
+        {
+          "text": "Deaths from most common severe weather events"
+        }
+      ],
+      "description": "deaths associated with most common weather events"
+    },
+    {
+      "intent": "worsttornados",
+      "examples": [
+        {
+          "text": "Where did the worst tornados take place in the past 5 years?"
+        },
+        {
+          "text": "What were the most severe tornados from 2013-2018"
+        },
+        {
+          "text": "The most severe tornados"
+        },
+        {
+          "text": "The worst tornados"
+        },
+        {
+          "text": "Determine the rating and locations of the most severe tornados from 2013-2018"
+        },
+        {
+          "text": "The rating and locations of the most severe tornados"
+        },
+        {
+          "text": "The score and locations of the most severe tornados"
+        },
+        {
+          "text": "Determine the rating and locations of the worst tornados from 2013-2018"
+        },
+        {
+          "text": "The score and locations of the worst tornados from 2013-2018"
+        },
+        {
+          "text": "The score and locations of the worst tornados"
+        },
+        {
+          "text": "Where did the most severe tornados occur in the past 5 years"
+        }
+      ],
+      "description": "worst tornados in past 5 years"
+    },
+    {
+      "intent": "hailplaces",
+      "examples": [
+        {
+          "text": "Top 5 places affected by hail"
+        },
+        {
+          "text": "top 5 states affected by hail"
+        },
+        {
+          "text": "top states affected by hail"
+        },
+        {
+          "text": "top 5 states affected by hail in 2018"
+        },
+        {
+          "text": "States most affected by hail in 2018"
+        },
+        {
+          "text": "Top 5 states most affected by hail"
+        },
+        {
+          "text": "top states most affected by hail"
+        },
+        {
+          "text": "top 5 states most affected by hail in 2018"
+        },
+        {
+          "text": "states affected by hail in 2018"
+        },
+        {
+          "text": "Places affected by hail in 2018"
+        }
+      ],
+      "description": "top 5 states affected by hail in 2018"
+    },
+    {
+      "intent": "mostcommonevents",
+      "examples": [
+        {
+          "text": "most common events"
+        },
+        {
+          "text": "What were the most common severe weather events in 2018?"
+        },
+        {
+          "text": "the most common severe weather events in 2018"
+        },
+        {
+          "text": "most common severe weather events in 2018"
+        },
+        {
+          "text": "most common weather events in 2018"
+        },
+        {
+          "text": "the top 5 most common events in 2018"
+        },
+        {
+          "text": "top 5 most common severe weather events in 2018"
+        },
+        {
+          "text": "What were the top 5 most common severe weather events in 2018"
+        },
+        {
+          "text": "most common severe weather events"
+        },
+        {
+          "text": "most common weather events"
+        }
+      ],
+      "description": "most common severe weather events"
+    },
+    {
+      "intent": "winterstorms",
+      "examples": [
+        {
+          "text": "States most affected by winter storms"
+        },
+        {
+          "text": "What were the states most affected by winter storms from 2013-2018"
+        },
+        {
+          "text": "States that received the most snowfall"
+        },
+        {
+          "text": "Places that received the most snowfall in the past 5 years"
+        },
+        {
+          "text": "Places most affected by winter weather"
+        },
+        {
+          "text": "What were the states most affected by snowfall over the past 5 years"
+        },
+        {
+          "text": "What were the states most affected by snowfall from 2013-2018"
+        },
+        {
+          "text": "States most affected by snowfall"
+        },
+        {
+          "text": "States most affected by snowfall from 2013-2018"
+        },
+        {
+          "text": "What were the states most affected by winter weather from 2013-2018"
+        },
+        {
+          "text": "States most affected by winter weather"
+        }
+      ],
+      "description": "states most affected by winter storms"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "states",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "states",
+          "synonyms": [
+            "state",
+            "places",
+            "place",
+            "locations",
+            "location"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "winterweather",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "winter weather",
+          "synonyms": [
+            "winter storms",
+            "snowfall",
+            "snow"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "affected",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "affected",
+          "synonyms": [
+            "most affected",
+            "afflicted",
+            "most afflicted"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "severity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "severity",
+          "synonyms": [
+            "most severe",
+            "worst",
+            "most devastating",
+            "most disastrous"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "events",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "events",
+          "synonyms": [
+            "event",
+            "weather event",
+            "weather events",
+            "severe weather event",
+            "severe weather events"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "deaths",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "deaths",
+          "synonyms": [
+            "death",
+            "number of deaths",
+            "death count",
+            "death toll",
+            "death tolls",
+            "total number of deaths",
+            "total deaths",
+            "mortality",
+            "mortality rate"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "rating",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "rating",
+          "synonyms": [
+            "score",
+            "intensity",
+            "magnitude",
+            "EF scale",
+            "EF score"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "common",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "common",
+          "synonyms": [
+            "common",
+            "most common",
+            "top 5",
+            "the top",
+            "top five",
+            "the main"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Question Selection",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Top 5 events in 2018",
+                "value": {
+                  "input": {
+                    "text": "most common events"
+                  }
+                }
+              },
+              {
+                "label": "Death toll from Top 5 events in 2018",
+                "value": {
+                  "input": {
+                    "text": "weather deaths"
+                  }
+                }
+              },
+              {
+                "label": "States most affected by hail in 2018",
+                "value": {
+                  "input": {
+                    "text": "hail places"
+                  }
+                }
+              },
+              {
+                "label": "Worst tornados from 2013-2018",
+                "value": {
+                  "input": {
+                    "text": "worst tornados"
+                  }
+                }
+              },
+              {
+                "label": "States most affected by winter storms from 2013-2018",
+                "value": {
+                  "input": {
+                    "text": "winter storms"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "dialog_node": "node_3_1551646229392"
+    },
+    {
+      "type": "standard",
+      "title": "Worst tornados 2013-2018",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Florida – 2 EF0 tornados, Maryland – 2 EF0 tornados, Mississippi – 1 EF1 tornado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#worsttornados",
+      "dialog_node": "node_8_1551651183833",
+      "previous_sibling": "node_7_1551651153435"
+    },
+    {
+      "type": "standard",
+      "title": "Death Toll from Top Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thunderstorm Wind – 0 deaths, Drought – 0 deaths, Hail – 0 deaths, Flash Flood – 0 deaths, Marine Thunderstorm Wind – 0 deaths"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#weatherdeaths",
+      "dialog_node": "node_6_1551651108062",
+      "previous_sibling": "node_5_1551648863410"
+    },
+    {
+      "type": "standard",
+      "title": "Top 5 Events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thunderstorm Wind – 26 occurrences, Drought – 16 occurrences, Hail – 16 occurrences, Flash Flood – 9 occurrences, Marine Thunderstorm Wind – 7 occurrences"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#mostcommonevents",
+      "dialog_node": "node_5_1551648863410",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1551646229392"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1551651210432"
+    },
+    {
+      "type": "standard",
+      "title": "Most Affected by Hail in 2018",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ohio – 4 episodes of hail, Idaho – 3 episodes of hail, Kentucky – 3 episodes of hail, Nebraska – 2 episodes of hail, Oregon – 2 episodes of hail"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#hailplaces",
+      "dialog_node": "node_7_1551651153435",
+      "previous_sibling": "node_6_1551651108062"
+    },
+    {
+      "type": "standard",
+      "title": "Most Affected by Winter Storms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Virginia – 5 winter storms, New York – 4 winter storms, Wyoming – 4 winter storms, Colorado – 2 winter storms, New Hampshire – 1 winter storm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#winterstorms",
+      "dialog_node": "node_9_1551651210432",
+      "previous_sibling": "node_8_1551651183833"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello! I can answer questions about severe weather events in the U.S. over the past 5 years. What would you like to know?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1551646229392"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "8970dbc7-9aca-40d2-8cc4-0c7fab4f986d",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
