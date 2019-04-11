@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>This remote investigation focused on the circumstances involved in a falling vehicle incident that resulted in moderate severity (AIS-2) injuries to a 44-year old male victim.  The victim was attempting to inspect the undercarriage of his 2006 Toyota Avalon to determine the source of an oil leak when the vehicle rolled off the OEM jack causing the Toyota to fall onto the chest of the victim.  The incident occurred at the victim's residence on a level concrete surface during daylight hours.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="30">
+      <text>This remote investigation focused on the circumstances involved in a falling vehicle incident that resulted in moderate severity (AIS-2) injuries to a 44-year old male victim.</text>
+      <parse score="-15.868100">[S [S [NP This_DT remote_JJ investigation_NN NP] [VP focused_VBD [PP on_IN [NP [NP [NP the_DT circumstances_NNS NP] [VP involved_VBN [PP in_IN [NP a_DT falling_VBG vehicle_NN incident_NN NP] PP] VP] NP] [SBAR [WHNP that_WDT WHNP] [S [VP resulted_VBD [PP in_IN [NP [NP moderate_JJ severity_NN NP] [NP (_-LRB- AIS-2_NNP NP] NP] PP] VP] S] SBAR] NP] PP] VP] )_-RRB- S] [VP injuries_NNS [PP to_TO [NP a_DT [NML 44_CD -_HYPH year_NN NML] old_JJ male_NN victim_NN NP] PP] VP] ._. S]</parse>
+      <dependency_parse>This DT 2 -I remote JJ 2 -I investigation NN -1 NP focused VBD 2 VP on IN 3 PP the DT 6 -I circumstances NNS 4 NP involved VBN 6 VP in IN 7 PP a DT 12 -I falling VBG 12 -I vehicle NN 12 -I incident NN 8 NP that WDT 14 WHNP resulted VBD 6 VP in IN 14 PP moderate JJ 17 -I severity NN 19 NP ( -LRB- 19 -I AIS-2 NNP 15 NP ) -RRB- 2 -E injuries NNS 2 VP to TO 21 PP a DT 29 -I 44 CD 26 -I - HYPH 26 -I year NN 29 NML old JJ 29 -I male NN 29 -I victim NN 22 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP This_DT remote_JJ investigation_NN NP:3-ARG0] [VP focused_VBD:focused.01 [PP on_IN [NP [NP [NP the_DT circumstances_NNS NP:7-ARG1] [VP involved_VBN:involved.01 [PP in_IN [NP a_DT falling_VBG:falling.01 vehicle_NN incident_NN NP] PP:7-ARG2] VP] NP:14-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP resulted_VBD:resulted.01 [PP in_IN [NP [NP moderate_JJ severity_NN NP] [NP (_-LRB- AIS-2_NNP NP] NP] PP:14-ARG2] VP] S] SBAR] NP] PP:3-ARG2] VP] )_-RRB- S] [VP injuries_NNS [PP to_TO [NP a_DT [NML 44_CD -_HYPH year_NN NML] old_JJ male_NN victim_NN NP] PP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">This</token>
+        <token tid="1" begin="5" end="10" type="0">remote</token>
+        <token tid="2" begin="12" end="24" type="0">investigation</token>
+        <token tid="3" begin="26" end="32" type="0">focused</token>
+        <token tid="4" begin="34" end="35" type="0">on</token>
+        <token tid="5" begin="37" end="39" type="0">the</token>
+        <token tid="6" begin="41" end="53" type="0">circumstances</token>
+        <token tid="7" begin="55" end="62" type="0">involved</token>
+        <token tid="8" begin="64" end="65" type="0">in</token>
+        <token tid="9" begin="67" end="67" type="0">a</token>
+        <token tid="10" begin="69" end="75" type="0">falling</token>
+        <token tid="11" begin="77" end="83" type="0">vehicle</token>
+        <token tid="12" begin="85" end="92" type="0">incident</token>
+        <token tid="13" begin="94" end="97" type="0">that</token>
+        <token tid="14" begin="99" end="106" type="0">resulted</token>
+        <token tid="15" begin="108" end="109" type="0">in</token>
+        <token tid="16" begin="111" end="118" type="0">moderate</token>
+        <token tid="17" begin="120" end="127" type="0">severity</token>
+        <token tid="18" begin="129" end="129" type="2048">(</token>
+        <token tid="19" begin="130" end="134" type="0">AIS-2</token>
+        <token tid="20" begin="135" end="135" type="2048">)</token>
+        <token tid="21" begin="137" end="144" type="0">injuries</token>
+        <token tid="22" begin="146" end="147" type="0">to</token>
+        <token tid="23" begin="149" end="149" type="0">a</token>
+        <token tid="24" begin="151" end="152" type="0">44</token>
+        <token tid="25" begin="153" end="153" type="2048">-</token>
+        <token tid="26" begin="154" end="157" type="0">year</token>
+        <token tid="27" begin="159" end="161" type="0">old</token>
+        <token tid="28" begin="163" end="166" type="0">male</token>
+        <token tid="29" begin="168" end="173" type="0">victim</token>
+        <token tid="30" begin="174" end="174" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="31" end="71">
+      <text>The victim was attempting to inspect the undercarriage of his 2006 Toyota Avalon to determine the source of an oil leak when the vehicle rolled off the OEM jack causing the Toyota to fall onto the chest of the victim.</text>
+      <parse score="-15.987000">[S [NP The_DT victim_NN NP] [VP was_VBD [VP attempting_VBG [S [VP to_TO [VP inspect_VB [NP [NP the_DT undercarriage_NN NP] [PP of_IN [NP his_PRP$ 2006_CD Toyota_NNP Avalon_NNP NP] PP] NP] [S [VP to_TO [VP determine_VB [NP [NP the_DT source_NN NP] [PP of_IN [NP [NP an_DT [NML oil_NN NML] leak_NN NP] [SBAR [WHADVP when_WRB WHADVP] [S [NP the_DT vehicle_NN NP] [VP rolled_VBD [PRT off_RP PRT] [NP [NP the_DT OEM_NNP jack_NN NP] [VP causing_VBG [S [NP the_DT Toyota_NNP NP] [VP to_TO [VP fall_VB [PP onto_IN [NP [NP the_DT chest_NN NP] [PP of_IN [NP the_DT victim_NN NP] PP] NP] PP] VP] VP] S] VP] NP] VP] S] SBAR] NP] PP] NP] VP] VP] S] VP] VP] S] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I victim NN -1 NP was VBD 1 VP attempting VBG 2 VP to TO 5 -E inspect VB 3 VP the DT 7 -I undercarriage NN 5 NP of IN 7 PP his PRP$ 12 -I 2006 CD 12 -I Toyota NNP 12 -I Avalon NNP 8 NP to TO 14 -E determine VB 5 VP the DT 16 -I source NN 14 NP of IN 16 PP an DT 20 -I oil NN 20 NML leak NN 17 NP when WRB 23 WHADVP the DT 23 -I vehicle NN 20 NP rolled VBD 23 VP off RP 24 PRT the DT 28 -I OEM NNP 28 -I jack NN 24 NP causing VBG 28 VP the DT 31 -I Toyota NNP 29 NP to TO 33 -E fall VB 31 VP onto IN 33 PP the DT 36 -I chest NN 34 NP of IN 36 PP the DT 39 -I victim NN 37 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT victim_NN NP:3-ARG0/5-ARG0] [VP was_VBD [VP attempting_VBG:attempting.01 [S [VP to_TO [VP inspect_VB:inspect.01 [NP [NP the_DT undercarriage_NN NP] [PP of_IN [NP his_PRP$ 2006_CD Toyota_NNP Avalon_NNP NP] PP] NP:5-ARG1] [S [VP to_TO [VP determine_VB:determine.01 [NP [NP the_DT source_NN NP] [PP of_IN [NP [NP an_DT [NML oil_NN NML] leak_NN NP:24-ARG1] [SBAR [WHADVP when_WRB WHADVP] [S [NP the_DT vehicle_NN NP:24-ARG1] [VP rolled_VBD:rolled.01 [PRT off_RP PRT] [NP [NP the_DT OEM_NNP jack_NN NP:29-ARG0] [VP causing_VBG:causing.01 [S [NP the_DT Toyota_NNP NP:33-ARG1] [VP to_TO [VP fall_VB:fall.01 [PP onto_IN [NP [NP the_DT chest_NN NP] [PP of_IN [NP the_DT victim_NN NP] PP] NP] PP:33-ARG2] VP] VP] S:29-ARG1] VP] NP:24-ARG1] VP] S] SBAR] NP] PP] NP:14-ARG1] VP] VP] S] VP] VP] S:3-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="31" begin="177" end="179" type="0">The</token>
+        <token tid="32" begin="181" end="186" type="0">victim</token>
+        <token tid="33" begin="188" end="190" type="0">was</token>
+        <token tid="34" begin="192" end="201" type="0">attempting</token>
+        <token tid="35" begin="203" end="204" type="0">to</token>
+        <token tid="36" begin="206" end="212" type="0">inspect</token>
+        <token tid="37" begin="214" end="216" type="0">the</token>
+        <token tid="38" begin="218" end="230" type="0">undercarriage</token>
+        <token tid="39" begin="232" end="233" type="0">of</token>
+        <token tid="40" begin="235" end="237" type="0">his</token>
+        <token tid="41" begin="239" end="242" type="0">2006</token>
+        <token tid="42" begin="244" end="249" type="0">Toyota</token>
+        <token tid="43" begin="251" end="256" type="0">Avalon</token>
+        <token tid="44" begin="258" end="259" type="0">to</token>
+        <token tid="45" begin="261" end="269" type="0">determine</token>
+        <token tid="46" begin="271" end="273" type="0">the</token>
+        <token tid="47" begin="275" end="280" type="0">source</token>
+        <token tid="48" begin="282" end="283" type="0">of</token>
+        <token tid="49" begin="285" end="286" type="0">an</token>
+        <token tid="50" begin="288" end="290" type="0">oil</token>
+        <token tid="51" begin="292" end="295" type="0">leak</token>
+        <token tid="52" begin="297" end="300" type="0">when</token>
+        <token tid="53" begin="302" end="304" type="0">the</token>
+        <token tid="54" begin="306" end="312" type="0">vehicle</token>
+        <token tid="55" begin="314" end="319" type="0">rolled</token>
+        <token tid="56" begin="321" end="323" type="0">off</token>
+        <token tid="57" begin="325" end="327" type="0">the</token>
+        <token tid="58" begin="329" end="331" type="0">OEM</token>
+        <token tid="59" begin="333" end="336" type="0">jack</token>
+        <token tid="60" begin="338" end="344" type="0">causing</token>
+        <token tid="61" begin="346" end="348" type="0">the</token>
+        <token tid="62" begin="350" end="355" type="0">Toyota</token>
+        <token tid="63" begin="357" end="358" type="0">to</token>
+        <token tid="64" begin="360" end="363" type="0">fall</token>
+        <token tid="65" begin="365" end="368" type="0">onto</token>
+        <token tid="66" begin="370" end="372" type="0">the</token>
+        <token tid="67" begin="374" end="378" type="0">chest</token>
+        <token tid="68" begin="380" end="381" type="0">of</token>
+        <token tid="69" begin="383" end="385" type="0">the</token>
+        <token tid="70" begin="387" end="392" type="0">victim</token>
+        <token tid="71" begin="393" end="393" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="72" end="88">
+      <text>The incident occurred at the victim's residence on a level concrete surface during daylight hours.</text>
+      <parse score="-3.404640">[S [NP The_DT incident_NN NP] [VP occurred_VBD [PP at_IN [NP [NP the_DT victim_NN 's_POS NP] residence_NN NP] PP] [PP on_IN [NP a_DT level_NN concrete_JJ surface_NN NP] PP] [PP during_IN [NP daylight_NN hours_NNS NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I incident NN -1 NP occurred VBD 1 VP at IN 2 PP the DT 5 -I victim NN 7 NP 's POS 5 -I residence NN 3 NP on IN 2 PP a DT 12 -I level NN 12 -I concrete JJ 12 -I surface NN 8 NP during IN 2 PP daylight NN 15 -I hours NNS 13 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT incident_NN NP:2-ARG1] [VP occurred_VBD:occurred.01 [PP at_IN [NP [NP the_DT victim_NN 's_POS NP] residence_NN NP] PP:2-ARGM-LOC] [PP on_IN [NP a_DT level_NN concrete_JJ surface_NN NP] PP] [PP during_IN [NP daylight_NN hours_NNS NP] PP:2-ARGM-TMP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="72" begin="396" end="398" type="0">The</token>
+        <token tid="73" begin="400" end="407" type="0">incident</token>
+        <token tid="74" begin="409" end="416" type="0">occurred</token>
+        <token tid="75" begin="418" end="419" type="0">at</token>
+        <token tid="76" begin="421" end="423" type="0">the</token>
+        <token tid="77" begin="425" end="430" type="0">victim</token>
+        <token tid="78" begin="431" end="432" type="0">'s</token>
+        <token tid="79" begin="434" end="442" type="0">residence</token>
+        <token tid="80" begin="444" end="445" type="0">on</token>
+        <token tid="81" begin="447" end="447" type="0">a</token>
+        <token tid="82" begin="449" end="453" type="0">level</token>
+        <token tid="83" begin="455" end="462" type="0">concrete</token>
+        <token tid="84" begin="464" end="470" type="0">surface</token>
+        <token tid="85" begin="472" end="477" type="0">during</token>
+        <token tid="86" begin="479" end="486" type="0">daylight</token>
+        <token tid="87" begin="488" end="492" type="0">hours</token>
+        <token tid="88" begin="493" end="493" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="522119267.txt.docxml-M2" mtype="NONE" begin="69" end="75" head-begin="69" head-end="75" eid="522119267.txt.docxml-E4" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">falling</mention>
+    <mention mid="-M1" mtype="NOM" begin="77" end="83" head-begin="77" head-end="83" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.910831" corefScore="1.000000">vehicle</mention>
+    <mention mid="522119267.txt.docxml-M3" mtype="NOM" begin="85" end="92" head-begin="85" head-end="92" eid="522119267.txt.docxml-E4" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">incident</mention>
+    <mention mid="522119267.txt.docxml-M4" mtype="PRO" begin="94" end="97" head-begin="94" head-end="97" eid="522119267.txt.docxml-E4" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">that</mention>
+    <mention mid="522119267.txt.docxml-M1" mtype="NOM" begin="111" end="144" head-begin="111" head-end="144" eid="522119267.txt.docxml-E1" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">moderate severity (AIS-2) injuries</mention>
+    <mention mid="-M4" mtype="NOM" begin="168" end="173" head-begin="168" head-end="173" eid="-E3" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.969005" corefScore="1.000000">victim</mention>
+    <mention mid="-M5" mtype="NOM" begin="181" end="186" head-begin="181" head-end="186" eid="-E3" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997394" corefScore="0.955442">victim</mention>
+    <mention mid="522119267.txt.docxml-M5" mtype="NOM" begin="218" end="230" head-begin="218" head-end="230" eid="522119267.txt.docxml-E5" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">undercarriage</mention>
+    <mention mid="-M6" mtype="PRO" begin="235" end="237" head-begin="235" head-end="237" eid="-E3" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.986426" corefScore="0.773910">his</mention>
+    <mention mid="522119267.txt.docxml-M12" mtype="NONE" begin="239" end="242" head-begin="239" head-end="242" eid="522119267.txt.docxml-E12" etype="MODEL_YEAR" role="MODEL_YEAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">2006</mention>
+    <mention mid="-M15" mtype="NAM" begin="244" end="249" head-begin="244" head-end="249" eid="-E10" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Toyota</mention>
+    <mention mid="-M16" mtype="NAM" begin="251" end="256" head-begin="251" head-end="256" eid="-E2" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Avalon</mention>
+    <mention mid="-M10" mtype="NOM" begin="306" end="312" head-begin="306" head-end="312" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.993543" corefScore="0.980885">vehicle</mention>
+    <mention mid="522119267.txt.docxml-M6" mtype="NONE" begin="314" end="336" head-begin="314" head-end="336" eid="522119267.txt.docxml-E6" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rolled off the OEM jack</mention>
+    <mention mid="-M17" mtype="NAM" begin="350" end="355" head-begin="350" head-end="355" eid="-E2" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Toyota</mention>
+    <mention mid="522119267.txt.docxml-M7" mtype="NONE" begin="360" end="378" head-begin="360" head-end="378" eid="522119267.txt.docxml-E4" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">fall onto the chest</mention>
+    <mention mid="-M13" mtype="NOM" begin="387" end="392" head-begin="387" head-end="392" eid="-E3" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.991745" corefScore="0.900983">victim</mention>
+    <mention mid="522119267.txt.docxml-M8" mtype="NOM" begin="400" end="407" head-begin="400" head-end="407" eid="522119267.txt.docxml-E4" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">incident</mention>
+    <mention mid="-M14" mtype="NOM" begin="425" end="430" head-begin="425" head-end="430" eid="-E3" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.985521" corefScore="0.912478">victim</mention>
+    <mention mid="522119267.txt.docxml-M9" mtype="NOM" begin="434" end="442" head-begin="434" head-end="442" eid="522119267.txt.docxml-E9" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">residence</mention>
+    <mention mid="522119267.txt.docxml-M11" mtype="NOM" begin="449" end="470" head-begin="449" head-end="470" eid="522119267.txt.docxml-E11" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">level concrete surface</mention>
+    <mention mid="522119267.txt.docxml-M10" mtype="NONE" begin="479" end="492" head-begin="479" head-end="492" eid="522119267.txt.docxml-E10" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">daylight hours</mention>
+  </mentions>
+  <entities>
+    <entity eid="522119267.txt.docxml-E1" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522119267.txt.docxml-M1">moderate severity (AIS-2) injuries</mentref>
+    </entity>
+    <entity eid="522119267.txt.docxml-E5" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522119267.txt.docxml-M5">undercarriage</mentref>
+    </entity>
+    <entity eid="522119267.txt.docxml-E4" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522119267.txt.docxml-M8">incident</mentref>
+      <mentref mid="522119267.txt.docxml-M3">incident</mentref>
+      <mentref mid="522119267.txt.docxml-M2">falling</mentref>
+      <mentref mid="522119267.txt.docxml-M4">that</mentref>
+      <mentref mid="522119267.txt.docxml-M7">fall onto the chest</mentref>
+    </entity>
+    <entity eid="522119267.txt.docxml-E6" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522119267.txt.docxml-M6">rolled off the OEM jack</mentref>
+    </entity>
+    <entity eid="522119267.txt.docxml-E9" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522119267.txt.docxml-M9">residence</mentref>
+    </entity>
+    <entity eid="522119267.txt.docxml-E11" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522119267.txt.docxml-M11">level concrete surface</mentref>
+    </entity>
+    <entity eid="522119267.txt.docxml-E10" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522119267.txt.docxml-M10">daylight hours</mentref>
+    </entity>
+    <entity eid="522119267.txt.docxml-E12" type="MODEL_YEAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522119267.txt.docxml-M12">2006</mentref>
+    </entity>
+    <entity eid="-E10" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M15">Toyota</mentref>
+    </entity>
+    <entity eid="-E3" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.905247">
+      <mentref mid="-M5">victim</mentref>
+      <mentref mid="-M4">victim</mentref>
+      <mentref mid="-M13">victim</mentref>
+      <mentref mid="-M6">his</mentref>
+      <mentref mid="-M14">victim</mentref>
+    </entity>
+    <entity eid="-E2" type="VEHICLE" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.990396">
+      <mentref mid="-M10">vehicle</mentref>
+      <mentref mid="-M1">vehicle</mentref>
+      <mentref mid="-M17">Toyota</mentref>
+      <mentref mid="-M16">Avalon</mentref>
+    </entity>
+  </entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+    <relation rid="522119267.txt.docxml-R8" type="causedBy" subtype="OTHER">
+      <rel_entity_arg eid="522119267.txt.docxml-E4" argnum="1"/>
+      <rel_entity_arg eid="522119267.txt.docxml-E6" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R8-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522119267.txt.docxml-M7" argnum="1">fall onto the chest</rel_mention_arg>
+          <rel_mention_arg mid="522119267.txt.docxml-M6" argnum="2">rolled off the OEM jack</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522119267.txt.docxml-R9" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="522119267.txt.docxml-E4" argnum="1"/>
+      <rel_entity_arg eid="-E3" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R9-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522119267.txt.docxml-M7" argnum="1">fall onto the chest</rel_mention_arg>
+          <rel_mention_arg mid="-M13" argnum="2">victim</rel_mention_arg>
+          </relmention>
+        <relmention rmid="522119267.txt.docxml-R9-2" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522119267.txt.docxml-M8" argnum="1">incident</rel_mention_arg>
+          <rel_mention_arg mid="-M14" argnum="2">victim</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522119267.txt.docxml-R1" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="522119267.txt.docxml-E4" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R1-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522119267.txt.docxml-M2" argnum="1">falling</rel_mention_arg>
+          <rel_mention_arg mid="-M1" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+        <relmention rmid="522119267.txt.docxml-R1-2" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522119267.txt.docxml-M7" argnum="1">fall onto the chest</rel_mention_arg>
+          <rel_mention_arg mid="-M17" argnum="2">Toyota</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522119267.txt.docxml-R2" type="outcomeOf" subtype="OTHER">
+      <rel_entity_arg eid="522119267.txt.docxml-E1" argnum="1"/>
+      <rel_entity_arg eid="522119267.txt.docxml-E4" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R2-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522119267.txt.docxml-M1" argnum="1">moderate severity (AIS-2) injuries</rel_mention_arg>
+          <rel_mention_arg mid="522119267.txt.docxml-M4" argnum="2">that</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522119267.txt.docxml-R3" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="-E3" argnum="1"/>
+      <rel_entity_arg eid="522119267.txt.docxml-E1" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R3-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M4" argnum="1">victim</rel_mention_arg>
+          <rel_mention_arg mid="522119267.txt.docxml-M1" argnum="2">moderate severity (AIS-2) injuries</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522119267.txt.docxml-R4" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="522119267.txt.docxml-E5" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R4-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522119267.txt.docxml-M5" argnum="1">undercarriage</rel_mention_arg>
+          <rel_mention_arg mid="-M16" argnum="2">Avalon</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522119267.txt.docxml-R5" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="-E10" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R5-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M16" argnum="1">Avalon</rel_mention_arg>
+          <rel_mention_arg mid="-M15" argnum="2">Toyota</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522119267.txt.docxml-R6" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="522119267.txt.docxml-E12" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R6-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M16" argnum="1">Avalon</rel_mention_arg>
+          <rel_mention_arg mid="522119267.txt.docxml-M12" argnum="2">2006</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522119267.txt.docxml-R7" type="driveUnder" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="522119267.txt.docxml-E6" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522119267.txt.docxml-R7-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M10" argnum="1">vehicle</rel_mention_arg>
+          <rel_mention_arg mid="522119267.txt.docxml-M6" argnum="2">rolled off the OEM jack</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+  </relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+  <profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels" />
+<username name="irina@us.ibm.com" />
+
+</doc>

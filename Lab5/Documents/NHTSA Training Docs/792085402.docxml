@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>This single vehicle incident occurred in February 2007 at 1350 hours.  The case vehicle is a 2007 Hyundai Sonata four-door sedan that was being driven by a 27-year-old female.  The Sonata had been recently purchased by the driver and had a temporary license affixed to the left side of the backlight. The incident occurred in a parking area on private property.  The parking area is behind a private building.  Access to the parking area is through a south to north driveway.  The driver was cleaning a building located adjacent to the parking area.  She arrived at 1200 hours and was cleaning until shortly before the incident.  The Sonata was initially parked facing west. The drivers's 3-year-old daughter was in the parking area.  The driver stated that she had told her daughter to stand next to the building and to stay there while she turned the Sonata around.  The driver began backing east and then turned the wheel to continue backing to the north.  It appears that the child was in the driver's blind spot at the time of the incident. As the backing motion began, she heard her daughter screaming.  She saw her daughter on the ground and went to her.  She picked up her daughter and put her in the vehicle. She drove her daughter directly to the hospital.  The 3-year-old child sustained a right tibia fracture, as well as a number of contusions and abrasions.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="11">
+      <text>This single vehicle incident occurred in February 2007 at 1350 hours.</text>
+      <parse score="-1.973460">[S [NP This_DT single_JJ vehicle_NN incident_NN NP] [VP occurred_VBD [PP in_IN [NP February_NNP 2007_CD NP] PP] [PP at_IN [NP 1350_CD hours_NNS NP] PP] VP] ._. S]</parse>
+      <dependency_parse>This DT 3 -I single JJ 3 -I vehicle NN 3 -I incident NN -1 NP occurred VBD 3 VP in IN 4 PP February NNP 5 NP 2007 CD 6 -I at IN 4 PP 1350 CD 10 -I hours NNS 8 NP . . 3 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP This_DT single_JJ vehicle_NN incident_NN NP:4-ARG1] [VP occurred_VBD:occurred.01 [PP in_IN [NP February_NNP 2007_CD NP] PP:4-ARGM-TMP] [PP at_IN [NP 1350_CD hours_NNS NP] PP:4-ARGM-TMP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">This</token>
+        <token tid="1" begin="5" end="10" type="0">single</token>
+        <token tid="2" begin="12" end="18" type="0">vehicle</token>
+        <token tid="3" begin="20" end="27" type="0">incident</token>
+        <token tid="4" begin="29" end="36" type="0">occurred</token>
+        <token tid="5" begin="38" end="39" type="0">in</token>
+        <token tid="6" begin="41" end="48" type="0">February</token>
+        <token tid="7" begin="50" end="53" type="0">2007</token>
+        <token tid="8" begin="55" end="56" type="0">at</token>
+        <token tid="9" begin="58" end="61" type="0">1350</token>
+        <token tid="10" begin="63" end="67" type="0">hours</token>
+        <token tid="11" begin="68" end="68" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="12" end="34">
+      <text>The case vehicle is a 2007 Hyundai Sonata four-door sedan that was being driven by a 27-year-old female.</text>
+      <parse score="-9.155730">[S [NP The_DT case_NN vehicle_NN NP] [VP is_VBZ [NP [NP a_DT 2007_CD Hyundai_NNP Sonata_NNP four-door_NN sedan_NN NP] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP being_VBG [VP driven_VBN [PP by_IN [NP a_DT [ADJP [NML 27_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] PP] VP] VP] VP] S] SBAR] NP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I case NN 2 -I vehicle NN -1 NP is VBZ 2 VP a DT 9 -I 2007 CD 9 -I Hyundai NNP 9 -I Sonata NNP 9 -I four-door NN 9 -I sedan NN 3 NP that WDT 11 WHNP was VBD 9 VP being VBG 11 VP driven VBN 12 VP by IN 13 PP a DT 21 -I 27 CD 18 -I - HYPH 18 -I year NN 20 NML - HYPH 20 -I old JJ 21 ADJP female NN 14 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT case_NN vehicle_NN NP] [VP is_VBZ [NP [NP a_DT 2007_CD Hyundai_NNP Sonata_NNP four-door_NN sedan_NN NP:13-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP being_VBG [VP driven_VBN:driven.01 [PP by_IN [NP a_DT [ADJP [NML 27_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] PP:13-ARG0] VP] VP] VP] S] SBAR] NP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="12" begin="71" end="73" type="0">The</token>
+        <token tid="13" begin="75" end="78" type="0">case</token>
+        <token tid="14" begin="80" end="86" type="0">vehicle</token>
+        <token tid="15" begin="88" end="89" type="0">is</token>
+        <token tid="16" begin="91" end="91" type="0">a</token>
+        <token tid="17" begin="93" end="96" type="0">2007</token>
+        <token tid="18" begin="98" end="104" type="0">Hyundai</token>
+        <token tid="19" begin="106" end="111" type="0">Sonata</token>
+        <token tid="20" begin="113" end="121" type="0">four-door</token>
+        <token tid="21" begin="123" end="127" type="0">sedan</token>
+        <token tid="22" begin="129" end="132" type="0">that</token>
+        <token tid="23" begin="134" end="136" type="0">was</token>
+        <token tid="24" begin="138" end="142" type="0">being</token>
+        <token tid="25" begin="144" end="149" type="0">driven</token>
+        <token tid="26" begin="151" end="152" type="0">by</token>
+        <token tid="27" begin="154" end="154" type="0">a</token>
+        <token tid="28" begin="156" end="157" type="0">27</token>
+        <token tid="29" begin="158" end="158" type="2048">-</token>
+        <token tid="30" begin="159" end="162" type="0">year</token>
+        <token tid="31" begin="163" end="163" type="2048">-</token>
+        <token tid="32" begin="164" end="166" type="0">old</token>
+        <token tid="33" begin="168" end="173" type="0">female</token>
+        <token tid="34" begin="174" end="174" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="35" end="57">
+      <text>The Sonata had been recently purchased by the driver and had a temporary license affixed to the left side of the backlight.</text>
+      <parse score="-5.995260">[S [NP The_DT Sonata_NN NP] [VP [VP had_VBD [VP been_VBN [ADVP recently_RB ADVP] [VP purchased_VBN [PP by_IN [NP the_DT driver_NN NP] PP] VP] VP] VP] and_CC [VP had_VBD [NP a_DT temporary_JJ license_NN affixed_NNS NP] [PP to_TO [NP [NP the_DT left_JJ side_NN NP] [PP of_IN [NP the_DT backlight_NN NP] PP] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Sonata NN -1 NP had VBD 1 VP been VBN 2 VP recently RB 3 ADVP purchased VBN 3 VP by IN 5 PP the DT 8 -I driver NN 6 NP and CC 2 -E had VBD 2 VP a DT 14 -I temporary JJ 14 -I license NN 14 -I affixed NNS 10 NP to TO 10 PP the DT 18 -I left JJ 18 -I side NN 15 NP of IN 18 PP the DT 21 -I backlight NN 19 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Sonata_NN NP:5-ARG1/10-ARG0] [VP [VP had_VBD [VP been_VBN [ADVP recently_RB ADVP:5-ARGM-TMP] [VP purchased_VBN:purchased.01 [PP by_IN [NP the_DT driver_NN NP] PP:5-ARG0] VP] VP] VP] and_CC [VP had_VBD:had.01 [NP a_DT temporary_JJ license_NN affixed_NNS NP:10-ARG1] [PP to_TO [NP [NP the_DT left_JJ side_NN NP] [PP of_IN [NP the_DT backlight_NN NP] PP] NP] PP:10-ARG2] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="35" begin="177" end="179" type="0">The</token>
+        <token tid="36" begin="181" end="186" type="0">Sonata</token>
+        <token tid="37" begin="188" end="190" type="0">had</token>
+        <token tid="38" begin="192" end="195" type="0">been</token>
+        <token tid="39" begin="197" end="204" type="0">recently</token>
+        <token tid="40" begin="206" end="214" type="0">purchased</token>
+        <token tid="41" begin="216" end="217" type="0">by</token>
+        <token tid="42" begin="219" end="221" type="0">the</token>
+        <token tid="43" begin="223" end="228" type="0">driver</token>
+        <token tid="44" begin="230" end="232" type="0">and</token>
+        <token tid="45" begin="234" end="236" type="0">had</token>
+        <token tid="46" begin="238" end="238" type="0">a</token>
+        <token tid="47" begin="240" end="248" type="0">temporary</token>
+        <token tid="48" begin="250" end="256" type="0">license</token>
+        <token tid="49" begin="258" end="264" type="0">affixed</token>
+        <token tid="50" begin="266" end="267" type="0">to</token>
+        <token tid="51" begin="269" end="271" type="0">the</token>
+        <token tid="52" begin="273" end="276" type="0">left</token>
+        <token tid="53" begin="278" end="281" type="0">side</token>
+        <token tid="54" begin="283" end="284" type="0">of</token>
+        <token tid="55" begin="286" end="288" type="0">the</token>
+        <token tid="56" begin="290" end="298" type="0">backlight</token>
+        <token tid="57" begin="299" end="299" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="58" end="68">
+      <text>The incident occurred in a parking area on private property.</text>
+      <parse score="-1.461420">[S [NP The_DT incident_NN NP] [VP occurred_VBD [PP in_IN [NP [NP a_DT parking_NN area_NN NP] [PP on_IN [NP private_JJ property_NN NP] PP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I incident NN -1 NP occurred VBD 1 VP in IN 2 PP a DT 6 -I parking NN 6 -I area NN 3 NP on IN 6 PP private JJ 9 -I property NN 7 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT incident_NN NP:2-ARG1] [VP occurred_VBD:occurred.01 [PP in_IN [NP [NP a_DT parking_NN area_NN NP] [PP on_IN [NP private_JJ property_NN NP] PP] NP] PP:2-ARGM-LOC] VP] ._. S]</srl>
+      <tokens>
+        <token tid="58" begin="301" end="303" type="0">The</token>
+        <token tid="59" begin="305" end="312" type="0">incident</token>
+        <token tid="60" begin="314" end="321" type="0">occurred</token>
+        <token tid="61" begin="323" end="324" type="0">in</token>
+        <token tid="62" begin="326" end="326" type="0">a</token>
+        <token tid="63" begin="328" end="334" type="0">parking</token>
+        <token tid="64" begin="336" end="339" type="0">area</token>
+        <token tid="65" begin="341" end="342" type="0">on</token>
+        <token tid="66" begin="344" end="350" type="0">private</token>
+        <token tid="67" begin="352" end="359" type="0">property</token>
+        <token tid="68" begin="360" end="360" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="4" begin="69" end="77">
+      <text>The parking area is behind a private building.</text>
+      <parse score="-1.307780">[S [NP The_DT parking_NN area_NN NP] [VP is_VBZ [PP behind_IN [NP a_DT private_JJ building_NN NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I parking NN 2 -I area NN -1 NP is VBZ 2 VP behind IN 3 PP a DT 7 -I private JJ 7 -I building NN 4 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT parking_NN area_NN NP] [VP is_VBZ [PP behind_IN [NP a_DT private_JJ building_NN NP] PP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="69" begin="363" end="365" type="0">The</token>
+        <token tid="70" begin="367" end="373" type="0">parking</token>
+        <token tid="71" begin="375" end="378" type="0">area</token>
+        <token tid="72" begin="380" end="381" type="0">is</token>
+        <token tid="73" begin="383" end="388" type="0">behind</token>
+        <token tid="74" begin="390" end="390" type="0">a</token>
+        <token tid="75" begin="392" end="398" type="0">private</token>
+        <token tid="76" begin="400" end="407" type="0">building</token>
+        <token tid="77" begin="408" end="408" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="5" begin="78" end="90">
+      <text>Access to the parking area is through a south to north driveway.</text>
+      <parse score="-6.538560">[S [NP [NP Access_NN NP] [PP to_TO [NP the_DT parking_NN area_NN NP] PP] NP] [VP is_VBZ [PP through_IN [NP a_DT south_NN NP] PP] [PP to_TO [NP north_JJ driveway_NN NP] PP] VP] ._. S]</parse>
+      <dependency_parse>Access NN -1 NP to TO 0 PP the DT 4 -I parking NN 4 -I area NN 1 NP is VBZ 0 VP through IN 5 PP a DT 8 -I south NN 6 NP to TO 5 PP north JJ 11 -I driveway NN 9 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP Access_NN NP] [PP to_TO [NP the_DT parking_NN area_NN NP] PP] NP] [VP is_VBZ [PP through_IN [NP a_DT south_NN NP] PP] [PP to_TO [NP north_JJ driveway_NN NP] PP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="78" begin="411" end="416" type="0">Access</token>
+        <token tid="79" begin="418" end="419" type="0">to</token>
+        <token tid="80" begin="421" end="423" type="0">the</token>
+        <token tid="81" begin="425" end="431" type="0">parking</token>
+        <token tid="82" begin="433" end="436" type="0">area</token>
+        <token tid="83" begin="438" end="439" type="0">is</token>
+        <token tid="84" begin="441" end="447" type="0">through</token>
+        <token tid="85" begin="449" end="449" type="0">a</token>
+        <token tid="86" begin="451" end="455" type="0">south</token>
+        <token tid="87" begin="457" end="458" type="0">to</token>
+        <token tid="88" begin="460" end="464" type="0">north</token>
+        <token tid="89" begin="466" end="473" type="0">driveway</token>
+        <token tid="90" begin="474" end="474" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="6" begin="91" end="103">
+      <text>The driver was cleaning a building located adjacent to the parking area.</text>
+      <parse score="-5.245820">[S [NP The_DT driver_NN NP] [VP was_VBD [VP cleaning_VBG [NP [NP a_DT building_NN NP] [VP located_VBN [S [ADJP adjacent_JJ [PP to_TO [NP the_DT parking_NN area_NN NP] PP] ADJP] S] VP] NP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN -1 NP was VBD 1 VP cleaning VBG 2 VP a DT 5 -I building NN 3 NP located VBN 5 VP adjacent JJ 6 ADJP to TO 7 PP the DT 11 -I parking NN 11 -I area NN 8 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT driver_NN NP:3-ARG0] [VP was_VBD [VP cleaning_VBG:cleaning.01 [NP [NP a_DT building_NN NP:6-ARG1] [VP located_VBN:located.01 [S [ADJP adjacent_JJ [PP to_TO [NP the_DT parking_NN area_NN NP] PP] ADJP] S:6-ARG2] VP] NP:3-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="91" begin="477" end="479" type="0">The</token>
+        <token tid="92" begin="481" end="486" type="0">driver</token>
+        <token tid="93" begin="488" end="490" type="0">was</token>
+        <token tid="94" begin="492" end="499" type="0">cleaning</token>
+        <token tid="95" begin="501" end="501" type="0">a</token>
+        <token tid="96" begin="503" end="510" type="0">building</token>
+        <token tid="97" begin="512" end="518" type="0">located</token>
+        <token tid="98" begin="520" end="527" type="0">adjacent</token>
+        <token tid="99" begin="529" end="530" type="0">to</token>
+        <token tid="100" begin="532" end="534" type="0">the</token>
+        <token tid="101" begin="536" end="542" type="0">parking</token>
+        <token tid="102" begin="544" end="547" type="0">area</token>
+        <token tid="103" begin="548" end="548" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="7" begin="104" end="117">
+      <text>She arrived at 1200 hours and was cleaning until shortly before the incident.</text>
+      <parse score="-3.862670">[S [NP She_PRP NP] [VP [VP arrived_VBD [PP at_IN [NP 1200_CD hours_NNS NP] PP] VP] and_CC [VP was_VBD [VP cleaning_VBG [PP until_IN [ADVP shortly_RB ADVP] PP] [PP before_IN [NP the_DT incident_NN NP] PP] VP] VP] VP] ._. S]</parse>
+      <dependency_parse>She PRP -1 NP arrived VBD 0 VP at IN 1 PP 1200 CD 4 -I hours NNS 2 NP and CC 1 -E was VBD 1 VP cleaning VBG 6 VP until IN 7 PP shortly RB 8 ADVP before IN 7 PP the DT 12 -I incident NN 10 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP She_PRP NP:1-ARG1/7-ARG0] [VP [VP arrived_VBD:arrived.01 [PP at_IN [NP 1200_CD hours_NNS NP] PP] VP] and_CC [VP was_VBD [VP cleaning_VBG:cleaning.01 [PP until_IN [ADVP shortly_RB ADVP] PP:7-ARGM-TMP] [PP before_IN [NP the_DT incident_NN NP] PP:7-ARGM-TMP] VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="104" begin="551" end="553" type="0">She</token>
+        <token tid="105" begin="555" end="561" type="0">arrived</token>
+        <token tid="106" begin="563" end="564" type="0">at</token>
+        <token tid="107" begin="566" end="569" type="0">1200</token>
+        <token tid="108" begin="571" end="575" type="0">hours</token>
+        <token tid="109" begin="577" end="579" type="0">and</token>
+        <token tid="110" begin="581" end="583" type="0">was</token>
+        <token tid="111" begin="585" end="592" type="0">cleaning</token>
+        <token tid="112" begin="594" end="598" type="0">until</token>
+        <token tid="113" begin="600" end="606" type="0">shortly</token>
+        <token tid="114" begin="608" end="613" type="0">before</token>
+        <token tid="115" begin="615" end="617" type="0">the</token>
+        <token tid="116" begin="619" end="626" type="0">incident</token>
+        <token tid="117" begin="627" end="627" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="8" begin="118" end="125">
+      <text>The Sonata was initially parked facing west.</text>
+      <parse score="-6.764870">[S [NP The_DT Sonata_NN NP] [VP was_VBD [ADVP initially_RB ADVP] [VP parked_VBN [S [VP facing_VBG [NP west_NN NP] VP] S] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Sonata NN -1 NP was VBD 1 VP initially RB 2 ADVP parked VBN 2 VP facing VBG 4 VP west NN 5 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Sonata_NN NP:4-ARG1/5-ARG0] [VP was_VBD [ADVP initially_RB ADVP:4-ARGM-TMP] [VP parked_VBN:parked.01 [S [VP facing_VBG:facing.01 [NP west_NN NP:5-ARG1] VP] S:4-ARG2] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="118" begin="630" end="632" type="0">The</token>
+        <token tid="119" begin="634" end="639" type="0">Sonata</token>
+        <token tid="120" begin="641" end="643" type="0">was</token>
+        <token tid="121" begin="645" end="653" type="0">initially</token>
+        <token tid="122" begin="655" end="660" type="0">parked</token>
+        <token tid="123" begin="662" end="667" type="0">facing</token>
+        <token tid="124" begin="669" end="672" type="0">west</token>
+        <token tid="125" begin="673" end="673" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="9" begin="126" end="140">
+      <text>The drivers's 3-year-old daughter was in the parking area.</text>
+      <parse score="-4.537900">[S [NP [NP The_DT drivers_NNS 's_POS NP] [ADJP [NML 3_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] daughter_NN NP] [VP was_VBD [PP in_IN [NP the_DT parking_NN area_NN NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I drivers NNS 8 NP 's POS 1 -I 3 CD 5 -I - HYPH 5 -I year NN 7 NML - HYPH 7 -I old JJ 8 ADJP daughter NN -1 NP was VBD 8 VP in IN 9 PP the DT 13 -I parking NN 13 -I area NN 10 NP . . 8 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT drivers_NNS 's_POS NP] [ADJP [NML 3_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] daughter_NN NP] [VP was_VBD [PP in_IN [NP the_DT parking_NN area_NN NP] PP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="126" begin="675" end="677" type="0">The</token>
+        <token tid="127" begin="679" end="685" type="0">drivers</token>
+        <token tid="128" begin="686" end="687" type="0">'s</token>
+        <token tid="129" begin="689" end="689" type="2048">3</token>
+        <token tid="130" begin="690" end="690" type="2048">-</token>
+        <token tid="131" begin="691" end="694" type="0">year</token>
+        <token tid="132" begin="695" end="695" type="2048">-</token>
+        <token tid="133" begin="696" end="698" type="0">old</token>
+        <token tid="134" begin="700" end="707" type="0">daughter</token>
+        <token tid="135" begin="709" end="711" type="0">was</token>
+        <token tid="136" begin="713" end="714" type="0">in</token>
+        <token tid="137" begin="716" end="718" type="0">the</token>
+        <token tid="138" begin="720" end="726" type="0">parking</token>
+        <token tid="139" begin="728" end="731" type="0">area</token>
+        <token tid="140" begin="732" end="732" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="10" begin="141" end="166">
+      <text>The driver stated that she had told her daughter to stand next to the building and to stay there while she turned the Sonata around.</text>
+      <parse score="-8.254380">[S [NP The_DT driver_NN NP] [VP stated_VBD [SBAR that_IN [S [NP she_PRP NP] [VP had_VBD [VP told_VBN [NP her_PRP$ daughter_NN NP] [S [VP to_TO [VP [VP stand_VB [ADVP next_RB [PP to_TO [NP the_DT building_NN NP] PP] ADVP] VP] and_CC [VP to_TO [VP stay_VB [ADVP there_RB ADVP] [SBAR while_IN [S [NP she_PRP NP] [VP turned_VBD [NP the_DT Sonata_NN NP] [ADVP around_RB ADVP] VP] S] SBAR] VP] VP] VP] VP] S] VP] VP] S] SBAR] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN -1 NP stated VBD 1 VP that IN 4 -E she PRP 2 NP had VBD 4 VP told VBN 5 VP her PRP$ 8 -I daughter NN 6 NP to TO 10 -E stand VB 6 VP next RB 10 ADVP to TO 11 PP the DT 14 -I building NN 12 NP and CC 10 -E to TO 17 -E stay VB 10 VP there RB 17 ADVP while IN 20 -E she PRP 17 NP turned VBD 20 VP the DT 23 -I Sonata NN 21 NP around RB 21 ADVP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT driver_NN NP:2-ARG0] [VP stated_VBD:stated.01 [SBAR that_IN [S [NP she_PRP NP:6-ARG0/10-ARG1/17-ARG1] [VP had_VBD [VP told_VBN:told.01 [NP her_PRP$ daughter_NN NP:6-ARG1/17-ARG1] [S [VP to_TO [VP [VP stand_VB:stand.01 [ADVP next_RB [PP to_TO [NP the_DT building_NN NP] PP] ADVP:10-ARG2] VP] and_CC [VP to_TO [VP stay_VB:stay.01 [ADVP there_RB ADVP] [SBAR while_IN [S [NP she_PRP NP:21-ARG0] [VP turned_VBD:turned.01 [NP the_DT Sonata_NN NP:21-ARG1] [ADVP around_RB ADVP:21-ARGM-DIR] VP] S] SBAR:17-ARGM-TMP] VP] VP] VP] VP] S:6-ARG2] VP] VP] S] SBAR:2-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="141" begin="735" end="737" type="0">The</token>
+        <token tid="142" begin="739" end="744" type="0">driver</token>
+        <token tid="143" begin="746" end="751" type="0">stated</token>
+        <token tid="144" begin="753" end="756" type="0">that</token>
+        <token tid="145" begin="758" end="760" type="0">she</token>
+        <token tid="146" begin="762" end="764" type="0">had</token>
+        <token tid="147" begin="766" end="769" type="0">told</token>
+        <token tid="148" begin="771" end="773" type="0">her</token>
+        <token tid="149" begin="775" end="782" type="0">daughter</token>
+        <token tid="150" begin="784" end="785" type="0">to</token>
+        <token tid="151" begin="787" end="791" type="0">stand</token>
+        <token tid="152" begin="793" end="796" type="0">next</token>
+        <token tid="153" begin="798" end="799" type="0">to</token>
+        <token tid="154" begin="801" end="803" type="0">the</token>
+        <token tid="155" begin="805" end="812" type="0">building</token>
+        <token tid="156" begin="814" end="816" type="0">and</token>
+        <token tid="157" begin="818" end="819" type="0">to</token>
+        <token tid="158" begin="821" end="824" type="0">stay</token>
+        <token tid="159" begin="826" end="830" type="0">there</token>
+        <token tid="160" begin="832" end="836" type="0">while</token>
+        <token tid="161" begin="838" end="840" type="0">she</token>
+        <token tid="162" begin="842" end="847" type="0">turned</token>
+        <token tid="163" begin="849" end="851" type="0">the</token>
+        <token tid="164" begin="853" end="858" type="0">Sonata</token>
+        <token tid="165" begin="860" end="865" type="0">around</token>
+        <token tid="166" begin="866" end="866" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="11" begin="167" end="183">
+      <text>The driver began backing east and then turned the wheel to continue backing to the north.</text>
+      <parse score="-6.413470">[S [NP The_DT driver_NN NP] [VP [VP began_VBD [VP backing_VBG [NP east_NN NP] VP] VP] and_CC [ADVP then_RB ADVP] [VP turned_VBD [NP the_DT wheel_NN NP] [S [VP to_TO [VP continue_VB [VP backing_VBG [PP to_TO [NP the_DT north_NN NP] PP] VP] VP] VP] S] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN -1 NP began VBD 1 VP backing VBG 2 VP east NN 3 NP and CC 2 -E then RB 2 ADVP turned VBD 2 VP the DT 9 -I wheel NN 7 NP to TO 11 -E continue VB 7 VP backing VBG 11 VP to TO 12 PP the DT 15 -I north NN 13 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT driver_NN NP:2-ARG1/3-ARG0/7-ARG0/11-ARG0/12-ARG0] [VP [VP began_VBD:began.01 [VP backing_VBG:backing.01 [NP east_NN NP:3-ARG1] VP] VP] and_CC [ADVP then_RB ADVP:7-ARGM-TMP] [VP turned_VBD:turned.01 [NP the_DT wheel_NN NP:7-ARG1] [S [VP to_TO [VP continue_VB:continue.01 [VP backing_VBG:backing.01 [PP to_TO [NP the_DT north_NN NP] PP:12-ARG1] VP] VP] VP] S] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="167" begin="869" end="871" type="0">The</token>
+        <token tid="168" begin="873" end="878" type="0">driver</token>
+        <token tid="169" begin="880" end="884" type="0">began</token>
+        <token tid="170" begin="886" end="892" type="0">backing</token>
+        <token tid="171" begin="894" end="897" type="0">east</token>
+        <token tid="172" begin="899" end="901" type="0">and</token>
+        <token tid="173" begin="903" end="906" type="0">then</token>
+        <token tid="174" begin="908" end="913" type="0">turned</token>
+        <token tid="175" begin="915" end="917" type="0">the</token>
+        <token tid="176" begin="919" end="923" type="0">wheel</token>
+        <token tid="177" begin="925" end="926" type="0">to</token>
+        <token tid="178" begin="928" end="935" type="0">continue</token>
+        <token tid="179" begin="937" end="943" type="0">backing</token>
+        <token tid="180" begin="945" end="946" type="0">to</token>
+        <token tid="181" begin="948" end="950" type="0">the</token>
+        <token tid="182" begin="952" end="956" type="0">north</token>
+        <token tid="183" begin="957" end="957" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="12" begin="184" end="202">
+      <text>It appears that the child was in the driver's blind spot at the time of the incident.</text>
+      <parse score="-1.512750">[S [NP It_PRP NP] [VP appears_VBZ [SBAR that_IN [S [NP the_DT child_NN NP] [VP was_VBD [PP in_IN [NP [NP the_DT driver_NN 's_POS NP] blind_JJ spot_NN NP] PP] [PP at_IN [NP [NP the_DT time_NN NP] [PP of_IN [NP the_DT incident_NN NP] PP] NP] PP] VP] S] SBAR] VP] ._. S]</parse>
+      <dependency_parse>It PRP -1 NP appears VBZ 0 VP that IN 4 -E the DT 4 -I child NN 1 NP was VBD 4 VP in IN 5 PP the DT 8 -I driver NN 11 NP 's POS 8 -I blind JJ 11 -I spot NN 6 NP at IN 5 PP the DT 14 -I time NN 12 NP of IN 14 PP the DT 17 -I incident NN 15 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP It_PRP NP:1-ARG1] [VP appears_VBZ:appears.01 [SBAR that_IN [S [NP the_DT child_NN NP] [VP was_VBD [PP in_IN [NP [NP the_DT driver_NN 's_POS NP] blind_JJ spot_NN NP] PP] [PP at_IN [NP [NP the_DT time_NN NP] [PP of_IN [NP the_DT incident_NN NP] PP] NP] PP] VP] S] SBAR:1-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="184" begin="960" end="961" type="0">It</token>
+        <token tid="185" begin="963" end="969" type="0">appears</token>
+        <token tid="186" begin="971" end="974" type="0">that</token>
+        <token tid="187" begin="976" end="978" type="0">the</token>
+        <token tid="188" begin="980" end="984" type="0">child</token>
+        <token tid="189" begin="986" end="988" type="0">was</token>
+        <token tid="190" begin="990" end="991" type="0">in</token>
+        <token tid="191" begin="993" end="995" type="0">the</token>
+        <token tid="192" begin="997" end="1002" type="0">driver</token>
+        <token tid="193" begin="1003" end="1004" type="0">'s</token>
+        <token tid="194" begin="1006" end="1010" type="0">blind</token>
+        <token tid="195" begin="1012" end="1015" type="0">spot</token>
+        <token tid="196" begin="1017" end="1018" type="0">at</token>
+        <token tid="197" begin="1020" end="1022" type="0">the</token>
+        <token tid="198" begin="1024" end="1027" type="0">time</token>
+        <token tid="199" begin="1029" end="1030" type="0">of</token>
+        <token tid="200" begin="1032" end="1034" type="0">the</token>
+        <token tid="201" begin="1036" end="1043" type="0">incident</token>
+        <token tid="202" begin="1044" end="1044" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="13" begin="203" end="214">
+      <text>As the backing motion began, she heard her daughter screaming.</text>
+      <parse score="-4.023480">[S [SBAR As_IN [S [NP the_DT backing_NN motion_NN NP] [VP began_VBD VP] S] SBAR] ,_, [NP she_PRP NP] [VP heard_VBD [S [NP her_PRP$ daughter_NN NP] [VP screaming_VBG VP] S] VP] ._. S]</parse>
+      <dependency_parse>As IN 3 -E the DT 3 -I backing NN 3 -I motion NN -1 NP began VBD 3 VP , , 3 -E she PRP 3 NP heard VBD 3 VP her PRP$ 9 -I daughter NN 7 NP screaming VBG 9 VP . . 3 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [SBAR As_IN [S [NP the_DT backing_NN motion_NN NP:4-ARG1] [VP began_VBD:began.01 VP] S] SBAR:7-ARGM-TMP] ,_, [NP she_PRP NP:7-ARG0] [VP heard_VBD:heard.01 [S [NP her_PRP$ daughter_NN NP:10-ARG1] [VP screaming_VBG:screaming.01 VP] S:7-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="203" begin="1046" end="1047" type="0">As</token>
+        <token tid="204" begin="1049" end="1051" type="0">the</token>
+        <token tid="205" begin="1053" end="1059" type="0">backing</token>
+        <token tid="206" begin="1061" end="1066" type="0">motion</token>
+        <token tid="207" begin="1068" end="1072" type="0">began</token>
+        <token tid="208" begin="1073" end="1073" type="2048">,</token>
+        <token tid="209" begin="1075" end="1077" type="0">she</token>
+        <token tid="210" begin="1079" end="1083" type="0">heard</token>
+        <token tid="211" begin="1085" end="1087" type="0">her</token>
+        <token tid="212" begin="1089" end="1096" type="0">daughter</token>
+        <token tid="213" begin="1098" end="1106" type="0">screaming</token>
+        <token tid="214" begin="1107" end="1107" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="14" begin="215" end="226">
+      <text>She saw her daughter on the ground and went to her.</text>
+      <parse score="-1.508460">[S [NP She_PRP NP] [VP [VP saw_VBD [NP her_PRP$ daughter_NN NP] [PP on_IN [NP the_DT ground_NN NP] PP] VP] and_CC [VP went_VBD [PP to_TO [NP her_PRP NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>She PRP -1 NP saw VBD 0 VP her PRP$ 3 -I daughter NN 1 NP on IN 1 PP the DT 6 -I ground NN 4 NP and CC 1 -E went VBD 1 VP to TO 8 PP her PRP 9 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP She_PRP NP:1-ARG0/8-ARG0] [VP [VP saw_VBD:saw.01 [NP her_PRP$ daughter_NN NP:1-ARG1] [PP on_IN [NP the_DT ground_NN NP] PP:1-ARGM-LOC] VP] and_CC [VP went_VBD:went.01 [PP to_TO [NP her_PRP NP] PP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="215" begin="1110" end="1112" type="0">She</token>
+        <token tid="216" begin="1114" end="1116" type="0">saw</token>
+        <token tid="217" begin="1118" end="1120" type="0">her</token>
+        <token tid="218" begin="1122" end="1129" type="0">daughter</token>
+        <token tid="219" begin="1131" end="1132" type="0">on</token>
+        <token tid="220" begin="1134" end="1136" type="0">the</token>
+        <token tid="221" begin="1138" end="1143" type="0">ground</token>
+        <token tid="222" begin="1145" end="1147" type="0">and</token>
+        <token tid="223" begin="1149" end="1152" type="0">went</token>
+        <token tid="224" begin="1154" end="1155" type="0">to</token>
+        <token tid="225" begin="1157" end="1159" type="0">her</token>
+        <token tid="226" begin="1160" end="1160" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="15" begin="227" end="238">
+      <text>She picked up her daughter and put her in the vehicle.</text>
+      <parse score="-1.797460">[S [NP She_PRP NP] [VP [VP picked_VBD [PRT up_RP PRT] [NP her_PRP$ daughter_NN NP] VP] and_CC [VP put_VBD [NP her_PRP NP] [PP in_IN [NP the_DT vehicle_NN NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>She PRP -1 NP picked VBD 0 VP up RP 1 PRT her PRP$ 4 -I daughter NN 1 NP and CC 1 -E put VBD 1 VP her PRP 6 NP in IN 6 PP the DT 10 -I vehicle NN 8 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP She_PRP NP:1-ARG0/6-ARG0] [VP [VP picked_VBD:picked.01 [PRT up_RP PRT] [NP her_PRP$ daughter_NN NP:1-ARG1] VP] and_CC [VP put_VBD:put.01 [NP her_PRP NP:6-ARG1] [PP in_IN [NP the_DT vehicle_NN NP] PP:6-ARG2] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="227" begin="1163" end="1165" type="0">She</token>
+        <token tid="228" begin="1167" end="1172" type="0">picked</token>
+        <token tid="229" begin="1174" end="1175" type="0">up</token>
+        <token tid="230" begin="1177" end="1179" type="0">her</token>
+        <token tid="231" begin="1181" end="1188" type="0">daughter</token>
+        <token tid="232" begin="1190" end="1192" type="0">and</token>
+        <token tid="233" begin="1194" end="1196" type="0">put</token>
+        <token tid="234" begin="1198" end="1200" type="0">her</token>
+        <token tid="235" begin="1202" end="1203" type="0">in</token>
+        <token tid="236" begin="1205" end="1207" type="0">the</token>
+        <token tid="237" begin="1209" end="1215" type="0">vehicle</token>
+        <token tid="238" begin="1216" end="1216" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="16" begin="239" end="247">
+      <text>She drove her daughter directly to the hospital.</text>
+      <parse score="-0.666284">[S [NP She_PRP NP] [VP drove_VBD [NP her_PRP$ daughter_NN NP] [ADVP directly_RB ADVP] [PP to_TO [NP the_DT hospital_NN NP] PP] VP] ._. S]</parse>
+      <dependency_parse>She PRP -1 NP drove VBD 0 VP her PRP$ 3 -I daughter NN 1 NP directly RB 1 ADVP to TO 1 PP the DT 7 -I hospital NN 5 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP She_PRP NP:1-ARG0] [VP drove_VBD:drove.01 [NP her_PRP$ daughter_NN NP:1-ARG1] [ADVP directly_RB ADVP] [PP to_TO [NP the_DT hospital_NN NP] PP:1-ARGM-DIR] VP] ._. S]</srl>
+      <tokens>
+        <token tid="239" begin="1218" end="1220" type="0">She</token>
+        <token tid="240" begin="1222" end="1226" type="0">drove</token>
+        <token tid="241" begin="1228" end="1230" type="0">her</token>
+        <token tid="242" begin="1232" end="1239" type="0">daughter</token>
+        <token tid="243" begin="1241" end="1248" type="0">directly</token>
+        <token tid="244" begin="1250" end="1251" type="0">to</token>
+        <token tid="245" begin="1253" end="1255" type="0">the</token>
+        <token tid="246" begin="1257" end="1264" type="0">hospital</token>
+        <token tid="247" begin="1265" end="1265" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="17" begin="248" end="270">
+      <text>The 3-year-old child sustained a right tibia fracture, as well as a number of contusions and abrasions.</text>
+      <parse score="-3.672190">[S [NP The_DT [ADJP [NML 3_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] child_NN NP] [VP sustained_VBD [NP [NP a_DT right_JJ tibia_NN fracture_NN NP] ,_, [CONJP as_RB well_RB as_IN CONJP] [NP [NP a_DT number_NN NP] [PP of_IN [NP contusions_NNS and_CC abrasions_NNS NP] PP] NP] NP] VP] ._. S]</parse>
+      <dependency_parse>The DT 6 -I 3 CD 3 -I - HYPH 3 -I year NN 5 NML - HYPH 5 -I old JJ 6 ADJP child NN -1 NP sustained VBD 6 VP a DT 11 -I right JJ 11 -I tibia NN 11 -I fracture NN 17 NP , , 17 -E as RB 17 CONJP well RB 13 -I as IN 13 -I a DT 17 -I number NN 7 NP of IN 17 PP contusions NNS 21 -I and CC 21 -I abrasions NNS 18 NP . . 6 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT [ADJP [NML 3_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] child_NN NP:7-ARG0] [VP sustained_VBD:sustained.01 [NP [NP a_DT right_JJ tibia_NN fracture_NN NP] ,_, [CONJP as_RB well_RB as_IN CONJP] [NP [NP a_DT number_NN NP] [PP of_IN [NP contusions_NNS and_CC abrasions_NNS NP] PP] NP] NP:7-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="248" begin="1268" end="1270" type="0">The</token>
+        <token tid="249" begin="1272" end="1272" type="2048">3</token>
+        <token tid="250" begin="1273" end="1273" type="2048">-</token>
+        <token tid="251" begin="1274" end="1277" type="0">year</token>
+        <token tid="252" begin="1278" end="1278" type="2048">-</token>
+        <token tid="253" begin="1279" end="1281" type="0">old</token>
+        <token tid="254" begin="1283" end="1287" type="0">child</token>
+        <token tid="255" begin="1289" end="1297" type="0">sustained</token>
+        <token tid="256" begin="1299" end="1299" type="0">a</token>
+        <token tid="257" begin="1301" end="1305" type="0">right</token>
+        <token tid="258" begin="1307" end="1311" type="0">tibia</token>
+        <token tid="259" begin="1313" end="1320" type="0">fracture</token>
+        <token tid="260" begin="1321" end="1321" type="2048">,</token>
+        <token tid="261" begin="1323" end="1324" type="0">as</token>
+        <token tid="262" begin="1326" end="1329" type="0">well</token>
+        <token tid="263" begin="1331" end="1332" type="0">as</token>
+        <token tid="264" begin="1334" end="1334" type="0">a</token>
+        <token tid="265" begin="1336" end="1341" type="0">number</token>
+        <token tid="266" begin="1343" end="1344" type="0">of</token>
+        <token tid="267" begin="1346" end="1355" type="0">contusions</token>
+        <token tid="268" begin="1357" end="1359" type="0">and</token>
+        <token tid="269" begin="1361" end="1369" type="0">abrasions</token>
+        <token tid="270" begin="1370" end="1370" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="-M0" mtype="NOM" begin="12" end="18" head-begin="12" head-end="18" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.866331" corefScore="1.000000">vehicle</mention>
+    <mention mid="792085402.txt.docxml-M4" mtype="NOM" begin="20" end="27" head-begin="20" head-end="27" eid="792085402.txt.docxml-E17" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">incident</mention>
+    <mention mid="792085402.txt.docxml-M1" mtype="NONE" begin="58" end="67" head-begin="58" head-end="67" eid="792085402.txt.docxml-E1" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">1350 hours</mention>
+    <mention mid="-M4" mtype="NOM" begin="80" end="86" head-begin="80" head-end="86" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.857125" corefScore="0.988096">vehicle</mention>
+    <mention mid="-M5" mtype="NONE" begin="93" end="96" head-begin="93" head-end="96" eid="-E22" etype="MODEL_YEAR" role="MODEL_YEAR" metonymy="0" class="SPC" score="0.980110" corefScore="0.637655">2007</mention>
+    <mention mid="-M62" mtype="NAM" begin="98" end="104" head-begin="98" head-end="104" eid="-E30" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Hyundai</mention>
+    <mention mid="-M63" mtype="NAM" begin="106" end="111" head-begin="106" head-end="111" eid="-E31" etype="MODEL" role="MODEL" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Sonata</mention>
+    <mention mid="792085402.txt.docxml-M2" mtype="NOM" begin="113" end="127" head-begin="113" head-end="127" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">four-door sedan</mention>
+    <mention mid="792085402.txt.docxml-M3" mtype="PRO" begin="129" end="132" head-begin="129" head-end="132" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">that</mention>
+    <mention mid="-M8" mtype="NOM" begin="168" end="173" head-begin="168" head-end="173" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.903110" corefScore="1.000000">female</mention>
+    <mention mid="-M64" mtype="NAM" begin="181" end="186" head-begin="181" head-end="186" eid="-E2" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Sonata</mention>
+    <mention mid="-M10" mtype="NOM" begin="223" end="228" head-begin="223" head-end="228" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.598914" corefScore="0.652930">driver</mention>
+    <mention mid="792085402.txt.docxml-M6" mtype="NOM" begin="273" end="281" head-begin="273" head-end="281" eid="792085402.txt.docxml-E6" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">left side</mention>
+    <mention mid="792085402.txt.docxml-M5" mtype="NOM" begin="290" end="298" head-begin="290" head-end="298" eid="792085402.txt.docxml-E5" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">backlight</mention>
+    <mention mid="792085402.txt.docxml-M7" mtype="NOM" begin="305" end="312" head-begin="305" head-end="312" eid="792085402.txt.docxml-E17" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">incident</mention>
+    <mention mid="792085402.txt.docxml-M8" mtype="NOM" begin="328" end="339" head-begin="328" head-end="339" eid="792085402.txt.docxml-E15" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">parking area</mention>
+    <mention mid="792085402.txt.docxml-M10" mtype="NOM" begin="344" end="359" head-begin="344" head-end="359" eid="792085402.txt.docxml-E10" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">private property</mention>
+    <mention mid="792085402.txt.docxml-M9" mtype="NOM" begin="367" end="378" head-begin="367" head-end="378" eid="792085402.txt.docxml-E15" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">parking area</mention>
+    <mention mid="792085402.txt.docxml-M11" mtype="NOM" begin="392" end="407" head-begin="392" head-end="407" eid="792085402.txt.docxml-E10" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">private building</mention>
+    <mention mid="792085402.txt.docxml-M12" mtype="NOM" begin="425" end="436" head-begin="425" head-end="436" eid="792085402.txt.docxml-E15" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">parking area</mention>
+    <mention mid="792085402.txt.docxml-M13" mtype="NOM" begin="466" end="473" head-begin="466" head-end="473" eid="792085402.txt.docxml-E13" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">driveway</mention>
+    <mention mid="-M17" mtype="NOM" begin="481" end="486" head-begin="481" head-end="486" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.679242" corefScore="0.535281">driver</mention>
+    <mention mid="792085402.txt.docxml-M14" mtype="NOM" begin="503" end="510" head-begin="503" head-end="510" eid="792085402.txt.docxml-E10" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">building</mention>
+    <mention mid="792085402.txt.docxml-M15" mtype="NOM" begin="536" end="547" head-begin="536" head-end="547" eid="792085402.txt.docxml-E15" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">parking area</mention>
+    <mention mid="-M19" mtype="PRO" begin="551" end="553" head-begin="551" head-end="553" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.994347" corefScore="0.578473">She</mention>
+    <mention mid="792085402.txt.docxml-M16" mtype="NONE" begin="566" end="575" head-begin="566" head-end="575" eid="792085402.txt.docxml-E16" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">1200 hours</mention>
+    <mention mid="792085402.txt.docxml-M17" mtype="NOM" begin="619" end="626" head-begin="619" head-end="626" eid="792085402.txt.docxml-E17" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">incident</mention>
+    <mention mid="-M65" mtype="NAM" begin="634" end="639" head-begin="634" head-end="639" eid="-E2" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Sonata</mention>
+    <mention mid="-M26" mtype="NOM" begin="700" end="707" head-begin="700" head-end="707" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998247" corefScore="0.632885">daughter</mention>
+    <mention mid="792085402.txt.docxml-M18" mtype="NOM" begin="720" end="731" head-begin="720" head-end="731" eid="792085402.txt.docxml-E15" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">parking area</mention>
+    <mention mid="-M28" mtype="NOM" begin="739" end="744" head-begin="739" head-end="744" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.676550" corefScore="0.535281">driver</mention>
+    <mention mid="-M30" mtype="PRO" begin="758" end="760" head-begin="758" head-end="760" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.994923" corefScore="0.971776">she</mention>
+    <mention mid="-M32" mtype="PRO" begin="771" end="773" head-begin="771" head-end="773" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.982362" corefScore="0.826704">her</mention>
+    <mention mid="-M33" mtype="NOM" begin="775" end="782" head-begin="775" head-end="782" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998194" corefScore="0.855627">daughter</mention>
+    <mention mid="792085402.txt.docxml-M19" mtype="NOM" begin="805" end="812" head-begin="805" head-end="812" eid="792085402.txt.docxml-E10" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">building</mention>
+    <mention mid="792085402.txt.docxml-M20" mtype="PRO" begin="826" end="830" head-begin="826" head-end="830" eid="792085402.txt.docxml-E10" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">there</mention>
+    <mention mid="-M35" mtype="PRO" begin="838" end="840" head-begin="838" head-end="840" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.995580" corefScore="0.937916">she</mention>
+    <mention mid="-M66" mtype="NAM" begin="853" end="858" head-begin="853" head-end="858" eid="-E2" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Sonata</mention>
+    <mention mid="-M37" mtype="NOM" begin="873" end="878" head-begin="873" head-end="878" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.879703" corefScore="0.535281">driver</mention>
+    <mention mid="792085402.txt.docxml-M26" mtype="NOM" begin="919" end="923" head-begin="919" head-end="923" eid="792085402.txt.docxml-E26" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">wheel</mention>
+    <mention mid="-M40" mtype="NOM" begin="980" end="984" head-begin="980" head-end="984" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.967410" corefScore="0.653250">child</mention>
+    <mention mid="-M41" mtype="NOM" begin="997" end="1002" head-begin="997" head-end="1002" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.530049" corefScore="0.455242">driver</mention>
+    <mention mid="792085402.txt.docxml-M22" mtype="NOM" begin="1006" end="1015" head-begin="1006" head-end="1015" eid="792085402.txt.docxml-E22" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">blind spot</mention>
+    <mention mid="792085402.txt.docxml-M21" mtype="NOM" begin="1036" end="1043" head-begin="1036" head-end="1043" eid="792085402.txt.docxml-E17" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">incident</mention>
+    <mention mid="-M43" mtype="PRO" begin="1075" end="1077" head-begin="1075" head-end="1077" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997390" corefScore="0.916820">she</mention>
+    <mention mid="-M44" mtype="PRO" begin="1085" end="1087" head-begin="1085" head-end="1087" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998597" corefScore="0.936167">her</mention>
+    <mention mid="-M45" mtype="NOM" begin="1089" end="1096" head-begin="1089" head-end="1096" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997275" corefScore="0.939724">daughter</mention>
+    <mention mid="792085402.txt.docxml-M23" mtype="NONE" begin="1098" end="1106" head-begin="1098" head-end="1106" eid="792085402.txt.docxml-E23" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">screaming</mention>
+    <mention mid="-M47" mtype="PRO" begin="1110" end="1112" head-begin="1110" head-end="1112" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998569" corefScore="0.975186">She</mention>
+    <mention mid="-M48" mtype="PRO" begin="1118" end="1120" head-begin="1118" head-end="1120" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997217" corefScore="0.931474">her</mention>
+    <mention mid="-M49" mtype="NOM" begin="1122" end="1129" head-begin="1122" head-end="1129" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.999243" corefScore="0.939724">daughter</mention>
+    <mention mid="-M50" mtype="PRO" begin="1157" end="1159" head-begin="1157" head-end="1159" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.999585" corefScore="0.937005">her</mention>
+    <mention mid="-M51" mtype="PRO" begin="1163" end="1165" head-begin="1163" head-end="1165" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998230" corefScore="0.941470">She</mention>
+    <mention mid="-M52" mtype="PRO" begin="1177" end="1179" head-begin="1177" head-end="1179" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.995500" corefScore="0.941631">her</mention>
+    <mention mid="-M53" mtype="NOM" begin="1181" end="1188" head-begin="1181" head-end="1188" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998635" corefScore="0.939724">daughter</mention>
+    <mention mid="-M54" mtype="PRO" begin="1198" end="1200" head-begin="1198" head-end="1200" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.993540" corefScore="0.959957">her</mention>
+    <mention mid="-M55" mtype="NOM" begin="1209" end="1215" head-begin="1209" head-end="1215" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.984807" corefScore="0.983853">vehicle</mention>
+    <mention mid="-M56" mtype="PRO" begin="1218" end="1220" head-begin="1218" head-end="1220" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997888" corefScore="0.969999">She</mention>
+    <mention mid="-M57" mtype="PRO" begin="1228" end="1230" head-begin="1228" head-end="1230" eid="-E29" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.996216" corefScore="0.931474">her</mention>
+    <mention mid="-M58" mtype="NOM" begin="1232" end="1239" head-begin="1232" head-end="1239" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998177" corefScore="0.939724">daughter</mention>
+    <mention mid="792085402.txt.docxml-M24" mtype="NONE" begin="1241" end="1264" head-begin="1241" head-end="1264" eid="792085402.txt.docxml-E24" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">directly to the hospital</mention>
+    <mention mid="-M61" mtype="NOM" begin="1283" end="1287" head-begin="1283" head-end="1287" eid="792085402.txt.docxml-E32" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997938" corefScore="0.959102">child</mention>
+    <mention mid="792085402.txt.docxml-M25" mtype="NONE" begin="1301" end="1369" head-begin="1301" head-end="1369" eid="792085402.txt.docxml-E25" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">right tibia fracture, as well as a number of contusions and abrasions</mention>
+  </mentions>
+  <entities>
+    <entity eid="-E29" type="PERSON" generic="0" class="SPC" level="PRO" subtype="OTHER" score="0.896250">
+      <mentref mid="-M48">her</mentref>
+      <mentref mid="-M41">driver</mentref>
+      <mentref mid="-M8">female</mentref>
+      <mentref mid="-M43">she</mentref>
+      <mentref mid="-M30">she</mentref>
+      <mentref mid="-M47">She</mentref>
+      <mentref mid="-M44">her</mentref>
+      <mentref mid="-M19">She</mentref>
+      <mentref mid="-M32">her</mentref>
+      <mentref mid="-M57">her</mentref>
+      <mentref mid="-M56">She</mentref>
+      <mentref mid="-M51">She</mentref>
+      <mentref mid="-M35">she</mentref>
+      <mentref mid="-M52">her</mentref>
+      <mentref mid="-M28">driver</mentref>
+      <mentref mid="-M10">driver</mentref>
+      <mentref mid="-M37">driver</mentref>
+      <mentref mid="-M17">driver</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E22" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M22">blind spot</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E6" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M6">left side</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E24" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M24">directly to the hospital</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E25" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M25">right tibia fracture, as well as a number of contusions and abrasions</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E26" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M26">wheel</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E32" type="PERSON" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M49">daughter</mentref>
+      <mentref mid="-M26">daughter</mentref>
+      <mentref mid="-M40">child</mentref>
+      <mentref mid="-M61">child</mentref>
+      <mentref mid="-M45">daughter</mentref>
+      <mentref mid="-M33">daughter</mentref>
+      <mentref mid="-M54">her</mentref>
+      <mentref mid="-M50">her</mentref>
+      <mentref mid="-M53">daughter</mentref>
+      <mentref mid="-M58">daughter</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E5" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M5">backlight</mentref>
+    </entity>
+    <entity eid="-E22" type="MODEL_YEAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="0.637655">
+      <mentref mid="-M5">2007</mentref>
+    </entity>
+    <entity eid="-E30" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M62">Hyundai</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E1" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M1">1350 hours</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E23" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M23">screaming</mentref>
+    </entity>
+    <entity eid="-E2" type="VEHICLE" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.990626">
+      <mentref mid="-M65">Sonata</mentref>
+      <mentref mid="-M64">Sonata</mentref>
+      <mentref mid="-M4">vehicle</mentref>
+      <mentref mid="-M66">Sonata</mentref>
+      <mentref mid="-M0">vehicle</mentref>
+      <mentref mid="-M55">vehicle</mentref>
+      <mentref mid="792085402.txt.docxml-M3">that</mentref>
+      <mentref mid="792085402.txt.docxml-M2">four-door sedan</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E10" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M11">private building</mentref>
+      <mentref mid="792085402.txt.docxml-M10">private property</mentref>
+      <mentref mid="792085402.txt.docxml-M20">there</mentref>
+      <mentref mid="792085402.txt.docxml-M19">building</mentref>
+      <mentref mid="792085402.txt.docxml-M14">building</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E13" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M13">driveway</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E15" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M18">parking area</mentref>
+      <mentref mid="792085402.txt.docxml-M12">parking area</mentref>
+      <mentref mid="792085402.txt.docxml-M15">parking area</mentref>
+      <mentref mid="792085402.txt.docxml-M8">parking area</mentref>
+      <mentref mid="792085402.txt.docxml-M9">parking area</mentref>
+    </entity>
+    <entity eid="-E31" type="MODEL" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M63">Sonata</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E17" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M4">incident</mentref>
+      <mentref mid="792085402.txt.docxml-M7">incident</mentref>
+      <mentref mid="792085402.txt.docxml-M17">incident</mentref>
+      <mentref mid="792085402.txt.docxml-M21">incident</mentref>
+    </entity>
+    <entity eid="792085402.txt.docxml-E16" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="792085402.txt.docxml-M16">1200 hours</mentref>
+    </entity>
+  </entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+    <relation rid="792085402.txt.docxml-R8" type="causedBy" subtype="OTHER">
+      <rel_entity_arg eid="792085402.txt.docxml-E17" argnum="1"/>
+      <rel_entity_arg eid="792085402.txt.docxml-E22" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R8-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="792085402.txt.docxml-M21" argnum="1">incident</rel_mention_arg>
+          <rel_mention_arg mid="792085402.txt.docxml-M22" argnum="2">blind spot</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R9" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="792085402.txt.docxml-E23" argnum="1"/>
+      <rel_entity_arg eid="792085402.txt.docxml-E32" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R9-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="792085402.txt.docxml-M23" argnum="1">screaming</rel_mention_arg>
+          <rel_mention_arg mid="-M45" argnum="2">daughter</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R10" type="occupantOf" subtype="OTHER">
+      <rel_entity_arg eid="792085402.txt.docxml-E32" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R10-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M54" argnum="1">her</rel_mention_arg>
+          <rel_mention_arg mid="-M55" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R11" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="792085402.txt.docxml-E32" argnum="1"/>
+      <rel_entity_arg eid="792085402.txt.docxml-E24" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R11-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M58" argnum="1">daughter</rel_mention_arg>
+          <rel_mention_arg mid="792085402.txt.docxml-M24" argnum="2">directly to the hospital</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R4" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="-E22" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R4-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="792085402.txt.docxml-M2" argnum="1">four-door sedan</rel_mention_arg>
+          <rel_mention_arg mid="-M5" argnum="2">2007</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R5" type="occupantOf" subtype="OTHER">
+      <rel_entity_arg eid="-E29" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R5-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M8" argnum="1">female</rel_mention_arg>
+          <rel_mention_arg mid="792085402.txt.docxml-M3" argnum="2">that</rel_mention_arg>
+          </relmention>
+        <relmention rmid="792085402.txt.docxml-R5-2" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M35" argnum="1">she</rel_mention_arg>
+          <rel_mention_arg mid="-M66" argnum="2">Sonata</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R6" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="792085402.txt.docxml-E6" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R6-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="792085402.txt.docxml-M6" argnum="1">left side</rel_mention_arg>
+          <rel_mention_arg mid="-M64" argnum="2">Sonata</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R7" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="792085402.txt.docxml-E5" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R7-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="792085402.txt.docxml-M5" argnum="1">backlight</rel_mention_arg>
+          <rel_mention_arg mid="-M64" argnum="2">Sonata</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R1" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="792085402.txt.docxml-E17" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R1-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="792085402.txt.docxml-M4" argnum="1">incident</rel_mention_arg>
+          <rel_mention_arg mid="-M0" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R2" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="-E31" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R2-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="792085402.txt.docxml-M2" argnum="1">four-door sedan</rel_mention_arg>
+          <rel_mention_arg mid="-M63" argnum="2">Sonata</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R3" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="-E30" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R3-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="792085402.txt.docxml-M2" argnum="1">four-door sedan</rel_mention_arg>
+          <rel_mention_arg mid="-M62" argnum="2">Hyundai</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="792085402.txt.docxml-R12" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="792085402.txt.docxml-E32" argnum="1"/>
+      <rel_entity_arg eid="792085402.txt.docxml-E25" argnum="2"/>
+      <relmentions>
+        <relmention rmid="792085402.txt.docxml-R12-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M61" argnum="1">child</rel_mention_arg>
+          <rel_mention_arg mid="792085402.txt.docxml-M25" argnum="2">right tibia fracture, as well as a number of contusions and abrasions</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+  </relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+  <profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels" />
+<username name="irina@us.ibm.com" />
+<removed />
+<edited />
+
+</doc>

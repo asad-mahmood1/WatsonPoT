@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>V1 was traveling westbound on a three lane, one-way, divided roadway in the wrong direction. For unknown reasons V1 departed the roadway to the left, and the front left of V1 impacted a metal bridge railing. The vehicle came to rest facing south.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="19">
+      <text>V1 was traveling westbound on a three lane, one-way, divided roadway in the wrong direction.</text>
+      <parse score="-11.881900">[S [S [NP V1_NN NP] [VP was_VBD [VP traveling_VBG [NP [NP westbound_NN NP] [PP on_IN [NP a_DT three_CD lane_NN NP] PP] NP] VP] VP] S] ,_, [S [NML one_CD -_HYPH way_NN NML] S] ,_, [PP divided_VBN [NP [NP roadway_NN NP] [PP in_IN [NP the_DT wrong_JJ direction_NN NP] PP] NP] PP] ._. S]</parse>
+      <dependency_parse>V1 NN -1 NP was VBD 0 VP traveling VBG 1 VP westbound NN 2 NP on IN 3 PP a DT 7 -I three CD 7 -I lane NN 4 NP , , 0 -E one CD 11 -I - HYPH 11 -I way NN 0 NML , , 0 -E divided VBN 0 PP roadway NN 13 NP in IN 14 PP the DT 18 -I wrong JJ 18 -I direction NN 15 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP V1_NN NP:2-ARG0] [VP was_VBD [VP traveling_VBG:traveling.01 [NP [NP westbound_NN NP] [PP on_IN [NP a_DT three_CD lane_NN NP] PP] NP:2-ARG1] VP] VP] S] ,_, [S [NML one_CD -_HYPH way_NN NML] S] ,_, [PP divided_VBN:divided.01 [NP [NP roadway_NN NP] [PP in_IN [NP the_DT wrong_JJ direction_NN NP] PP] NP:13-ARG1] PP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="1" type="0">V1</token>
+        <token tid="1" begin="3" end="5" type="0">was</token>
+        <token tid="2" begin="7" end="15" type="0">traveling</token>
+        <token tid="3" begin="17" end="25" type="0">westbound</token>
+        <token tid="4" begin="27" end="28" type="0">on</token>
+        <token tid="5" begin="30" end="30" type="0">a</token>
+        <token tid="6" begin="32" end="36" type="0">three</token>
+        <token tid="7" begin="38" end="41" type="0">lane</token>
+        <token tid="8" begin="42" end="42" type="2048">,</token>
+        <token tid="9" begin="44" end="46" type="0">one</token>
+        <token tid="10" begin="47" end="47" type="2048">-</token>
+        <token tid="11" begin="48" end="50" type="0">way</token>
+        <token tid="12" begin="51" end="51" type="2048">,</token>
+        <token tid="13" begin="53" end="59" type="0">divided</token>
+        <token tid="14" begin="61" end="67" type="0">roadway</token>
+        <token tid="15" begin="69" end="70" type="0">in</token>
+        <token tid="16" begin="72" end="74" type="0">the</token>
+        <token tid="17" begin="76" end="80" type="0">wrong</token>
+        <token tid="18" begin="82" end="90" type="0">direction</token>
+        <token tid="19" begin="91" end="91" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="20" end="42">
+      <text>For unknown reasons V1 departed the roadway to the left, and the front left of V1 impacted a metal bridge railing.</text>
+      <parse score="-24.847500">[S [PP For_IN [NP [NP unknown_JJ reasons_NNS NP] [SBAR [WHNP V1_WDT WHNP] [S [VP departed_VBD [NP [NP the_DT roadway_NN NP] [PP to_TO [NP the_DT left_NN NP] PP] NP] VP] S] SBAR] NP] PP] ,_, and_CC [S [NP [NP [NP the_DT front_JJ left_NN NP] [PP of_IN [NP [NP V1_NN NP] [VP impacted_VBN [NP a_DT metal_NN bridge_NN railing_NN NP] VP] NP] PP] NP] ._. NP] S] S]</parse>
+      <dependency_parse>For IN 14 PP unknown JJ 2 -I reasons NNS 0 NP V1 WDT 4 WHNP departed VBD 2 VP the DT 6 -I roadway NN 4 NP to TO 6 PP the DT 9 -I left NN 7 NP , , 14 -E and CC 14 -E the DT 14 -I front JJ 14 -I left NN -1 NP of IN 14 PP V1 NN 15 NP impacted VBN 16 VP a DT 21 -I metal NN 21 -I bridge NN 21 -I railing NN 17 NP . . 14 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [PP For_IN [NP [NP unknown_JJ reasons_NNS NP:4-ARG0] [SBAR [WHNP V1_WDT WHNP] [S [VP departed_VBD:departed.01 [NP [NP the_DT roadway_NN NP] [PP to_TO [NP the_DT left_NN NP] PP] NP:4-ARG1] VP] S] SBAR] NP] PP] ,_, and_CC [S [NP [NP [NP the_DT front_JJ left_NN NP] [PP of_IN [NP [NP V1_NN NP:17-ARG1] [VP impacted_VBN:impacted.01 [NP a_DT metal_NN bridge_NN railing_NN NP:17-ARG1] VP] NP] PP] NP] ._. NP] S] S]</srl>
+      <tokens>
+        <token tid="20" begin="93" end="95" type="0">For</token>
+        <token tid="21" begin="97" end="103" type="0">unknown</token>
+        <token tid="22" begin="105" end="111" type="0">reasons</token>
+        <token tid="23" begin="113" end="114" type="0">V1</token>
+        <token tid="24" begin="116" end="123" type="0">departed</token>
+        <token tid="25" begin="125" end="127" type="0">the</token>
+        <token tid="26" begin="129" end="135" type="0">roadway</token>
+        <token tid="27" begin="137" end="138" type="0">to</token>
+        <token tid="28" begin="140" end="142" type="0">the</token>
+        <token tid="29" begin="144" end="147" type="0">left</token>
+        <token tid="30" begin="148" end="148" type="2048">,</token>
+        <token tid="31" begin="150" end="152" type="0">and</token>
+        <token tid="32" begin="154" end="156" type="0">the</token>
+        <token tid="33" begin="158" end="162" type="0">front</token>
+        <token tid="34" begin="164" end="167" type="0">left</token>
+        <token tid="35" begin="169" end="170" type="0">of</token>
+        <token tid="36" begin="172" end="173" type="0">V1</token>
+        <token tid="37" begin="175" end="182" type="0">impacted</token>
+        <token tid="38" begin="184" end="184" type="0">a</token>
+        <token tid="39" begin="186" end="190" type="0">metal</token>
+        <token tid="40" begin="192" end="197" type="0">bridge</token>
+        <token tid="41" begin="199" end="205" type="0">railing</token>
+        <token tid="42" begin="206" end="206" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="43" end="50">
+      <text>The vehicle came to rest facing south.</text>
+      <parse score="-4.249380">[S [NP The_DT vehicle_NN NP] [VP came_VBD [PP to_TO [NP [NP rest_NN NP] [VP facing_VBG [NP south_NN NP] VP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I vehicle NN -1 NP came VBD 1 VP to TO 2 PP rest NN 3 NP facing VBG 4 VP south NN 5 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT vehicle_NN NP:2-ARG1] [VP came_VBD:came.01 [PP to_TO [NP [NP rest_NN NP:5-ARG0] [VP facing_VBG:facing.01 [NP south_NN NP:5-ARG1] VP] NP] PP:2-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="43" begin="208" end="210" type="0">The</token>
+        <token tid="44" begin="212" end="218" type="0">vehicle</token>
+        <token tid="45" begin="220" end="223" type="0">came</token>
+        <token tid="46" begin="225" end="226" type="0">to</token>
+        <token tid="47" begin="228" end="231" type="0">rest</token>
+        <token tid="48" begin="233" end="238" type="0">facing</token>
+        <token tid="49" begin="240" end="244" type="0">south</token>
+        <token tid="50" begin="245" end="245" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="527111904.txt.docxml-M1" mtype="NOM" begin="0" end="1" head-begin="0" head-end="1" eid="527111904.txt.docxml-E3" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">V1</mention>
+    <mention mid="527111904.txt.docxml-M2" mtype="NOM" begin="32" end="41" head-begin="32" head-end="41" eid="527111904.txt.docxml-E2" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">three lane</mention>
+    <mention mid="527111904.txt.docxml-M8" mtype="NOM" begin="61" end="67" head-begin="61" head-end="67" eid="527111904.txt.docxml-E8" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">roadway</mention>
+    <mention mid="527111904.txt.docxml-M3" mtype="NOM" begin="113" end="114" head-begin="113" head-end="114" eid="527111904.txt.docxml-E3" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">V1</mention>
+    <mention mid="527111904.txt.docxml-M11" mtype="NONE" begin="116" end="123" head-begin="116" head-end="123" eid="527111904.txt.docxml-E11" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">departed</mention>
+    <mention mid="527111904.txt.docxml-M4" mtype="NOM" begin="129" end="135" head-begin="129" head-end="135" eid="527111904.txt.docxml-E8" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">roadway</mention>
+    <mention mid="527111904.txt.docxml-M5" mtype="NOM" begin="172" end="173" head-begin="172" head-end="173" eid="527111904.txt.docxml-E3" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">V1</mention>
+    <mention mid="527111904.txt.docxml-M10" mtype="NONE" begin="175" end="182" head-begin="175" head-end="182" eid="527111904.txt.docxml-E10" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">impacted</mention>
+    <mention mid="527111904.txt.docxml-M6" mtype="NOM" begin="186" end="205" head-begin="186" head-end="205" eid="527111904.txt.docxml-E6" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">metal bridge railing</mention>
+    <mention mid="-M9" mtype="NOM" begin="212" end="218" head-begin="212" head-end="218" eid="527111904.txt.docxml-E3" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.917704" corefScore="1.000000">vehicle</mention>
+    <mention mid="527111904.txt.docxml-M7" mtype="NONE" begin="220" end="231" head-begin="220" head-end="231" eid="527111904.txt.docxml-E7" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">came to rest</mention>
+  </mentions>
+  <entities>
+    <entity eid="527111904.txt.docxml-E10" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="527111904.txt.docxml-M10">impacted</mentref>
+    </entity>
+    <entity eid="527111904.txt.docxml-E11" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="527111904.txt.docxml-M11">departed</mentref>
+    </entity>
+    <entity eid="527111904.txt.docxml-E8" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="527111904.txt.docxml-M8">roadway</mentref>
+      <mentref mid="527111904.txt.docxml-M4">roadway</mentref>
+    </entity>
+    <entity eid="527111904.txt.docxml-E2" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="527111904.txt.docxml-M2">three lane</mentref>
+    </entity>
+    <entity eid="527111904.txt.docxml-E3" type="VEHICLE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="527111904.txt.docxml-M3">V1</mentref>
+      <mentref mid="527111904.txt.docxml-M1">V1</mentref>
+      <mentref mid="-M9">vehicle</mentref>
+      <mentref mid="527111904.txt.docxml-M5">V1</mentref>
+    </entity>
+    <entity eid="527111904.txt.docxml-E6" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="527111904.txt.docxml-M6">metal bridge railing</mentref>
+    </entity>
+    <entity eid="527111904.txt.docxml-E7" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="527111904.txt.docxml-M7">came to rest</mentref>
+    </entity>
+  </entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+    <relation rid="527111904.txt.docxml-R5" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="527111904.txt.docxml-E7" argnum="1"/>
+      <rel_entity_arg eid="527111904.txt.docxml-E3" argnum="2"/>
+      <relmentions>
+        <relmention rmid="527111904.txt.docxml-R5-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="527111904.txt.docxml-M7" argnum="1">came to rest</rel_mention_arg>
+          <rel_mention_arg mid="-M9" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="527111904.txt.docxml-R4" type="causedBy" subtype="OTHER">
+      <rel_entity_arg eid="527111904.txt.docxml-E10" argnum="1"/>
+      <rel_entity_arg eid="527111904.txt.docxml-E11" argnum="2"/>
+      <relmentions>
+        <relmention rmid="527111904.txt.docxml-R4-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="527111904.txt.docxml-M10" argnum="1">impacted</rel_mention_arg>
+          <rel_mention_arg mid="527111904.txt.docxml-M11" argnum="2">departed</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="527111904.txt.docxml-R3" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="527111904.txt.docxml-E10" argnum="1"/>
+      <rel_entity_arg eid="527111904.txt.docxml-E6" argnum="2"/>
+      <relmentions>
+        <relmention rmid="527111904.txt.docxml-R3-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="527111904.txt.docxml-M10" argnum="1">impacted</rel_mention_arg>
+          <rel_mention_arg mid="527111904.txt.docxml-M6" argnum="2">metal bridge railing</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="527111904.txt.docxml-R2" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="527111904.txt.docxml-E10" argnum="1"/>
+      <rel_entity_arg eid="527111904.txt.docxml-E3" argnum="2"/>
+      <relmentions>
+        <relmention rmid="527111904.txt.docxml-R2-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="527111904.txt.docxml-M10" argnum="1">impacted</rel_mention_arg>
+          <rel_mention_arg mid="527111904.txt.docxml-M5" argnum="2">V1</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="527111904.txt.docxml-R1" type="driveUnder" subtype="OTHER">
+      <rel_entity_arg eid="527111904.txt.docxml-E3" argnum="1"/>
+      <rel_entity_arg eid="527111904.txt.docxml-E11" argnum="2"/>
+      <relmentions>
+        <relmention rmid="527111904.txt.docxml-R1-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="527111904.txt.docxml-M3" argnum="1">V1</rel_mention_arg>
+          <rel_mention_arg mid="527111904.txt.docxml-M11" argnum="2">departed</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+  </relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+  <profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels" />
+<username name="irina@us.ibm.com" />
+
+</doc>

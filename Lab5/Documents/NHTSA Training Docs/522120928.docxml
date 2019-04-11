@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>This on-site investigation focused on the rollover dynamics for this on-road rollover crash of a 2008 Honda Accord.  The vehicle was equipped with four-wheel anti-lock brakes, Electronic Stability Control (ESC), a Certified Advanced 208-Compliant (CAC) frontal air bag system, and side impact and inflatable curtain air bags.  The manufacturer of the Honda has certified that the vehicle is compliant to the advanced air bag portion of Federal Motor Vehicle Safety Standard (FMVSS) No. 208.  The CAC system consisted of dual-stage frontal air bags for the driver and right front passenger positions, seat track positioning sensors, retractor pretensioners, and a front right occupant presence sensor.  The front right of the Accord impacted the rear left of a Jeep Grand Cherokee that was stopped for traffic on a five-lane interstate highway.  The Grand Cherokee was displaced to the right and the front right of the Honda impacted the rear left of a Nissan Altima that was stopped forward of the Jeep.  The Honda then rotated clockwise and initiated a rollover event.  The driver's frontal air bag; the inflatable curtains, and side air bags on both sides deployed.  The 35-year-old restrained driver of the Honda sustained soft tissue injuries of the neck and hand and was not medically treated.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="18">
+      <text>This on-site investigation focused on the rollover dynamics for this on-road rollover crash of a 2008 Honda Accord.</text>
+      <parse score="-12.233000">[S [NP This_DT on-site_JJ investigation_NN NP] [VP focused_VBD [PP on_IN [NP [NP the_DT rollover_NN dynamics_NNS NP] [PP for_IN [NP [NP this_DT on-road_JJ rollover_NN crash_NN NP] [PP of_IN [NP a_DT 2008_CD Honda_NNP Accord_NNP NP] PP] NP] PP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>This DT 2 -I on-site JJ 2 -I investigation NN -1 NP focused VBD 2 VP on IN 3 PP the DT 7 -I rollover NN 7 -I dynamics NNS 4 NP for IN 7 PP this DT 12 -I on-road JJ 12 -I rollover NN 12 -I crash NN 8 NP of IN 12 PP a DT 17 -I 2008 CD 17 -I Honda NNP 17 -I Accord NNP 13 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP This_DT on-site_JJ investigation_NN NP:3-ARG0] [VP focused_VBD:focused.01 [PP on_IN [NP [NP the_DT rollover_NN dynamics_NNS NP] [PP for_IN [NP [NP this_DT on-road_JJ rollover_NN crash_NN NP] [PP of_IN [NP a_DT 2008_CD Honda_NNP Accord_NNP NP] PP] NP] PP] NP] PP:3-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">This</token>
+        <token tid="1" begin="5" end="11" type="0">on-site</token>
+        <token tid="2" begin="13" end="25" type="0">investigation</token>
+        <token tid="3" begin="27" end="33" type="0">focused</token>
+        <token tid="4" begin="35" end="36" type="0">on</token>
+        <token tid="5" begin="38" end="40" type="0">the</token>
+        <token tid="6" begin="42" end="49" type="0">rollover</token>
+        <token tid="7" begin="51" end="58" type="0">dynamics</token>
+        <token tid="8" begin="60" end="62" type="0">for</token>
+        <token tid="9" begin="64" end="67" type="0">this</token>
+        <token tid="10" begin="69" end="75" type="0">on-road</token>
+        <token tid="11" begin="77" end="84" type="0">rollover</token>
+        <token tid="12" begin="86" end="90" type="0">crash</token>
+        <token tid="13" begin="92" end="93" type="0">of</token>
+        <token tid="14" begin="95" end="95" type="0">a</token>
+        <token tid="15" begin="97" end="100" type="0">2008</token>
+        <token tid="16" begin="102" end="106" type="0">Honda</token>
+        <token tid="17" begin="108" end="113" type="0">Accord</token>
+        <token tid="18" begin="114" end="114" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="19" end="57">
+      <text>The vehicle was equipped with four-wheel anti-lock brakes, Electronic Stability Control (ESC), a Certified Advanced 208-Compliant (CAC) frontal air bag system, and side impact and inflatable curtain air bags.</text>
+      <parse score="-22.195700">[S [S [NP The_DT vehicle_NN NP] [VP was_VBD [VP equipped_VBN [PP with_IN [NP four-wheel_JJ anti-lock_JJ brakes_NNS NP] PP] VP] VP] S] ,_, [NP [NP [NP Electronic_NNP Stability_NNP Control_NNP NP] (_-LRB- [NP ESC_NNP NP] )_-RRB- NP] ,_, [NP [NP [NP a_DT Certified_NNP Advanced_NNP 208_CD -_HYPH Compliant_NNP NP] (_-LRB- [NP CAC_NNP NP] )_-RRB- frontal_JJ [NML air_NN bag_NN NML] system_NN NP] ,_, and_CC [NP side_JJ impact_NN NP] and_CC [NP inflatable_JJ curtain_NN air_NN bags_NNS NP] NP] NP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I vehicle NN -1 NP was VBD 1 VP equipped VBN 2 VP with IN 3 PP four-wheel JJ 7 -I anti-lock JJ 7 -I brakes NNS 4 NP , , 1 -E Electronic NNP 11 -I Stability NNP 11 -I Control NNP 13 NP ( -LRB- 13 -E ESC NNP 37 NP ) -RRB- 13 -E , , 37 -E a DT 21 -I Certified NNP 21 -I Advanced NNP 21 -I 208 CD 21 -I - HYPH 21 -I Compliant NNP 28 NP ( -LRB- 28 -I CAC NNP 28 NP ) -RRB- 28 -I frontal JJ 28 -I air NN 27 -I bag NN 28 NML system NN 37 NP , , 37 -E and CC 37 -E side JJ 32 -I impact NN 37 NP and CC 37 -E inflatable JJ 37 -I curtain NN 37 -I air NN 37 -I bags NNS 1 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP The_DT vehicle_NN NP:3-ARG1] [VP was_VBD [VP equipped_VBN:equipped.01 [PP with_IN [NP four-wheel_JJ anti-lock_JJ brakes_NNS NP] PP:3-ARG2] VP] VP] S] ,_, [NP [NP [NP Electronic_NNP Stability_NNP Control_NNP NP] (_-LRB- [NP ESC_NNP NP] )_-RRB- NP] ,_, [NP [NP [NP a_DT Certified_NNP Advanced_NNP 208_CD -_HYPH Compliant_NNP NP] (_-LRB- [NP CAC_NNP NP] )_-RRB- frontal_JJ [NML air_NN bag_NN NML] system_NN NP] ,_, and_CC [NP side_JJ impact_NN NP] and_CC [NP inflatable_JJ curtain_NN air_NN bags_NNS NP] NP] NP] ._. S]</srl>
+      <tokens>
+        <token tid="19" begin="117" end="119" type="0">The</token>
+        <token tid="20" begin="121" end="127" type="0">vehicle</token>
+        <token tid="21" begin="129" end="131" type="0">was</token>
+        <token tid="22" begin="133" end="140" type="0">equipped</token>
+        <token tid="23" begin="142" end="145" type="0">with</token>
+        <token tid="24" begin="147" end="156" type="0">four-wheel</token>
+        <token tid="25" begin="158" end="166" type="0">anti-lock</token>
+        <token tid="26" begin="168" end="173" type="0">brakes</token>
+        <token tid="27" begin="174" end="174" type="2048">,</token>
+        <token tid="28" begin="176" end="185" type="0">Electronic</token>
+        <token tid="29" begin="187" end="195" type="0">Stability</token>
+        <token tid="30" begin="197" end="203" type="0">Control</token>
+        <token tid="31" begin="205" end="205" type="2048">(</token>
+        <token tid="32" begin="206" end="208" type="0">ESC</token>
+        <token tid="33" begin="209" end="209" type="2048">)</token>
+        <token tid="34" begin="210" end="210" type="2048">,</token>
+        <token tid="35" begin="212" end="212" type="0">a</token>
+        <token tid="36" begin="214" end="222" type="0">Certified</token>
+        <token tid="37" begin="224" end="231" type="0">Advanced</token>
+        <token tid="38" begin="233" end="235" type="0">208</token>
+        <token tid="39" begin="236" end="236" type="2048">-</token>
+        <token tid="40" begin="237" end="245" type="0">Compliant</token>
+        <token tid="41" begin="247" end="247" type="2048">(</token>
+        <token tid="42" begin="248" end="250" type="0">CAC</token>
+        <token tid="43" begin="251" end="251" type="2048">)</token>
+        <token tid="44" begin="253" end="259" type="0">frontal</token>
+        <token tid="45" begin="261" end="263" type="0">air</token>
+        <token tid="46" begin="265" end="267" type="0">bag</token>
+        <token tid="47" begin="269" end="274" type="0">system</token>
+        <token tid="48" begin="275" end="275" type="2048">,</token>
+        <token tid="49" begin="277" end="279" type="0">and</token>
+        <token tid="50" begin="281" end="284" type="0">side</token>
+        <token tid="51" begin="286" end="291" type="0">impact</token>
+        <token tid="52" begin="293" end="295" type="0">and</token>
+        <token tid="53" begin="297" end="306" type="0">inflatable</token>
+        <token tid="54" begin="308" end="314" type="0">curtain</token>
+        <token tid="55" begin="316" end="318" type="0">air</token>
+        <token tid="56" begin="320" end="323" type="0">bags</token>
+        <token tid="57" begin="324" end="324" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="58" end="87">
+      <text>The manufacturer of the Honda has certified that the vehicle is compliant to the advanced air bag portion of Federal Motor Vehicle Safety Standard (FMVSS) No. 208.</text>
+      <parse score="-9.700620">[S [NP [NP The_DT manufacturer_NN NP] [PP of_IN [NP the_DT Honda_NN NP] PP] NP] [VP has_VBZ [VP certified_VBN [SBAR that_IN [S [NP the_DT vehicle_NN NP] [VP is_VBZ [ADJP compliant_JJ [PP to_TO [NP [NP the_DT advanced_JJ air_NN bag_NN portion_NN NP] [PP of_IN [NP Federal_NNP Motor_NNP Vehicle_NNP Safety_NNP Standard_NNP (_-LRB- FMVSS_NNP )_-RRB- No._NNP 208_CD NP] PP] NP] PP] ADJP] VP] S] SBAR] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I manufacturer NN -1 NP of IN 1 PP the DT 4 -I Honda NN 2 NP has VBZ 1 VP certified VBN 5 VP that IN 9 -E the DT 9 -I vehicle NN 6 NP is VBZ 9 VP compliant JJ 10 ADJP to TO 11 PP the DT 17 -I advanced JJ 17 -I air NN 17 -I bag NN 17 -I portion NN 12 NP of IN 17 PP Federal NNP 27 -I Motor NNP 27 -I Vehicle NNP 27 -I Safety NNP 27 -I Standard NNP 27 -I ( -LRB- 27 -I FMVSS NNP 27 -I ) -RRB- 27 -I No. NNP 18 NP 208 CD 27 -I . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT manufacturer_NN NP] [PP of_IN [NP the_DT Honda_NN NP] PP] NP:6-ARG0] [VP has_VBZ [VP certified_VBN:certified.01 [SBAR that_IN [S [NP the_DT vehicle_NN NP] [VP is_VBZ [ADJP compliant_JJ [PP to_TO [NP [NP the_DT advanced_JJ air_NN bag_NN portion_NN NP] [PP of_IN [NP Federal_NNP Motor_NNP Vehicle_NNP Safety_NNP Standard_NNP (_-LRB- FMVSS_NNP )_-RRB- No._NNP 208_CD NP] PP] NP] PP] ADJP] VP] S] SBAR:6-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="58" begin="327" end="329" type="0">The</token>
+        <token tid="59" begin="331" end="342" type="0">manufacturer</token>
+        <token tid="60" begin="344" end="345" type="0">of</token>
+        <token tid="61" begin="347" end="349" type="0">the</token>
+        <token tid="62" begin="351" end="355" type="0">Honda</token>
+        <token tid="63" begin="357" end="359" type="0">has</token>
+        <token tid="64" begin="361" end="369" type="0">certified</token>
+        <token tid="65" begin="371" end="374" type="0">that</token>
+        <token tid="66" begin="376" end="378" type="0">the</token>
+        <token tid="67" begin="380" end="386" type="0">vehicle</token>
+        <token tid="68" begin="388" end="389" type="0">is</token>
+        <token tid="69" begin="391" end="399" type="0">compliant</token>
+        <token tid="70" begin="401" end="402" type="0">to</token>
+        <token tid="71" begin="404" end="406" type="0">the</token>
+        <token tid="72" begin="408" end="415" type="0">advanced</token>
+        <token tid="73" begin="417" end="419" type="0">air</token>
+        <token tid="74" begin="421" end="423" type="0">bag</token>
+        <token tid="75" begin="425" end="431" type="0">portion</token>
+        <token tid="76" begin="433" end="434" type="0">of</token>
+        <token tid="77" begin="436" end="442" type="0">Federal</token>
+        <token tid="78" begin="444" end="448" type="0">Motor</token>
+        <token tid="79" begin="450" end="456" type="0">Vehicle</token>
+        <token tid="80" begin="458" end="463" type="0">Safety</token>
+        <token tid="81" begin="465" end="472" type="0">Standard</token>
+        <token tid="82" begin="474" end="474" type="2048">(</token>
+        <token tid="83" begin="475" end="479" type="0">FMVSS</token>
+        <token tid="84" begin="480" end="480" type="2048">)</token>
+        <token tid="85" begin="482" end="484" type="0">No.</token>
+        <token tid="86" begin="486" end="488" type="0">208</token>
+        <token tid="87" begin="489" end="489" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="88" end="121">
+      <text>The CAC system consisted of dual-stage frontal air bags for the driver and right front passenger positions, seat track positioning sensors, retractor pretensioners, and a front right occupant presence sensor.</text>
+      <parse score="-27.654600">[S [S [NP The_DT CAC_NNP system_NN NP] [VP consisted_VBD [PP of_IN [NP dual-stage_NN NP] PP] [NP frontal_JJ air_NN bags_NNS NP] [PP for_IN [NP [NP the_DT driver_NN NP] and_CC [NP right_JJ front_JJ passenger_NN positions_NNS NP] NP] PP] VP] S] ,_, [S [NP seat_NN track_NN NP] [VP positioning_VBG [NP sensors_NNS NP] VP] S] ,_, [NP [NP retractor_NN pretensioners_NNS NP] ,_, and_CC [NP a_DT front_JJ right_JJ occupant_NN presence_NN sensor_NN NP] NP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I CAC NNP 2 -I system NN -1 NP consisted VBD 2 VP of IN 3 PP dual-stage NN 4 NP frontal JJ 8 -I air NN 8 -I bags NNS 3 NP for IN 3 PP the DT 11 -I driver NN 16 NP and CC 16 -E right JJ 16 -I front JJ 16 -I passenger NN 16 -I positions NNS 9 NP , , 2 -E seat NN 19 -I track NN 2 NP positioning VBG 19 VP sensors NNS 20 NP , , 2 -E retractor NN 24 -I pretensioners NNS 32 NP , , 32 -E and CC 32 -E a DT 32 -I front JJ 32 -I right JJ 32 -I occupant NN 32 -I presence NN 32 -I sensor NN 2 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP The_DT CAC_NNP system_NN NP:3-ARG1] [VP consisted_VBD:consisted.01 [PP of_IN [NP dual-stage_NN NP] PP:3-ARG2] [NP frontal_JJ air_NN bags_NNS NP:3-ARG1] [PP for_IN [NP [NP the_DT driver_NN NP] and_CC [NP right_JJ front_JJ passenger_NN positions_NNS NP] NP] PP:3-ARG2] VP] S] ,_, [S [NP seat_NN track_NN NP:20-ARG0] [VP positioning_VBG:***.01 [NP sensors_NNS NP:20-ARG1] VP] S] ,_, [NP [NP retractor_NN pretensioners_NNS NP] ,_, and_CC [NP a_DT front_JJ right_JJ occupant_NN presence_NN sensor_NN NP] NP] ._. S]</srl>
+      <tokens>
+        <token tid="88" begin="492" end="494" type="0">The</token>
+        <token tid="89" begin="496" end="498" type="0">CAC</token>
+        <token tid="90" begin="500" end="505" type="0">system</token>
+        <token tid="91" begin="507" end="515" type="0">consisted</token>
+        <token tid="92" begin="517" end="518" type="0">of</token>
+        <token tid="93" begin="520" end="529" type="0">dual-stage</token>
+        <token tid="94" begin="531" end="537" type="0">frontal</token>
+        <token tid="95" begin="539" end="541" type="0">air</token>
+        <token tid="96" begin="543" end="546" type="0">bags</token>
+        <token tid="97" begin="548" end="550" type="0">for</token>
+        <token tid="98" begin="552" end="554" type="0">the</token>
+        <token tid="99" begin="556" end="561" type="0">driver</token>
+        <token tid="100" begin="563" end="565" type="0">and</token>
+        <token tid="101" begin="567" end="571" type="0">right</token>
+        <token tid="102" begin="573" end="577" type="0">front</token>
+        <token tid="103" begin="579" end="587" type="0">passenger</token>
+        <token tid="104" begin="589" end="597" type="0">positions</token>
+        <token tid="105" begin="598" end="598" type="2048">,</token>
+        <token tid="106" begin="600" end="603" type="0">seat</token>
+        <token tid="107" begin="605" end="609" type="0">track</token>
+        <token tid="108" begin="611" end="621" type="0">positioning</token>
+        <token tid="109" begin="623" end="629" type="0">sensors</token>
+        <token tid="110" begin="630" end="630" type="2048">,</token>
+        <token tid="111" begin="632" end="640" type="0">retractor</token>
+        <token tid="112" begin="642" end="654" type="0">pretensioners</token>
+        <token tid="113" begin="655" end="655" type="2048">,</token>
+        <token tid="114" begin="657" end="659" type="0">and</token>
+        <token tid="115" begin="661" end="661" type="0">a</token>
+        <token tid="116" begin="663" end="667" type="0">front</token>
+        <token tid="117" begin="669" end="673" type="0">right</token>
+        <token tid="118" begin="675" end="682" type="0">occupant</token>
+        <token tid="119" begin="684" end="691" type="0">presence</token>
+        <token tid="120" begin="693" end="698" type="0">sensor</token>
+        <token tid="121" begin="699" end="699" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="4" begin="122" end="147">
+      <text>The front right of the Accord impacted the rear left of a Jeep Grand Cherokee that was stopped for traffic on a five-lane interstate highway.</text>
+      <parse score="-15.008900">[S [NP [NP The_DT front_JJ right_NN NP] [PP of_IN [NP [NP the_DT Accord_NNP NP] [VP impacted_VBN [NP [NP [NP the_DT rear_JJ left_NN NP] [PP of_IN [NP a_DT Jeep_NNP Grand_NNP Cherokee_NNP NP] PP] NP] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP stopped_VBN [PP for_IN [NP traffic_NN NP] PP] [PP on_IN [NP a_DT five-lane_JJ interstate_JJ highway_NN NP] PP] VP] VP] S] SBAR] NP] VP] NP] PP] NP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I front JJ 2 -I right NN -1 NP of IN 2 PP the DT 5 -I Accord NNP 3 NP impacted VBN 5 VP the DT 9 -I rear JJ 9 -I left NN 6 NP of IN 9 PP a DT 14 -I Jeep NNP 14 -I Grand NNP 14 -I Cherokee NNP 10 NP that WDT 16 WHNP was VBD 9 VP stopped VBN 16 VP for IN 17 PP traffic NN 18 NP on IN 17 PP a DT 24 -I five-lane JJ 24 -I interstate JJ 24 -I highway NN 20 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT front_JJ right_NN NP] [PP of_IN [NP [NP the_DT Accord_NNP NP:6-ARG1] [VP impacted_VBN:impacted.01 [NP [NP [NP the_DT rear_JJ left_NN NP] [PP of_IN [NP a_DT Jeep_NNP Grand_NNP Cherokee_NNP NP] PP] NP:17-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP stopped_VBN:stopped.01 [PP for_IN [NP traffic_NN NP] PP:17-ARG2] [PP on_IN [NP a_DT five-lane_JJ interstate_JJ highway_NN NP] PP:17-ARGM-LOC] VP] VP] S] SBAR] NP:6-ARG1] VP] NP] PP] NP] ._. S]</srl>
+      <tokens>
+        <token tid="122" begin="702" end="704" type="0">The</token>
+        <token tid="123" begin="706" end="710" type="0">front</token>
+        <token tid="124" begin="712" end="716" type="0">right</token>
+        <token tid="125" begin="718" end="719" type="0">of</token>
+        <token tid="126" begin="721" end="723" type="0">the</token>
+        <token tid="127" begin="725" end="730" type="0">Accord</token>
+        <token tid="128" begin="732" end="739" type="0">impacted</token>
+        <token tid="129" begin="741" end="743" type="0">the</token>
+        <token tid="130" begin="745" end="748" type="0">rear</token>
+        <token tid="131" begin="750" end="753" type="0">left</token>
+        <token tid="132" begin="755" end="756" type="0">of</token>
+        <token tid="133" begin="758" end="758" type="0">a</token>
+        <token tid="134" begin="760" end="763" type="0">Jeep</token>
+        <token tid="135" begin="765" end="769" type="0">Grand</token>
+        <token tid="136" begin="771" end="778" type="0">Cherokee</token>
+        <token tid="137" begin="780" end="783" type="0">that</token>
+        <token tid="138" begin="785" end="787" type="0">was</token>
+        <token tid="139" begin="789" end="795" type="0">stopped</token>
+        <token tid="140" begin="797" end="799" type="0">for</token>
+        <token tid="141" begin="801" end="807" type="0">traffic</token>
+        <token tid="142" begin="809" end="810" type="0">on</token>
+        <token tid="143" begin="812" end="812" type="0">a</token>
+        <token tid="144" begin="814" end="822" type="0">five-lane</token>
+        <token tid="145" begin="824" end="833" type="0">interstate</token>
+        <token tid="146" begin="835" end="841" type="0">highway</token>
+        <token tid="147" begin="842" end="842" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="5" begin="148" end="178">
+      <text>The Grand Cherokee was displaced to the right and the front right of the Honda impacted the rear left of a Nissan Altima that was stopped forward of the Jeep.</text>
+      <parse score="-17.562000">[S [NP The_DT Grand_NNP Cherokee_NNP NP] [VP was_VBD [VP displaced_VBN [PP to_TO [NP [NP the_DT right_NN NP] and_CC [NP [NP the_DT front_JJ right_NN NP] [PP of_IN [NP [NP the_DT Honda_NNP NP] [VP impacted_VBN [NP [NP [NP the_DT rear_JJ left_NN NP] [PP of_IN [NP a_DT Nissan_NNP Altima_NNP NP] PP] NP] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP stopped_VBN [ADVP forward_RB ADVP] [PP of_IN [NP the_DT Jeep_NNP NP] PP] VP] VP] S] SBAR] NP] VP] NP] PP] NP] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I Grand NNP 2 -I Cherokee NNP -1 NP was VBD 2 VP displaced VBN 3 VP to TO 4 PP the DT 7 -I right NN 11 NP and CC 11 -E the DT 11 -I front JJ 11 -I right NN 5 NP of IN 11 PP the DT 14 -I Honda NNP 12 NP impacted VBN 14 VP the DT 18 -I rear JJ 18 -I left NN 15 NP of IN 18 PP a DT 22 -I Nissan NNP 22 -I Altima NNP 19 NP that WDT 24 WHNP was VBD 18 VP stopped VBN 24 VP forward RB 25 ADVP of IN 25 PP the DT 29 -I Jeep NNP 27 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Grand_NNP Cherokee_NNP NP:4-ARG1] [VP was_VBD [VP displaced_VBN:displaced.01 [PP to_TO [NP [NP the_DT right_NN NP] and_CC [NP [NP the_DT front_JJ right_NN NP] [PP of_IN [NP [NP the_DT Honda_NNP NP:15-ARG1] [VP impacted_VBN:impacted.01 [NP [NP [NP the_DT rear_JJ left_NN NP] [PP of_IN [NP a_DT Nissan_NNP Altima_NNP NP] PP] NP:25-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP stopped_VBN:stopped.01 [ADVP forward_RB ADVP:25-ARG2] [PP of_IN [NP the_DT Jeep_NNP NP] PP:25-ARG1] VP] VP] S] SBAR] NP:15-ARG1] VP] NP] PP] NP] NP] PP:4-ARG2] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="148" begin="845" end="847" type="0">The</token>
+        <token tid="149" begin="849" end="853" type="0">Grand</token>
+        <token tid="150" begin="855" end="862" type="0">Cherokee</token>
+        <token tid="151" begin="864" end="866" type="0">was</token>
+        <token tid="152" begin="868" end="876" type="0">displaced</token>
+        <token tid="153" begin="878" end="879" type="0">to</token>
+        <token tid="154" begin="881" end="883" type="0">the</token>
+        <token tid="155" begin="885" end="889" type="0">right</token>
+        <token tid="156" begin="891" end="893" type="0">and</token>
+        <token tid="157" begin="895" end="897" type="0">the</token>
+        <token tid="158" begin="899" end="903" type="0">front</token>
+        <token tid="159" begin="905" end="909" type="0">right</token>
+        <token tid="160" begin="911" end="912" type="0">of</token>
+        <token tid="161" begin="914" end="916" type="0">the</token>
+        <token tid="162" begin="918" end="922" type="0">Honda</token>
+        <token tid="163" begin="924" end="931" type="0">impacted</token>
+        <token tid="164" begin="933" end="935" type="0">the</token>
+        <token tid="165" begin="937" end="940" type="0">rear</token>
+        <token tid="166" begin="942" end="945" type="0">left</token>
+        <token tid="167" begin="947" end="948" type="0">of</token>
+        <token tid="168" begin="950" end="950" type="0">a</token>
+        <token tid="169" begin="952" end="957" type="0">Nissan</token>
+        <token tid="170" begin="959" end="964" type="0">Altima</token>
+        <token tid="171" begin="966" end="969" type="0">that</token>
+        <token tid="172" begin="971" end="973" type="0">was</token>
+        <token tid="173" begin="975" end="981" type="0">stopped</token>
+        <token tid="174" begin="983" end="989" type="0">forward</token>
+        <token tid="175" begin="991" end="992" type="0">of</token>
+        <token tid="176" begin="994" end="996" type="0">the</token>
+        <token tid="177" begin="998" end="1001" type="0">Jeep</token>
+        <token tid="178" begin="1002" end="1002" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="6" begin="179" end="189">
+      <text>The Honda then rotated clockwise and initiated a rollover event.</text>
+      <parse score="-7.236500">[S [NP The_DT Honda_NNP NP] [ADVP then_RB ADVP] [VP [VP rotated_VBD [NP clockwise_NN NP] VP] and_CC [VP initiated_VBN [NP a_DT rollover_NN event_NN NP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Honda NNP -1 NP then RB 1 ADVP rotated VBD 1 VP clockwise NN 3 NP and CC 3 -E initiated VBN 3 VP a DT 9 -I rollover NN 9 -I event NN 6 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Honda_NNP NP:3-ARG0/6-ARG0] [ADVP then_RB ADVP:3-ARGM-TMP/6-ARGM-TMP] [VP [VP rotated_VBD:***.01 [NP clockwise_NN NP:3-ARG1] VP] and_CC [VP initiated_VBN:initiated.01 [NP a_DT rollover_NN event_NN NP:6-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="179" begin="1005" end="1007" type="0">The</token>
+        <token tid="180" begin="1009" end="1013" type="0">Honda</token>
+        <token tid="181" begin="1015" end="1018" type="0">then</token>
+        <token tid="182" begin="1020" end="1026" type="0">rotated</token>
+        <token tid="183" begin="1028" end="1036" type="0">clockwise</token>
+        <token tid="184" begin="1038" end="1040" type="0">and</token>
+        <token tid="185" begin="1042" end="1050" type="0">initiated</token>
+        <token tid="186" begin="1052" end="1052" type="0">a</token>
+        <token tid="187" begin="1054" end="1061" type="0">rollover</token>
+        <token tid="188" begin="1063" end="1067" type="0">event</token>
+        <token tid="189" begin="1068" end="1068" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="7" begin="190" end="209">
+      <text>The driver's frontal air bag; the inflatable curtains, and side air bags on both sides deployed.</text>
+      <parse score="-8.430260">[S [NP [NP [NP The_DT driver_NN 's_POS NP] frontal_JJ air_NN bag_NN NP] ;_: [NP [NP the_DT inflatable_JJ curtains_NNS NP] ,_, and_CC [NP [NP side_JJ air_NN bags_NNS NP] [PP on_IN [NP both_DT sides_NNS NP] PP] NP] NP] NP] [VP deployed_VBD VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN 5 NP 's POS 1 -I frontal JJ 5 -I air NN 5 -I bag NN 14 NP ; : 14 -E the DT 9 -I inflatable JJ 9 -I curtains NNS 14 NP , , 14 -E and CC 14 -E side JJ 14 -I air NN 14 -I bags NNS -1 NP on IN 14 PP both DT 17 -I sides NNS 15 NP deployed VBD 14 VP . . 14 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP [NP The_DT driver_NN 's_POS NP] frontal_JJ air_NN bag_NN NP] ;_: [NP [NP the_DT inflatable_JJ curtains_NNS NP] ,_, and_CC [NP [NP side_JJ air_NN bags_NNS NP] [PP on_IN [NP both_DT sides_NNS NP] PP] NP] NP] NP:18-ARG0] [VP deployed_VBD:deployed.01 VP] ._. S]</srl>
+      <tokens>
+        <token tid="190" begin="1071" end="1073" type="0">The</token>
+        <token tid="191" begin="1075" end="1080" type="0">driver</token>
+        <token tid="192" begin="1081" end="1082" type="0">'s</token>
+        <token tid="193" begin="1084" end="1090" type="0">frontal</token>
+        <token tid="194" begin="1092" end="1094" type="0">air</token>
+        <token tid="195" begin="1096" end="1098" type="0">bag</token>
+        <token tid="196" begin="1099" end="1099" type="2048">;</token>
+        <token tid="197" begin="1101" end="1103" type="0">the</token>
+        <token tid="198" begin="1105" end="1114" type="0">inflatable</token>
+        <token tid="199" begin="1116" end="1123" type="0">curtains</token>
+        <token tid="200" begin="1124" end="1124" type="2048">,</token>
+        <token tid="201" begin="1126" end="1128" type="0">and</token>
+        <token tid="202" begin="1130" end="1133" type="0">side</token>
+        <token tid="203" begin="1135" end="1137" type="0">air</token>
+        <token tid="204" begin="1139" end="1142" type="0">bags</token>
+        <token tid="205" begin="1144" end="1145" type="0">on</token>
+        <token tid="206" begin="1147" end="1150" type="0">both</token>
+        <token tid="207" begin="1152" end="1156" type="0">sides</token>
+        <token tid="208" begin="1158" end="1165" type="0">deployed</token>
+        <token tid="209" begin="1166" end="1166" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="8" begin="210" end="235">
+      <text>The 35-year-old restrained driver of the Honda sustained soft tissue injuries of the neck and hand and was not medically treated.</text>
+      <parse score="-9.070080">[S [NP [NP The_DT [ADJP [NML 35_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] restrained_JJ driver_NN NP] [PP of_IN [NP the_DT Honda_NNP NP] PP] NP] [VP [VP sustained_VBD [NP [NP soft_JJ tissue_NN injuries_NNS NP] [PP of_IN [NP the_DT neck_NN and_CC hand_NN NP] PP] NP] VP] and_CC [VP was_VBD not_RB [ADVP medically_RB ADVP] [VP treated_VBN VP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 7 -I 35 CD 3 -I - HYPH 3 -I year NN 5 NML - HYPH 5 -I old JJ 7 ADJP restrained JJ 7 -I driver NN -1 NP of IN 7 PP the DT 10 -I Honda NNP 8 NP sustained VBD 7 VP soft JJ 14 -I tissue NN 14 -I injuries NNS 11 NP of IN 14 PP the DT 19 -I neck NN 19 -I and CC 19 -I hand NN 15 NP and CC 11 -E was VBD 11 VP not RB 21 -I medically RB 21 ADVP treated VBN 21 VP . . 7 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT [ADJP [NML 35_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] restrained_JJ driver_NN NP] [PP of_IN [NP the_DT Honda_NNP NP] PP] NP:11-ARG0/24-ARG1] [VP [VP sustained_VBD:sustained.01 [NP [NP soft_JJ tissue_NN injuries_NNS NP] [PP of_IN [NP the_DT neck_NN and_CC hand_NN NP] PP] NP:11-ARG1] VP] and_CC [VP was_VBD not_RB [ADVP medically_RB ADVP] [VP treated_VBN:treated.01 VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="210" begin="1169" end="1171" type="0">The</token>
+        <token tid="211" begin="1173" end="1174" type="0">35</token>
+        <token tid="212" begin="1175" end="1175" type="2048">-</token>
+        <token tid="213" begin="1176" end="1179" type="0">year</token>
+        <token tid="214" begin="1180" end="1180" type="2048">-</token>
+        <token tid="215" begin="1181" end="1183" type="0">old</token>
+        <token tid="216" begin="1185" end="1194" type="0">restrained</token>
+        <token tid="217" begin="1196" end="1201" type="0">driver</token>
+        <token tid="218" begin="1203" end="1204" type="0">of</token>
+        <token tid="219" begin="1206" end="1208" type="0">the</token>
+        <token tid="220" begin="1210" end="1214" type="0">Honda</token>
+        <token tid="221" begin="1216" end="1224" type="0">sustained</token>
+        <token tid="222" begin="1226" end="1229" type="0">soft</token>
+        <token tid="223" begin="1231" end="1236" type="0">tissue</token>
+        <token tid="224" begin="1238" end="1245" type="0">injuries</token>
+        <token tid="225" begin="1247" end="1248" type="0">of</token>
+        <token tid="226" begin="1250" end="1252" type="0">the</token>
+        <token tid="227" begin="1254" end="1257" type="0">neck</token>
+        <token tid="228" begin="1259" end="1261" type="0">and</token>
+        <token tid="229" begin="1263" end="1266" type="0">hand</token>
+        <token tid="230" begin="1268" end="1270" type="0">and</token>
+        <token tid="231" begin="1272" end="1274" type="0">was</token>
+        <token tid="232" begin="1276" end="1278" type="0">not</token>
+        <token tid="233" begin="1280" end="1288" type="0">medically</token>
+        <token tid="234" begin="1290" end="1296" type="0">treated</token>
+        <token tid="235" begin="1297" end="1297" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="522120928.txt.docxml-M1" mtype="NOM" begin="77" end="90" head-begin="77" head-end="90" eid="522120928.txt.docxml-E1" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rollover crash</mention>
+    <mention mid="-M1" mtype="NONE" begin="97" end="100" head-begin="97" head-end="100" eid="-E12" etype="MODEL_YEAR" role="MODEL_YEAR" metonymy="0" class="SPC" score="0.985560" corefScore="1.000000">2008</mention>
+    <mention mid="-M28" mtype="NAM" begin="102" end="106" head-begin="102" head-end="106" eid="-E13" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="-M29" mtype="NAM" begin="108" end="113" head-begin="108" head-end="113" eid="-E5" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Accord</mention>
+    <mention mid="-M3" mtype="NOM" begin="121" end="127" head-begin="121" head-end="127" eid="-E5" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.968249" corefScore="1.000000">vehicle</mention>
+    <mention mid="522120928.txt.docxml-M2" mtype="NOM" begin="147" end="173" head-begin="147" head-end="173" eid="522120928.txt.docxml-E2" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">four-wheel anti-lock brakes</mention>
+    <mention mid="522120928.txt.docxml-M4" mtype="NAM" begin="214" end="267" head-begin="214" head-end="267" eid="522120928.txt.docxml-E7" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Certified Advanced 208-Compliant (CAC) frontal air bag</mention>
+    <mention mid="522120928.txt.docxml-M5" mtype="NOM" begin="281" end="323" head-begin="281" head-end="323" eid="522120928.txt.docxml-E5" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">side impact and inflatable curtain air bags</mention>
+    <mention mid="522120928.txt.docxml-M6" mtype="NOM" begin="331" end="342" head-begin="331" head-end="342" eid="522120928.txt.docxml-E6" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">manufacturer</mention>
+    <mention mid="-M30" mtype="NAM" begin="351" end="355" head-begin="351" head-end="355" eid="-E5" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="-M7" mtype="NOM" begin="380" end="386" head-begin="380" head-end="386" eid="-E5" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.987851" corefScore="0.982520">vehicle</mention>
+    <mention mid="522120928.txt.docxml-M33" mtype="NAM" begin="496" end="498" head-begin="496" head-end="498" eid="522120928.txt.docxml-E7" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">CAC</mention>
+    <mention mid="522120928.txt.docxml-M8" mtype="NOM" begin="520" end="546" head-begin="520" head-end="546" eid="522120928.txt.docxml-E8" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">dual-stage frontal air bags</mention>
+    <mention mid="522120928.txt.docxml-M12" mtype="NOM" begin="556" end="597" head-begin="556" head-end="597" eid="522120928.txt.docxml-E12" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">driver and right front passenger positions</mention>
+    <mention mid="522120928.txt.docxml-M9" mtype="NOM" begin="600" end="629" head-begin="600" head-end="629" eid="522120928.txt.docxml-E9" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">seat track positioning sensors</mention>
+    <mention mid="522120928.txt.docxml-M10" mtype="NOM" begin="632" end="654" head-begin="632" head-end="654" eid="522120928.txt.docxml-E10" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">retractor pretensioners</mention>
+    <mention mid="522120928.txt.docxml-M11" mtype="NOM" begin="663" end="698" head-begin="663" head-end="698" eid="522120928.txt.docxml-E11" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">front right occupant presence sensor</mention>
+    <mention mid="522120928.txt.docxml-M13" mtype="NOM" begin="706" end="716" head-begin="706" head-end="716" eid="522120928.txt.docxml-E13" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">front right</mention>
+    <mention mid="522120928.txt.docxml-M14" mtype="NAM" begin="725" end="730" head-begin="725" head-end="730" eid="-E5" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Accord</mention>
+    <mention mid="522120928.txt.docxml-M15" mtype="NONE" begin="732" end="739" head-begin="732" head-end="739" eid="522120928.txt.docxml-E15" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">impacted</mention>
+    <mention mid="522120928.txt.docxml-M16" mtype="NOM" begin="745" end="753" head-begin="745" head-end="753" eid="522120928.txt.docxml-E16" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rear left</mention>
+    <mention mid="-M32" mtype="NAM" begin="760" end="763" head-begin="760" head-end="763" eid="-E17" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Jeep</mention>
+    <mention mid="-M33" mtype="NAM" begin="765" end="778" head-begin="765" head-end="778" eid="-E18" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Grand Cherokee</mention>
+    <mention mid="522120928.txt.docxml-M17" mtype="PRO" begin="780" end="783" head-begin="780" head-end="783" eid="-E18" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">that</mention>
+    <mention mid="522120928.txt.docxml-M18" mtype="NOM" begin="814" end="841" head-begin="814" head-end="841" eid="522120928.txt.docxml-E18" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">five-lane interstate highway</mention>
+    <mention mid="522120928.txt.docxml-M19" mtype="NAM" begin="849" end="862" head-begin="849" head-end="862" eid="-E18" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Grand Cherokee</mention>
+    <mention mid="522120928.txt.docxml-M23" mtype="NONE" begin="868" end="889" head-begin="868" head-end="889" eid="522120928.txt.docxml-E23" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">displaced to the right</mention>
+    <mention mid="522120928.txt.docxml-M24" mtype="NOM" begin="899" end="909" head-begin="899" head-end="909" eid="522120928.txt.docxml-E13" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">front right</mention>
+    <mention mid="-M35" mtype="NAM" begin="918" end="922" head-begin="918" head-end="922" eid="-E5" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="522120928.txt.docxml-M20" mtype="NONE" begin="924" end="931" head-begin="924" head-end="931" eid="522120928.txt.docxml-E20" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">impacted</mention>
+    <mention mid="522120928.txt.docxml-M21" mtype="NOM" begin="937" end="945" head-begin="937" head-end="945" eid="522120928.txt.docxml-E21" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rear left</mention>
+    <mention mid="-M36" mtype="NAM" begin="952" end="957" head-begin="952" head-end="957" eid="-E21" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Nissan</mention>
+    <mention mid="-M37" mtype="NAM" begin="959" end="964" head-begin="959" head-end="964" eid="-E22" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Altima</mention>
+    <mention mid="522120928.txt.docxml-M22" mtype="PRO" begin="966" end="969" head-begin="966" head-end="969" eid="-E22" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">that</mention>
+    <mention mid="-M38" mtype="NAM" begin="998" end="1001" head-begin="998" head-end="1001" eid="-E18" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Jeep</mention>
+    <mention mid="-M39" mtype="NAM" begin="1009" end="1013" head-begin="1009" head-end="1013" eid="-E5" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="522120928.txt.docxml-M25" mtype="NONE" begin="1020" end="1036" head-begin="1020" head-end="1036" eid="522120928.txt.docxml-E25" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rotated clockwise</mention>
+    <mention mid="522120928.txt.docxml-M26" mtype="NONE" begin="1042" end="1067" head-begin="1042" head-end="1067" eid="522120928.txt.docxml-E1" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">initiated a rollover event</mention>
+    <mention mid="522120928.txt.docxml-M27" mtype="NOM" begin="1075" end="1098" head-begin="1075" head-end="1098" eid="522120928.txt.docxml-E27" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">driver's frontal air bag</mention>
+    <mention mid="522120928.txt.docxml-M28" mtype="NOM" begin="1105" end="1123" head-begin="1105" head-end="1123" eid="522120928.txt.docxml-E28" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">inflatable curtains</mention>
+    <mention mid="522120928.txt.docxml-M29" mtype="NONE" begin="1130" end="1142" head-begin="1130" head-end="1142" eid="522120928.txt.docxml-E29" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">side air bags</mention>
+    <mention mid="522120928.txt.docxml-M30" mtype="NONE" begin="1158" end="1165" head-begin="1158" head-end="1165" eid="522120928.txt.docxml-E30" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">deployed</mention>
+    <mention mid="-M27" mtype="NOM" begin="1196" end="1201" head-begin="1196" head-end="1201" eid="-E8" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.731219" corefScore="0.535281">driver</mention>
+    <mention mid="-M40" mtype="NAM" begin="1210" end="1214" head-begin="1210" head-end="1214" eid="-E5" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="522120928.txt.docxml-M31" mtype="NOM" begin="1226" end="1266" head-begin="1226" head-end="1266" eid="522120928.txt.docxml-E31" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">soft tissue injuries of the neck and hand</mention>
+    <mention mid="522120928.txt.docxml-M32" mtype="NONE" begin="1272" end="1296" head-begin="1272" head-end="1296" eid="522120928.txt.docxml-E32" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">was not medically treated</mention>
+  </mentions>
+  <entities>
+    <entity eid="522120928.txt.docxml-E11" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M11">front right occupant presence sensor</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E10" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M10">retractor pretensioners</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E13" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M13">front right</mentref>
+      <mentref mid="522120928.txt.docxml-M24">front right</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E12" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M12">driver and right front passenger positions</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E15" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M15">impacted</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E16" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M16">rear left</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E18" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M18">five-lane interstate highway</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E31" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M31">soft tissue injuries of the neck and hand</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E30" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M30">deployed</mentref>
+    </entity>
+    <entity eid="-E21" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M36">Nissan</mentref>
+    </entity>
+    <entity eid="-E22" type="MODEL" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M22">that</mentref>
+      <mentref mid="-M37">Altima</mentref>
+    </entity>
+    <entity eid="-E5" type="VEHICLE" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.991221">
+      <mentref mid="-M7">vehicle</mentref>
+      <mentref mid="522120928.txt.docxml-M14">Accord</mentref>
+      <mentref mid="-M3">vehicle</mentref>
+      <mentref mid="-M30">Honda</mentref>
+      <mentref mid="-M35">Honda</mentref>
+      <mentref mid="-M29">Accord</mentref>
+      <mentref mid="-M39">Honda</mentref>
+      <mentref mid="-M40">Honda</mentref>
+    </entity>
+    <entity eid="-E8" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.659257">
+      <mentref mid="-M27">driver</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E5" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M5">side impact and inflatable curtain air bags</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E7" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M33">CAC</mentref>
+      <mentref mid="522120928.txt.docxml-M4">Certified Advanced 208-Compliant (CAC) frontal air bag</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E6" type="MANUFACTURER" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M6">manufacturer</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E1" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M1">rollover crash</mentref>
+      <mentref mid="522120928.txt.docxml-M26">initiated a rollover event</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E2" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M2">four-wheel anti-lock brakes</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E9" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M9">seat track positioning sensors</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E8" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M8">dual-stage frontal air bags</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E28" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M28">inflatable curtains</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E29" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M29">side air bags</mentref>
+    </entity>
+    <entity eid="-E13" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M28">Honda</mentref>
+    </entity>
+    <entity eid="-E12" type="MODEL_YEAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M1">2008</mentref>
+    </entity>
+    <entity eid="-E17" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M32">Jeep</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E20" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M20">impacted</mentref>
+    </entity>
+    <entity eid="-E18" type="MODEL" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M33">Grand Cherokee</mentref>
+      <mentref mid="522120928.txt.docxml-M19">Grand Cherokee</mentref>
+      <mentref mid="-M38">Jeep</mentref>
+      <mentref mid="522120928.txt.docxml-M17">that</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E21" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M21">rear left</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E23" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M23">displaced to the right</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E25" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M25">rotated clockwise</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E27" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M27">driver's frontal air bag</mentref>
+    </entity>
+    <entity eid="522120928.txt.docxml-E32" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="522120928.txt.docxml-M32">was not medically treated</mentref>
+    </entity>
+  </entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+    <relation rid="522120928.txt.docxml-R23" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="-E8" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E31" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R23-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M27" argnum="1">driver</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M31" argnum="2">soft tissue injuries of the neck and hand</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R22" type="occupantOf" subtype="OTHER">
+      <rel_entity_arg eid="-E8" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R22-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M27" argnum="1">driver</rel_mention_arg>
+          <rel_mention_arg mid="-M40" argnum="2">Honda</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R21" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E27" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E30" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R21-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M27" argnum="1">driver's frontal air bag</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M30" argnum="2">deployed</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R20" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E28" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E30" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R20-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M28" argnum="1">inflatable curtains</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M30" argnum="2">deployed</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R24" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="-E8" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E32" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R24-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M27" argnum="1">driver</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M32" argnum="2">was not medically treated</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R4" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E2" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R4-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M2" argnum="1">four-wheel anti-lock brakes</rel_mention_arg>
+          <rel_mention_arg mid="-M3" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R5" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E7" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R5-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M4" argnum="1">Certified Advanced 208-Compliant (CAC) frontal air bag</rel_mention_arg>
+          <rel_mention_arg mid="-M3" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R6" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E5" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R6-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M5" argnum="1">side impact and inflatable curtain air bags</rel_mention_arg>
+          <rel_mention_arg mid="-M3" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R7" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E6" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R7-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M30" argnum="1">Honda</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M6" argnum="2">manufacturer</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R1" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E1" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R1-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M1" argnum="1">rollover crash</rel_mention_arg>
+          <rel_mention_arg mid="-M29" argnum="2">Accord</rel_mention_arg>
+          </relmention>
+        <relmention rmid="522120928.txt.docxml-R1-2" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M26" argnum="1">initiated a rollover event</rel_mention_arg>
+          <rel_mention_arg mid="-M39" argnum="2">Honda</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R2" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="-E13" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R2-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M29" argnum="1">Accord</rel_mention_arg>
+          <rel_mention_arg mid="-M28" argnum="2">Honda</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R3" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="-E12" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R3-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M29" argnum="1">Accord</rel_mention_arg>
+          <rel_mention_arg mid="-M1" argnum="2">2008</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R8" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E13" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R8-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M13" argnum="1">front right</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M14" argnum="2">Accord</rel_mention_arg>
+          </relmention>
+        <relmention rmid="522120928.txt.docxml-R8-2" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M24" argnum="1">front right</rel_mention_arg>
+          <rel_mention_arg mid="-M35" argnum="2">Honda</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R9" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E16" argnum="1"/>
+      <rel_entity_arg eid="-E18" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R9-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M16" argnum="1">rear left</rel_mention_arg>
+          <rel_mention_arg mid="-M33" argnum="2">Grand Cherokee</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R18" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E25" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R18-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M25" argnum="1">rotated clockwise</rel_mention_arg>
+          <rel_mention_arg mid="-M39" argnum="2">Honda</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R19" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E29" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E30" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R19-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M29" argnum="1">side air bags</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M30" argnum="2">deployed</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R16" type="locatedOn" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E21" argnum="1"/>
+      <rel_entity_arg eid="-E22" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R16-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M21" argnum="1">rear left</rel_mention_arg>
+          <rel_mention_arg mid="-M37" argnum="2">Altima</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R17" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E22" argnum="1"/>
+      <rel_entity_arg eid="-E21" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R17-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M37" argnum="1">Altima</rel_mention_arg>
+          <rel_mention_arg mid="-M36" argnum="2">Nissan</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R14" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E20" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E13" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R14-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M20" argnum="1">impacted</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M24" argnum="2">front right</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R15" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E20" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E21" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R15-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M20" argnum="1">impacted</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M21" argnum="2">rear left</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R12" type="driveUnder" subtype="OTHER">
+      <rel_entity_arg eid="-E18" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E15" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R12-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M33" argnum="1">Grand Cherokee</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M15" argnum="2">impacted</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R13" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="522120928.txt.docxml-E23" argnum="1"/>
+      <rel_entity_arg eid="-E18" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R13-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M23" argnum="1">displaced to the right</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M19" argnum="2">Grand Cherokee</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R10" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E18" argnum="1"/>
+      <rel_entity_arg eid="-E17" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R10-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M33" argnum="1">Grand Cherokee</rel_mention_arg>
+          <rel_mention_arg mid="-M32" argnum="2">Jeep</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="522120928.txt.docxml-R11" type="driveUnder" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="522120928.txt.docxml-E15" argnum="2"/>
+      <relmentions>
+        <relmention rmid="522120928.txt.docxml-R11-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="522120928.txt.docxml-M14" argnum="1">Accord</rel_mention_arg>
+          <rel_mention_arg mid="522120928.txt.docxml-M15" argnum="2">impacted</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+  </relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+  <profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels" />
+<username name="irina@us.ibm.com" />
+
+</doc>

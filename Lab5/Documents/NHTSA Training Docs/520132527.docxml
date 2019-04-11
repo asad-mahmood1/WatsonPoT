@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>2009 Mitsubishi Galant departed the roadway to the right, rotated counterclockwise and rolled over multiple times to the right.  All four occupants were injured and transported to a regional hospital.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="20">
+      <text>2009 Mitsubishi Galant departed the roadway to the right, rotated counterclockwise and rolled over multiple times to the right.</text>
+      <parse score="-15.630100">[S [S [NP 2009_CD Mitsubishi_NNP Galant_NNP NP] [VP departed_VBD [NP the_DT roadway_NN NP] [PP to_TO [NP the_DT right_NN NP] PP] VP] S] ,_, [NP [NP rotated_JJ counterclockwise_NN NP] and_CC [VP rolled_VBD [PP over_IN [NP multiple_JJ times_NNS NP] PP] [PP to_TO [NP the_DT right_NN NP] PP] VP] NP] ._. S]</parse>
+      <dependency_parse>2009 CD 2 -I Mitsubishi NNP 2 -I Galant NNP -1 NP departed VBD 2 VP the DT 5 -I roadway NN 3 NP to TO 3 PP the DT 8 -I right NN 6 NP , , 2 -E rotated JJ 11 -I counterclockwise NN 2 NP and CC 11 -E rolled VBD 11 VP over IN 13 PP multiple JJ 16 -I times NNS 14 NP to TO 13 PP the DT 19 -I right NN 17 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP 2009_CD Mitsubishi_NNP Galant_NNP NP:3-ARG0] [VP departed_VBD:departed.01 [NP the_DT roadway_NN NP:3-ARG1] [PP to_TO [NP the_DT right_NN NP] PP:3-ARG2] VP] S] ,_, [NP [NP rotated_JJ counterclockwise_NN NP:13-ARG1] and_CC [VP rolled_VBD:rolled.01 [PP over_IN [NP multiple_JJ times_NNS NP] PP:13-ARGM-TMP] [PP to_TO [NP the_DT right_NN NP] PP:13-ARG2] VP] NP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">2009</token>
+        <token tid="1" begin="5" end="14" type="0">Mitsubishi</token>
+        <token tid="2" begin="16" end="21" type="0">Galant</token>
+        <token tid="3" begin="23" end="30" type="0">departed</token>
+        <token tid="4" begin="32" end="34" type="0">the</token>
+        <token tid="5" begin="36" end="42" type="0">roadway</token>
+        <token tid="6" begin="44" end="45" type="0">to</token>
+        <token tid="7" begin="47" end="49" type="0">the</token>
+        <token tid="8" begin="51" end="55" type="0">right</token>
+        <token tid="9" begin="56" end="56" type="2048">,</token>
+        <token tid="10" begin="58" end="64" type="0">rotated</token>
+        <token tid="11" begin="66" end="81" type="0">counterclockwise</token>
+        <token tid="12" begin="83" end="85" type="0">and</token>
+        <token tid="13" begin="87" end="92" type="0">rolled</token>
+        <token tid="14" begin="94" end="97" type="0">over</token>
+        <token tid="15" begin="99" end="106" type="0">multiple</token>
+        <token tid="16" begin="108" end="112" type="0">times</token>
+        <token tid="17" begin="114" end="115" type="0">to</token>
+        <token tid="18" begin="117" end="119" type="0">the</token>
+        <token tid="19" begin="121" end="125" type="0">right</token>
+        <token tid="20" begin="126" end="126" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="21" end="32">
+      <text>All four occupants were injured and transported to a regional hospital.</text>
+      <parse score="-2.597570">[S [NP All_DT four_CD occupants_NNS NP] [VP were_VBD [VP [VP injured_VBN VP] and_CC [VP transported_VBN [PP to_TO [NP a_DT regional_JJ hospital_NN NP] PP] VP] VP] VP] ._. S]</parse>
+      <dependency_parse>All DT 2 -I four CD 2 -I occupants NNS -1 NP were VBD 2 VP injured VBN 3 VP and CC 4 -E transported VBN 4 VP to TO 6 PP a DT 10 -I regional JJ 10 -I hospital NN 7 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP All_DT four_CD occupants_NNS NP:4-ARG1/6-ARG1] [VP were_VBD [VP [VP injured_VBN:injured.01 VP] and_CC [VP transported_VBN:transported.01 [PP to_TO [NP a_DT regional_JJ hospital_NN NP] PP:6-ARG2] VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="21" begin="129" end="131" type="0">All</token>
+        <token tid="22" begin="133" end="136" type="0">four</token>
+        <token tid="23" begin="138" end="146" type="0">occupants</token>
+        <token tid="24" begin="148" end="151" type="0">were</token>
+        <token tid="25" begin="153" end="159" type="0">injured</token>
+        <token tid="26" begin="161" end="163" type="0">and</token>
+        <token tid="27" begin="165" end="175" type="0">transported</token>
+        <token tid="28" begin="177" end="178" type="0">to</token>
+        <token tid="29" begin="180" end="180" type="0">a</token>
+        <token tid="30" begin="182" end="189" type="0">regional</token>
+        <token tid="31" begin="191" end="198" type="0">hospital</token>
+        <token tid="32" begin="199" end="199" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="-M0" mtype="NONE" begin="0" end="3" head-begin="0" head-end="3" eid="-E2" etype="MODEL_YEAR" role="MODEL_YEAR" metonymy="0" class="SPC" score="0.998634" corefScore="1.000000">2009</mention>
+    <mention mid="520132527.txt.docxml-M1" mtype="NAM" begin="5" end="14" head-begin="5" head-end="14" eid="520132527.txt.docxml-E1" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Mitsubishi</mention>
+    <mention mid="520132527.txt.docxml-M2" mtype="NAM" begin="16" end="21" head-begin="16" head-end="21" eid="520132527.txt.docxml-E2" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Galant</mention>
+    <mention mid="520132527.txt.docxml-M4" mtype="NONE" begin="23" end="30" head-begin="23" head-end="30" eid="520132527.txt.docxml-E4" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">departed</mention>
+    <mention mid="520132527.txt.docxml-M3" mtype="NOM" begin="36" end="42" head-begin="36" head-end="42" eid="520132527.txt.docxml-E3" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">roadway</mention>
+    <mention mid="520132527.txt.docxml-M5" mtype="NONE" begin="58" end="64" head-begin="58" head-end="64" eid="520132527.txt.docxml-E5" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rotated</mention>
+    <mention mid="520132527.txt.docxml-M6" mtype="NONE" begin="87" end="112" head-begin="87" head-end="112" eid="520132527.txt.docxml-E6" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rolled over multiple times</mention>
+    <mention mid="520132527.txt.docxml-M7" mtype="NOM" begin="138" end="146" head-begin="138" head-end="146" eid="520132527.txt.docxml-E7" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">occupants</mention>
+    <mention mid="520132527.txt.docxml-M8" mtype="NONE" begin="153" end="159" head-begin="153" head-end="159" eid="520132527.txt.docxml-E8" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">injured</mention>
+    <mention mid="520132527.txt.docxml-M9" mtype="NONE" begin="165" end="198" head-begin="165" head-end="198" eid="520132527.txt.docxml-E9" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">transported to a regional hospital</mention>
+  </mentions>
+  <entities>
+    <entity eid="520132527.txt.docxml-E7" type="PERSON" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M7">occupants</mentref>
+    </entity>
+    <entity eid="520132527.txt.docxml-E6" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M6">rolled over multiple times</mentref>
+    </entity>
+    <entity eid="520132527.txt.docxml-E5" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M5">rotated</mentref>
+    </entity>
+    <entity eid="520132527.txt.docxml-E4" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M4">departed</mentref>
+    </entity>
+    <entity eid="520132527.txt.docxml-E3" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M3">roadway</mentref>
+    </entity>
+    <entity eid="520132527.txt.docxml-E2" type="MODEL" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M2">Galant</mentref>
+    </entity>
+    <entity eid="520132527.txt.docxml-E1" type="MANUFACTURER" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M1">Mitsubishi</mentref>
+    </entity>
+    <entity eid="520132527.txt.docxml-E9" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M9">transported to a regional hospital</mentref>
+    </entity>
+    <entity eid="520132527.txt.docxml-E8" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="520132527.txt.docxml-M8">injured</mentref>
+    </entity>
+    <entity eid="-E2" type="MODEL_YEAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M0">2009</mentref>
+    </entity>
+  </entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+    <relation rid="520132527.txt.docxml-R2" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="520132527.txt.docxml-E2" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="520132527.txt.docxml-R2-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="520132527.txt.docxml-M2" argnum="1">Galant</rel_mention_arg>
+          <rel_mention_arg mid="-M0" argnum="2">2009</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="520132527.txt.docxml-R3" type="driveUnder" subtype="OTHER">
+      <rel_entity_arg eid="520132527.txt.docxml-E2" argnum="1"/>
+      <rel_entity_arg eid="520132527.txt.docxml-E4" argnum="2"/>
+      <relmentions>
+        <relmention rmid="520132527.txt.docxml-R3-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="520132527.txt.docxml-M2" argnum="1">Galant</rel_mention_arg>
+          <rel_mention_arg mid="520132527.txt.docxml-M4" argnum="2">departed</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="520132527.txt.docxml-R1" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="520132527.txt.docxml-E2" argnum="1"/>
+      <rel_entity_arg eid="520132527.txt.docxml-E1" argnum="2"/>
+      <relmentions>
+        <relmention rmid="520132527.txt.docxml-R1-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="520132527.txt.docxml-M2" argnum="1">Galant</rel_mention_arg>
+          <rel_mention_arg mid="520132527.txt.docxml-M1" argnum="2">Mitsubishi</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="520132527.txt.docxml-R6" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="520132527.txt.docxml-E7" argnum="1"/>
+      <rel_entity_arg eid="520132527.txt.docxml-E8" argnum="2"/>
+      <relmentions>
+        <relmention rmid="520132527.txt.docxml-R6-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="520132527.txt.docxml-M7" argnum="1">occupants</rel_mention_arg>
+          <rel_mention_arg mid="520132527.txt.docxml-M8" argnum="2">injured</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="520132527.txt.docxml-R7" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="520132527.txt.docxml-E7" argnum="1"/>
+      <rel_entity_arg eid="520132527.txt.docxml-E9" argnum="2"/>
+      <relmentions>
+        <relmention rmid="520132527.txt.docxml-R7-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="520132527.txt.docxml-M7" argnum="1">occupants</rel_mention_arg>
+          <rel_mention_arg mid="520132527.txt.docxml-M9" argnum="2">transported to a regional hospital</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="520132527.txt.docxml-R4" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="520132527.txt.docxml-E5" argnum="1"/>
+      <rel_entity_arg eid="520132527.txt.docxml-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="520132527.txt.docxml-R4-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="520132527.txt.docxml-M5" argnum="1">rotated</rel_mention_arg>
+          <rel_mention_arg mid="520132527.txt.docxml-M2" argnum="2">Galant</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="520132527.txt.docxml-R5" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="520132527.txt.docxml-E6" argnum="1"/>
+      <rel_entity_arg eid="520132527.txt.docxml-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="520132527.txt.docxml-R5-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="520132527.txt.docxml-M6" argnum="1">rolled over multiple times</rel_mention_arg>
+          <rel_mention_arg mid="520132527.txt.docxml-M2" argnum="2">Galant</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+  </relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+  <profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels" />
+<username name="mnasr@us.ibm.com" />
+
+</doc>

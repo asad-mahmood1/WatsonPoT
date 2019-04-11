@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>This on-site investigation focused on the crash dynamics, crash severity, injury and injury sources surrounding the intersection crash of a 2008 Nissan Titan pick-up truck and a 2002 Chrysler Voyager.  The Nissan was equipped with a Certified Advanced 208-Compliant (CAC) frontal air bag system that did not deploy as a result of the crash.  The CAC system in the Nissan was comprised of advanced dual-stage frontal air bags, a seat track position sensor, front safety belt buckle switches, front safety belt pretensioners, and a front right occupant detection sensor.  The frontal air bags in the Titan were certified by the manufacturer to be compliant with the advanced air bag requirements of the Federal Motor Vehicle Safety Standard No. 208.  This crash was brought to the attention of the National Highway Traffic Safety Administration's (NHTSA) Office of Defects Investigation (ODI) by the owner of the Nissan.  The owner was concerned about the non-deployment of the Nissan's frontal air bags.  The ODI conducted a follow-up interview with the driver and requested further research of the crash through the Special Crash Investigations (SCI) Program.  The Crash Investigation Division of the NHTSA forwarded the vehicle owner's contact information to the Calspan SCI team on April 29, 2009.  The Calspan SCI team interviewed the driver and scheduled an inspection of the vehicle.  The SCI team also contacted Nissan North America and made arrangements to acquire the scan tool necessary to image the data stored within the vehicle's Event Data Recorder (EDR).  The crash scene and the Nissan were inspected on May 7, 2009.  The Titan's EDR data was successfully imaged at that time.  Insurance carrier images of the damaged Chrysler Voyager were obtained and reviewed.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="32">
+      <text>This on-site investigation focused on the crash dynamics, crash severity, injury and injury sources surrounding the intersection crash of a 2008 Nissan Titan pick-up truck and a 2002 Chrysler Voyager.</text>
+      <parse score="-25.281600">[S [NP This_DT on-site_JJ investigation_NN NP] [VP focused_VBD [PP on_IN [NP the_DT crash_NN dynamics_NNS NP] PP] VP] ,_, [NP crash_NN severity_NN NP] ,_, [NP [NP injury_NN NP] and_CC [NP [NP injury_NN sources_NNS NP] [VP surrounding_VBG [NP [NP [NP the_DT intersection_NN crash_NN NP] [PP of_IN [NP a_DT 2008_CD [NML Nissan_NNP Titan_NNP NML] pick-up_JJ truck_NN NP] PP] NP] and_CC [NP a_DT 2002_CD Chrysler_NNP Voyager_NNP NP] NP] VP] NP] NP] ._. S]</parse>
+      <dependency_parse>This DT 2 -I on-site JJ 2 -I investigation NN -1 NP focused VBD 2 VP on IN 3 PP the DT 7 -I crash NN 7 -I dynamics NNS 4 NP , , 2 -E crash NN 10 -I severity NN 2 NP , , 2 -E injury NN 15 NP and CC 15 -E injury NN 15 -I sources NNS 2 NP surrounding VBG 15 VP the DT 19 -I intersection NN 19 -I crash NN 31 NP of IN 19 PP a DT 26 -I 2008 CD 26 -I Nissan NNP 24 -I Titan NNP 26 NML pick-up JJ 26 -I truck NN 20 NP and CC 31 -E a DT 31 -I 2002 CD 31 -I Chrysler NNP 31 -I Voyager NNP 16 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP This_DT on-site_JJ investigation_NN NP:3-ARG0] [VP focused_VBD:focused.01 [PP on_IN [NP the_DT crash_NN dynamics_NNS NP] PP:3-ARG2] VP] ,_, [NP crash_NN severity_NN NP:3-ARG1] ,_, [NP [NP injury_NN NP] and_CC [NP [NP injury_NN sources_NNS NP:16-ARG1] [VP surrounding_VBG:surrounding.01 [NP [NP [NP the_DT intersection_NN crash_NN NP] [PP of_IN [NP a_DT 2008_CD [NML Nissan_NNP Titan_NNP NML] pick-up_JJ truck_NN NP] PP] NP] and_CC [NP a_DT 2002_CD Chrysler_NNP Voyager_NNP NP] NP:16-ARG2] VP] NP] NP:3-ARG1] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">This</token>
+        <token tid="1" begin="5" end="11" type="0">on-site</token>
+        <token tid="2" begin="13" end="25" type="0">investigation</token>
+        <token tid="3" begin="27" end="33" type="0">focused</token>
+        <token tid="4" begin="35" end="36" type="0">on</token>
+        <token tid="5" begin="38" end="40" type="0">the</token>
+        <token tid="6" begin="42" end="46" type="0">crash</token>
+        <token tid="7" begin="48" end="55" type="0">dynamics</token>
+        <token tid="8" begin="56" end="56" type="2048">,</token>
+        <token tid="9" begin="58" end="62" type="0">crash</token>
+        <token tid="10" begin="64" end="71" type="0">severity</token>
+        <token tid="11" begin="72" end="72" type="2048">,</token>
+        <token tid="12" begin="74" end="79" type="0">injury</token>
+        <token tid="13" begin="81" end="83" type="0">and</token>
+        <token tid="14" begin="85" end="90" type="0">injury</token>
+        <token tid="15" begin="92" end="98" type="0">sources</token>
+        <token tid="16" begin="100" end="110" type="0">surrounding</token>
+        <token tid="17" begin="112" end="114" type="0">the</token>
+        <token tid="18" begin="116" end="127" type="0">intersection</token>
+        <token tid="19" begin="129" end="133" type="0">crash</token>
+        <token tid="20" begin="135" end="136" type="0">of</token>
+        <token tid="21" begin="138" end="138" type="0">a</token>
+        <token tid="22" begin="140" end="143" type="0">2008</token>
+        <token tid="23" begin="145" end="150" type="0">Nissan</token>
+        <token tid="24" begin="152" end="156" type="0">Titan</token>
+        <token tid="25" begin="158" end="164" type="0">pick-up</token>
+        <token tid="26" begin="166" end="170" type="0">truck</token>
+        <token tid="27" begin="172" end="174" type="0">and</token>
+        <token tid="28" begin="176" end="176" type="0">a</token>
+        <token tid="29" begin="178" end="181" type="0">2002</token>
+        <token tid="30" begin="183" end="190" type="0">Chrysler</token>
+        <token tid="31" begin="192" end="198" type="0">Voyager</token>
+        <token tid="32" begin="199" end="199" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="33" end="61">
+      <text>The Nissan was equipped with a Certified Advanced 208-Compliant (CAC) frontal air bag system that did not deploy as a result of the crash.</text>
+      <parse score="-11.035000">[S [NP The_DT Nissan_NNP NP] [VP was_VBD [VP equipped_VBN [PP with_IN [NP [NP [NP a_DT Certified_NNP Advanced_NNP 208_CD -_HYPH Compliant_NNP NP] (_-LRB- [NP CAC_NNP NP] )_-RRB- frontal_JJ [NML air_NN bag_NN NML] system_NN NP] [SBAR [WHNP that_WDT WHNP] [S [VP did_VBD not_RB [VP deploy_VB [PP as_IN [NP [NP a_DT result_NN NP] [PP of_IN [NP the_DT crash_NN NP] PP] NP] PP] VP] VP] S] SBAR] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Nissan NNP -1 NP was VBD 1 VP equipped VBN 2 VP with IN 3 PP a DT 10 -I Certified NNP 10 -I Advanced NNP 10 -I 208 CD 10 -I - HYPH 10 -I Compliant NNP 17 NP ( -LRB- 17 -I CAC NNP 17 NP ) -RRB- 17 -I frontal JJ 17 -I air NN 16 -I bag NN 17 NML system NN 4 NP that WDT 19 WHNP did VBD 17 VP not RB 19 -I deploy VB 19 VP as IN 21 PP a DT 24 -I result NN 22 NP of IN 24 PP the DT 27 -I crash NN 25 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Nissan_NNP NP:3-ARG1] [VP was_VBD [VP equipped_VBN:equipped.01 [PP with_IN [NP [NP [NP a_DT Certified_NNP Advanced_NNP 208_CD -_HYPH Compliant_NNP NP] (_-LRB- [NP CAC_NNP NP] )_-RRB- frontal_JJ [NML air_NN bag_NN NML] system_NN NP:19-ARG0/21-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP did_VBD:did.01 not_RB [VP deploy_VB:deploy.01 [PP as_IN [NP [NP a_DT result_NN NP] [PP of_IN [NP the_DT crash_NN NP] PP] NP] PP:21-ARG1] VP] VP] S] SBAR] NP] PP:3-ARG2] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="33" begin="202" end="204" type="0">The</token>
+        <token tid="34" begin="206" end="211" type="0">Nissan</token>
+        <token tid="35" begin="213" end="215" type="0">was</token>
+        <token tid="36" begin="217" end="224" type="0">equipped</token>
+        <token tid="37" begin="226" end="229" type="0">with</token>
+        <token tid="38" begin="231" end="231" type="0">a</token>
+        <token tid="39" begin="233" end="241" type="0">Certified</token>
+        <token tid="40" begin="243" end="250" type="0">Advanced</token>
+        <token tid="41" begin="252" end="254" type="0">208</token>
+        <token tid="42" begin="255" end="255" type="2048">-</token>
+        <token tid="43" begin="256" end="264" type="0">Compliant</token>
+        <token tid="44" begin="266" end="266" type="2048">(</token>
+        <token tid="45" begin="267" end="269" type="0">CAC</token>
+        <token tid="46" begin="270" end="270" type="2048">)</token>
+        <token tid="47" begin="272" end="278" type="0">frontal</token>
+        <token tid="48" begin="280" end="282" type="0">air</token>
+        <token tid="49" begin="284" end="286" type="0">bag</token>
+        <token tid="50" begin="288" end="293" type="0">system</token>
+        <token tid="51" begin="295" end="298" type="0">that</token>
+        <token tid="52" begin="300" end="302" type="0">did</token>
+        <token tid="53" begin="304" end="306" type="0">not</token>
+        <token tid="54" begin="308" end="313" type="0">deploy</token>
+        <token tid="55" begin="315" end="316" type="0">as</token>
+        <token tid="56" begin="318" end="318" type="0">a</token>
+        <token tid="57" begin="320" end="325" type="0">result</token>
+        <token tid="58" begin="327" end="328" type="0">of</token>
+        <token tid="59" begin="330" end="332" type="0">the</token>
+        <token tid="60" begin="334" end="338" type="0">crash</token>
+        <token tid="61" begin="339" end="339" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="62" end="101">
+      <text>The CAC system in the Nissan was comprised of advanced dual-stage frontal air bags, a seat track position sensor, front safety belt buckle switches, front safety belt pretensioners, and a front right occupant detection sensor.</text>
+      <parse score="-27.548500">[S [NP [NP The_DT CAC_NNP system_NN NP] [PP in_IN [NP the_DT Nissan_NNP NP] PP] NP] [VP was_VBD [VP comprised_VBN [PP of_IN [NP advanced_JJ dual-stage_NN NP] PP] [NP [NP frontal_JJ air_NN bags_NNS NP] ,_, [NP a_DT seat_NN track_NN position_NN sensor_NN NP] ,_, [NP front_JJ safety_NN belt_NN buckle_NN switches_NNS NP] ,_, [NP front_JJ safety_NN belt_NN pretensioners_NNS NP] ,_, and_CC [NP a_DT front_JJ right_NN occupant_NN detection_NN sensor_NN NP] NP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I CAC NNP 2 -I system NN -1 NP in IN 2 PP the DT 5 -I Nissan NNP 3 NP was VBD 2 VP comprised VBN 6 VP of IN 7 PP advanced JJ 10 -I dual-stage NN 8 NP frontal JJ 13 -I air NN 13 -I bags NNS 38 NP , , 38 -E a DT 19 -I seat NN 19 -I track NN 19 -I position NN 19 -I sensor NN 38 NP , , 38 -E front JJ 25 -I safety NN 25 -I belt NN 25 -I buckle NN 25 -I switches NNS 38 NP , , 38 -E front JJ 30 -I safety NN 30 -I belt NN 30 -I pretensioners NNS 38 NP , , 38 -E and CC 38 -E a DT 38 -I front JJ 38 -I right NN 38 -I occupant NN 38 -I detection NN 38 -I sensor NN 7 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT CAC_NNP system_NN NP] [PP in_IN [NP the_DT Nissan_NNP NP] PP] NP:7-ARG1] [VP was_VBD [VP comprised_VBN:***.01 [PP of_IN [NP advanced_JJ dual-stage_NN NP] PP:7-ARG2] [NP [NP frontal_JJ air_NN bags_NNS NP] ,_, [NP a_DT seat_NN track_NN position_NN sensor_NN NP] ,_, [NP front_JJ safety_NN belt_NN buckle_NN switches_NNS NP] ,_, [NP front_JJ safety_NN belt_NN pretensioners_NNS NP] ,_, and_CC [NP a_DT front_JJ right_NN occupant_NN detection_NN sensor_NN NP] NP:7-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="62" begin="342" end="344" type="0">The</token>
+        <token tid="63" begin="346" end="348" type="0">CAC</token>
+        <token tid="64" begin="350" end="355" type="0">system</token>
+        <token tid="65" begin="357" end="358" type="0">in</token>
+        <token tid="66" begin="360" end="362" type="0">the</token>
+        <token tid="67" begin="364" end="369" type="0">Nissan</token>
+        <token tid="68" begin="371" end="373" type="0">was</token>
+        <token tid="69" begin="375" end="383" type="0">comprised</token>
+        <token tid="70" begin="385" end="386" type="0">of</token>
+        <token tid="71" begin="388" end="395" type="0">advanced</token>
+        <token tid="72" begin="397" end="406" type="0">dual-stage</token>
+        <token tid="73" begin="408" end="414" type="0">frontal</token>
+        <token tid="74" begin="416" end="418" type="0">air</token>
+        <token tid="75" begin="420" end="423" type="0">bags</token>
+        <token tid="76" begin="424" end="424" type="2048">,</token>
+        <token tid="77" begin="426" end="426" type="0">a</token>
+        <token tid="78" begin="428" end="431" type="0">seat</token>
+        <token tid="79" begin="433" end="437" type="0">track</token>
+        <token tid="80" begin="439" end="446" type="0">position</token>
+        <token tid="81" begin="448" end="453" type="0">sensor</token>
+        <token tid="82" begin="454" end="454" type="2048">,</token>
+        <token tid="83" begin="456" end="460" type="0">front</token>
+        <token tid="84" begin="462" end="467" type="0">safety</token>
+        <token tid="85" begin="469" end="472" type="0">belt</token>
+        <token tid="86" begin="474" end="479" type="0">buckle</token>
+        <token tid="87" begin="481" end="488" type="0">switches</token>
+        <token tid="88" begin="489" end="489" type="2048">,</token>
+        <token tid="89" begin="491" end="495" type="0">front</token>
+        <token tid="90" begin="497" end="502" type="0">safety</token>
+        <token tid="91" begin="504" end="507" type="0">belt</token>
+        <token tid="92" begin="509" end="521" type="0">pretensioners</token>
+        <token tid="93" begin="522" end="522" type="2048">,</token>
+        <token tid="94" begin="524" end="526" type="0">and</token>
+        <token tid="95" begin="528" end="528" type="0">a</token>
+        <token tid="96" begin="530" end="534" type="0">front</token>
+        <token tid="97" begin="536" end="540" type="0">right</token>
+        <token tid="98" begin="542" end="549" type="0">occupant</token>
+        <token tid="99" begin="551" end="559" type="0">detection</token>
+        <token tid="100" begin="561" end="566" type="0">sensor</token>
+        <token tid="101" begin="567" end="567" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="102" end="132">
+      <text>The frontal air bags in the Titan were certified by the manufacturer to be compliant with the advanced air bag requirements of the Federal Motor Vehicle Safety Standard No. 208.</text>
+      <parse score="-7.271180">[S [NP [NP The_DT frontal_JJ air_NN bags_NNS NP] [PP in_IN [NP the_DT Titan_NNP NP] PP] NP] [VP were_VBD [VP certified_VBN [PP by_IN [NP the_DT manufacturer_NN NP] PP] [S [VP to_TO [VP be_VB [ADJP compliant_JJ [PP with_IN [NP [NP the_DT advanced_JJ air_NN bag_NN requirements_NNS NP] [PP of_IN [NP the_DT Federal_NNP Motor_NNP Vehicle_NNP Safety_NNP Standard_NNP No._NNP 208_CD NP] PP] NP] PP] ADJP] VP] VP] S] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 3 -I frontal JJ 3 -I air NN 3 -I bags NNS -1 NP in IN 3 PP the DT 6 -I Titan NNP 4 NP were VBD 3 VP certified VBN 7 VP by IN 8 PP the DT 11 -I manufacturer NN 9 NP to TO 13 -E be VB 8 VP compliant JJ 13 ADJP with IN 14 PP the DT 20 -I advanced JJ 20 -I air NN 20 -I bag NN 20 -I requirements NNS 15 NP of IN 20 PP the DT 28 -I Federal NNP 28 -I Motor NNP 28 -I Vehicle NNP 28 -I Safety NNP 28 -I Standard NNP 28 -I No. NNP 21 NP 208 CD 28 -I . . 3 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT frontal_JJ air_NN bags_NNS NP] [PP in_IN [NP the_DT Titan_NNP NP] PP] NP:8-ARG1] [VP were_VBD [VP certified_VBN:certified.01 [PP by_IN [NP the_DT manufacturer_NN NP] PP:8-ARG0] [S [VP to_TO [VP be_VB [ADJP compliant_JJ [PP with_IN [NP [NP the_DT advanced_JJ air_NN bag_NN requirements_NNS NP] [PP of_IN [NP the_DT Federal_NNP Motor_NNP Vehicle_NNP Safety_NNP Standard_NNP No._NNP 208_CD NP] PP] NP] PP] ADJP] VP] VP] S] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="102" begin="570" end="572" type="0">The</token>
+        <token tid="103" begin="574" end="580" type="0">frontal</token>
+        <token tid="104" begin="582" end="584" type="0">air</token>
+        <token tid="105" begin="586" end="589" type="0">bags</token>
+        <token tid="106" begin="591" end="592" type="0">in</token>
+        <token tid="107" begin="594" end="596" type="0">the</token>
+        <token tid="108" begin="598" end="602" type="0">Titan</token>
+        <token tid="109" begin="604" end="607" type="0">were</token>
+        <token tid="110" begin="609" end="617" type="0">certified</token>
+        <token tid="111" begin="619" end="620" type="0">by</token>
+        <token tid="112" begin="622" end="624" type="0">the</token>
+        <token tid="113" begin="626" end="637" type="0">manufacturer</token>
+        <token tid="114" begin="639" end="640" type="0">to</token>
+        <token tid="115" begin="642" end="643" type="0">be</token>
+        <token tid="116" begin="645" end="653" type="0">compliant</token>
+        <token tid="117" begin="655" end="658" type="0">with</token>
+        <token tid="118" begin="660" end="662" type="0">the</token>
+        <token tid="119" begin="664" end="671" type="0">advanced</token>
+        <token tid="120" begin="673" end="675" type="0">air</token>
+        <token tid="121" begin="677" end="679" type="0">bag</token>
+        <token tid="122" begin="681" end="692" type="0">requirements</token>
+        <token tid="123" begin="694" end="695" type="0">of</token>
+        <token tid="124" begin="697" end="699" type="0">the</token>
+        <token tid="125" begin="701" end="707" type="0">Federal</token>
+        <token tid="126" begin="709" end="713" type="0">Motor</token>
+        <token tid="127" begin="715" end="721" type="0">Vehicle</token>
+        <token tid="128" begin="723" end="728" type="0">Safety</token>
+        <token tid="129" begin="730" end="737" type="0">Standard</token>
+        <token tid="130" begin="739" end="741" type="0">No.</token>
+        <token tid="131" begin="743" end="745" type="0">208</token>
+        <token tid="132" begin="746" end="746" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="4" begin="133" end="164">
+      <text>This crash was brought to the attention of the National Highway Traffic Safety Administration's (NHTSA) Office of Defects Investigation (ODI) by the owner of the Nissan.</text>
+      <parse score="-8.593400">[S [NP This_DT crash_NN NP] [VP was_VBD [VP brought_VBN [PP to_TO [NP [NP the_DT attention_NN NP] [PP of_IN [NP [NP the_DT National_NNP Highway_NNP Traffic_NNP Safety_NNP Administration_NNP 's_POS NP] (_-LRB- [NP [NP [NP NHTSA_NNP )_-RRB- Office_NNP NP] [PP of_IN [NP Defects_NNP Investigation_NNP NP] PP] NP] (_-LRB- [NP ODI_NNP NP] )_-RRB- NP] [PP by_IN [NP [NP the_DT owner_NN NP] [PP of_IN [NP the_DT Nissan_NNP NP] PP] NP] PP] NP] PP] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>This DT 1 -I crash NN -1 NP was VBD 1 VP brought VBN 2 VP to TO 3 PP the DT 6 -I attention NN 4 NP of IN 6 PP the DT 13 -I National NNP 13 -I Highway NNP 13 -I Traffic NNP 13 -I Safety NNP 13 -I Administration NNP 23 NP 's POS 13 -I ( -LRB- 23 -E NHTSA NNP 18 -I ) -RRB- 18 -I Office NNP 23 NP of IN 18 PP Defects NNP 21 -I Investigation NNP 19 NP ( -LRB- 23 -E ODI NNP 7 NP ) -RRB- 23 -E by IN 23 PP the DT 27 -I owner NN 25 NP of IN 27 PP the DT 30 -I Nissan NNP 28 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP This_DT crash_NN NP:3-ARG1] [VP was_VBD [VP brought_VBN:brought.01 [PP to_TO [NP [NP the_DT attention_NN NP] [PP of_IN [NP [NP the_DT National_NNP Highway_NNP Traffic_NNP Safety_NNP Administration_NNP 's_POS NP] (_-LRB- [NP [NP [NP NHTSA_NNP )_-RRB- Office_NNP NP] [PP of_IN [NP Defects_NNP Investigation_NNP NP] PP] NP] (_-LRB- [NP ODI_NNP NP] )_-RRB- NP] [PP by_IN [NP [NP the_DT owner_NN NP] [PP of_IN [NP the_DT Nissan_NNP NP] PP] NP] PP] NP] PP] NP] PP:3-ARG2] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="133" begin="749" end="752" type="0">This</token>
+        <token tid="134" begin="754" end="758" type="0">crash</token>
+        <token tid="135" begin="760" end="762" type="0">was</token>
+        <token tid="136" begin="764" end="770" type="0">brought</token>
+        <token tid="137" begin="772" end="773" type="0">to</token>
+        <token tid="138" begin="775" end="777" type="0">the</token>
+        <token tid="139" begin="779" end="787" type="0">attention</token>
+        <token tid="140" begin="789" end="790" type="0">of</token>
+        <token tid="141" begin="792" end="794" type="0">the</token>
+        <token tid="142" begin="796" end="803" type="0">National</token>
+        <token tid="143" begin="805" end="811" type="0">Highway</token>
+        <token tid="144" begin="813" end="819" type="0">Traffic</token>
+        <token tid="145" begin="821" end="826" type="0">Safety</token>
+        <token tid="146" begin="828" end="841" type="0">Administration</token>
+        <token tid="147" begin="842" end="843" type="0">'s</token>
+        <token tid="148" begin="845" end="845" type="2048">(</token>
+        <token tid="149" begin="846" end="850" type="0">NHTSA</token>
+        <token tid="150" begin="851" end="851" type="2048">)</token>
+        <token tid="151" begin="853" end="858" type="0">Office</token>
+        <token tid="152" begin="860" end="861" type="0">of</token>
+        <token tid="153" begin="863" end="869" type="0">Defects</token>
+        <token tid="154" begin="871" end="883" type="0">Investigation</token>
+        <token tid="155" begin="885" end="885" type="2048">(</token>
+        <token tid="156" begin="886" end="888" type="0">ODI</token>
+        <token tid="157" begin="889" end="889" type="2048">)</token>
+        <token tid="158" begin="891" end="892" type="0">by</token>
+        <token tid="159" begin="894" end="896" type="0">the</token>
+        <token tid="160" begin="898" end="902" type="0">owner</token>
+        <token tid="161" begin="904" end="905" type="0">of</token>
+        <token tid="162" begin="907" end="909" type="0">the</token>
+        <token tid="163" begin="911" end="916" type="0">Nissan</token>
+        <token tid="164" begin="917" end="917" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="5" begin="165" end="181">
+      <text>The owner was concerned about the non-deployment of the Nissan's frontal air bags.</text>
+      <parse score="-12.702300">[S [NP The_DT owner_NN NP] [VP was_VBD [VP concerned_VBN [PP about_IN [NP [NP the_DT [NML non_FW -_HYPH deployment_NN NML] NP] [PP of_IN [NP the_DT [NP Nissan_NNP 's_POS NP] frontal_JJ air_NN bags_NNS NP] PP] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I owner NN -1 NP was VBD 1 VP concerned VBN 2 VP about IN 3 PP the DT 8 -E non FW 8 -I - HYPH 8 -I deployment NN 4 NML of IN 8 PP the DT 15 -I Nissan NNP 15 NP 's POS 11 -I frontal JJ 15 -I air NN 15 -I bags NNS 9 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT owner_NN NP:3-ARG1] [VP was_VBD [VP concerned_VBN:concerned.01 [PP about_IN [NP [NP the_DT [NML non_FW -_HYPH deployment_NN NML] NP] [PP of_IN [NP the_DT [NP Nissan_NNP 's_POS NP] frontal_JJ air_NN bags_NNS NP] PP] NP] PP:3-ARG0] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="165" begin="920" end="922" type="0">The</token>
+        <token tid="166" begin="924" end="928" type="0">owner</token>
+        <token tid="167" begin="930" end="932" type="0">was</token>
+        <token tid="168" begin="934" end="942" type="0">concerned</token>
+        <token tid="169" begin="944" end="948" type="0">about</token>
+        <token tid="170" begin="950" end="952" type="0">the</token>
+        <token tid="171" begin="954" end="956" type="0">non</token>
+        <token tid="172" begin="957" end="957" type="2048">-</token>
+        <token tid="173" begin="958" end="967" type="0">deployment</token>
+        <token tid="174" begin="969" end="970" type="0">of</token>
+        <token tid="175" begin="972" end="974" type="0">the</token>
+        <token tid="176" begin="976" end="981" type="0">Nissan</token>
+        <token tid="177" begin="982" end="983" type="0">'s</token>
+        <token tid="178" begin="985" end="991" type="0">frontal</token>
+        <token tid="179" begin="993" end="995" type="0">air</token>
+        <token tid="180" begin="997" end="1000" type="0">bags</token>
+        <token tid="181" begin="1001" end="1001" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="6" begin="182" end="207">
+      <text>The ODI conducted a follow-up interview with the driver and requested further research of the crash through the Special Crash Investigations (SCI) Program.</text>
+      <parse score="-9.559760">[S [NP The_DT ODI_NNP NP] [VP [VP conducted_VBD [NP a_DT follow-up_JJ interview_NN NP] [PP with_IN [NP the_DT driver_NN NP] PP] VP] and_CC [VP requested_VBD [NP [NP further_JJ research_NN NP] [PP of_IN [NP [NP the_DT crash_NN NP] [PP through_IN [NP [NP the_DT Special_NNP Crash_NNP Investigations_NNPS NP] (_-LRB- [NP SCI_NNP NP] )_-RRB- Program_NNP NP] PP] NP] PP] NP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I ODI NNP -1 NP conducted VBD 1 VP a DT 5 -I follow-up JJ 5 -I interview NN 2 NP with IN 2 PP the DT 8 -I driver NN 6 NP and CC 2 -E requested VBD 2 VP further JJ 12 -I research NN 10 NP of IN 12 PP the DT 15 -I crash NN 13 NP through IN 15 PP the DT 20 -I Special NNP 20 -I Crash NNP 20 -I Investigations NNPS 24 NP ( -LRB- 24 -I SCI NNP 24 NP ) -RRB- 24 -I Program NNP 16 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT ODI_NNP NP:2-ARG0/10-ARG0] [VP [VP conducted_VBD:conducted.01 [NP a_DT follow-up_JJ interview_NN NP:2-ARG1] [PP with_IN [NP the_DT driver_NN NP] PP] VP] and_CC [VP requested_VBD:requested.01 [NP [NP further_JJ research_NN NP] [PP of_IN [NP [NP the_DT crash_NN NP] [PP through_IN [NP [NP the_DT Special_NNP Crash_NNP Investigations_NNPS NP] (_-LRB- [NP SCI_NNP NP] )_-RRB- Program_NNP NP] PP] NP] PP] NP:10-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="182" begin="1004" end="1006" type="0">The</token>
+        <token tid="183" begin="1008" end="1010" type="0">ODI</token>
+        <token tid="184" begin="1012" end="1020" type="0">conducted</token>
+        <token tid="185" begin="1022" end="1022" type="0">a</token>
+        <token tid="186" begin="1024" end="1032" type="0">follow-up</token>
+        <token tid="187" begin="1034" end="1042" type="0">interview</token>
+        <token tid="188" begin="1044" end="1047" type="0">with</token>
+        <token tid="189" begin="1049" end="1051" type="0">the</token>
+        <token tid="190" begin="1053" end="1058" type="0">driver</token>
+        <token tid="191" begin="1060" end="1062" type="0">and</token>
+        <token tid="192" begin="1064" end="1072" type="0">requested</token>
+        <token tid="193" begin="1074" end="1080" type="0">further</token>
+        <token tid="194" begin="1082" end="1089" type="0">research</token>
+        <token tid="195" begin="1091" end="1092" type="0">of</token>
+        <token tid="196" begin="1094" end="1096" type="0">the</token>
+        <token tid="197" begin="1098" end="1102" type="0">crash</token>
+        <token tid="198" begin="1104" end="1110" type="0">through</token>
+        <token tid="199" begin="1112" end="1114" type="0">the</token>
+        <token tid="200" begin="1116" end="1122" type="0">Special</token>
+        <token tid="201" begin="1124" end="1128" type="0">Crash</token>
+        <token tid="202" begin="1130" end="1143" type="0">Investigations</token>
+        <token tid="203" begin="1145" end="1145" type="2048">(</token>
+        <token tid="204" begin="1146" end="1148" type="0">SCI</token>
+        <token tid="205" begin="1149" end="1149" type="2048">)</token>
+        <token tid="206" begin="1151" end="1157" type="0">Program</token>
+        <token tid="207" begin="1158" end="1158" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="7" begin="208" end="232">
+      <text>The Crash Investigation Division of the NHTSA forwarded the vehicle owner's contact information to the Calspan SCI team on April 29, 2009.</text>
+      <parse score="-10.639700">[S [NP [NP The_DT Crash_NNP Investigation_NNP Division_NNP NP] [PP of_IN [NP the_DT NHTSA_NNP NP] PP] NP] [VP forwarded_VBD [NP [NP the_DT vehicle_NN owner_NN 's_POS NP] contact_NN information_NN NP] [PP to_TO [NP the_DT Calspan_NNP SCI_NNP team_NN NP] PP] [PP on_IN [NP [NP April_NNP 29_CD NP] ,_, [NP 2009_CD NP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 3 -I Crash NNP 3 -I Investigation NNP 3 -I Division NNP -1 NP of IN 3 PP the DT 6 -I NHTSA NNP 4 NP forwarded VBD 3 VP the DT 10 -I vehicle NN 10 -I owner NN 13 NP 's POS 10 -I contact NN 13 -I information NN 7 NP to TO 7 PP the DT 18 -I Calspan NNP 18 -I SCI NNP 18 -I team NN 14 NP on IN 7 PP April NNP 23 NP 29 CD 20 -I , , 23 -E 2009 CD 19 NP . . 3 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT Crash_NNP Investigation_NNP Division_NNP NP] [PP of_IN [NP the_DT NHTSA_NNP NP] PP] NP:7-ARG0] [VP forwarded_VBD:***.01 [NP [NP the_DT vehicle_NN owner_NN 's_POS NP] contact_NN information_NN NP:7-ARG1] [PP to_TO [NP the_DT Calspan_NNP SCI_NNP team_NN NP] PP:7-ARG2] [PP on_IN [NP [NP April_NNP 29_CD NP] ,_, [NP 2009_CD NP] NP] PP:7-ARGM-TMP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="208" begin="1161" end="1163" type="0">The</token>
+        <token tid="209" begin="1165" end="1169" type="0">Crash</token>
+        <token tid="210" begin="1171" end="1183" type="0">Investigation</token>
+        <token tid="211" begin="1185" end="1192" type="0">Division</token>
+        <token tid="212" begin="1194" end="1195" type="0">of</token>
+        <token tid="213" begin="1197" end="1199" type="0">the</token>
+        <token tid="214" begin="1201" end="1205" type="0">NHTSA</token>
+        <token tid="215" begin="1207" end="1215" type="0">forwarded</token>
+        <token tid="216" begin="1217" end="1219" type="0">the</token>
+        <token tid="217" begin="1221" end="1227" type="0">vehicle</token>
+        <token tid="218" begin="1229" end="1233" type="0">owner</token>
+        <token tid="219" begin="1234" end="1235" type="0">'s</token>
+        <token tid="220" begin="1237" end="1243" type="0">contact</token>
+        <token tid="221" begin="1245" end="1255" type="0">information</token>
+        <token tid="222" begin="1257" end="1258" type="0">to</token>
+        <token tid="223" begin="1260" end="1262" type="0">the</token>
+        <token tid="224" begin="1264" end="1270" type="0">Calspan</token>
+        <token tid="225" begin="1272" end="1274" type="0">SCI</token>
+        <token tid="226" begin="1276" end="1279" type="0">team</token>
+        <token tid="227" begin="1281" end="1282" type="0">on</token>
+        <token tid="228" begin="1284" end="1288" type="0">April</token>
+        <token tid="229" begin="1290" end="1291" type="0">29</token>
+        <token tid="230" begin="1292" end="1292" type="2048">,</token>
+        <token tid="231" begin="1294" end="1297" type="0">2009</token>
+        <token tid="232" begin="1298" end="1298" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="8" begin="233" end="247">
+      <text>The Calspan SCI team interviewed the driver and scheduled an inspection of the vehicle.</text>
+      <parse score="-7.380140">[S [NP The_DT [NML Calspan_NNP SCI_NNP NML] team_NN NP] [VP [VP interviewed_VBD [NP the_DT driver_NN NP] VP] and_CC [VP scheduled_VBN [NP [NP an_DT inspection_NN NP] [PP of_IN [NP the_DT vehicle_NN NP] PP] NP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 3 -I Calspan NNP 2 -I SCI NNP 3 NML team NN -1 NP interviewed VBD 3 VP the DT 6 -I driver NN 4 NP and CC 4 -E scheduled VBN 4 VP an DT 10 -I inspection NN 8 NP of IN 10 PP the DT 13 -I vehicle NN 11 NP . . 3 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT [NML Calspan_NNP SCI_NNP NML] team_NN NP:4-ARG0/8-ARG0] [VP [VP interviewed_VBD:interviewed.01 [NP the_DT driver_NN NP:4-ARG1] VP] and_CC [VP scheduled_VBN:scheduled.01 [NP [NP an_DT inspection_NN NP] [PP of_IN [NP the_DT vehicle_NN NP] PP] NP:8-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="233" begin="1301" end="1303" type="0">The</token>
+        <token tid="234" begin="1305" end="1311" type="0">Calspan</token>
+        <token tid="235" begin="1313" end="1315" type="0">SCI</token>
+        <token tid="236" begin="1317" end="1320" type="0">team</token>
+        <token tid="237" begin="1322" end="1332" type="0">interviewed</token>
+        <token tid="238" begin="1334" end="1336" type="0">the</token>
+        <token tid="239" begin="1338" end="1343" type="0">driver</token>
+        <token tid="240" begin="1345" end="1347" type="0">and</token>
+        <token tid="241" begin="1349" end="1357" type="0">scheduled</token>
+        <token tid="242" begin="1359" end="1360" type="0">an</token>
+        <token tid="243" begin="1362" end="1371" type="0">inspection</token>
+        <token tid="244" begin="1373" end="1374" type="0">of</token>
+        <token tid="245" begin="1376" end="1378" type="0">the</token>
+        <token tid="246" begin="1380" end="1386" type="0">vehicle</token>
+        <token tid="247" begin="1387" end="1387" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="9" begin="248" end="280">
+      <text>The SCI team also contacted Nissan North America and made arrangements to acquire the scan tool necessary to image the data stored within the vehicle's Event Data Recorder (EDR).</text>
+      <parse score="-29.487400">[S [NP The_DT SCI_NNP team_NN NP] [ADVP also_RB ADVP] [VP [VP contacted_VBD [NP Nissan_NNP North_NNP America_NNP NP] VP] and_CC [VP made_VBD [NP arrangements_NNS NP] [S [VP to_TO [VP acquire_VB [NP the_DT [S [VP scan_VB [NP [NP tool_NN NP] [ADJP necessary_JJ [VP to_TO [VP image_NN [NP [NP the_DT data_NNS NP] [VP stored_VBN [PP within_IN [NP [NP [NP the_DT vehicle_NN 's_POS NP] Event_NNP Data_NNP Recorder_NNP NP] (_-LRB- [NP EDR_NNP NP] )_-RRB- NP] PP] VP] NP] VP] VP] ADJP] NP] VP] S] NP] VP] VP] S] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I SCI NNP 2 -I team NN -1 NP also RB 2 ADVP contacted VBD 2 VP Nissan NNP 7 -I North NNP 7 -I America NNP 4 NP and CC 4 -E made VBD 4 VP arrangements NNS 9 NP to TO 12 -E acquire VB 9 VP the DT 14 -E scan VB 12 VP tool NN 14 NP necessary JJ 15 ADJP to TO 18 -E image NN 16 VP the DT 20 -I data NNS 18 NP stored VBN 20 VP within IN 21 PP the DT 24 -I vehicle NN 28 NP 's POS 24 -I Event NNP 28 -I Data NNP 28 -I Recorder NNP 30 NP ( -LRB- 30 -E EDR NNP 22 NP ) -RRB- 30 -E . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT SCI_NNP team_NN NP:4-ARG0/9-ARG0/12-ARG0] [ADVP also_RB ADVP] [VP [VP contacted_VBD:contacted.01 [NP Nissan_NNP North_NNP America_NNP NP:4-ARG1] VP] and_CC [VP made_VBD:made.01 [NP arrangements_NNS NP:9-ARG1] [S [VP to_TO [VP acquire_VB:acquire.01 [NP the_DT [S [VP scan_VB:scan.01 [NP [NP tool_NN NP] [ADJP necessary_JJ [VP to_TO [VP image_NN [NP [NP the_DT data_NNS NP:21-ARG1] [VP stored_VBN:stored.01 [PP within_IN [NP [NP [NP the_DT vehicle_NN 's_POS NP] Event_NNP Data_NNP Recorder_NNP NP] (_-LRB- [NP EDR_NNP NP] )_-RRB- NP] PP:21-ARGM-LOC] VP] NP] VP] VP] ADJP] NP:14-ARG1] VP] S] NP:12-ARG1] VP] VP] S] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="248" begin="1390" end="1392" type="0">The</token>
+        <token tid="249" begin="1394" end="1396" type="0">SCI</token>
+        <token tid="250" begin="1398" end="1401" type="0">team</token>
+        <token tid="251" begin="1403" end="1406" type="0">also</token>
+        <token tid="252" begin="1408" end="1416" type="0">contacted</token>
+        <token tid="253" begin="1418" end="1423" type="0">Nissan</token>
+        <token tid="254" begin="1425" end="1429" type="0">North</token>
+        <token tid="255" begin="1431" end="1437" type="0">America</token>
+        <token tid="256" begin="1439" end="1441" type="0">and</token>
+        <token tid="257" begin="1443" end="1446" type="0">made</token>
+        <token tid="258" begin="1448" end="1459" type="0">arrangements</token>
+        <token tid="259" begin="1461" end="1462" type="0">to</token>
+        <token tid="260" begin="1464" end="1470" type="0">acquire</token>
+        <token tid="261" begin="1472" end="1474" type="0">the</token>
+        <token tid="262" begin="1476" end="1479" type="0">scan</token>
+        <token tid="263" begin="1481" end="1484" type="0">tool</token>
+        <token tid="264" begin="1486" end="1494" type="0">necessary</token>
+        <token tid="265" begin="1496" end="1497" type="0">to</token>
+        <token tid="266" begin="1499" end="1503" type="0">image</token>
+        <token tid="267" begin="1505" end="1507" type="0">the</token>
+        <token tid="268" begin="1509" end="1512" type="0">data</token>
+        <token tid="269" begin="1514" end="1519" type="0">stored</token>
+        <token tid="270" begin="1521" end="1526" type="0">within</token>
+        <token tid="271" begin="1528" end="1530" type="0">the</token>
+        <token tid="272" begin="1532" end="1538" type="0">vehicle</token>
+        <token tid="273" begin="1539" end="1540" type="0">'s</token>
+        <token tid="274" begin="1542" end="1546" type="0">Event</token>
+        <token tid="275" begin="1548" end="1551" type="0">Data</token>
+        <token tid="276" begin="1553" end="1560" type="0">Recorder</token>
+        <token tid="277" begin="1562" end="1562" type="2048">(</token>
+        <token tid="278" begin="1563" end="1565" type="0">EDR</token>
+        <token tid="279" begin="1566" end="1566" type="2048">)</token>
+        <token tid="280" begin="1567" end="1567" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="10" begin="281" end="294">
+      <text>The crash scene and the Nissan were inspected on May 7, 2009.</text>
+      <parse score="-3.623220">[S [NP [NP The_DT crash_NN scene_NN NP] and_CC [NP the_DT Nissan_NNP NP] NP] [VP were_VBD [VP inspected_VBN [PP on_IN [NP [NP May_NNP 7_CD NP] ,_, [NP 2009_CD NP] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I crash NN 2 -I scene NN 5 NP and CC 5 -E the DT 5 -I Nissan NNP -1 NP were VBD 5 VP inspected VBN 6 VP on IN 7 PP May NNP 12 NP 7 CD 9 -I , , 12 -E 2009 CD 8 NP . . 5 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT crash_NN scene_NN NP] and_CC [NP the_DT Nissan_NNP NP] NP:7-ARG1] [VP were_VBD [VP inspected_VBN:inspected.01 [PP on_IN [NP [NP May_NNP 7_CD NP] ,_, [NP 2009_CD NP] NP] PP:7-ARGM-TMP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="281" begin="1570" end="1572" type="0">The</token>
+        <token tid="282" begin="1574" end="1578" type="0">crash</token>
+        <token tid="283" begin="1580" end="1584" type="0">scene</token>
+        <token tid="284" begin="1586" end="1588" type="0">and</token>
+        <token tid="285" begin="1590" end="1592" type="0">the</token>
+        <token tid="286" begin="1594" end="1599" type="0">Nissan</token>
+        <token tid="287" begin="1601" end="1604" type="0">were</token>
+        <token tid="288" begin="1606" end="1614" type="0">inspected</token>
+        <token tid="289" begin="1616" end="1617" type="0">on</token>
+        <token tid="290" begin="1619" end="1621" type="0">May</token>
+        <token tid="291" begin="1623" end="1623" type="2048">7</token>
+        <token tid="292" begin="1624" end="1624" type="2048">,</token>
+        <token tid="293" begin="1626" end="1629" type="0">2009</token>
+        <token tid="294" begin="1630" end="1630" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="11" begin="295" end="306">
+      <text>The Titan's EDR data was successfully imaged at that time.</text>
+      <parse score="-3.536590">[S [NP [NP The_DT Titan_NNP 's_POS NP] EDR_NNP data_NN NP] [VP was_VBD [ADVP successfully_RB ADVP] [VP imaged_VBN [PP at_IN [NP that_DT time_NN NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Titan NNP 4 NP 's POS 1 -I EDR NNP 4 -I data NN -1 NP was VBD 4 VP successfully RB 5 ADVP imaged VBN 5 VP at IN 7 PP that DT 10 -I time NN 8 NP . . 4 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT Titan_NNP 's_POS NP] EDR_NNP data_NN NP:7-ARG1] [VP was_VBD [ADVP successfully_RB ADVP] [VP imaged_VBN:***.01 [PP at_IN [NP that_DT time_NN NP] PP:7-ARGM-TMP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="295" begin="1633" end="1635" type="0">The</token>
+        <token tid="296" begin="1637" end="1641" type="0">Titan</token>
+        <token tid="297" begin="1642" end="1643" type="0">'s</token>
+        <token tid="298" begin="1645" end="1647" type="0">EDR</token>
+        <token tid="299" begin="1649" end="1652" type="0">data</token>
+        <token tid="300" begin="1654" end="1656" type="0">was</token>
+        <token tid="301" begin="1658" end="1669" type="0">successfully</token>
+        <token tid="302" begin="1671" end="1676" type="0">imaged</token>
+        <token tid="303" begin="1678" end="1679" type="0">at</token>
+        <token tid="304" begin="1681" end="1684" type="0">that</token>
+        <token tid="305" begin="1686" end="1689" type="0">time</token>
+        <token tid="306" begin="1690" end="1690" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="12" begin="307" end="319">
+      <text>Insurance carrier images of the damaged Chrysler Voyager were obtained and reviewed.</text>
+      <parse score="-3.235340">[S [NP [NP Insurance_NN carrier_NN images_NNS NP] [PP of_IN [NP the_DT damaged_VBN Chrysler_NNP Voyager_NNP NP] PP] NP] [VP were_VBD [VP obtained_VBN and_CC [VP reviewed_VBN VP] VP] VP] ._. S]</parse>
+      <dependency_parse>Insurance NN 2 -I carrier NN 2 -I images NNS -1 NP of IN 2 PP the DT 7 -I damaged VBN 7 -I Chrysler NNP 7 -I Voyager NNP 3 NP were VBD 2 VP obtained VBN 8 VP and CC 9 -I reviewed VBN 9 VP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP Insurance_NN carrier_NN images_NNS NP] [PP of_IN [NP the_DT damaged_VBN:damaged.01 Chrysler_NNP Voyager_NNP NP] PP] NP:9-ARG1/11-ARG1] [VP were_VBD [VP obtained_VBN:obtained.01 and_CC [VP reviewed_VBN:reviewed.01 VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="307" begin="1693" end="1701" type="0">Insurance</token>
+        <token tid="308" begin="1703" end="1709" type="0">carrier</token>
+        <token tid="309" begin="1711" end="1716" type="0">images</token>
+        <token tid="310" begin="1718" end="1719" type="0">of</token>
+        <token tid="311" begin="1721" end="1723" type="0">the</token>
+        <token tid="312" begin="1725" end="1731" type="0">damaged</token>
+        <token tid="313" begin="1733" end="1740" type="0">Chrysler</token>
+        <token tid="314" begin="1742" end="1748" type="0">Voyager</token>
+        <token tid="315" begin="1750" end="1753" type="0">were</token>
+        <token tid="316" begin="1755" end="1762" type="0">obtained</token>
+        <token tid="317" begin="1764" end="1766" type="0">and</token>
+        <token tid="318" begin="1768" end="1775" type="0">reviewed</token>
+        <token tid="319" begin="1776" end="1776" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="-M2" mtype="NONE" begin="140" end="143" head-begin="140" head-end="143" eid="-E20" etype="MODEL_YEAR" role="MODEL_YEAR" metonymy="0" class="SPC" score="0.985978" corefScore="1.000000">2008</mention>
+    <mention mid="-M51" mtype="NAM" begin="145" end="150" head-begin="145" head-end="150" eid="-E29" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Nissan</mention>
+    <mention mid="-M52" mtype="NAM" begin="152" end="156" head-begin="152" head-end="156" eid="-E30" etype="MODEL" role="MODEL" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Titan</mention>
+    <mention mid="-M4" mtype="NOM" begin="158" end="170" head-begin="158" head-end="170" eid="-E11" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.820680" corefScore="1.000000">pick-up truck</mention>
+    <mention mid="-M5" mtype="NONE" begin="178" end="181" head-begin="178" head-end="181" eid="-E21" etype="MODEL_YEAR" role="MODEL_YEAR" metonymy="0" class="SPC" score="0.970637" corefScore="0.629308">2002</mention>
+    <mention mid="-M53" mtype="NAM" begin="183" end="190" head-begin="183" head-end="190" eid="-E31" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Chrysler</mention>
+    <mention mid="-M54" mtype="NAM" begin="192" end="198" head-begin="192" head-end="198" eid="-E32" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Voyager</mention>
+    <mention mid="-M55" mtype="NAM" begin="206" end="211" head-begin="206" head-end="211" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E11">Nissan</mention>
+    <mention mid="-M56" mtype="NAM" begin="364" end="369" head-begin="364" head-end="369" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E11">Nissan</mention>
+    <mention mid="-M57" mtype="NAM" begin="598" end="602" head-begin="598" head-end="602" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E11">Titan</mention>
+    <mention mid="-M19" mtype="NOM" begin="898" end="902" head-begin="898" head-end="902" eid="-E12" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.625538" corefScore="1.000000">owner</mention>
+    <mention mid="-M58" mtype="NAM" begin="911" end="916" head-begin="911" head-end="916" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E11">Nissan</mention>
+    <mention mid="-M21" mtype="NOM" begin="924" end="928" head-begin="924" head-end="928" eid="-E12" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.976528" corefScore="0.803491">owner</mention>
+    <mention mid="-M59" mtype="NAM" begin="976" end="981" head-begin="976" head-end="981" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E11">Nissan</mention>
+    <mention mid="-M24" mtype="NOM" begin="1053" end="1058" head-begin="1053" head-end="1058" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.613918" corefScore="0.654580" eid="-E12">driver</mention>
+    <mention mid="-M30" mtype="NOM" begin="1221" end="1227" head-begin="1221" head-end="1227" eid="-E11" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.922444" corefScore="0.733751">vehicle</mention>
+    <mention mid="-M31" mtype="NOM" begin="1229" end="1233" head-begin="1229" head-end="1233" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.950556" corefScore="0.448542" eid="-E12">owner</mention>
+    
+    <mention mid="-M38" mtype="NOM" begin="1338" end="1343" head-begin="1338" head-end="1343" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.810374" corefScore="0.507397" eid="-E12">driver</mention>
+    <mention mid="-M39" mtype="NOM" begin="1380" end="1386" head-begin="1380" head-end="1386" eid="-E11" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.977244" corefScore="0.983064">vehicle</mention>
+    <mention mid="-M60" mtype="NAM" begin="1418" end="1437" head-begin="1418" head-end="1437" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E29">Nissan North America</mention>
+    <mention mid="-M44" mtype="NOM" begin="1532" end="1538" head-begin="1532" head-end="1538" eid="-E11" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.995399" corefScore="0.983064">vehicle</mention>
+    <mention mid="-M61" mtype="NAM" begin="1594" end="1599" head-begin="1594" head-end="1599" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E11">Nissan</mention>
+    
+    <mention mid="-M62" mtype="NAM" begin="1637" end="1641" head-begin="1637" head-end="1641" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E11">Titan</mention>
+    <mention mid="-M63" mtype="NAM" begin="1733" end="1740" head-begin="1733" head-end="1740" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E31">Chrysler</mention>
+    <mention mid="-M64" mtype="NAM" begin="1742" end="1748" head-begin="1742" head-end="1748" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E32">Voyager</mention>
+  <mention begin="42" class="SPC" end="46" etype="INCIDENT" head-begin="42" head-end="46" metonymy="0" mid="523120377.txt.docxml-M1" mtype="NOM" role="INCIDENT" eid="523120377.txt.docxml-E2">crash</mention><mention begin="58" class="SPC" end="62" etype="INCIDENT" head-begin="58" head-end="62" metonymy="0" mid="523120377.txt.docxml-M2" mtype="NOM" role="INCIDENT" eid="523120377.txt.docxml-E2">crash</mention><mention begin="74" class="SPC" end="79" etype="ACCIDENT_OUTCOME" head-begin="74" head-end="79" metonymy="0" mid="523120377.txt.docxml-M3" mtype="NOM" role="ACCIDENT_OUTCOME" eid="523120377.txt.docxml-E4">injury</mention><mention begin="85" class="SPC" end="90" etype="ACCIDENT_OUTCOME" head-begin="85" head-end="90" metonymy="0" mid="523120377.txt.docxml-M4" mtype="NOM" role="ACCIDENT_OUTCOME" eid="523120377.txt.docxml-E4">injury</mention><mention begin="129" class="SPC" end="133" etype="INCIDENT" head-begin="129" head-end="133" metonymy="0" mid="523120377.txt.docxml-M5" mtype="NOM" role="INCIDENT" eid="523120377.txt.docxml-E2">crash</mention><mention begin="116" class="SPC" end="127" etype="STRUCTURE" head-begin="116" head-end="127" metonymy="0" mid="523120377.txt.docxml-M6" mtype="NOM" role="STRUCTURE" eid="523120377.txt.docxml-E6">intersection</mention><mention begin="233" class="SPC" end="286" etype="PART_OF_CAR" head-begin="233" head-end="286" metonymy="0" mid="523120377.txt.docxml-M7" mtype="NAM" role="PART_OF_CAR" eid="523120377.txt.docxml-E7">Certified Advanced 208-Compliant (CAC) frontal air bag</mention><mention begin="295" class="SPC" end="298" etype="PART_OF_CAR" head-begin="295" head-end="298" metonymy="0" mid="523120377.txt.docxml-M8" mtype="PRO" role="PART_OF_CAR" eid="523120377.txt.docxml-E7">that</mention><mention begin="304" class="SPC" end="313" etype="ACCIDENT_OUTCOME" head-begin="304" head-end="313" metonymy="0" mid="523120377.txt.docxml-M9" mtype="NONE" role="ACCIDENT_OUTCOME" eid="523120377.txt.docxml-E9">not deploy</mention><mention begin="334" class="SPC" end="338" etype="INCIDENT" head-begin="334" head-end="338" metonymy="0" mid="523120377.txt.docxml-M10" mtype="NOM" role="INCIDENT" eid="523120377.txt.docxml-E2">crash</mention><mention begin="388" class="SPC" end="423" etype="PART_OF_CAR" head-begin="388" head-end="423" metonymy="0" mid="523120377.txt.docxml-M11" mtype="NOM" role="PART_OF_CAR" eid="523120377.txt.docxml-E11">advanced dual-stage frontal air bags</mention><mention begin="428" class="SPC" end="453" etype="PART_OF_CAR" head-begin="428" head-end="453" metonymy="0" mid="523120377.txt.docxml-M12" mtype="NOM" role="PART_OF_CAR" eid="523120377.txt.docxml-E12">seat track position sensor</mention><mention begin="456" class="SPC" end="488" etype="PART_OF_CAR" head-begin="456" head-end="488" metonymy="0" mid="523120377.txt.docxml-M13" mtype="NOM" role="PART_OF_CAR" eid="523120377.txt.docxml-E13">front safety belt buckle switches</mention><mention begin="491" class="SPC" end="521" etype="PART_OF_CAR" head-begin="491" head-end="521" metonymy="0" mid="523120377.txt.docxml-M14" mtype="NOM" role="PART_OF_CAR" eid="523120377.txt.docxml-E14">front safety belt pretensioners</mention><mention begin="530" class="SPC" end="566" etype="PART_OF_CAR" head-begin="530" head-end="566" metonymy="0" mid="523120377.txt.docxml-M15" mtype="NOM" role="PART_OF_CAR" eid="523120377.txt.docxml-E15">front right occupant detection sensor</mention><mention begin="574" class="SPC" end="589" etype="PART_OF_CAR" head-begin="574" head-end="589" metonymy="0" mid="523120377.txt.docxml-M16" mtype="NOM" role="PART_OF_CAR" eid="523120377.txt.docxml-E20">frontal air bags</mention><mention begin="626" class="SPC" end="637" etype="MANUFACTURER" head-begin="626" head-end="637" metonymy="0" mid="523120377.txt.docxml-M17" mtype="NOM" role="MANUFACTURER" eid="-E29">manufacturer</mention><mention begin="754" class="SPC" end="758" etype="INCIDENT" head-begin="754" head-end="758" metonymy="0" mid="523120377.txt.docxml-M18" mtype="NOM" role="INCIDENT" eid="523120377.txt.docxml-E2">crash</mention><mention begin="954" class="SPC" end="967" etype="ACCIDENT_OUTCOME" head-begin="954" head-end="967" metonymy="0" mid="523120377.txt.docxml-M19" mtype="NOM" role="ACCIDENT_OUTCOME" eid="523120377.txt.docxml-E9">non-deployment</mention><mention begin="985" class="SPC" end="1000" etype="PART_OF_CAR" head-begin="985" head-end="1000" metonymy="0" mid="523120377.txt.docxml-M20" mtype="NOM" role="PART_OF_CAR" eid="523120377.txt.docxml-E20">frontal air bags</mention><mention begin="1098" class="SPC" end="1102" etype="INCIDENT" head-begin="1098" head-end="1102" metonymy="0" mid="523120377.txt.docxml-M21" mtype="NOM" role="INCIDENT" eid="523120377.txt.docxml-E2">crash</mention><mention begin="1542" class="SPC" end="1560" etype="PART_OF_CAR" head-begin="1542" head-end="1560" metonymy="0" mid="523120377.txt.docxml-M22" mtype="NAM" role="PART_OF_CAR" eid="523120377.txt.docxml-E22">Event Data Recorder</mention><mention begin="1563" class="SPC" end="1565" etype="PART_OF_CAR" head-begin="1563" head-end="1565" metonymy="0" mid="523120377.txt.docxml-M23" mtype="NAM" role="PART_OF_CAR" eid="523120377.txt.docxml-E22">EDR</mention><mention begin="1574" class="SPC" end="1578" etype="INCIDENT" head-begin="1574" head-end="1578" metonymy="0" mid="523120377.txt.docxml-M24" mtype="NOM" role="INCIDENT" eid="523120377.txt.docxml-E2">crash</mention><mention begin="1645" class="SPC" end="1647" etype="PART_OF_CAR" head-begin="1645" head-end="1647" metonymy="0" mid="523120377.txt.docxml-M25" mtype="NAM" role="PART_OF_CAR" eid="523120377.txt.docxml-E22">EDR</mention><mention begin="1725" class="SPC" end="1731" etype="ACCIDENT_OUTCOME" head-begin="1725" head-end="1731" metonymy="0" mid="523120377.txt.docxml-M26" mtype="NONE" role="ACCIDENT_OUTCOME" eid="523120377.txt.docxml-E26">damaged</mention><mention begin="346" class="SPC" end="348" etype="PART_OF_CAR" head-begin="346" head-end="348" metonymy="0" mid="523120377.txt.docxml-M27" mtype="NAM" role="PART_OF_CAR" eid="523120377.txt.docxml-E7">CAC</mention></mentions>
+  <entities>
+    
+    <entity eid="-E29" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M51">Nissan</mentref>
+    <mentref mid="523120377.txt.docxml-M17">manufacturer</mentref><mentref mid="-M60">Nissan North America</mentref></entity>
+    
+    
+    <entity eid="-E20" type="MODEL_YEAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M2">2008</mentref>
+    </entity>
+    <entity eid="-E21" type="MODEL_YEAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="0.629308">
+      <mentref mid="-M5">2002</mentref>
+    </entity>
+    
+    
+    <entity eid="-E11" type="VEHICLE" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.917652">
+      <mentref mid="-M4">pick-up truck</mentref>
+      <mentref mid="-M39">vehicle</mentref>
+      <mentref mid="-M30">vehicle</mentref>
+      <mentref mid="-M44">vehicle</mentref>
+    <mentref mid="-M55">Nissan</mentref><mentref mid="-M56">Nissan</mentref><mentref mid="-M57">Titan</mentref><mentref mid="-M58">Nissan</mentref><mentref mid="-M59">Nissan</mentref><mentref mid="-M61">Nissan</mentref><mentref mid="-M62">Titan</mentref></entity>
+    <entity eid="-E12" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.896377">
+      <mentref mid="-M19">owner</mentref>
+      <mentref mid="-M21">owner</mentref>
+    <mentref mid="-M24">driver</mentref><mentref mid="-M31">owner</mentref><mentref mid="-M38">driver</mentref></entity>
+    
+    
+    
+    
+    
+    
+    <entity eid="-E32" type="MODEL" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M54">Voyager</mentref>
+    <mentref mid="-M64">Voyager</mentref></entity>
+    <entity eid="-E31" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M53">Chrysler</mentref>
+    <mentref mid="-M63">Chrysler</mentref></entity>
+    <entity eid="-E30" type="MODEL" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M52">Titan</mentref>
+    </entity>
+    
+    
+    
+    
+  <entity class="SPC" eid="523120377.txt.docxml-E2" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="523120377.txt.docxml-M2">crash</mentref><mentref mid="523120377.txt.docxml-M1">crash</mentref><mentref mid="523120377.txt.docxml-M10">crash</mentref><mentref mid="523120377.txt.docxml-M18">crash</mentref><mentref mid="523120377.txt.docxml-M21">crash</mentref><mentref mid="523120377.txt.docxml-M24">crash</mentref><mentref mid="523120377.txt.docxml-M5">crash</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E4" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="523120377.txt.docxml-M4">injury</mentref><mentref mid="523120377.txt.docxml-M3">injury</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E6" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="523120377.txt.docxml-M6">intersection</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E7" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="523120377.txt.docxml-M7">Certified Advanced 208-Compliant (CAC) frontal air bag</mentref><mentref mid="523120377.txt.docxml-M8">that</mentref><mentref mid="523120377.txt.docxml-M27">CAC</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E9" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="523120377.txt.docxml-M9">not deploy</mentref><mentref mid="523120377.txt.docxml-M19">non-deployment</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E11" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="523120377.txt.docxml-M11">advanced dual-stage frontal air bags</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E12" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="523120377.txt.docxml-M12">seat track position sensor</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E13" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="523120377.txt.docxml-M13">front safety belt buckle switches</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E14" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="523120377.txt.docxml-M14">front safety belt pretensioners</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E15" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="523120377.txt.docxml-M15">front right occupant detection sensor</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E20" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="523120377.txt.docxml-M20">frontal air bags</mentref><mentref mid="523120377.txt.docxml-M16">frontal air bags</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E22" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="523120377.txt.docxml-M22">Event Data Recorder</mentref><mentref mid="523120377.txt.docxml-M23">EDR</mentref><mentref mid="523120377.txt.docxml-M25">EDR</mentref></entity><entity class="SPC" eid="523120377.txt.docxml-E26" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="523120377.txt.docxml-M26">damaged</mentref></entity></entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+
+  <relation rid="523120377.txt.docxml-R1" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E11"/><rel_entity_arg argnum="2" eid="-E30"/><relmentions><relmention rmid="523120377.txt.docxml-R1-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M4">pick-up truck</rel_mention_arg><rel_mention_arg argnum="2" mid="-M52">Titan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R2" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E11"/><rel_entity_arg argnum="2" eid="-E29"/><relmentions><relmention rmid="523120377.txt.docxml-R2-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M4">pick-up truck</rel_mention_arg><rel_mention_arg argnum="2" mid="-M51">Nissan</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R2-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M57">Titan</rel_mention_arg><rel_mention_arg argnum="2" mid="523120377.txt.docxml-M17">manufacturer</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R2-3" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M44">vehicle</rel_mention_arg><rel_mention_arg argnum="2" mid="-M60">Nissan North America</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R3" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E11"/><rel_entity_arg argnum="2" eid="-E20"/><relmentions><relmention rmid="523120377.txt.docxml-R3-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M4">pick-up truck</rel_mention_arg><rel_mention_arg argnum="2" mid="-M2">2008</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R4" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E2"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R4-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M5">crash</rel_mention_arg><rel_mention_arg argnum="2" mid="-M4">pick-up truck</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R4-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M18">crash</rel_mention_arg><rel_mention_arg argnum="2" mid="-M58">Nissan</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R4-3" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M24">crash</rel_mention_arg><rel_mention_arg argnum="2" mid="-M61">Nissan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R5" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E2"/><rel_entity_arg argnum="2" eid="-E32"/><relmentions><relmention rmid="523120377.txt.docxml-R5-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M5">crash</rel_mention_arg><rel_mention_arg argnum="2" mid="-M54">Voyager</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R6" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E32"/><rel_entity_arg argnum="2" eid="-E31"/><relmentions><relmention rmid="523120377.txt.docxml-R6-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M54">Voyager</rel_mention_arg><rel_mention_arg argnum="2" mid="-M53">Chrysler</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R6-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M64">Voyager</rel_mention_arg><rel_mention_arg argnum="2" mid="-M63">Chrysler</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R7" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E32"/><rel_entity_arg argnum="2" eid="-E21"/><relmentions><relmention rmid="523120377.txt.docxml-R7-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M54">Voyager</rel_mention_arg><rel_mention_arg argnum="2" mid="-M5">2002</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R8" type="outcomeOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E4"/><rel_entity_arg argnum="2" eid="523120377.txt.docxml-E2"/><relmentions><relmention rmid="523120377.txt.docxml-R8-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M3">injury</rel_mention_arg><rel_mention_arg argnum="2" mid="523120377.txt.docxml-M5">crash</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R9" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E7"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R9-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M7">Certified Advanced 208-Compliant (CAC) frontal air bag</rel_mention_arg><rel_mention_arg argnum="2" mid="-M55">Nissan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R10" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E7"/><rel_entity_arg argnum="2" eid="523120377.txt.docxml-E9"/><relmentions><relmention rmid="523120377.txt.docxml-R10-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M8">that</rel_mention_arg><rel_mention_arg argnum="2" mid="523120377.txt.docxml-M9">not deploy</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R11" type="outcomeOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E9"/><rel_entity_arg argnum="2" eid="523120377.txt.docxml-E2"/><relmentions><relmention rmid="523120377.txt.docxml-R11-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M9">not deploy</rel_mention_arg><rel_mention_arg argnum="2" mid="523120377.txt.docxml-M10">crash</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R12" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E11"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R12-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M11">advanced dual-stage frontal air bags</rel_mention_arg><rel_mention_arg argnum="2" mid="-M56">Nissan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R13" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E12"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R13-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M12">seat track position sensor</rel_mention_arg><rel_mention_arg argnum="2" mid="-M56">Nissan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R14" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E13"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R14-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M13">front safety belt buckle switches</rel_mention_arg><rel_mention_arg argnum="2" mid="-M56">Nissan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R15" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E14"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R15-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M14">front safety belt pretensioners</rel_mention_arg><rel_mention_arg argnum="2" mid="-M56">Nissan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R16" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E15"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R16-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M15">front right occupant detection sensor</rel_mention_arg><rel_mention_arg argnum="2" mid="-M56">Nissan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R17" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E20"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R17-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M16">frontal air bags</rel_mention_arg><rel_mention_arg argnum="2" mid="-M57">Titan</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R17-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M20">frontal air bags</rel_mention_arg><rel_mention_arg argnum="2" mid="-M59">Nissan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R18" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E12"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R18-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M19">owner</rel_mention_arg><rel_mention_arg argnum="2" mid="-M58">Nissan</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R18-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M21">owner</rel_mention_arg><rel_mention_arg argnum="2" mid="-M59">Nissan</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R18-3" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M31">owner</rel_mention_arg><rel_mention_arg argnum="2" mid="-M30">vehicle</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R18-4" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M38">driver</rel_mention_arg><rel_mention_arg argnum="2" mid="-M39">vehicle</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R19" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E20"/><rel_entity_arg argnum="2" eid="523120377.txt.docxml-E9"/><relmentions><relmention rmid="523120377.txt.docxml-R19-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M20">frontal air bags</rel_mention_arg><rel_mention_arg argnum="2" mid="523120377.txt.docxml-M19">non-deployment</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R20" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="523120377.txt.docxml-E22"/><rel_entity_arg argnum="2" eid="-E11"/><relmentions><relmention rmid="523120377.txt.docxml-R20-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M22">Event Data Recorder</rel_mention_arg><rel_mention_arg argnum="2" mid="-M44">vehicle</rel_mention_arg></relmention><relmention rmid="523120377.txt.docxml-R20-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="523120377.txt.docxml-M25">EDR</rel_mention_arg><rel_mention_arg argnum="2" mid="-M62">Titan</rel_mention_arg></relmention></relmentions></relation><relation rid="523120377.txt.docxml-R21" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E32"/><rel_entity_arg argnum="2" eid="523120377.txt.docxml-E26"/><relmentions><relmention rmid="523120377.txt.docxml-R21-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M64">Voyager</rel_mention_arg><rel_mention_arg argnum="2" mid="523120377.txt.docxml-M26">damaged</rel_mention_arg></relmention></relmentions></relation></relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+
+
+<profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels"/><username name="irina@us.ibm.com"/></doc>

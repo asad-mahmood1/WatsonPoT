@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>This on-site investigation focused on the origin and severity of a fire that involved an in-transit motorcoach that was traveling at highway speeds.  The motorcoach was a 1999 MCI 102-EL3, with a 56-passenger capacity.  The vehicle was occupied by a 60-year-old male driver and 53 passengers, comprised of 38 students between the ages of 10 to 11 years of age and 15 adult chaperones.  The adults were seated throughout the passenger compartment of the motorcoach.  The driver detected smoke in his rear view mirror emanating from the right rear area of the motorcoach while traveling at highway speeds on a divided roadway.  He brought the vehicle to a controlled stop on the right shoulder of the roadway.  The driver ordered the immediate evacuation of the passengers, and they safely exited without injury.  The driver  retrieved the onboard fire extinguisher in an attempt to suppress the fire prior to the arrival of the local fire department.  The firefighters used water to extinguish the fire that was confined to the rear area of the motorcoach.  Minimal heat and smoke-related damage occurred to the interior of the motorcoach.  The motorcoach was towed from the scene and was deemed a total loss by the insurance company.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="23">
+      <text>This on-site investigation focused on the origin and severity of a fire that involved an in-transit motorcoach that was traveling at highway speeds.</text>
+      <parse score="-7.386570">[S [NP This_DT on-site_JJ investigation_NN NP] [VP focused_VBD [PP on_IN [NP [NP the_DT origin_NN and_CC severity_NN NP] [PP of_IN [NP [NP a_DT fire_NN NP] [SBAR [WHNP that_WDT WHNP] [S [VP involved_VBD [NP [NP an_DT in-transit_JJ motorcoach_NN NP] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP traveling_VBG [PP at_IN [NP highway_NN speeds_NNS NP] PP] VP] VP] S] SBAR] NP] VP] S] SBAR] NP] PP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>This DT 2 -I on-site JJ 2 -I investigation NN -1 NP focused VBD 2 VP on IN 3 PP the DT 8 -I origin NN 8 -I and CC 8 -I severity NN 4 NP of IN 8 PP a DT 11 -I fire NN 9 NP that WDT 13 WHNP involved VBD 11 VP an DT 16 -I in-transit JJ 16 -I motorcoach NN 13 NP that WDT 18 WHNP was VBD 16 VP traveling VBG 18 VP at IN 19 PP highway NN 22 -I speeds NNS 20 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP This_DT on-site_JJ investigation_NN NP:3-ARG0] [VP focused_VBD:focused.01 [PP on_IN [NP [NP the_DT origin_NN and_CC severity_NN NP] [PP of_IN [NP [NP a_DT fire_NN NP:13-ARG2] [SBAR [WHNP that_WDT WHNP] [S [VP involved_VBD:involved.01 [NP [NP an_DT in-transit_JJ motorcoach_NN NP:19-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP traveling_VBG:traveling.01 [PP at_IN [NP highway_NN speeds_NNS NP] PP] VP] VP] S] SBAR] NP:13-ARG1] VP] S] SBAR] NP] PP] NP] PP:3-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">This</token>
+        <token tid="1" begin="5" end="11" type="0">on-site</token>
+        <token tid="2" begin="13" end="25" type="0">investigation</token>
+        <token tid="3" begin="27" end="33" type="0">focused</token>
+        <token tid="4" begin="35" end="36" type="0">on</token>
+        <token tid="5" begin="38" end="40" type="0">the</token>
+        <token tid="6" begin="42" end="47" type="0">origin</token>
+        <token tid="7" begin="49" end="51" type="0">and</token>
+        <token tid="8" begin="53" end="60" type="0">severity</token>
+        <token tid="9" begin="62" end="63" type="0">of</token>
+        <token tid="10" begin="65" end="65" type="0">a</token>
+        <token tid="11" begin="67" end="70" type="0">fire</token>
+        <token tid="12" begin="72" end="75" type="0">that</token>
+        <token tid="13" begin="77" end="84" type="0">involved</token>
+        <token tid="14" begin="86" end="87" type="0">an</token>
+        <token tid="15" begin="89" end="98" type="0">in-transit</token>
+        <token tid="16" begin="100" end="109" type="0">motorcoach</token>
+        <token tid="17" begin="111" end="114" type="0">that</token>
+        <token tid="18" begin="116" end="118" type="0">was</token>
+        <token tid="19" begin="120" end="128" type="0">traveling</token>
+        <token tid="20" begin="130" end="131" type="0">at</token>
+        <token tid="21" begin="133" end="139" type="0">highway</token>
+        <token tid="22" begin="141" end="146" type="0">speeds</token>
+        <token tid="23" begin="147" end="147" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="24" end="38">
+      <text>The motorcoach was a 1999 MCI 102-EL3, with a 56-passenger capacity.</text>
+      <parse score="-7.019690">[S [NP The_DT motorcoach_NN NP] [VP was_VBD [NP a_DT 1999_CD MCI_NNP 102-EL3_NNPS NP] ,_, [PP with_IN [NP a_DT [NML 56_CD -_HYPH passenger_NN NML] capacity_NN NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I motorcoach NN -1 NP was VBD 1 VP a DT 6 -I 1999 CD 6 -I MCI NNP 6 -I 102-EL3 NNPS 2 NP , , 2 -I with IN 2 PP a DT 13 -I 56 CD 12 -I - HYPH 12 -I passenger NN 13 NML capacity NN 8 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT motorcoach_NN NP] [VP was_VBD [NP a_DT 1999_CD MCI_NNP 102-EL3_NNPS NP] ,_, [PP with_IN [NP a_DT [NML 56_CD -_HYPH passenger_NN NML] capacity_NN NP] PP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="24" begin="150" end="152" type="0">The</token>
+        <token tid="25" begin="154" end="163" type="0">motorcoach</token>
+        <token tid="26" begin="165" end="167" type="0">was</token>
+        <token tid="27" begin="169" end="169" type="0">a</token>
+        <token tid="28" begin="171" end="174" type="0">1999</token>
+        <token tid="29" begin="176" end="178" type="0">MCI</token>
+        <token tid="30" begin="180" end="186" type="0">102-EL3</token>
+        <token tid="31" begin="187" end="187" type="2048">,</token>
+        <token tid="32" begin="189" end="192" type="0">with</token>
+        <token tid="33" begin="194" end="194" type="0">a</token>
+        <token tid="34" begin="196" end="197" type="0">56</token>
+        <token tid="35" begin="198" end="198" type="2048">-</token>
+        <token tid="36" begin="199" end="207" type="0">passenger</token>
+        <token tid="37" begin="209" end="216" type="0">capacity</token>
+        <token tid="38" begin="217" end="217" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="39" end="74">
+      <text>The vehicle was occupied by a 60-year-old male driver and 53 passengers, comprised of 38 students between the ages of 10 to 11 years of age and 15 adult chaperones.</text>
+      <parse score="-8.322610">[S [NP The_DT vehicle_NN NP] [VP was_VBD [VP [VP occupied_VBN [PP by_IN [NP [NP a_DT [ADJP [NML 60_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] male_NN driver_NN NP] and_CC [NP 53_CD passengers_NNS NP] NP] PP] VP] ,_, [VP comprised_VBN [PP of_IN [NP [NP 38_CD students_NNS NP] [PP between_IN [NP [NP the_DT ages_NNS NP] [PP of_IN [NP [NP [NP [QP 10_CD to_TO 11_CD QP] years_NNS NP] [PP of_IN [NP age_NN NP] PP] NP] and_CC [NP 15_CD adult_NN chaperones_NNS NP] NP] PP] NP] PP] NP] PP] VP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I vehicle NN -1 NP was VBD 1 VP occupied VBN 2 VP by IN 3 PP a DT 12 -I 60 CD 8 -I - HYPH 8 -I year NN 10 NML - HYPH 10 -I old JJ 12 ADJP male NN 12 -I driver NN 15 NP and CC 15 -E 53 CD 15 -I passengers NNS 4 NP , , 3 -E comprised VBN 3 VP of IN 17 PP 38 CD 20 -I students NNS 18 NP between IN 20 PP the DT 23 -I ages NNS 21 NP of IN 23 PP 10 CD 28 QP to TO 25 -I 11 CD 25 -I years NNS 34 NP of IN 28 PP age NN 29 NP and CC 34 -E 15 CD 34 -I adult NN 34 -I chaperones NNS 24 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT vehicle_NN NP:3-ARG1/17-ARG1] [VP was_VBD [VP [VP occupied_VBN:occupied.01 [PP by_IN [NP [NP a_DT [ADJP [NML 60_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] male_NN driver_NN NP] and_CC [NP 53_CD passengers_NNS NP] NP] PP:3-ARG0] VP] ,_, [VP comprised_VBN:***.01 [PP of_IN [NP [NP 38_CD students_NNS NP] [PP between_IN [NP [NP the_DT ages_NNS NP] [PP of_IN [NP [NP [NP [QP 10_CD to_TO 11_CD QP] years_NNS NP] [PP of_IN [NP age_NN NP] PP] NP] and_CC [NP 15_CD adult_NN chaperones_NNS NP] NP] PP] NP] PP] NP] PP:17-ARG2] VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="39" begin="220" end="222" type="0">The</token>
+        <token tid="40" begin="224" end="230" type="0">vehicle</token>
+        <token tid="41" begin="232" end="234" type="0">was</token>
+        <token tid="42" begin="236" end="243" type="0">occupied</token>
+        <token tid="43" begin="245" end="246" type="0">by</token>
+        <token tid="44" begin="248" end="248" type="0">a</token>
+        <token tid="45" begin="250" end="251" type="0">60</token>
+        <token tid="46" begin="252" end="252" type="2048">-</token>
+        <token tid="47" begin="253" end="256" type="0">year</token>
+        <token tid="48" begin="257" end="257" type="2048">-</token>
+        <token tid="49" begin="258" end="260" type="0">old</token>
+        <token tid="50" begin="262" end="265" type="0">male</token>
+        <token tid="51" begin="267" end="272" type="0">driver</token>
+        <token tid="52" begin="274" end="276" type="0">and</token>
+        <token tid="53" begin="278" end="279" type="0">53</token>
+        <token tid="54" begin="281" end="290" type="0">passengers</token>
+        <token tid="55" begin="291" end="291" type="2048">,</token>
+        <token tid="56" begin="293" end="301" type="0">comprised</token>
+        <token tid="57" begin="303" end="304" type="0">of</token>
+        <token tid="58" begin="306" end="307" type="0">38</token>
+        <token tid="59" begin="309" end="316" type="0">students</token>
+        <token tid="60" begin="318" end="324" type="0">between</token>
+        <token tid="61" begin="326" end="328" type="0">the</token>
+        <token tid="62" begin="330" end="333" type="0">ages</token>
+        <token tid="63" begin="335" end="336" type="0">of</token>
+        <token tid="64" begin="338" end="339" type="0">10</token>
+        <token tid="65" begin="341" end="342" type="0">to</token>
+        <token tid="66" begin="344" end="345" type="0">11</token>
+        <token tid="67" begin="347" end="351" type="0">years</token>
+        <token tid="68" begin="353" end="354" type="0">of</token>
+        <token tid="69" begin="356" end="358" type="0">age</token>
+        <token tid="70" begin="360" end="362" type="0">and</token>
+        <token tid="71" begin="364" end="365" type="0">15</token>
+        <token tid="72" begin="367" end="371" type="0">adult</token>
+        <token tid="73" begin="373" end="382" type="0">chaperones</token>
+        <token tid="74" begin="383" end="383" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="75" end="86">
+      <text>The adults were seated throughout the passenger compartment of the motorcoach.</text>
+      <parse score="-1.735880">[S [NP The_DT adults_NNS NP] [VP were_VBD [VP seated_VBN [PP throughout_IN [NP [NP the_DT passenger_NN compartment_NN NP] [PP of_IN [NP the_DT motorcoach_NN NP] PP] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I adults NNS -1 NP were VBD 1 VP seated VBN 2 VP throughout IN 3 PP the DT 7 -I passenger NN 7 -I compartment NN 4 NP of IN 7 PP the DT 10 -I motorcoach NN 8 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT adults_NNS NP:3-ARG1] [VP were_VBD [VP seated_VBN:seated.01 [PP throughout_IN [NP [NP the_DT passenger_NN compartment_NN NP] [PP of_IN [NP the_DT motorcoach_NN NP] PP] NP] PP:3-ARGM-LOC] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="75" begin="386" end="388" type="0">The</token>
+        <token tid="76" begin="390" end="395" type="0">adults</token>
+        <token tid="77" begin="397" end="400" type="0">were</token>
+        <token tid="78" begin="402" end="407" type="0">seated</token>
+        <token tid="79" begin="409" end="418" type="0">throughout</token>
+        <token tid="80" begin="420" end="422" type="0">the</token>
+        <token tid="81" begin="424" end="432" type="0">passenger</token>
+        <token tid="82" begin="434" end="444" type="0">compartment</token>
+        <token tid="83" begin="446" end="447" type="0">of</token>
+        <token tid="84" begin="449" end="451" type="0">the</token>
+        <token tid="85" begin="453" end="462" type="0">motorcoach</token>
+        <token tid="86" begin="463" end="463" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="4" begin="87" end="114">
+      <text>The driver detected smoke in his rear view mirror emanating from the right rear area of the motorcoach while traveling at highway speeds on a divided roadway.</text>
+      <parse score="-10.027200">[S [NP The_DT driver_NN NP] [VP detected_VBD [NP [NP smoke_NN NP] [PP in_IN [NP [NP his_PRP$ rear_JJ view_NN mirror_NN NP] [VP emanating_VBG [PP from_IN [NP [NP the_DT right_JJ rear_JJ area_NN NP] [PP of_IN [NP the_DT motorcoach_NN NP] PP] NP] PP] [SBAR while_IN [S [VP traveling_VBG [PP at_IN [NP [NP highway_NN speeds_NNS NP] [PP on_IN [NP a_DT divided_JJ roadway_NN NP] PP] NP] PP] VP] S] SBAR] VP] NP] PP] NP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN -1 NP detected VBD 1 VP smoke NN 2 NP in IN 3 PP his PRP$ 8 -I rear JJ 8 -I view NN 8 -I mirror NN 4 NP emanating VBG 8 VP from IN 9 PP the DT 14 -I right JJ 14 -I rear JJ 14 -I area NN 10 NP of IN 14 PP the DT 17 -I motorcoach NN 15 NP while IN 19 -E traveling VBG 9 VP at IN 19 PP highway NN 22 -I speeds NNS 20 NP on IN 22 PP a DT 26 -I divided JJ 26 -I roadway NN 23 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT driver_NN NP:2-ARG0] [VP detected_VBD:detected.01 [NP [NP smoke_NN NP] [PP in_IN [NP [NP his_PRP$ rear_JJ view_NN mirror_NN NP:9-ARG1] [VP emanating_VBG:***.01 [PP from_IN [NP [NP the_DT right_JJ rear_JJ area_NN NP] [PP of_IN [NP the_DT motorcoach_NN NP] PP] NP] PP:9-ARG2] [SBAR while_IN [S [VP traveling_VBG:traveling.01 [PP at_IN [NP [NP highway_NN speeds_NNS NP] [PP on_IN [NP a_DT divided_JJ roadway_NN NP] PP] NP] PP:19-ARG1] VP] S] SBAR] VP] NP] PP] NP:2-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="87" begin="466" end="468" type="0">The</token>
+        <token tid="88" begin="470" end="475" type="0">driver</token>
+        <token tid="89" begin="477" end="484" type="0">detected</token>
+        <token tid="90" begin="486" end="490" type="0">smoke</token>
+        <token tid="91" begin="492" end="493" type="0">in</token>
+        <token tid="92" begin="495" end="497" type="0">his</token>
+        <token tid="93" begin="499" end="502" type="0">rear</token>
+        <token tid="94" begin="504" end="507" type="0">view</token>
+        <token tid="95" begin="509" end="514" type="0">mirror</token>
+        <token tid="96" begin="516" end="524" type="0">emanating</token>
+        <token tid="97" begin="526" end="529" type="0">from</token>
+        <token tid="98" begin="531" end="533" type="0">the</token>
+        <token tid="99" begin="535" end="539" type="0">right</token>
+        <token tid="100" begin="541" end="544" type="0">rear</token>
+        <token tid="101" begin="546" end="549" type="0">area</token>
+        <token tid="102" begin="551" end="552" type="0">of</token>
+        <token tid="103" begin="554" end="556" type="0">the</token>
+        <token tid="104" begin="558" end="567" type="0">motorcoach</token>
+        <token tid="105" begin="569" end="573" type="0">while</token>
+        <token tid="106" begin="575" end="583" type="0">traveling</token>
+        <token tid="107" begin="585" end="586" type="0">at</token>
+        <token tid="108" begin="588" end="594" type="0">highway</token>
+        <token tid="109" begin="596" end="601" type="0">speeds</token>
+        <token tid="110" begin="603" end="604" type="0">on</token>
+        <token tid="111" begin="606" end="606" type="0">a</token>
+        <token tid="112" begin="608" end="614" type="0">divided</token>
+        <token tid="113" begin="616" end="622" type="0">roadway</token>
+        <token tid="114" begin="623" end="623" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="5" begin="115" end="130">
+      <text>He brought the vehicle to a controlled stop on the right shoulder of the roadway.</text>
+      <parse score="-4.200540">[S [NP He_PRP NP] [VP brought_VBD [NP the_DT vehicle_NN NP] [PP to_TO [NP [NP a_DT controlled_VBN stop_NN NP] [PP on_IN [NP [NP the_DT right_JJ shoulder_NN NP] [PP of_IN [NP the_DT roadway_NN NP] PP] NP] PP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>He PRP -1 NP brought VBD 0 VP the DT 3 -I vehicle NN 1 NP to TO 1 PP a DT 7 -I controlled VBN 7 -I stop NN 4 NP on IN 7 PP the DT 11 -I right JJ 11 -I shoulder NN 8 NP of IN 11 PP the DT 14 -I roadway NN 12 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP He_PRP NP:1-ARG0] [VP brought_VBD:brought.01 [NP the_DT vehicle_NN NP:1-ARG1] [PP to_TO [NP [NP a_DT controlled_VBN:controlled.01 stop_NN NP] [PP on_IN [NP [NP the_DT right_JJ shoulder_NN NP] [PP of_IN [NP the_DT roadway_NN NP] PP] NP] PP] NP] PP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="115" begin="626" end="627" type="0">He</token>
+        <token tid="116" begin="629" end="635" type="0">brought</token>
+        <token tid="117" begin="637" end="639" type="0">the</token>
+        <token tid="118" begin="641" end="647" type="0">vehicle</token>
+        <token tid="119" begin="649" end="650" type="0">to</token>
+        <token tid="120" begin="652" end="652" type="0">a</token>
+        <token tid="121" begin="654" end="663" type="0">controlled</token>
+        <token tid="122" begin="665" end="668" type="0">stop</token>
+        <token tid="123" begin="670" end="671" type="0">on</token>
+        <token tid="124" begin="673" end="675" type="0">the</token>
+        <token tid="125" begin="677" end="681" type="0">right</token>
+        <token tid="126" begin="683" end="690" type="0">shoulder</token>
+        <token tid="127" begin="692" end="693" type="0">of</token>
+        <token tid="128" begin="695" end="697" type="0">the</token>
+        <token tid="129" begin="699" end="705" type="0">roadway</token>
+        <token tid="130" begin="706" end="706" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="6" begin="131" end="147">
+      <text>The driver ordered the immediate evacuation of the passengers, and they safely exited without injury.</text>
+      <parse score="-4.128660">[S [S [NP The_DT driver_NN NP] [VP ordered_VBD [NP [NP the_DT immediate_JJ evacuation_NN NP] [PP of_IN [NP the_DT passengers_NNS NP] PP] NP] VP] S] ,_, and_CC [S [NP they_PRP NP] [ADVP safely_RB ADVP] [VP exited_VBD [PP without_IN [NP injury_NN NP] PP] VP] S] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN -1 NP ordered VBD 1 VP the DT 5 -I immediate JJ 5 -I evacuation NN 2 NP of IN 5 PP the DT 8 -I passengers NNS 6 NP , , 1 -E and CC 1 -E they PRP 1 NP safely RB 11 ADVP exited VBD 11 VP without IN 13 PP injury NN 14 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP The_DT driver_NN NP:2-ARG0] [VP ordered_VBD:ordered.01 [NP [NP the_DT immediate_JJ evacuation_NN NP] [PP of_IN [NP the_DT passengers_NNS NP] PP] NP:2-ARG1] VP] S] ,_, and_CC [S [NP they_PRP NP:13-ARG0] [ADVP safely_RB ADVP:13-ARGM-TMP] [VP exited_VBD:***.01 [PP without_IN [NP injury_NN NP] PP] VP] S] ._. S]</srl>
+      <tokens>
+        <token tid="131" begin="709" end="711" type="0">The</token>
+        <token tid="132" begin="713" end="718" type="0">driver</token>
+        <token tid="133" begin="720" end="726" type="0">ordered</token>
+        <token tid="134" begin="728" end="730" type="0">the</token>
+        <token tid="135" begin="732" end="740" type="0">immediate</token>
+        <token tid="136" begin="742" end="751" type="0">evacuation</token>
+        <token tid="137" begin="753" end="754" type="0">of</token>
+        <token tid="138" begin="756" end="758" type="0">the</token>
+        <token tid="139" begin="760" end="769" type="0">passengers</token>
+        <token tid="140" begin="770" end="770" type="2048">,</token>
+        <token tid="141" begin="772" end="774" type="0">and</token>
+        <token tid="142" begin="776" end="779" type="0">they</token>
+        <token tid="143" begin="781" end="786" type="0">safely</token>
+        <token tid="144" begin="788" end="793" type="0">exited</token>
+        <token tid="145" begin="795" end="801" type="0">without</token>
+        <token tid="146" begin="803" end="808" type="0">injury</token>
+        <token tid="147" begin="809" end="809" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="7" begin="148" end="171">
+      <text>The driver retrieved the onboard fire extinguisher in an attempt to suppress the fire prior to the arrival of the local fire department.</text>
+      <parse score="-12.112800">[S [NP The_DT driver_NN NP] [VP retrieved_VBD [NP the_NN NP] [PP onboard_IN [NP fire_NN extinguisher_NN NP] PP] [PP in_IN [NP an_DT attempt_NN [S [VP to_TO [VP suppress_VB [NP the_DT fire_NN NP] [ADVP prior_RB [PP to_TO [NP [NP the_DT arrival_NN NP] [PP of_IN [NP the_DT local_JJ fire_NN department_NN NP] PP] NP] PP] ADVP] VP] VP] S] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN -1 NP retrieved VBD 1 VP the NN 2 NP onboard IN 2 PP fire NN 6 -I extinguisher NN 4 NP in IN 2 PP an DT 9 -I attempt NN 7 NP to TO 11 -E suppress VB 9 VP the DT 13 -I fire NN 11 NP prior RB 11 ADVP to TO 14 PP the DT 17 -I arrival NN 15 NP of IN 17 PP the DT 22 -I local JJ 22 -I fire NN 22 -I department NN 18 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT driver_NN NP:2-ARG0] [VP retrieved_VBD:retrieved.01 [NP the_NN NP:2-ARG1] [PP onboard_IN [NP fire_NN extinguisher_NN NP] PP:2-ARG2] [PP in_IN [NP an_DT attempt_NN [S [VP to_TO [VP suppress_VB:suppress.01 [NP the_DT fire_NN NP:11-ARG1] [ADVP prior_RB [PP to_TO [NP [NP the_DT arrival_NN NP] [PP of_IN [NP the_DT local_JJ fire_NN department_NN NP] PP] NP] PP] ADVP:11-ARGM-TMP] VP] VP] S] NP] PP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="148" begin="812" end="814" type="0">The</token>
+        <token tid="149" begin="816" end="821" type="0">driver</token>
+        <token tid="150" begin="824" end="832" type="0">retrieved</token>
+        <token tid="151" begin="834" end="836" type="0">the</token>
+        <token tid="152" begin="838" end="844" type="0">onboard</token>
+        <token tid="153" begin="846" end="849" type="0">fire</token>
+        <token tid="154" begin="851" end="862" type="0">extinguisher</token>
+        <token tid="155" begin="864" end="865" type="0">in</token>
+        <token tid="156" begin="867" end="868" type="0">an</token>
+        <token tid="157" begin="870" end="876" type="0">attempt</token>
+        <token tid="158" begin="878" end="879" type="0">to</token>
+        <token tid="159" begin="881" end="888" type="0">suppress</token>
+        <token tid="160" begin="890" end="892" type="0">the</token>
+        <token tid="161" begin="894" end="897" type="0">fire</token>
+        <token tid="162" begin="899" end="903" type="0">prior</token>
+        <token tid="163" begin="905" end="906" type="0">to</token>
+        <token tid="164" begin="908" end="910" type="0">the</token>
+        <token tid="165" begin="912" end="918" type="0">arrival</token>
+        <token tid="166" begin="920" end="921" type="0">of</token>
+        <token tid="167" begin="923" end="925" type="0">the</token>
+        <token tid="168" begin="927" end="931" type="0">local</token>
+        <token tid="169" begin="933" end="936" type="0">fire</token>
+        <token tid="170" begin="938" end="947" type="0">department</token>
+        <token tid="171" begin="948" end="948" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="8" begin="172" end="190">
+      <text>The firefighters used water to extinguish the fire that was confined to the rear area of the motorcoach.</text>
+      <parse score="-4.985920">[S [NP The_DT firefighters_NNS NP] [VP used_VBD [NP water_NN NP] [S [VP to_TO [VP extinguish_VB [NP [NP the_DT fire_NN NP] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP confined_VBN [PP to_TO [NP [NP the_DT rear_JJ area_NN NP] [PP of_IN [NP the_DT motorcoach_NN NP] PP] NP] PP] VP] VP] S] SBAR] NP] VP] VP] S] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I firefighters NNS -1 NP used VBD 1 VP water NN 2 NP to TO 5 -E extinguish VB 2 VP the DT 7 -I fire NN 5 NP that WDT 9 WHNP was VBD 7 VP confined VBN 9 VP to TO 10 PP the DT 14 -I rear JJ 14 -I area NN 11 NP of IN 14 PP the DT 17 -I motorcoach NN 15 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT firefighters_NNS NP:2-ARG0/5-ARG0] [VP used_VBD:used.01 [NP water_NN NP:2-ARG1] [S [VP to_TO [VP extinguish_VB:extinguish.01 [NP [NP the_DT fire_NN NP:10-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP confined_VBN:confined.01 [PP to_TO [NP [NP the_DT rear_JJ area_NN NP] [PP of_IN [NP the_DT motorcoach_NN NP] PP] NP] PP:10-ARG2] VP] VP] S] SBAR] NP:5-ARG1] VP] VP] S:2-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="172" begin="951" end="953" type="0">The</token>
+        <token tid="173" begin="955" end="966" type="0">firefighters</token>
+        <token tid="174" begin="968" end="971" type="0">used</token>
+        <token tid="175" begin="973" end="977" type="0">water</token>
+        <token tid="176" begin="979" end="980" type="0">to</token>
+        <token tid="177" begin="982" end="991" type="0">extinguish</token>
+        <token tid="178" begin="993" end="995" type="0">the</token>
+        <token tid="179" begin="997" end="1000" type="0">fire</token>
+        <token tid="180" begin="1002" end="1005" type="0">that</token>
+        <token tid="181" begin="1007" end="1009" type="0">was</token>
+        <token tid="182" begin="1011" end="1018" type="0">confined</token>
+        <token tid="183" begin="1020" end="1021" type="0">to</token>
+        <token tid="184" begin="1023" end="1025" type="0">the</token>
+        <token tid="185" begin="1027" end="1030" type="0">rear</token>
+        <token tid="186" begin="1032" end="1035" type="0">area</token>
+        <token tid="187" begin="1037" end="1038" type="0">of</token>
+        <token tid="188" begin="1040" end="1042" type="0">the</token>
+        <token tid="189" begin="1044" end="1053" type="0">motorcoach</token>
+        <token tid="190" begin="1054" end="1054" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="9" begin="191" end="203">
+      <text>Minimal heat and smoke-related damage occurred to the interior of the motorcoach.</text>
+      <parse score="-3.877850">[S [NP [NP Minimal_JJ heat_NN NP] and_CC [NP smoke-related_JJ damage_NN NP] NP] [VP occurred_VBD [PP to_TO [NP [NP the_DT interior_NN NP] [PP of_IN [NP the_DT motorcoach_NN NP] PP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>Minimal JJ 1 -I heat NN 4 NP and CC 4 -E smoke-related JJ 4 -I damage NN -1 NP occurred VBD 4 VP to TO 5 PP the DT 8 -I interior NN 6 NP of IN 8 PP the DT 11 -I motorcoach NN 9 NP . . 4 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP Minimal_JJ heat_NN NP] and_CC [NP smoke-related_JJ damage_NN NP] NP:5-ARG1] [VP occurred_VBD:occurred.01 [PP to_TO [NP [NP the_DT interior_NN NP] [PP of_IN [NP the_DT motorcoach_NN NP] PP] NP] PP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="191" begin="1057" end="1063" type="0">Minimal</token>
+        <token tid="192" begin="1065" end="1068" type="0">heat</token>
+        <token tid="193" begin="1070" end="1072" type="0">and</token>
+        <token tid="194" begin="1074" end="1086" type="0">smoke-related</token>
+        <token tid="195" begin="1088" end="1093" type="0">damage</token>
+        <token tid="196" begin="1095" end="1102" type="0">occurred</token>
+        <token tid="197" begin="1104" end="1105" type="0">to</token>
+        <token tid="198" begin="1107" end="1109" type="0">the</token>
+        <token tid="199" begin="1111" end="1118" type="0">interior</token>
+        <token tid="200" begin="1120" end="1121" type="0">of</token>
+        <token tid="201" begin="1123" end="1125" type="0">the</token>
+        <token tid="202" begin="1127" end="1136" type="0">motorcoach</token>
+        <token tid="203" begin="1137" end="1137" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="10" begin="204" end="221">
+      <text>The motorcoach was towed from the scene and was deemed a total loss by the insurance company.</text>
+      <parse score="-3.573220">[S [NP The_DT motorcoach_NN NP] [VP [VP was_VBD [VP towed_VBN [PP from_IN [NP the_DT scene_NN NP] PP] VP] VP] and_CC [VP was_VBD [VP deemed_VBN [NP a_DT total_JJ loss_NN NP] [PP by_IN [NP the_DT insurance_NN company_NN NP] PP] VP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I motorcoach NN -1 NP was VBD 1 VP towed VBN 2 VP from IN 3 PP the DT 6 -I scene NN 4 NP and CC 2 -E was VBD 2 VP deemed VBN 8 VP a DT 12 -I total JJ 12 -I loss NN 9 NP by IN 9 PP the DT 16 -I insurance NN 16 -I company NN 13 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT motorcoach_NN NP:3-ARG1/9-ARG1] [VP [VP was_VBD [VP towed_VBN:towed.01 [PP from_IN [NP the_DT scene_NN NP] PP:3-ARGM-DIR] VP] VP] and_CC [VP was_VBD [VP deemed_VBN:deemed.01 [NP a_DT total_JJ loss_NN NP:9-ARG1] [PP by_IN [NP the_DT insurance_NN company_NN NP] PP:9-ARG0] VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="204" begin="1140" end="1142" type="0">The</token>
+        <token tid="205" begin="1144" end="1153" type="0">motorcoach</token>
+        <token tid="206" begin="1155" end="1157" type="0">was</token>
+        <token tid="207" begin="1159" end="1163" type="0">towed</token>
+        <token tid="208" begin="1165" end="1168" type="0">from</token>
+        <token tid="209" begin="1170" end="1172" type="0">the</token>
+        <token tid="210" begin="1174" end="1178" type="0">scene</token>
+        <token tid="211" begin="1180" end="1182" type="0">and</token>
+        <token tid="212" begin="1184" end="1186" type="0">was</token>
+        <token tid="213" begin="1188" end="1193" type="0">deemed</token>
+        <token tid="214" begin="1195" end="1195" type="0">a</token>
+        <token tid="215" begin="1197" end="1201" type="0">total</token>
+        <token tid="216" begin="1203" end="1206" type="0">loss</token>
+        <token tid="217" begin="1208" end="1209" type="0">by</token>
+        <token tid="218" begin="1211" end="1213" type="0">the</token>
+        <token tid="219" begin="1215" end="1223" type="0">insurance</token>
+        <token tid="220" begin="1225" end="1231" type="0">company</token>
+        <token tid="221" begin="1232" end="1232" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="-M2" mtype="NONE" begin="171" end="174" head-begin="171" head-end="174" eid="-E16" etype="MODEL_YEAR" role="MODEL_YEAR" metonymy="0" class="SPC" score="0.935954" corefScore="1.000000">1999</mention>
+    
+    <mention mid="-M7" mtype="NOM" begin="224" end="230" head-begin="224" head-end="230" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.966376" corefScore="1.000000" eid="521147331.txt.docxml-E4">vehicle</mention>
+    
+    <mention mid="-M19" mtype="NOM" begin="424" end="444" head-begin="424" head-end="444" eid="-E2" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="0.879107" corefScore="0.586051">passenger compartment</mention>
+    <mention mid="-M20" mtype="NOM" begin="470" end="475" head-begin="470" head-end="475" eid="-E4" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.703828" corefScore="0.736075">driver</mention>
+    <mention mid="-M21" mtype="PRO" begin="495" end="497" head-begin="495" head-end="497" eid="-E4" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.964429" corefScore="0.865452">his</mention>
+    <mention mid="-M24" mtype="PRO" begin="626" end="627" head-begin="626" head-end="627" eid="-E4" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.994903" corefScore="0.881968">He</mention>
+    <mention mid="-M25" mtype="NOM" begin="641" end="647" head-begin="641" head-end="647" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.987885" corefScore="0.982520" eid="521147331.txt.docxml-E4">vehicle</mention>
+    <mention mid="-M28" mtype="NOM" begin="713" end="718" head-begin="713" head-end="718" eid="-E4" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.842464" corefScore="0.862506">driver</mention>
+    <mention mid="-M31" mtype="NOM" begin="816" end="821" head-begin="816" head-end="821" eid="-E4" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.754018" corefScore="0.862506">driver</mention>
+  <mention begin="67" class="SPC" end="70" etype="INCIDENT" head-begin="67" head-end="70" metonymy="0" mid="521147331.txt.docxml-M1" mtype="NOM" role="INCIDENT" eid="521147331.txt.docxml-E27">fire</mention><mention begin="72" class="SPC" end="75" etype="INCIDENT" head-begin="72" head-end="75" metonymy="0" mid="521147331.txt.docxml-M2" mtype="PRO" role="INCIDENT" eid="521147331.txt.docxml-E27">that</mention><mention begin="100" class="SPC" end="109" etype="VEHICLE" head-begin="100" head-end="109" metonymy="0" mid="521147331.txt.docxml-M3" mtype="NOM" role="VEHICLE" eid="521147331.txt.docxml-E4">motorcoach</mention><mention begin="111" class="SPC" end="114" etype="VEHICLE" head-begin="111" head-end="114" metonymy="0" mid="521147331.txt.docxml-M4" mtype="PRO" role="VEHICLE" eid="521147331.txt.docxml-E4">that</mention><mention begin="154" class="SPC" end="163" etype="VEHICLE" head-begin="154" head-end="163" metonymy="0" mid="521147331.txt.docxml-M5" mtype="NOM" role="VEHICLE" eid="521147331.txt.docxml-E4">motorcoach</mention><mention begin="176" class="SPC" end="178" etype="MODEL" head-begin="176" head-end="178" metonymy="0" mid="521147331.txt.docxml-M6" mtype="NAM" role="MODEL" eid="521147331.txt.docxml-E6">MCI</mention><mention begin="267" class="SPC" end="272" etype="PERSON" head-begin="267" head-end="272" metonymy="0" mid="521147331.txt.docxml-M7" mtype="NOM" role="PERSON" eid="-E4">driver</mention><mention begin="278" class="SPC" end="290" etype="PERSON" head-begin="278" head-end="290" metonymy="0" mid="521147331.txt.docxml-M8" mtype="NOM" role="PERSON" eid="521147331.txt.docxml-E19">53 passengers</mention><mention begin="306" class="SPC" end="316" etype="PERSON" head-begin="306" head-end="316" metonymy="0" mid="521147331.txt.docxml-M9" mtype="NOM" role="PERSON" eid="521147331.txt.docxml-E9">38 students</mention><mention begin="364" class="SPC" end="382" etype="PERSON" head-begin="364" head-end="382" metonymy="0" mid="521147331.txt.docxml-M10" mtype="NOM" role="PERSON" eid="521147331.txt.docxml-E10">15 adult chaperones</mention><mention begin="390" class="SPC" end="395" etype="PERSON" head-begin="390" head-end="395" metonymy="0" mid="521147331.txt.docxml-M11" mtype="NOM" role="PERSON" eid="521147331.txt.docxml-E10">adults</mention><mention begin="453" class="SPC" end="462" etype="VEHICLE" head-begin="453" head-end="462" metonymy="0" mid="521147331.txt.docxml-M12" mtype="NOM" role="VEHICLE" eid="521147331.txt.docxml-E4">motorcoach</mention><mention begin="499" class="SPC" end="514" etype="PART_OF_CAR" head-begin="499" head-end="514" metonymy="0" mid="521147331.txt.docxml-M13" mtype="NOM" role="PART_OF_CAR" eid="521147331.txt.docxml-E13">rear view mirror</mention><mention begin="535" class="SPC" end="549" etype="PART_OF_CAR" head-begin="535" head-end="549" metonymy="0" mid="521147331.txt.docxml-M14" mtype="NOM" role="PART_OF_CAR" eid="521147331.txt.docxml-E14">right rear area</mention><mention begin="558" class="SPC" end="567" etype="VEHICLE" head-begin="558" head-end="567" metonymy="0" mid="521147331.txt.docxml-M15" mtype="NOM" role="VEHICLE" eid="521147331.txt.docxml-E4">motorcoach</mention><mention begin="608" class="SPC" end="622" etype="STRUCTURE" head-begin="608" head-end="622" metonymy="0" mid="521147331.txt.docxml-M16" mtype="NOM" role="STRUCTURE" eid="521147331.txt.docxml-E16">divided roadway</mention><mention begin="677" class="SPC" end="705" etype="STRUCTURE" head-begin="677" head-end="705" metonymy="0" mid="521147331.txt.docxml-M17" mtype="NOM" role="STRUCTURE" eid="521147331.txt.docxml-E17">right shoulder of the roadway</mention><mention begin="760" class="SPC" end="769" etype="PERSON" head-begin="760" head-end="769" metonymy="0" mid="521147331.txt.docxml-M18" mtype="NOM" role="PERSON" eid="521147331.txt.docxml-E19">passengers</mention><mention begin="776" class="SPC" end="779" etype="PERSON" head-begin="776" head-end="779" metonymy="0" mid="521147331.txt.docxml-M19" mtype="PRO" role="PERSON" eid="521147331.txt.docxml-E19">they</mention><mention begin="788" class="SPC" end="808" etype="ACCIDENT_OUTCOME" head-begin="788" head-end="808" metonymy="0" mid="521147331.txt.docxml-M20" mtype="NONE" role="ACCIDENT_OUTCOME" eid="521147331.txt.docxml-E20">exited without injury</mention><mention begin="846" class="SPC" end="862" etype="PART_OF_CAR" head-begin="846" head-end="862" metonymy="0" mid="521147331.txt.docxml-M22" mtype="NOM" role="PART_OF_CAR" eid="521147331.txt.docxml-E22">fire extinguisher</mention><mention begin="894" class="SPC" end="897" etype="INCIDENT" head-begin="894" head-end="897" metonymy="0" mid="521147331.txt.docxml-M23" mtype="NOM" role="INCIDENT" eid="521147331.txt.docxml-E27">fire</mention><mention begin="997" class="SPC" end="1000" etype="INCIDENT" head-begin="997" head-end="1000" metonymy="0" mid="521147331.txt.docxml-M26" mtype="NOM" role="INCIDENT" eid="521147331.txt.docxml-E27">fire</mention><mention begin="1002" class="SPC" end="1005" etype="INCIDENT" head-begin="1002" head-end="1005" metonymy="0" mid="521147331.txt.docxml-M27" mtype="PRO" role="INCIDENT" eid="521147331.txt.docxml-E27">that</mention><mention begin="1027" class="SPC" end="1035" etype="PART_OF_CAR" head-begin="1027" head-end="1035" metonymy="0" mid="521147331.txt.docxml-M28" mtype="NOM" role="PART_OF_CAR" eid="521147331.txt.docxml-E28">rear area</mention><mention begin="1044" class="SPC" end="1053" etype="VEHICLE" head-begin="1044" head-end="1053" metonymy="0" mid="521147331.txt.docxml-M29" mtype="NOM" role="VEHICLE" eid="521147331.txt.docxml-E4">motorcoach</mention><mention begin="1057" class="SPC" end="1093" etype="ACCIDENT_OUTCOME" head-begin="1057" head-end="1093" metonymy="0" mid="521147331.txt.docxml-M30" mtype="NOM" role="ACCIDENT_OUTCOME" eid="521147331.txt.docxml-E30">Minimal heat and smoke-related damage</mention><mention begin="1111" class="SPC" end="1118" etype="PART_OF_CAR" head-begin="1111" head-end="1118" metonymy="0" mid="521147331.txt.docxml-M31" mtype="NOM" role="PART_OF_CAR" eid="521147331.txt.docxml-E31">interior</mention><mention begin="1127" class="SPC" end="1136" etype="VEHICLE" head-begin="1127" head-end="1136" metonymy="0" mid="521147331.txt.docxml-M32" mtype="NOM" role="VEHICLE" eid="521147331.txt.docxml-E4">motorcoach</mention><mention begin="1144" class="SPC" end="1153" etype="VEHICLE" head-begin="1144" head-end="1153" metonymy="0" mid="521147331.txt.docxml-M33" mtype="NOM" role="VEHICLE" eid="521147331.txt.docxml-E4">motorcoach</mention><mention begin="1159" class="SPC" end="1163" etype="ACCIDENT_OUTCOME" head-begin="1159" head-end="1163" metonymy="0" mid="521147331.txt.docxml-M34" mtype="NONE" role="ACCIDENT_OUTCOME" eid="521147331.txt.docxml-E34">towed</mention><mention begin="1197" class="SPC" end="1206" etype="ACCIDENT_OUTCOME" head-begin="1197" head-end="1206" metonymy="0" mid="521147331.txt.docxml-M35" mtype="NOM" role="ACCIDENT_OUTCOME" eid="521147331.txt.docxml-E35">total loss</mention></mentions>
+  <entities>
+    <entity eid="-E4" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.795053">
+      <mentref mid="-M20">driver</mentref>
+      <mentref mid="-M21">his</mentref>
+      <mentref mid="-M31">driver</mentref>
+      <mentref mid="-M24">He</mentref>
+      <mentref mid="-M28">driver</mentref>
+      
+    <mentref mid="521147331.txt.docxml-M7">driver</mentref></entity>
+    <entity eid="-E16" type="MODEL_YEAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M2">1999</mentref>
+    </entity>
+    
+    <entity eid="-E2" type="PART_OF_CAR" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.765540">
+      <mentref mid="-M19">passenger compartment</mentref>
+      
+    </entity>
+  <entity class="SPC" eid="521147331.txt.docxml-E4" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="VEHICLE"><mentref mid="521147331.txt.docxml-M4">that</mentref><mentref mid="521147331.txt.docxml-M3">motorcoach</mentref><mentref mid="521147331.txt.docxml-M5">motorcoach</mentref><mentref mid="-M7">vehicle</mentref><mentref mid="-M25">vehicle</mentref><mentref mid="521147331.txt.docxml-M12">motorcoach</mentref><mentref mid="521147331.txt.docxml-M15">motorcoach</mentref><mentref mid="521147331.txt.docxml-M29">motorcoach</mentref><mentref mid="521147331.txt.docxml-M32">motorcoach</mentref><mentref mid="521147331.txt.docxml-M33">motorcoach</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E6" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="MODEL"><mentref mid="521147331.txt.docxml-M6">MCI</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E9" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PERSON"><mentref mid="521147331.txt.docxml-M9">38 students</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E10" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PERSON"><mentref mid="521147331.txt.docxml-M10">15 adult chaperones</mentref><mentref mid="521147331.txt.docxml-M11">adults</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E13" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="521147331.txt.docxml-M13">rear view mirror</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E14" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="521147331.txt.docxml-M14">right rear area</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E16" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="521147331.txt.docxml-M16">divided roadway</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E17" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="521147331.txt.docxml-M17">right shoulder of the roadway</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E19" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PERSON"><mentref mid="521147331.txt.docxml-M19">they</mentref><mentref mid="521147331.txt.docxml-M18">passengers</mentref><mentref mid="521147331.txt.docxml-M8">53 passengers</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E20" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="521147331.txt.docxml-M20">exited without injury</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E22" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="521147331.txt.docxml-M22">fire extinguisher</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E27" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="521147331.txt.docxml-M27">that</mentref><mentref mid="521147331.txt.docxml-M23">fire</mentref><mentref mid="521147331.txt.docxml-M26">fire</mentref><mentref mid="521147331.txt.docxml-M1">fire</mentref><mentref mid="521147331.txt.docxml-M2">that</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E28" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="521147331.txt.docxml-M28">rear area</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E30" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="521147331.txt.docxml-M30">Minimal heat and smoke-related damage</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E31" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="521147331.txt.docxml-M31">interior</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E34" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="521147331.txt.docxml-M34">towed</mentref></entity><entity class="SPC" eid="521147331.txt.docxml-E35" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="521147331.txt.docxml-M35">total loss</mentref></entity></entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+
+  <relation rid="521147331.txt.docxml-R1" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E27"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E4"/><relmentions><relmention rmid="521147331.txt.docxml-R1-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M2">that</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M3">motorcoach</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R2" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E4"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E6"/><relmentions><relmention rmid="521147331.txt.docxml-R2-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M5">motorcoach</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M6">MCI</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R3" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E4"/><rel_entity_arg argnum="2" eid="-E16"/><relmentions><relmention rmid="521147331.txt.docxml-R3-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M5">motorcoach</rel_mention_arg><rel_mention_arg argnum="2" mid="-M2">1999</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R4" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E4"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E4"/><relmentions><relmention rmid="521147331.txt.docxml-R4-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M7">driver</rel_mention_arg><rel_mention_arg argnum="2" mid="-M7">vehicle</rel_mention_arg></relmention><relmention rmid="521147331.txt.docxml-R4-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M20">driver</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M15">motorcoach</rel_mention_arg></relmention><relmention rmid="521147331.txt.docxml-R4-3" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M24">He</rel_mention_arg><rel_mention_arg argnum="2" mid="-M25">vehicle</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R5" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E19"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E4"/><relmentions><relmention rmid="521147331.txt.docxml-R5-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M8">53 passengers</rel_mention_arg><rel_mention_arg argnum="2" mid="-M7">vehicle</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R6" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E10"/><rel_entity_arg argnum="2" eid="-E2"/><relmentions><relmention rmid="521147331.txt.docxml-R6-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M11">adults</rel_mention_arg><rel_mention_arg argnum="2" mid="-M19">passenger compartment</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R7" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E2"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E4"/><relmentions><relmention rmid="521147331.txt.docxml-R7-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M19">passenger compartment</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M12">motorcoach</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R8" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E14"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E4"/><relmentions><relmention rmid="521147331.txt.docxml-R8-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M14">right rear area</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M15">motorcoach</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R9" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E13"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E4"/><relmentions><relmention rmid="521147331.txt.docxml-R9-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M13">rear view mirror</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M15">motorcoach</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R10" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E19"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E20"/><relmentions><relmention rmid="521147331.txt.docxml-R10-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M19">they</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M20">exited without injury</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R11" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E27"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E28"/><relmentions><relmention rmid="521147331.txt.docxml-R11-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M27">that</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M28">rear area</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R12" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E28"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E4"/><relmentions><relmention rmid="521147331.txt.docxml-R12-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M28">rear area</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M29">motorcoach</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R13" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E31"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E30"/><relmentions><relmention rmid="521147331.txt.docxml-R13-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M31">interior</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M30">Minimal heat and smoke-related damage</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R14" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E31"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E4"/><relmentions><relmention rmid="521147331.txt.docxml-R14-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M31">interior</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M32">motorcoach</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R15" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E4"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E34"/><relmentions><relmention rmid="521147331.txt.docxml-R15-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M33">motorcoach</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M34">towed</rel_mention_arg></relmention></relmentions></relation><relation rid="521147331.txt.docxml-R16" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="521147331.txt.docxml-E4"/><rel_entity_arg argnum="2" eid="521147331.txt.docxml-E35"/><relmentions><relmention rmid="521147331.txt.docxml-R16-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="521147331.txt.docxml-M33">motorcoach</rel_mention_arg><rel_mention_arg argnum="2" mid="521147331.txt.docxml-M35">total loss</rel_mention_arg></relmention></relmentions></relation></relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+
+
+<profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels"/><username name="mnasr@us.ibm.com"/><removed/><edited/></doc>

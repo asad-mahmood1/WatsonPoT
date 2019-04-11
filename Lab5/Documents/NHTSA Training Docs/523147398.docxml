@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>This on-scene investigation focused on the cause and severity of the rollover crash of a 1997 MCI Model 102-DL3 motorcoach.  The vehicle was in-transit, occupied by the 35-year-old male driver and 21 passengers.  The motorcoach was traveling southbound at highway speeds on an interstate roadway when the vehicle departed the right side of the roadway.  The right tires crossed the rumble strip and shoulder, and departed the bituminous surface.  The driver attempted to regain control by steering left and braking, but the tires dug into the soil of the roadside as the vehicle initiated a counterclockwise (CCW) yaw, impacted three small diameter trees, tripped, and overturned one-quarter turn onto its right side.  Six passengers were transported via ground ambulance to local area hospitals for the treatment of minor severity injuries.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="20">
+      <text>This on-scene investigation focused on the cause and severity of the rollover crash of a 1997 MCI Model 102-DL3 motorcoach.</text>
+      <parse score="-10.803700">[S [NP This_DT on-scene_NN investigation_NN NP] [VP focused_VBD [PP on_IN [NP [NP the_DT cause_NN and_CC severity_NN NP] [PP of_IN [NP [NP the_DT rollover_NN crash_NN NP] [PP of_IN [NP a_DT 1997_CD [NML MCI_NNP Model_NNP 102-DL3_CD NML] motorcoach_NN NP] PP] NP] PP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>This DT 2 -I on-scene NN 2 -I investigation NN -1 NP focused VBD 2 VP on IN 3 PP the DT 8 -I cause NN 8 -I and CC 8 -I severity NN 4 NP of IN 8 PP the DT 12 -I rollover NN 12 -I crash NN 9 NP of IN 12 PP a DT 19 -I 1997 CD 19 -I MCI NNP 17 -I Model NNP 19 NML 102-DL3 CD 17 -I motorcoach NN 13 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP This_DT on-scene_NN investigation_NN NP:3-ARG0] [VP focused_VBD:focused.01 [PP on_IN [NP [NP the_DT cause_NN and_CC severity_NN NP] [PP of_IN [NP [NP the_DT rollover_NN crash_NN NP] [PP of_IN [NP a_DT 1997_CD [NML MCI_NNP Model_NNP 102-DL3_CD NML] motorcoach_NN NP] PP] NP] PP] NP] PP:3-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">This</token>
+        <token tid="1" begin="5" end="12" type="0">on-scene</token>
+        <token tid="2" begin="14" end="26" type="0">investigation</token>
+        <token tid="3" begin="28" end="34" type="0">focused</token>
+        <token tid="4" begin="36" end="37" type="0">on</token>
+        <token tid="5" begin="39" end="41" type="0">the</token>
+        <token tid="6" begin="43" end="47" type="0">cause</token>
+        <token tid="7" begin="49" end="51" type="0">and</token>
+        <token tid="8" begin="53" end="60" type="0">severity</token>
+        <token tid="9" begin="62" end="63" type="0">of</token>
+        <token tid="10" begin="65" end="67" type="0">the</token>
+        <token tid="11" begin="69" end="76" type="0">rollover</token>
+        <token tid="12" begin="78" end="82" type="0">crash</token>
+        <token tid="13" begin="84" end="85" type="0">of</token>
+        <token tid="14" begin="87" end="87" type="0">a</token>
+        <token tid="15" begin="89" end="92" type="0">1997</token>
+        <token tid="16" begin="94" end="96" type="0">MCI</token>
+        <token tid="17" begin="98" end="102" type="0">Model</token>
+        <token tid="18" begin="104" end="110" type="0">102-DL3</token>
+        <token tid="19" begin="112" end="121" type="0">motorcoach</token>
+        <token tid="20" begin="122" end="122" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="21" end="41">
+      <text>The vehicle was in-transit, occupied by the 35-year-old male driver and 21 passengers.</text>
+      <parse score="-7.596960">[S [S [NP The_DT vehicle_NN NP] [VP was_VBD [PP in_IN -_HYPH [NP transit_NN NP] PP] VP] S] ,_, [VP occupied_VBN [PP by_IN [NP [NP the_DT [ADJP [NML 35_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] male_NN driver_NN NP] and_CC [NP 21_CD passengers_NNS NP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I vehicle NN -1 NP was VBD 1 VP in IN 2 PP - HYPH 3 -I transit NN 3 NP , , 1 -E occupied VBN 1 VP by IN 7 PP the DT 16 -I 35 CD 12 -I - HYPH 12 -I year NN 14 NML - HYPH 14 -I old JJ 16 ADJP male NN 16 -I driver NN 19 NP and CC 19 -E 21 CD 19 -I passengers NNS 8 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP The_DT vehicle_NN NP] [VP was_VBD [PP in_IN -_HYPH [NP transit_NN NP] PP] VP] S:7-ARG1] ,_, [VP occupied_VBN:occupied.01 [PP by_IN [NP [NP the_DT [ADJP [NML 35_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] male_NN driver_NN NP] and_CC [NP 21_CD passengers_NNS NP] NP] PP:7-ARG0] VP] ._. S]</srl>
+      <tokens>
+        <token tid="21" begin="125" end="127" type="0">The</token>
+        <token tid="22" begin="129" end="135" type="0">vehicle</token>
+        <token tid="23" begin="137" end="139" type="0">was</token>
+        <token tid="24" begin="141" end="142" type="0">in</token>
+        <token tid="25" begin="143" end="143" type="2048">-</token>
+        <token tid="26" begin="144" end="150" type="0">transit</token>
+        <token tid="27" begin="151" end="151" type="2048">,</token>
+        <token tid="28" begin="153" end="160" type="0">occupied</token>
+        <token tid="29" begin="162" end="163" type="0">by</token>
+        <token tid="30" begin="165" end="167" type="0">the</token>
+        <token tid="31" begin="169" end="170" type="0">35</token>
+        <token tid="32" begin="171" end="171" type="2048">-</token>
+        <token tid="33" begin="172" end="175" type="0">year</token>
+        <token tid="34" begin="176" end="176" type="2048">-</token>
+        <token tid="35" begin="177" end="179" type="0">old</token>
+        <token tid="36" begin="181" end="184" type="0">male</token>
+        <token tid="37" begin="186" end="191" type="0">driver</token>
+        <token tid="38" begin="193" end="195" type="0">and</token>
+        <token tid="39" begin="197" end="198" type="0">21</token>
+        <token tid="40" begin="200" end="209" type="0">passengers</token>
+        <token tid="41" begin="210" end="210" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="42" end="64">
+      <text>The motorcoach was traveling southbound at highway speeds on an interstate roadway when the vehicle departed the right side of the roadway.</text>
+      <parse score="-9.122040">[S [NP The_DT motorcoach_NN NP] [VP was_VBD [VP traveling_VBG [NP southbound_NN NP] [PP at_IN [NP [NP [NP highway_NN speeds_NNS NP] [PP on_IN [NP an_DT interstate_JJ roadway_NN NP] PP] NP] [SBAR [WHADVP when_WRB WHADVP] [S [NP the_DT vehicle_NN NP] [VP departed_VBD [NP [NP the_DT right_JJ side_NN NP] [PP of_IN [NP the_DT roadway_NN NP] PP] NP] VP] S] SBAR] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I motorcoach NN -1 NP was VBD 1 VP traveling VBG 2 VP southbound NN 3 NP at IN 3 PP highway NN 7 -I speeds NNS 5 NP on IN 7 PP an DT 11 -I interstate JJ 11 -I roadway NN 8 NP when WRB 14 WHADVP the DT 14 -I vehicle NN 7 NP departed VBD 14 VP the DT 18 -I right JJ 18 -I side NN 15 NP of IN 18 PP the DT 21 -I roadway NN 19 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT motorcoach_NN NP:3-ARG0] [VP was_VBD [VP traveling_VBG:traveling.01 [NP southbound_NN NP:3-ARG1] [PP at_IN [NP [NP [NP highway_NN speeds_NNS NP] [PP on_IN [NP an_DT interstate_JJ roadway_NN NP] PP] NP] [SBAR [WHADVP when_WRB WHADVP] [S [NP the_DT vehicle_NN NP:15-ARG0] [VP departed_VBD:departed.01 [NP [NP the_DT right_JJ side_NN NP] [PP of_IN [NP the_DT roadway_NN NP] PP] NP:15-ARG1] VP] S] SBAR] NP] PP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="42" begin="213" end="215" type="0">The</token>
+        <token tid="43" begin="217" end="226" type="0">motorcoach</token>
+        <token tid="44" begin="228" end="230" type="0">was</token>
+        <token tid="45" begin="232" end="240" type="0">traveling</token>
+        <token tid="46" begin="242" end="251" type="0">southbound</token>
+        <token tid="47" begin="253" end="254" type="0">at</token>
+        <token tid="48" begin="256" end="262" type="0">highway</token>
+        <token tid="49" begin="264" end="269" type="0">speeds</token>
+        <token tid="50" begin="271" end="272" type="0">on</token>
+        <token tid="51" begin="274" end="275" type="0">an</token>
+        <token tid="52" begin="277" end="286" type="0">interstate</token>
+        <token tid="53" begin="288" end="294" type="0">roadway</token>
+        <token tid="54" begin="296" end="299" type="0">when</token>
+        <token tid="55" begin="301" end="303" type="0">the</token>
+        <token tid="56" begin="305" end="311" type="0">vehicle</token>
+        <token tid="57" begin="313" end="320" type="0">departed</token>
+        <token tid="58" begin="322" end="324" type="0">the</token>
+        <token tid="59" begin="326" end="330" type="0">right</token>
+        <token tid="60" begin="332" end="335" type="0">side</token>
+        <token tid="61" begin="337" end="338" type="0">of</token>
+        <token tid="62" begin="340" end="342" type="0">the</token>
+        <token tid="63" begin="344" end="350" type="0">roadway</token>
+        <token tid="64" begin="351" end="351" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="65" end="80">
+      <text>The right tires crossed the rumble strip and shoulder, and departed the bituminous surface.</text>
+      <parse score="-8.778990">[S [NP The_DT right_JJ tires_NNS NP] [VP [VP crossed_VBD [NP the_DT rumble_JJ strip_NN and_CC shoulder_NN NP] VP] ,_, and_CC [VP departed_VBD [NP the_DT bituminous_JJ surface_NN NP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I right JJ 2 -I tires NNS -1 NP crossed VBD 2 VP the DT 8 -I rumble JJ 8 -I strip NN 8 -I and CC 8 -I shoulder NN 3 NP , , 3 -E and CC 3 -E departed VBD 3 VP the DT 14 -I bituminous JJ 14 -I surface NN 11 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT right_JJ tires_NNS NP:3-ARG0/11-ARG0] [VP [VP crossed_VBD:crossed.01 [NP the_DT rumble_JJ strip_NN and_CC shoulder_NN NP:3-ARG1] VP] ,_, and_CC [VP departed_VBD:departed.01 [NP the_DT bituminous_JJ surface_NN NP:11-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="65" begin="354" end="356" type="0">The</token>
+        <token tid="66" begin="358" end="362" type="0">right</token>
+        <token tid="67" begin="364" end="368" type="0">tires</token>
+        <token tid="68" begin="370" end="376" type="0">crossed</token>
+        <token tid="69" begin="378" end="380" type="0">the</token>
+        <token tid="70" begin="382" end="387" type="0">rumble</token>
+        <token tid="71" begin="389" end="393" type="0">strip</token>
+        <token tid="72" begin="395" end="397" type="0">and</token>
+        <token tid="73" begin="399" end="406" type="0">shoulder</token>
+        <token tid="74" begin="407" end="407" type="2048">,</token>
+        <token tid="75" begin="409" end="411" type="0">and</token>
+        <token tid="76" begin="413" end="420" type="0">departed</token>
+        <token tid="77" begin="422" end="424" type="0">the</token>
+        <token tid="78" begin="426" end="435" type="0">bituminous</token>
+        <token tid="79" begin="437" end="443" type="0">surface</token>
+        <token tid="80" begin="444" end="444" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="4" begin="81" end="130">
+      <text>The driver attempted to regain control by steering left and braking, but the tires dug into the soil of the roadside as the vehicle initiated a counterclockwise (CCW) yaw, impacted three small diameter trees, tripped, and overturned one-quarter turn onto its right side.</text>
+      <parse score="-44.165500">[S [S [NP The_DT driver_NN NP] [VP attempted_VBD [S [VP to_TO [VP regain_VB [NP control_NN NP] [PP by_IN [S [VP steering_VBG [ADJP left_JJ and_CC braking_VBG ADJP] VP] S] PP] VP] VP] S] VP] S] ,_, but_CC [S [NP the_DT tires_NNS NP] [VP dug_VBD [PP into_IN [NP [NP the_DT soil_NN NP] [PP of_IN [NP [NP the_DT roadside_NN NP] [PP as_IN [NP [NP the_DT vehicle_NN NP] [VP initiated_VBN [NP a_DT counterclockwise_NN NP] [NP [NP (_-LRB- CCW_NNP )_-RRB- yaw_NNP NP] ,_, [VP impacted_VBN [NP three_CD small_JJ diameter_NN trees_NNS NP] VP] NP] VP] NP] PP] NP] PP] NP] PP] VP] S] ,_, [S [VP tripped_VBN VP] S] ,_, and_CC [VP overturned_VBD [S [NP one-quarter_NN NP] [VP turn_VB [PP onto_IN [NP its_PRP$ right_JJ side_NN NP] PP] VP] S] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN -1 NP attempted VBD 1 VP to TO 4 -E regain VB 2 VP control NN 4 NP by IN 4 PP steering VBG 6 VP left JJ 7 ADJP and CC 8 -I braking VBG 8 -I , , 1 -E but CC 1 -E the DT 14 -I tires NNS 1 NP dug VBD 14 VP into IN 15 PP the DT 18 -I soil NN 16 NP of IN 18 PP the DT 21 -I roadside NN 19 NP as IN 21 PP the DT 24 -I vehicle NN 22 NP initiated VBN 24 VP a DT 27 -I counterclockwise NN 25 NP ( -LRB- 31 -I CCW NNP 31 -I ) -RRB- 31 -I yaw NNP 25 NP , , 31 -E impacted VBN 31 VP three CD 37 -I small JJ 37 -I diameter NN 37 -I trees NNS 33 NP , , 1 -E tripped VBN 1 VP , , 1 -E and CC 1 -E overturned VBD 1 VP one-quarter NN 42 NP turn VB 43 VP onto IN 44 PP its PRP$ 48 -I right JJ 48 -I side NN 45 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP The_DT driver_NN NP:2-ARG0/4-ARG0/7-ARG0/10-ARG0] [VP attempted_VBD:attempted.01 [S [VP to_TO [VP regain_VB:regain.01 [NP control_NN NP:4-ARG1] [PP by_IN [S [VP steering_VBG:steering.01 [ADJP left_JJ and_CC braking_VBG:***.01 ADJP:7-ARG1] VP] S] PP:4-ARG2] VP] VP] S:2-ARG1] VP] S] ,_, but_CC [S [NP the_DT tires_NNS NP:15-ARG1] [VP dug_VBD:dug.01 [PP into_IN [NP [NP the_DT soil_NN NP] [PP of_IN [NP [NP the_DT roadside_NN NP] [PP as_IN [NP [NP the_DT vehicle_NN NP:25-ARG1] [VP initiated_VBN:initiated.01 [NP a_DT counterclockwise_NN NP:25-ARG1] [NP [NP (_-LRB- CCW_NNP )_-RRB- yaw_NNP NP:33-ARG1] ,_, [VP impacted_VBN:impacted.01 [NP three_CD small_JJ diameter_NN trees_NNS NP:33-ARG1] VP] NP:25-ARG2] VP] NP] PP] NP] PP] NP] PP:15-ARG2] VP] S] ,_, [S [VP tripped_VBN:tripped.01 VP] S] ,_, and_CC [VP overturned_VBD:overturned.01 [S [NP one-quarter_NN NP:44-ARG1] [VP turn_VB:turn.01 [PP onto_IN [NP its_PRP$ right_JJ side_NN NP] PP:44-ARG2] VP] S:42-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="81" begin="447" end="449" type="0">The</token>
+        <token tid="82" begin="451" end="456" type="0">driver</token>
+        <token tid="83" begin="458" end="466" type="0">attempted</token>
+        <token tid="84" begin="468" end="469" type="0">to</token>
+        <token tid="85" begin="471" end="476" type="0">regain</token>
+        <token tid="86" begin="478" end="484" type="0">control</token>
+        <token tid="87" begin="486" end="487" type="0">by</token>
+        <token tid="88" begin="489" end="496" type="0">steering</token>
+        <token tid="89" begin="498" end="501" type="0">left</token>
+        <token tid="90" begin="503" end="505" type="0">and</token>
+        <token tid="91" begin="507" end="513" type="0">braking</token>
+        <token tid="92" begin="514" end="514" type="2048">,</token>
+        <token tid="93" begin="516" end="518" type="0">but</token>
+        <token tid="94" begin="520" end="522" type="0">the</token>
+        <token tid="95" begin="524" end="528" type="0">tires</token>
+        <token tid="96" begin="530" end="532" type="0">dug</token>
+        <token tid="97" begin="534" end="537" type="0">into</token>
+        <token tid="98" begin="539" end="541" type="0">the</token>
+        <token tid="99" begin="543" end="546" type="0">soil</token>
+        <token tid="100" begin="548" end="549" type="0">of</token>
+        <token tid="101" begin="551" end="553" type="0">the</token>
+        <token tid="102" begin="555" end="562" type="0">roadside</token>
+        <token tid="103" begin="564" end="565" type="0">as</token>
+        <token tid="104" begin="567" end="569" type="0">the</token>
+        <token tid="105" begin="571" end="577" type="0">vehicle</token>
+        <token tid="106" begin="579" end="587" type="0">initiated</token>
+        <token tid="107" begin="589" end="589" type="0">a</token>
+        <token tid="108" begin="591" end="606" type="0">counterclockwise</token>
+        <token tid="109" begin="608" end="608" type="2048">(</token>
+        <token tid="110" begin="609" end="611" type="0">CCW</token>
+        <token tid="111" begin="612" end="612" type="2048">)</token>
+        <token tid="112" begin="614" end="616" type="0">yaw</token>
+        <token tid="113" begin="617" end="617" type="2048">,</token>
+        <token tid="114" begin="619" end="626" type="0">impacted</token>
+        <token tid="115" begin="628" end="632" type="0">three</token>
+        <token tid="116" begin="634" end="638" type="0">small</token>
+        <token tid="117" begin="640" end="647" type="0">diameter</token>
+        <token tid="118" begin="649" end="653" type="0">trees</token>
+        <token tid="119" begin="654" end="654" type="2048">,</token>
+        <token tid="120" begin="656" end="662" type="0">tripped</token>
+        <token tid="121" begin="663" end="663" type="2048">,</token>
+        <token tid="122" begin="665" end="667" type="0">and</token>
+        <token tid="123" begin="669" end="678" type="0">overturned</token>
+        <token tid="124" begin="680" end="690" type="0">one-quarter</token>
+        <token tid="125" begin="692" end="695" type="0">turn</token>
+        <token tid="126" begin="697" end="700" type="0">onto</token>
+        <token tid="127" begin="702" end="704" type="0">its</token>
+        <token tid="128" begin="706" end="710" type="0">right</token>
+        <token tid="129" begin="712" end="715" type="0">side</token>
+        <token tid="130" begin="716" end="716" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="5" begin="131" end="149">
+      <text>Six passengers were transported via ground ambulance to local area hospitals for the treatment of minor severity injuries.</text>
+      <parse score="-7.991480">[S [NP Six_CD passengers_NNS NP] [VP were_VBD [VP transported_VBN [PP via_IN [NP [NP ground_NN ambulance_NN NP] [PP to_TO [NP [NP local_JJ area_NN hospitals_NNS NP] [PP for_IN [NP [NP the_DT treatment_NN NP] [PP of_IN [NP minor_JJ severity_NN injuries_NNS NP] PP] NP] PP] NP] PP] NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>Six CD 1 -I passengers NNS -1 NP were VBD 1 VP transported VBN 2 VP via IN 3 PP ground NN 6 -I ambulance NN 4 NP to TO 6 PP local JJ 10 -I area NN 10 -I hospitals NNS 7 NP for IN 10 PP the DT 13 -I treatment NN 11 NP of IN 13 PP minor JJ 17 -I severity NN 17 -I injuries NNS 14 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP Six_CD passengers_NNS NP:3-ARG1] [VP were_VBD [VP transported_VBN:transported.01 [PP via_IN [NP [NP ground_NN ambulance_NN NP] [PP to_TO [NP [NP local_JJ area_NN hospitals_NNS NP] [PP for_IN [NP [NP the_DT treatment_NN NP] [PP of_IN [NP minor_JJ severity_NN injuries_NNS NP] PP] NP] PP] NP] PP] NP] PP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="131" begin="719" end="721" type="0">Six</token>
+        <token tid="132" begin="723" end="732" type="0">passengers</token>
+        <token tid="133" begin="734" end="737" type="0">were</token>
+        <token tid="134" begin="739" end="749" type="0">transported</token>
+        <token tid="135" begin="751" end="753" type="0">via</token>
+        <token tid="136" begin="755" end="760" type="0">ground</token>
+        <token tid="137" begin="762" end="770" type="0">ambulance</token>
+        <token tid="138" begin="772" end="773" type="0">to</token>
+        <token tid="139" begin="775" end="779" type="0">local</token>
+        <token tid="140" begin="781" end="784" type="0">area</token>
+        <token tid="141" begin="786" end="794" type="0">hospitals</token>
+        <token tid="142" begin="796" end="798" type="0">for</token>
+        <token tid="143" begin="800" end="802" type="0">the</token>
+        <token tid="144" begin="804" end="812" type="0">treatment</token>
+        <token tid="145" begin="814" end="815" type="0">of</token>
+        <token tid="146" begin="817" end="821" type="0">minor</token>
+        <token tid="147" begin="823" end="830" type="0">severity</token>
+        <token tid="148" begin="832" end="839" type="0">injuries</token>
+        <token tid="149" begin="840" end="840" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="523147398.txt.docxml-M1" mtype="NOM" begin="69" end="82" head-begin="69" head-end="82" eid="523147398.txt.docxml-E23" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rollover crash</mention>
+    <mention mid="-M2" mtype="NONE" begin="89" end="92" head-begin="89" head-end="92" eid="-E2" etype="MODEL_YEAR" role="VEHICLE" metonymy="0" class="SPC" score="0.978597" corefScore="1.000000">1997</mention>
+    <mention mid="523147398.txt.docxml-M2" mtype="NAM" begin="94" end="96" head-begin="94" head-end="96" eid="-E2" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">MCI</mention>
+    <mention mid="523147398.txt.docxml-M3" mtype="NOM" begin="112" end="121" head-begin="112" head-end="121" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">motorcoach</mention>
+    <mention mid="-M4" mtype="NOM" begin="129" end="135" head-begin="129" head-end="135" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.936233" corefScore="1.000000">vehicle</mention>
+    <mention mid="-M6" mtype="NOM" begin="186" end="191" head-begin="186" head-end="191" eid="-E3" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.448663" corefScore="1.000000">driver</mention>
+    <mention mid="523147398.txt.docxml-M4" mtype="NOM" begin="200" end="209" head-begin="200" head-end="209" eid="523147398.txt.docxml-E4" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">passengers</mention>
+    <mention mid="523147398.txt.docxml-M5" mtype="NOM" begin="217" end="226" head-begin="217" head-end="226" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">motorcoach</mention>
+    <mention mid="523147398.txt.docxml-M6" mtype="NOM" begin="288" end="294" head-begin="288" head-end="294" eid="523147398.txt.docxml-E6" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">roadway</mention>
+    <mention mid="-M11" mtype="NOM" begin="305" end="311" head-begin="305" head-end="311" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.993160" corefScore="0.982520">vehicle</mention>
+    <mention mid="523147398.txt.docxml-M7" mtype="NONE" begin="313" end="320" head-begin="313" head-end="320" eid="523147398.txt.docxml-E7" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">departed</mention>
+    <mention mid="523147398.txt.docxml-M8" mtype="NOM" begin="326" end="350" head-begin="326" head-end="350" eid="523147398.txt.docxml-E8" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">right side of the roadway</mention>
+    <mention mid="523147398.txt.docxml-M9" mtype="NOM" begin="358" end="368" head-begin="358" head-end="368" eid="523147398.txt.docxml-E9" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">right tires</mention>
+    <mention mid="523147398.txt.docxml-M12" mtype="NOM" begin="382" end="393" head-begin="382" head-end="393" eid="523147398.txt.docxml-E12" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">rumble strip</mention>
+    <mention mid="523147398.txt.docxml-M13" mtype="NOM" begin="399" end="406" head-begin="399" head-end="406" eid="523147398.txt.docxml-E13" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">shoulder</mention>
+    <mention mid="523147398.txt.docxml-M10" mtype="NONE" begin="413" end="420" head-begin="413" head-end="420" eid="523147398.txt.docxml-E10" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">departed</mention>
+    <mention mid="523147398.txt.docxml-M11" mtype="NOM" begin="437" end="443" head-begin="437" head-end="443" eid="523147398.txt.docxml-E11" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">surface</mention>
+    <mention mid="-M14" mtype="NOM" begin="451" end="456" head-begin="451" head-end="456" eid="-E3" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.797261" corefScore="0.805272">driver</mention>
+    <mention mid="523147398.txt.docxml-M14" mtype="NONE" begin="489" end="501" head-begin="489" head-end="501" eid="523147398.txt.docxml-E14" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">steering left</mention>
+    <mention mid="523147398.txt.docxml-M15" mtype="NONE" begin="507" end="513" head-begin="507" head-end="513" eid="523147398.txt.docxml-E15" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">braking</mention>
+    <mention mid="523147398.txt.docxml-M16" mtype="NOM" begin="524" end="528" head-begin="524" head-end="528" eid="523147398.txt.docxml-E16" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">tires</mention>
+    <mention mid="523147398.txt.docxml-M17" mtype="NONE" begin="530" end="546" head-begin="530" head-end="546" eid="523147398.txt.docxml-E17" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">dug into the soil</mention>
+    <mention mid="523147398.txt.docxml-M18" mtype="NOM" begin="555" end="562" head-begin="555" head-end="562" eid="523147398.txt.docxml-E18" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">roadside</mention>
+    <mention mid="-M16" mtype="NOM" begin="571" end="577" head-begin="571" head-end="577" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.985324" corefScore="0.983064">vehicle</mention>
+    <mention mid="523147398.txt.docxml-M19" mtype="NOM" begin="614" end="616" head-begin="614" head-end="616" eid="523147398.txt.docxml-E19" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">yaw</mention>
+    <mention mid="523147398.txt.docxml-M20" mtype="NONE" begin="619" end="626" head-begin="619" head-end="626" eid="523147398.txt.docxml-E20" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">impacted</mention>
+    <mention mid="523147398.txt.docxml-M21" mtype="NOM" begin="649" end="653" head-begin="649" head-end="653" eid="523147398.txt.docxml-E21" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">trees</mention>
+    <mention mid="523147398.txt.docxml-M22" mtype="NONE" begin="656" end="662" head-begin="656" head-end="662" eid="523147398.txt.docxml-E22" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">tripped</mention>
+    <mention mid="523147398.txt.docxml-M23" mtype="NONE" begin="669" end="678" head-begin="669" head-end="678" eid="523147398.txt.docxml-E23" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">overturned</mention>
+    <mention mid="523147398.txt.docxml-M24" mtype="NOM" begin="706" end="715" head-begin="706" head-end="715" eid="523147398.txt.docxml-E24" etype="PART_OF_CAR" role="PART_OF_CAR" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">right side</mention>
+    <mention mid="523147398.txt.docxml-M25" mtype="NOM" begin="723" end="732" head-begin="723" head-end="732" eid="523147398.txt.docxml-E25" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">passengers</mention>
+    <mention mid="523147398.txt.docxml-M26" mtype="NONE" begin="739" end="794" head-begin="739" head-end="794" eid="523147398.txt.docxml-E26" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">transported via ground ambulance to local area hospitals</mention>
+    <mention mid="523147398.txt.docxml-M27" mtype="NOM" begin="832" end="839" head-begin="832" head-end="839" eid="523147398.txt.docxml-E27" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">injuries</mention>
+  </mentions>
+  <entities>
+    <entity eid="523147398.txt.docxml-E18" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M18">roadside</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E19" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M19">yaw</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E16" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M16">tires</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E17" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M17">dug into the soil</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E14" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M14">steering left</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E15" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M15">braking</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E12" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M12">rumble strip</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E13" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M13">shoulder</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E10" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M10">departed</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E11" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M11">surface</mentref>
+    </entity>
+    <entity eid="-E3" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.897370">
+      <mentref mid="-M6">driver</mentref>
+      <mentref mid="-M14">driver</mentref>
+    </entity>
+    <entity eid="-E2" type="VEHICLE" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.988495">
+      <mentref mid="-M4">vehicle</mentref>
+      <mentref mid="523147398.txt.docxml-M2">MCI</mentref>
+      <mentref mid="-M2">1997</mentref>
+      <mentref mid="523147398.txt.docxml-M5">motorcoach</mentref>
+      <mentref mid="-M11">vehicle</mentref>
+      <mentref mid="523147398.txt.docxml-M3">motorcoach</mentref>
+      <mentref mid="-M16">vehicle</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E23" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M23">overturned</mentref>
+      <mentref mid="523147398.txt.docxml-M1">rollover crash</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E22" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M22">tripped</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E21" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M21">trees</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E20" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M20">impacted</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E27" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M27">injuries</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E26" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M26">transported via ground ambulance to local area hospitals</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E25" type="PERSON" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M25">passengers</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E24" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M24">right side</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E4" type="PERSON" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M4">passengers</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E6" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M6">roadway</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E7" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M7">departed</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E8" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M8">right side of the roadway</mentref>
+    </entity>
+    <entity eid="523147398.txt.docxml-E9" type="PART_OF_CAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="523147398.txt.docxml-M9">right tires</mentref>
+    </entity>
+  </entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+    <relation rid="523147398.txt.docxml-R11" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E25" argnum="1"/>
+      <rel_entity_arg eid="523147398.txt.docxml-E26" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R11-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M25" argnum="1">passengers</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M26" argnum="2">transported via ground ambulance to local area hospitals</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R10" type="driveUnder" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="523147398.txt.docxml-E22" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R10-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M16" argnum="1">vehicle</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M22" argnum="2">tripped</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R12" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E25" argnum="1"/>
+      <rel_entity_arg eid="523147398.txt.docxml-E27" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R12-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M25" argnum="1">passengers</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M27" argnum="2">injuries</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R5" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E17" argnum="1"/>
+      <rel_entity_arg eid="523147398.txt.docxml-E16" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R5-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M17" argnum="1">dug into the soil</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M16" argnum="2">tires</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R4" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E7" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R4-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M7" argnum="1">departed</rel_mention_arg>
+          <rel_mention_arg mid="-M11" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R7" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E20" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R7-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M20" argnum="1">impacted</rel_mention_arg>
+          <rel_mention_arg mid="-M16" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R6" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E17" argnum="1"/>
+      <rel_entity_arg eid="523147398.txt.docxml-E18" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R6-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M17" argnum="1">dug into the soil</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M18" argnum="2">roadside</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R1" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E23" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R1-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M1" argnum="1">rollover crash</rel_mention_arg>
+          <rel_mention_arg mid="-M2" argnum="2">1997</rel_mention_arg>
+          </relmention>
+        <relmention rmid="523147398.txt.docxml-R1-2" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M1" argnum="1">rollover crash</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M2" argnum="2">MCI</rel_mention_arg>
+          </relmention>
+        <relmention rmid="523147398.txt.docxml-R1-3" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M1" argnum="1">rollover crash</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M3" argnum="2">motorcoach</rel_mention_arg>
+          </relmention>
+        <relmention rmid="523147398.txt.docxml-R1-4" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M23" argnum="1">overturned</rel_mention_arg>
+          <rel_mention_arg mid="-M16" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R3" type="occupantOf" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E4" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R3-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M4" argnum="1">passengers</rel_mention_arg>
+          <rel_mention_arg mid="-M4" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R2" type="occupantOf" subtype="OTHER">
+      <rel_entity_arg eid="-E3" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R2-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M6" argnum="1">driver</rel_mention_arg>
+          <rel_mention_arg mid="-M4" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R9" type="driveUnder" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="523147398.txt.docxml-E19" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R9-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M16" argnum="1">vehicle</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M19" argnum="2">yaw</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="523147398.txt.docxml-R8" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="523147398.txt.docxml-E20" argnum="1"/>
+      <rel_entity_arg eid="523147398.txt.docxml-E21" argnum="2"/>
+      <relmentions>
+        <relmention rmid="523147398.txt.docxml-R8-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="523147398.txt.docxml-M20" argnum="1">impacted</rel_mention_arg>
+          <rel_mention_arg mid="523147398.txt.docxml-M21" argnum="2">trees</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+  </relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+  <profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels" />
+<username name="altieric@us.ibm.com" />
+
+</doc>

@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<doc id="">
+    <text>Vehicle one (V1), a 1988 Chevrolet Camaro, was traveling northbound in the first lane of a two-lane, two-way, undivided, wet, bituminous roadway, approaching an intersection.  Vehicle two (V2), a 1989 Honda Civic, was traveling eastbound in the first lane of a two-lane, two-way roadway, approaching the same intersection.  As both vehicles entered the intersection, the front of V1 impacted the right side of V2.  V2 rotated clockwise and the front of V2 contacted the right side of V1 as V1 passed by.  V2 and departed the road over the northeast corner, where it came to rest.  V1 continued forward and traversed the intersection, where it impacted V3, a 1993 Toyota pickup, which was legally parked along the east curb.  V1 and V3 came to rest along the east curb.
+
+V1 and V2 were towed due to damage.  The restrained driver of V1 was hospitalized for observation and released with minor abrasion and contusion.  The restrained driver of V2 was transported and released, after observation for loss of consciousness, with neck and shoulder strain. The second row middle seat passenger, restrained in a child safety seat, was hospitalized with multiple brain injury. The unrestrained second row right seat passenger was hospitalized with liver and spleen laceration as well as pelvic fracture and brain injury. The unrestrained nine month old, who was in the lap of the second row right seat passenger, was fully ejected and fatally injured; she succumbed to shortly after arrival at the hospital with spinal cord transection and multiple brain trauma.
+</text>
+    <sents>
+        <sent begin="0" end="38" sid="0">
+            <text>Vehicle one (V1), a 1988 Chevrolet Camaro, was traveling northbound in the first lane of a two-lane, two-way, undivided, wet, bituminous roadway, approaching an intersection.</text>
+            <parse score="-21.4942">[S [S [NP [NP Vehicle_JJ one_NN NP] [NP (_-LRB- V1_NNP NP] NP] )_-RRB- S] ,_, [NP a_DT 1988_CD Chevrolet_NNP Camaro_NNP NP] ,_, [VP was_VBD [VP traveling_VBG [NP [NP [NP northbound_NN NP] [PP in_IN [NP [NP the_DT first_JJ lane_NN NP] [PP of_IN [NP a_DT [NML two_CD -_HYPH lane_NN NML] ,_, [NML two_CD -_HYPH way_NN NML] ,_, [ADJP undivided_JJ ,_, wet_JJ ADJP] NP] PP] NP] PP] NP] ,_, [NP bituminous_JJ roadway_NN NP] NP] ,_, [S [VP approaching_VBG [NP an_DT intersection_NN NP] VP] S] VP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="0" end="6" tid="0" type="0">Vehicle</token>
+                <token begin="8" end="10" tid="1" type="0">one</token>
+                <token begin="12" end="12" tid="2" type="2048">(</token>
+                <token begin="13" end="14" tid="3" type="0">V1</token>
+                <token begin="15" end="15" tid="4" type="2048">)</token>
+                <token begin="16" end="16" tid="5" type="2048">,</token>
+                <token begin="18" end="18" tid="6" type="0">a</token>
+                <token begin="20" end="23" tid="7" type="0">1988</token>
+                <token begin="25" end="33" tid="8" type="0">Chevrolet</token>
+                <token begin="35" end="40" tid="9" type="0">Camaro</token>
+                <token begin="41" end="41" tid="10" type="2048">,</token>
+                <token begin="43" end="45" tid="11" type="0">was</token>
+                <token begin="47" end="55" tid="12" type="0">traveling</token>
+                <token begin="57" end="66" tid="13" type="0">northbound</token>
+                <token begin="68" end="69" tid="14" type="0">in</token>
+                <token begin="71" end="73" tid="15" type="0">the</token>
+                <token begin="75" end="79" tid="16" type="0">first</token>
+                <token begin="81" end="84" tid="17" type="0">lane</token>
+                <token begin="86" end="87" tid="18" type="0">of</token>
+                <token begin="89" end="89" tid="19" type="0">a</token>
+                <token begin="91" end="93" tid="20" type="0">two</token>
+                <token begin="94" end="94" tid="21" type="2048">-</token>
+                <token begin="95" end="98" tid="22" type="0">lane</token>
+                <token begin="99" end="99" tid="23" type="2048">,</token>
+                <token begin="101" end="103" tid="24" type="0">two</token>
+                <token begin="104" end="104" tid="25" type="2048">-</token>
+                <token begin="105" end="107" tid="26" type="0">way</token>
+                <token begin="108" end="108" tid="27" type="2048">,</token>
+                <token begin="110" end="118" tid="28" type="0">undivided</token>
+                <token begin="119" end="119" tid="29" type="2048">,</token>
+                <token begin="121" end="123" tid="30" type="0">wet</token>
+                <token begin="124" end="124" tid="31" type="2048">,</token>
+                <token begin="126" end="135" tid="32" type="0">bituminous</token>
+                <token begin="137" end="143" tid="33" type="0">roadway</token>
+                <token begin="144" end="144" tid="34" type="2048">,</token>
+                <token begin="146" end="156" tid="35" type="0">approaching</token>
+                <token begin="158" end="159" tid="36" type="0">an</token>
+                <token begin="161" end="172" tid="37" type="0">intersection</token>
+                <token begin="173" end="173" tid="38" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="39" end="70" sid="1">
+            <text>Vehicle two (V2), a 1989 Honda Civic, was traveling eastbound in the first lane of a two-lane, two-way roadway, approaching the same intersection.</text>
+            <parse score="-20.9668">[FRAG [NP Vehicle_JJ two_CD NP] (_-LRB- [NP V2_NNP NP] )_-RRB- ,_, [NP a_DT 1989_CD Honda_NNP Civic_NNP NP] ,_, [VP was_VBD [VP traveling_VBG [ADJP eastbound_JJ ADJP] [PP in_IN [NP [NP the_DT first_JJ lane_NN NP] [PP of_IN [NP a_DT [NML two_CD -_HYPH lane_NN NML] ,_, [NP two-way_NN roadway_NN NP] NP] PP] NP] PP] ,_, [S [VP approaching_VBG [NP the_DT same_JJ intersection_NN NP] VP] S] VP] VP] ._. FRAG]</parse>
+            <tokens>
+                <token begin="176" end="182" tid="39" type="0">Vehicle</token>
+                <token begin="184" end="186" tid="40" type="0">two</token>
+                <token begin="188" end="188" tid="41" type="2048">(</token>
+                <token begin="189" end="190" tid="42" type="0">V2</token>
+                <token begin="191" end="191" tid="43" type="2048">)</token>
+                <token begin="192" end="192" tid="44" type="2048">,</token>
+                <token begin="194" end="194" tid="45" type="0">a</token>
+                <token begin="196" end="199" tid="46" type="0">1989</token>
+                <token begin="201" end="205" tid="47" type="0">Honda</token>
+                <token begin="207" end="211" tid="48" type="0">Civic</token>
+                <token begin="212" end="212" tid="49" type="2048">,</token>
+                <token begin="214" end="216" tid="50" type="0">was</token>
+                <token begin="218" end="226" tid="51" type="0">traveling</token>
+                <token begin="228" end="236" tid="52" type="0">eastbound</token>
+                <token begin="238" end="239" tid="53" type="0">in</token>
+                <token begin="241" end="243" tid="54" type="0">the</token>
+                <token begin="245" end="249" tid="55" type="0">first</token>
+                <token begin="251" end="254" tid="56" type="0">lane</token>
+                <token begin="256" end="257" tid="57" type="0">of</token>
+                <token begin="259" end="259" tid="58" type="0">a</token>
+                <token begin="261" end="263" tid="59" type="0">two</token>
+                <token begin="264" end="264" tid="60" type="2048">-</token>
+                <token begin="265" end="268" tid="61" type="0">lane</token>
+                <token begin="269" end="269" tid="62" type="2048">,</token>
+                <token begin="271" end="277" tid="63" type="0">two-way</token>
+                <token begin="279" end="285" tid="64" type="0">roadway</token>
+                <token begin="286" end="286" tid="65" type="2048">,</token>
+                <token begin="288" end="298" tid="66" type="0">approaching</token>
+                <token begin="300" end="302" tid="67" type="0">the</token>
+                <token begin="304" end="307" tid="68" type="0">same</token>
+                <token begin="309" end="320" tid="69" type="0">intersection</token>
+                <token begin="321" end="321" tid="70" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="71" end="107" sid="2">
+            <text>As both vehicles entered the intersection, the front of V1 impacted the right side of V2.  V2 rotated clockwise and the front of V2 contacted the right side of V1 as V1 passed by.</text>
+            <parse score="-26.188">[S [SBAR As_IN [S [NP both_DT vehicles_NNS NP] [VP entered_VBD [NP the_DT intersection_NN NP] VP] S] SBAR] ,_, [NP [NP the_DT front_NN NP] [PP of_IN [NP [NP V1_NNP NP] [VP impacted_VBN [SBAR [S [NP [NP the_DT right_JJ side_NN NP] [PP of_IN [NP [NP V2_NNP NP] ._, [NP V2_NNP NP] NP] PP] NP] [VP rotated_VBD [SBAR [S [NP [NP clockwise_NN NP] and_CC [NP [NP the_DT front_NN NP] [PP of_IN [NP V2_NNP NP] PP] NP] NP] [VP contacted_VBD [NP [NP the_DT right_JJ side_NN NP] [PP of_IN [NP V1_NN NP] PP] NP] [PP as_IN [NP [NP V1_NN NP] [VP passed_VBN [ADVP by_RB ADVP] VP] NP] PP] VP] S] SBAR] VP] S] SBAR] VP] NP] PP] NP] ._. S]</parse>
+            <tokens>
+                <token begin="324" end="325" tid="71" type="0">As</token>
+                <token begin="327" end="330" tid="72" type="0">both</token>
+                <token begin="332" end="339" tid="73" type="0">vehicles</token>
+                <token begin="341" end="347" tid="74" type="0">entered</token>
+                <token begin="349" end="351" tid="75" type="0">the</token>
+                <token begin="353" end="364" tid="76" type="0">intersection</token>
+                <token begin="365" end="365" tid="77" type="2048">,</token>
+                <token begin="367" end="369" tid="78" type="0">the</token>
+                <token begin="371" end="375" tid="79" type="0">front</token>
+                <token begin="377" end="378" tid="80" type="0">of</token>
+                <token begin="380" end="381" tid="81" type="0">V1</token>
+                <token begin="383" end="390" tid="82" type="0">impacted</token>
+                <token begin="392" end="394" tid="83" type="0">the</token>
+                <token begin="396" end="400" tid="84" type="0">right</token>
+                <token begin="402" end="405" tid="85" type="0">side</token>
+                <token begin="407" end="408" tid="86" type="0">of</token>
+                <token begin="410" end="411" tid="87" type="0">V2</token>
+                <token begin="412" end="412" tid="88" type="2048">.</token>
+                <token begin="415" end="416" tid="89" type="0">V2</token>
+                <token begin="418" end="424" tid="90" type="0">rotated</token>
+                <token begin="426" end="434" tid="91" type="0">clockwise</token>
+                <token begin="436" end="438" tid="92" type="0">and</token>
+                <token begin="440" end="442" tid="93" type="0">the</token>
+                <token begin="444" end="448" tid="94" type="0">front</token>
+                <token begin="450" end="451" tid="95" type="0">of</token>
+                <token begin="453" end="454" tid="96" type="0">V2</token>
+                <token begin="456" end="464" tid="97" type="0">contacted</token>
+                <token begin="466" end="468" tid="98" type="0">the</token>
+                <token begin="470" end="474" tid="99" type="0">right</token>
+                <token begin="476" end="479" tid="100" type="0">side</token>
+                <token begin="481" end="482" tid="101" type="0">of</token>
+                <token begin="484" end="485" tid="102" type="0">V1</token>
+                <token begin="487" end="488" tid="103" type="0">as</token>
+                <token begin="490" end="491" tid="104" type="0">V1</token>
+                <token begin="493" end="498" tid="105" type="0">passed</token>
+                <token begin="500" end="501" tid="106" type="0">by</token>
+                <token begin="502" end="502" tid="107" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="108" end="123" sid="3">
+            <text>V2 and departed the road over the northeast corner, where it came to rest.</text>
+            <parse score="-9.77571">[S [NP [NP V2_NN NP] and_CC departed_VBD [NP [NP the_DT road_NN NP] [PP over_IN [NP [NP the_DT northeast_NN corner_NN NP] ,_, [SBAR [WHADVP where_WRB WHADVP] [S [NP it_PRP NP] [VP came_VBD [PP to_TO [NP rest_NN NP] PP] VP] S] SBAR] NP] PP] NP] NP] ._. S]</parse>
+            <tokens>
+                <token begin="505" end="506" tid="108" type="0">V2</token>
+                <token begin="508" end="510" tid="109" type="0">and</token>
+                <token begin="512" end="519" tid="110" type="0">departed</token>
+                <token begin="521" end="523" tid="111" type="0">the</token>
+                <token begin="525" end="528" tid="112" type="0">road</token>
+                <token begin="530" end="533" tid="113" type="0">over</token>
+                <token begin="535" end="537" tid="114" type="0">the</token>
+                <token begin="539" end="547" tid="115" type="0">northeast</token>
+                <token begin="549" end="554" tid="116" type="0">corner</token>
+                <token begin="555" end="555" tid="117" type="2048">,</token>
+                <token begin="557" end="561" tid="118" type="0">where</token>
+                <token begin="563" end="564" tid="119" type="0">it</token>
+                <token begin="566" end="569" tid="120" type="0">came</token>
+                <token begin="571" end="572" tid="121" type="0">to</token>
+                <token begin="574" end="577" tid="122" type="0">rest</token>
+                <token begin="578" end="578" tid="123" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="124" end="150" sid="4">
+            <text>V1 continued forward and traversed the intersection, where it impacted V3, a 1993 Toyota pickup, which was legally parked along the east curb.</text>
+            <parse score="-20.9788">[S [NP V1_NN NP] [VP [VP continued_VBD [ADVP forward_RB ADVP] VP] and_CC [VP traversed_VBD [NP [NP the_DT intersection_NN NP] ,_, [SBAR [WHADVP where_WRB WHADVP] [S [NP it_PRP NP] [VP impacted_VBN [NP [NP [NP V3_NNP NP] ,_, [NP a_DT 1993_CD [NML Toyota_NNP NML] pickup_NN NP] NP] ,_, [SBAR [WHNP which_WDT WHNP] [S [VP was_VBD [ADVP legally_RB ADVP] [VP parked_VBN [PP along_IN [NP the_DT east_JJ curb_NN NP] PP] VP] VP] S] SBAR] NP] VP] S] SBAR] NP] VP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="581" end="582" tid="124" type="0">V1</token>
+                <token begin="584" end="592" tid="125" type="0">continued</token>
+                <token begin="594" end="600" tid="126" type="0">forward</token>
+                <token begin="602" end="604" tid="127" type="0">and</token>
+                <token begin="606" end="614" tid="128" type="0">traversed</token>
+                <token begin="616" end="618" tid="129" type="0">the</token>
+                <token begin="620" end="631" tid="130" type="0">intersection</token>
+                <token begin="632" end="632" tid="131" type="2048">,</token>
+                <token begin="634" end="638" tid="132" type="0">where</token>
+                <token begin="640" end="641" tid="133" type="0">it</token>
+                <token begin="643" end="650" tid="134" type="0">impacted</token>
+                <token begin="652" end="653" tid="135" type="0">V3</token>
+                <token begin="654" end="654" tid="136" type="2048">,</token>
+                <token begin="656" end="656" tid="137" type="0">a</token>
+                <token begin="658" end="661" tid="138" type="0">1993</token>
+                <token begin="663" end="668" tid="139" type="0">Toyota</token>
+                <token begin="670" end="675" tid="140" type="0">pickup</token>
+                <token begin="676" end="676" tid="141" type="2048">,</token>
+                <token begin="678" end="682" tid="142" type="0">which</token>
+                <token begin="684" end="686" tid="143" type="0">was</token>
+                <token begin="688" end="694" tid="144" type="0">legally</token>
+                <token begin="696" end="701" tid="145" type="0">parked</token>
+                <token begin="703" end="707" tid="146" type="0">along</token>
+                <token begin="709" end="711" tid="147" type="0">the</token>
+                <token begin="713" end="716" tid="148" type="0">east</token>
+                <token begin="718" end="721" tid="149" type="0">curb</token>
+                <token begin="722" end="722" tid="150" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="151" end="161" sid="5">
+            <text>V1 and V3 came to rest along the east curb.</text>
+            <parse score="-3.98078">[S [NP V1_NN and_CC V3_NN NP] [VP came_VBD [S [VP to_TO [VP rest_VB [PP along_IN [NP the_DT east_JJ curb_NN NP] PP] VP] VP] S] VP] ._. S]</parse>
+            <tokens>
+                <token begin="725" end="726" tid="151" type="0">V1</token>
+                <token begin="728" end="730" tid="152" type="0">and</token>
+                <token begin="732" end="733" tid="153" type="0">V3</token>
+                <token begin="735" end="738" tid="154" type="0">came</token>
+                <token begin="740" end="741" tid="155" type="0">to</token>
+                <token begin="743" end="746" tid="156" type="0">rest</token>
+                <token begin="748" end="752" tid="157" type="0">along</token>
+                <token begin="754" end="756" tid="158" type="0">the</token>
+                <token begin="758" end="761" tid="159" type="0">east</token>
+                <token begin="763" end="766" tid="160" type="0">curb</token>
+                <token begin="767" end="767" tid="161" type="14336">.</token>
+            </tokens>
+        </sent>
+        <sent begin="162" end="170" sid="6">
+            <text>V1 and V2 were towed due to damage.</text>
+            <parse score="-5.64378">[S [NP V1_NN and_CC V2_NN NP] [VP were_VBD [VP towed_VBN [PP due_JJ to_TO [NP damage_NN NP] PP] VP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="770" end="771" tid="162" type="0">V1</token>
+                <token begin="773" end="775" tid="163" type="0">and</token>
+                <token begin="777" end="778" tid="164" type="0">V2</token>
+                <token begin="780" end="783" tid="165" type="0">were</token>
+                <token begin="785" end="789" tid="166" type="0">towed</token>
+                <token begin="791" end="793" tid="167" type="0">due</token>
+                <token begin="795" end="796" tid="168" type="0">to</token>
+                <token begin="798" end="803" tid="169" type="0">damage</token>
+                <token begin="804" end="804" tid="170" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="171" end="187" sid="7">
+            <text>The restrained driver of V1 was hospitalized for observation and released with minor abrasion and contusion.</text>
+            <parse score="-8.55977">[S [NP [NP The_DT restrained_JJ driver_NN NP] [PP of_IN [NP V1_NN NP] PP] NP] [VP was_VBD [VP [VP hospitalized_VBN [PP for_IN [NP observation_NN NP] PP] VP] and_CC [VP released_VBN [PP with_IN [NP minor_JJ abrasion_NN and_CC contusion_NN NP] PP] VP] VP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="807" end="809" tid="171" type="0">The</token>
+                <token begin="811" end="820" tid="172" type="0">restrained</token>
+                <token begin="822" end="827" tid="173" type="0">driver</token>
+                <token begin="829" end="830" tid="174" type="0">of</token>
+                <token begin="832" end="833" tid="175" type="0">V1</token>
+                <token begin="835" end="837" tid="176" type="0">was</token>
+                <token begin="839" end="850" tid="177" type="0">hospitalized</token>
+                <token begin="852" end="854" tid="178" type="0">for</token>
+                <token begin="856" end="866" tid="179" type="0">observation</token>
+                <token begin="868" end="870" tid="180" type="0">and</token>
+                <token begin="872" end="879" tid="181" type="0">released</token>
+                <token begin="881" end="884" tid="182" type="0">with</token>
+                <token begin="886" end="890" tid="183" type="0">minor</token>
+                <token begin="892" end="899" tid="184" type="0">abrasion</token>
+                <token begin="901" end="903" tid="185" type="0">and</token>
+                <token begin="905" end="913" tid="186" type="0">contusion</token>
+                <token begin="914" end="914" tid="187" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="188" end="210" sid="8">
+            <text>The restrained driver of V2 was transported and released, after observation for loss of consciousness, with neck and shoulder strain.</text>
+            <parse score="-13.4069">[S [NP [NP The_DT restrained_JJ driver_NN NP] [PP of_IN [NP V2_NNP NP] PP] NP] [VP was_VBD [VP transported_VBN and_CC released_VBN VP] VP] ,_, [PP after_IN [NP observation_NN NP] PP] [PP for_IN [NP [NP loss_NN NP] [PP of_IN [NP consciousness_NN NP] PP] NP] PP] ,_, [PP with_IN [NP neck_NN and_CC shoulder_NN strain_NN NP] PP] ._. S]</parse>
+            <tokens>
+                <token begin="917" end="919" tid="188" type="0">The</token>
+                <token begin="921" end="930" tid="189" type="0">restrained</token>
+                <token begin="932" end="937" tid="190" type="0">driver</token>
+                <token begin="939" end="940" tid="191" type="0">of</token>
+                <token begin="942" end="943" tid="192" type="0">V2</token>
+                <token begin="945" end="947" tid="193" type="0">was</token>
+                <token begin="949" end="959" tid="194" type="0">transported</token>
+                <token begin="961" end="963" tid="195" type="0">and</token>
+                <token begin="965" end="972" tid="196" type="0">released</token>
+                <token begin="973" end="973" tid="197" type="2048">,</token>
+                <token begin="975" end="979" tid="198" type="0">after</token>
+                <token begin="981" end="991" tid="199" type="0">observation</token>
+                <token begin="993" end="995" tid="200" type="0">for</token>
+                <token begin="997" end="1000" tid="201" type="0">loss</token>
+                <token begin="1002" end="1003" tid="202" type="0">of</token>
+                <token begin="1005" end="1017" tid="203" type="0">consciousness</token>
+                <token begin="1018" end="1018" tid="204" type="2048">,</token>
+                <token begin="1020" end="1023" tid="205" type="0">with</token>
+                <token begin="1025" end="1028" tid="206" type="0">neck</token>
+                <token begin="1030" end="1032" tid="207" type="0">and</token>
+                <token begin="1034" end="1041" tid="208" type="0">shoulder</token>
+                <token begin="1043" end="1048" tid="209" type="0">strain</token>
+                <token begin="1049" end="1049" tid="210" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="211" end="231" sid="9">
+            <text>The second row middle seat passenger, restrained in a child safety seat, was hospitalized with multiple brain injury.</text>
+            <parse score="-11.7566">[S [NP [NP The_DT second_JJ row_NN middle_JJ seat_NN passenger_NN NP] ,_, [VP restrained_VBN [PP in_IN [NP a_DT child_NN safety_NN seat_NN NP] PP] VP] ,_, NP] [VP was_VBD [VP hospitalized_VBN [PP with_IN [NP multiple_JJ brain_NN injury_NN NP] PP] VP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="1051" end="1053" tid="211" type="0">The</token>
+                <token begin="1055" end="1060" tid="212" type="0">second</token>
+                <token begin="1062" end="1064" tid="213" type="0">row</token>
+                <token begin="1066" end="1071" tid="214" type="0">middle</token>
+                <token begin="1073" end="1076" tid="215" type="0">seat</token>
+                <token begin="1078" end="1086" tid="216" type="0">passenger</token>
+                <token begin="1087" end="1087" tid="217" type="2048">,</token>
+                <token begin="1089" end="1098" tid="218" type="0">restrained</token>
+                <token begin="1100" end="1101" tid="219" type="0">in</token>
+                <token begin="1103" end="1103" tid="220" type="0">a</token>
+                <token begin="1105" end="1109" tid="221" type="0">child</token>
+                <token begin="1111" end="1116" tid="222" type="0">safety</token>
+                <token begin="1118" end="1121" tid="223" type="0">seat</token>
+                <token begin="1122" end="1122" tid="224" type="2048">,</token>
+                <token begin="1124" end="1126" tid="225" type="0">was</token>
+                <token begin="1128" end="1139" tid="226" type="0">hospitalized</token>
+                <token begin="1141" end="1144" tid="227" type="0">with</token>
+                <token begin="1146" end="1153" tid="228" type="0">multiple</token>
+                <token begin="1155" end="1159" tid="229" type="0">brain</token>
+                <token begin="1161" end="1166" tid="230" type="0">injury</token>
+                <token begin="1167" end="1167" tid="231" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="232" end="254" sid="10">
+            <text>The unrestrained second row right seat passenger was hospitalized with liver and spleen laceration as well as pelvic fracture and brain injury.</text>
+            <parse score="-16.1185">[S [NP The_DT unrestrained_JJ second_NN row_NN right_JJ seat_NN passenger_NN NP] [VP was_VBD [VP hospitalized_VBN [PP with_IN [NP [NP liver_NN and_CC spleen_NN laceration_NN NP] [CONJP as_RB well_RB as_IN CONJP] [NP [NP pelvic_JJ fracture_NN NP] and_CC [NP brain_NN injury_NN NP] NP] NP] PP] VP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="1169" end="1171" tid="232" type="0">The</token>
+                <token begin="1173" end="1184" tid="233" type="0">unrestrained</token>
+                <token begin="1186" end="1191" tid="234" type="0">second</token>
+                <token begin="1193" end="1195" tid="235" type="0">row</token>
+                <token begin="1197" end="1201" tid="236" type="0">right</token>
+                <token begin="1203" end="1206" tid="237" type="0">seat</token>
+                <token begin="1208" end="1216" tid="238" type="0">passenger</token>
+                <token begin="1218" end="1220" tid="239" type="0">was</token>
+                <token begin="1222" end="1233" tid="240" type="0">hospitalized</token>
+                <token begin="1235" end="1238" tid="241" type="0">with</token>
+                <token begin="1240" end="1244" tid="242" type="0">liver</token>
+                <token begin="1246" end="1248" tid="243" type="0">and</token>
+                <token begin="1250" end="1255" tid="244" type="0">spleen</token>
+                <token begin="1257" end="1266" tid="245" type="0">laceration</token>
+                <token begin="1268" end="1269" tid="246" type="0">as</token>
+                <token begin="1271" end="1274" tid="247" type="0">well</token>
+                <token begin="1276" end="1277" tid="248" type="0">as</token>
+                <token begin="1279" end="1284" tid="249" type="0">pelvic</token>
+                <token begin="1286" end="1293" tid="250" type="0">fracture</token>
+                <token begin="1295" end="1297" tid="251" type="0">and</token>
+                <token begin="1299" end="1303" tid="252" type="0">brain</token>
+                <token begin="1305" end="1310" tid="253" type="0">injury</token>
+                <token begin="1311" end="1311" tid="254" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="255" end="298" sid="11">
+            <text>The unrestrained nine month old, who was in the lap of the second row right seat passenger, was fully ejected and fatally injured; she succumbed to shortly after arrival at the hospital with spinal cord transection and multiple brain trauma.</text>
+            <parse score="-33.1771">[S [S [NP [NP The_DT unrestrained_JJ nine_CD month_NN NP] old_JJ ,_, [SBAR [WHNP who_WP WHNP] [S [VP was_VBD [PP in_IN [NP [NP the_DT lap_NN NP] [PP of_IN [NP the_DT second_JJ row_NN right_JJ seat_NN passenger_NN NP] PP] NP] PP] VP] S] SBAR] ,_, NP] [VP was_VBD [ADVP fully_RB ADVP] [VP [VP ejected_VBN VP] and_CC [ADVP fatally_RB ADVP] [VP injured_VBN VP] VP] VP] S] ;_: [S [NP she_PRP NP] [VP succumbed_VBD [S [VP to_TO [PP [ADVP shortly_RB ADVP] after_IN [NP [NP arrival_NN NP] [PP at_IN [NP [NP the_DT hospital_NN NP] [PP with_IN [NP [NP spinal_NN cord_NN transection_NN NP] and_CC [NP multiple_JJ brain_NN trauma_NN NP] NP] PP] NP] PP] NP] PP] VP] S] VP] S] ._. S]</parse>
+            <tokens>
+                <token begin="1313" end="1315" tid="255" type="0">The</token>
+                <token begin="1317" end="1328" tid="256" type="0">unrestrained</token>
+                <token begin="1330" end="1333" tid="257" type="0">nine</token>
+                <token begin="1335" end="1339" tid="258" type="0">month</token>
+                <token begin="1341" end="1343" tid="259" type="0">old</token>
+                <token begin="1344" end="1344" tid="260" type="2048">,</token>
+                <token begin="1346" end="1348" tid="261" type="0">who</token>
+                <token begin="1350" end="1352" tid="262" type="0">was</token>
+                <token begin="1354" end="1355" tid="263" type="0">in</token>
+                <token begin="1357" end="1359" tid="264" type="0">the</token>
+                <token begin="1361" end="1363" tid="265" type="0">lap</token>
+                <token begin="1365" end="1366" tid="266" type="0">of</token>
+                <token begin="1368" end="1370" tid="267" type="0">the</token>
+                <token begin="1372" end="1377" tid="268" type="0">second</token>
+                <token begin="1379" end="1381" tid="269" type="0">row</token>
+                <token begin="1383" end="1387" tid="270" type="0">right</token>
+                <token begin="1389" end="1392" tid="271" type="0">seat</token>
+                <token begin="1394" end="1402" tid="272" type="0">passenger</token>
+                <token begin="1403" end="1403" tid="273" type="2048">,</token>
+                <token begin="1405" end="1407" tid="274" type="0">was</token>
+                <token begin="1409" end="1413" tid="275" type="0">fully</token>
+                <token begin="1415" end="1421" tid="276" type="0">ejected</token>
+                <token begin="1423" end="1425" tid="277" type="0">and</token>
+                <token begin="1427" end="1433" tid="278" type="0">fatally</token>
+                <token begin="1435" end="1441" tid="279" type="0">injured</token>
+                <token begin="1442" end="1442" tid="280" type="2048">;</token>
+                <token begin="1444" end="1446" tid="281" type="0">she</token>
+                <token begin="1448" end="1456" tid="282" type="0">succumbed</token>
+                <token begin="1458" end="1459" tid="283" type="0">to</token>
+                <token begin="1461" end="1467" tid="284" type="0">shortly</token>
+                <token begin="1469" end="1473" tid="285" type="0">after</token>
+                <token begin="1475" end="1481" tid="286" type="0">arrival</token>
+                <token begin="1483" end="1484" tid="287" type="0">at</token>
+                <token begin="1486" end="1488" tid="288" type="0">the</token>
+                <token begin="1490" end="1497" tid="289" type="0">hospital</token>
+                <token begin="1499" end="1502" tid="290" type="0">with</token>
+                <token begin="1504" end="1509" tid="291" type="0">spinal</token>
+                <token begin="1511" end="1514" tid="292" type="0">cord</token>
+                <token begin="1516" end="1526" tid="293" type="0">transection</token>
+                <token begin="1528" end="1530" tid="294" type="0">and</token>
+                <token begin="1532" end="1539" tid="295" type="0">multiple</token>
+                <token begin="1541" end="1545" tid="296" type="0">brain</token>
+                <token begin="1547" end="1552" tid="297" type="0">trauma</token>
+                <token begin="1553" end="1553" tid="298" type="6144">.</token>
+            </tokens>
+        </sent>
+    </sents>
+    <mentions>
+        <mention begin="0" class="SPC" eid="c1" end="10" etype="VEHICLE" head-begin="0" head-end="10" metonymy="0" mid="s0-m3" mtype="NONE" role="VEHICLE">Vehicle one</mention>
+        <mention begin="13" class="SPC" eid="c1" end="14" etype="VEHICLE" head-begin="13" head-end="14" metonymy="0" mid="s0-m4" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="20" class="SPC" eid="E-1" end="23" etype="MODEL_YEAR" head-begin="20" head-end="23" metonymy="0" mid="s0-m5" mtype="NONE" role="MODEL_YEAR">1988</mention>
+        <mention begin="25" class="SPC" eid="E-2" end="33" etype="MANUFACTURER" head-begin="25" head-end="33" metonymy="0" mid="s0-m0" mtype="NONE" role="MANUFACTURER">Chevrolet</mention>
+        <mention begin="35" class="SPC" eid="c1" end="40" etype="MODEL" head-begin="35" head-end="40" metonymy="0" mid="s0-m1" mtype="NONE" role="MODEL">Camaro</mention>
+        <mention begin="75" class="SPC" eid="E-3" end="84" etype="STRUCTURE" head-begin="75" head-end="84" metonymy="0" mid="s0-m6" mtype="NONE" role="STRUCTURE">first lane</mention>
+        <mention begin="91" class="SPC" eid="E-4" end="143" etype="STRUCTURE" head-begin="91" head-end="143" metonymy="0" mid="s0-m9" mtype="NONE" role="STRUCTURE">two-lane, two-way, undivided, wet, bituminous roadway</mention>
+        <mention begin="121" class="SPC" eid="E-5" end="123" etype="CONDITION" head-begin="121" head-end="123" metonymy="0" mid="s0-m8" mtype="NONE" role="CONDITION">wet</mention>
+        <mention begin="161" class="SPC" eid="c4" end="172" etype="STRUCTURE" head-begin="161" head-end="172" metonymy="0" mid="s0-m10" mtype="NONE" role="STRUCTURE">intersection</mention>
+        <mention begin="176" class="SPC" eid="c2" end="186" etype="VEHICLE" head-begin="176" head-end="186" metonymy="0" mid="s1-m3" mtype="NONE" role="VEHICLE">Vehicle two</mention>
+        <mention begin="189" class="SPC" eid="c2" end="190" etype="VEHICLE" head-begin="189" head-end="190" metonymy="0" mid="s1-m4" mtype="NONE" role="VEHICLE">V2</mention>
+        <mention begin="196" class="SPC" eid="E-6" end="199" etype="MODEL_YEAR" head-begin="196" head-end="199" metonymy="0" mid="s1-m5" mtype="NONE" role="MODEL_YEAR">1989</mention>
+        <mention begin="201" class="SPC" eid="E-7" end="205" etype="MANUFACTURER" head-begin="201" head-end="205" metonymy="0" mid="s1-m0" mtype="NONE" role="MANUFACTURER">Honda</mention>
+        <mention begin="207" class="SPC" eid="c2" end="211" etype="MODEL" head-begin="207" head-end="211" metonymy="0" mid="s1-m1" mtype="NONE" role="MODEL">Civic</mention>
+        <mention begin="245" class="SPC" eid="E-8" end="254" etype="STRUCTURE" head-begin="245" head-end="254" metonymy="0" mid="s1-m6" mtype="NONE" role="STRUCTURE">first lane</mention>
+        <mention begin="261" class="SPC" eid="E-9" end="285" etype="STRUCTURE" head-begin="261" head-end="285" metonymy="0" mid="s1-m7" mtype="NONE" role="STRUCTURE">two-lane, two-way roadway</mention>
+        <mention begin="309" class="SPC" eid="c4" end="320" etype="STRUCTURE" head-begin="309" head-end="320" metonymy="0" mid="s1-m8" mtype="NONE" role="STRUCTURE">intersection</mention>
+        <mention begin="332" class="SPC" eid="E-10" end="339" etype="VEHICLE" head-begin="332" head-end="339" metonymy="0" mid="s2-m1" mtype="NONE" role="VEHICLE">vehicles</mention>
+        <mention begin="353" class="SPC" eid="c4" end="364" etype="STRUCTURE" head-begin="353" head-end="364" metonymy="0" mid="s2-m2" mtype="NONE" role="STRUCTURE">intersection</mention>
+        <mention begin="371" class="SPC" eid="E-11" end="375" etype="PART_OF_CAR" head-begin="371" head-end="375" metonymy="0" mid="s2-m3" mtype="NONE" role="PART_OF_CAR">front</mention>
+        <mention begin="380" class="SPC" eid="c1" end="381" etype="VEHICLE" head-begin="380" head-end="381" metonymy="0" mid="s2-m4" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="383" class="SPC" eid="E-12" end="390" etype="INCIDENT" head-begin="383" head-end="390" metonymy="0" mid="s2-m5" mtype="NONE" role="INCIDENT">impacted</mention>
+        <mention begin="396" class="SPC" eid="E-13" end="405" etype="PART_OF_CAR" head-begin="396" head-end="405" metonymy="0" mid="s2-m6" mtype="NONE" role="PART_OF_CAR">right side</mention>
+        <mention begin="410" class="SPC" eid="c2" end="411" etype="VEHICLE" head-begin="410" head-end="411" metonymy="0" mid="s2-m7" mtype="NONE" role="VEHICLE">V2</mention>
+        <mention begin="415" class="SPC" eid="c2" end="416" etype="VEHICLE" head-begin="415" head-end="416" metonymy="0" mid="s3-m1" mtype="NONE" role="VEHICLE">V2</mention>
+        <mention begin="444" class="SPC" eid="E-14" end="448" etype="PART_OF_CAR" head-begin="444" head-end="448" metonymy="0" mid="s3-m2" mtype="NONE" role="PART_OF_CAR">front</mention>
+        <mention begin="453" class="SPC" eid="c2" end="454" etype="VEHICLE" head-begin="453" head-end="454" metonymy="0" mid="s3-m3" mtype="NONE" role="VEHICLE">V2</mention>
+        <mention begin="456" class="SPC" eid="E-15" end="464" etype="INCIDENT" head-begin="456" head-end="464" metonymy="0" mid="s3-m4" mtype="NONE" role="INCIDENT">contacted</mention>
+        <mention begin="470" class="SPC" eid="E-16" end="479" etype="PART_OF_CAR" head-begin="470" head-end="479" metonymy="0" mid="s3-m5" mtype="NONE" role="PART_OF_CAR">right side</mention>
+        <mention begin="484" class="SPC" eid="c1" end="485" etype="VEHICLE" head-begin="484" head-end="485" metonymy="0" mid="s3-m6" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="490" class="SPC" eid="c1" end="491" etype="VEHICLE" head-begin="490" head-end="491" metonymy="0" mid="s3-m7" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="505" class="SPC" eid="c2" end="506" etype="VEHICLE" head-begin="505" head-end="506" metonymy="0" mid="s4-m1" mtype="NONE" role="VEHICLE">V2</mention>
+        <mention begin="512" class="SPC" eid="E-17" end="519" etype="INCIDENT" head-begin="512" head-end="519" metonymy="0" mid="s4-m2" mtype="NONE" role="INCIDENT">departed</mention>
+        <mention begin="525" class="SPC" eid="c6" end="554" etype="STRUCTURE" head-begin="525" head-end="554" metonymy="0" mid="s4-m4" mtype="NONE" role="STRUCTURE">road over the northeast corner</mention>
+        <mention begin="557" class="SPC" eid="c6" end="561" etype="STRUCTURE" head-begin="557" head-end="561" metonymy="0" mid="s4-m7" mtype="NONE" role="STRUCTURE">where</mention>
+        <mention begin="563" class="SPC" eid="c2" end="564" etype="VEHICLE" head-begin="563" head-end="564" metonymy="0" mid="s4-m6" mtype="NONE" role="VEHICLE">it</mention>
+        <mention begin="566" class="SPC" eid="E-18" end="577" etype="INCIDENT" head-begin="566" head-end="577" metonymy="0" mid="s4-m5" mtype="NONE" role="INCIDENT">came to rest</mention>
+        <mention begin="581" class="SPC" eid="c1" end="582" etype="VEHICLE" head-begin="581" head-end="582" metonymy="0" mid="s5-m3" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="620" class="SPC" eid="c4" end="631" etype="STRUCTURE" head-begin="620" head-end="631" metonymy="0" mid="s5-m4" mtype="NONE" role="STRUCTURE">intersection</mention>
+        <mention begin="634" class="SPC" eid="c4" end="638" etype="STRUCTURE" head-begin="634" head-end="638" metonymy="0" mid="s5-m12" mtype="NONE" role="STRUCTURE">where</mention>
+        <mention begin="640" class="SPC" eid="c1" end="641" etype="VEHICLE" head-begin="640" head-end="641" metonymy="0" mid="s5-m11" mtype="NONE" role="VEHICLE">it</mention>
+        <mention begin="643" class="SPC" eid="E-19" end="650" etype="INCIDENT" head-begin="643" head-end="650" metonymy="0" mid="s5-m5" mtype="NONE" role="INCIDENT">impacted</mention>
+        <mention begin="652" class="SPC" eid="c3" end="653" etype="VEHICLE" head-begin="652" head-end="653" metonymy="0" mid="s5-m6" mtype="NONE" role="VEHICLE">V3</mention>
+        <mention begin="658" class="SPC" eid="E-20" end="661" etype="MODEL_YEAR" head-begin="658" head-end="661" metonymy="0" mid="s5-m7" mtype="NONE" role="MODEL_YEAR">1993</mention>
+        <mention begin="663" class="SPC" eid="E-21" end="668" etype="MANUFACTURER" head-begin="663" head-end="668" metonymy="0" mid="s5-m0" mtype="NONE" role="MANUFACTURER">Toyota</mention>
+        <mention begin="670" class="SPC" eid="c3" end="675" etype="MODEL" head-begin="670" head-end="675" metonymy="0" mid="s5-m1" mtype="NONE" role="MODEL">pickup</mention>
+        <mention begin="678" class="SPC" eid="c3" end="682" etype="VEHICLE" head-begin="678" head-end="682" metonymy="0" mid="s5-m9" mtype="NONE" role="VEHICLE">which</mention>
+        <mention begin="718" class="SPC" eid="c5" end="721" etype="STRUCTURE" head-begin="718" head-end="721" metonymy="0" mid="s5-m10" mtype="NONE" role="STRUCTURE">curb</mention>
+        <mention begin="725" class="SPC" eid="c1" end="726" etype="VEHICLE" head-begin="725" head-end="726" metonymy="0" mid="s6-m2" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="732" class="SPC" eid="c3" end="733" etype="VEHICLE" head-begin="732" head-end="733" metonymy="0" mid="s6-m1" mtype="NONE" role="VEHICLE">V3</mention>
+        <mention begin="763" class="SPC" eid="c5" end="766" etype="STRUCTURE" head-begin="763" head-end="766" metonymy="0" mid="s6-m3" mtype="NONE" role="STRUCTURE">curb</mention>
+        <mention begin="770" class="SPC" eid="c1" end="771" etype="VEHICLE" head-begin="770" head-end="771" metonymy="0" mid="s7-m1" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="777" class="SPC" eid="c2" end="778" etype="VEHICLE" head-begin="777" head-end="778" metonymy="0" mid="s7-m2" mtype="NONE" role="VEHICLE">V2</mention>
+        <mention begin="785" class="SPC" eid="E-22" end="789" etype="ACCIDENT_OUTCOME" head-begin="785" head-end="789" metonymy="0" mid="s7-m3" mtype="NONE" role="ACCIDENT_OUTCOME">towed</mention>
+        <mention begin="798" class="SPC" eid="E-23" end="803" etype="ACCIDENT_OUTCOME" head-begin="798" head-end="803" metonymy="0" mid="s7-m4" mtype="NONE" role="ACCIDENT_OUTCOME">damage</mention>
+        <mention begin="822" class="SPC" eid="E-24" end="827" etype="PERSON" head-begin="822" head-end="827" metonymy="0" mid="s8-m1" mtype="NONE" role="PERSON">driver</mention>
+        <mention begin="832" class="SPC" eid="c1" end="833" etype="VEHICLE" head-begin="832" head-end="833" metonymy="0" mid="s8-m2" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="839" class="SPC" eid="E-25" end="850" etype="ACCIDENT_OUTCOME" head-begin="839" head-end="850" metonymy="0" mid="s8-m3" mtype="NONE" role="ACCIDENT_OUTCOME">hospitalized</mention>
+        <mention begin="886" class="SPC" eid="E-26" end="913" etype="ACCIDENT_OUTCOME" head-begin="886" head-end="913" metonymy="0" mid="s8-m4" mtype="NONE" role="ACCIDENT_OUTCOME">minor abrasion and contusion</mention>
+        <mention begin="932" class="SPC" eid="E-27" end="937" etype="PERSON" head-begin="932" head-end="937" metonymy="0" mid="s9-m1" mtype="NONE" role="PERSON">driver</mention>
+        <mention begin="942" class="SPC" eid="c2" end="943" etype="VEHICLE" head-begin="942" head-end="943" metonymy="0" mid="s9-m2" mtype="NONE" role="VEHICLE">V2</mention>
+        <mention begin="949" class="SPC" eid="E-28" end="959" etype="ACCIDENT_OUTCOME" head-begin="949" head-end="959" metonymy="0" mid="s9-m3" mtype="NONE" role="ACCIDENT_OUTCOME">transported</mention>
+        <mention begin="997" class="SPC" eid="E-29" end="1017" etype="ACCIDENT_OUTCOME" head-begin="997" head-end="1017" metonymy="0" mid="s9-m4" mtype="NONE" role="ACCIDENT_OUTCOME">loss of consciousness</mention>
+        <mention begin="1025" class="SPC" eid="E-30" end="1048" etype="ACCIDENT_OUTCOME" head-begin="1025" head-end="1048" metonymy="0" mid="s9-m5" mtype="NONE" role="ACCIDENT_OUTCOME">neck and shoulder strain</mention>
+        <mention begin="1055" class="SPC" eid="E-31" end="1076" etype="PART_OF_CAR" head-begin="1055" head-end="1076" metonymy="0" mid="s10-m1" mtype="NONE" role="PART_OF_CAR">second row middle seat</mention>
+        <mention begin="1078" class="SPC" eid="E-32" end="1086" etype="PERSON" head-begin="1078" head-end="1086" metonymy="0" mid="s10-m2" mtype="NONE" role="PERSON">passenger</mention>
+        <mention begin="1105" class="SPC" eid="E-33" end="1121" etype="PART_OF_CAR" head-begin="1105" head-end="1121" metonymy="0" mid="s10-m3" mtype="NONE" role="PART_OF_CAR">child safety seat</mention>
+        <mention begin="1128" class="SPC" eid="E-34" end="1139" etype="ACCIDENT_OUTCOME" head-begin="1128" head-end="1139" metonymy="0" mid="s10-m4" mtype="NONE" role="ACCIDENT_OUTCOME">hospitalized</mention>
+        <mention begin="1146" class="SPC" eid="E-35" end="1166" etype="ACCIDENT_OUTCOME" head-begin="1146" head-end="1166" metonymy="0" mid="s10-m5" mtype="NONE" role="ACCIDENT_OUTCOME">multiple brain injury</mention>
+        <mention begin="1186" class="SPC" eid="E-36" end="1206" etype="PART_OF_CAR" head-begin="1186" head-end="1206" metonymy="0" mid="s11-m1" mtype="NONE" role="PART_OF_CAR">second row right seat</mention>
+        <mention begin="1208" class="SPC" eid="c7" end="1216" etype="PERSON" head-begin="1208" head-end="1216" metonymy="0" mid="s11-m2" mtype="NONE" role="PERSON">passenger</mention>
+        <mention begin="1222" class="SPC" eid="E-37" end="1233" etype="ACCIDENT_OUTCOME" head-begin="1222" head-end="1233" metonymy="0" mid="s11-m3" mtype="NONE" role="ACCIDENT_OUTCOME">hospitalized</mention>
+        <mention begin="1240" class="SPC" eid="E-38" end="1266" etype="ACCIDENT_OUTCOME" head-begin="1240" head-end="1266" metonymy="0" mid="s11-m4" mtype="NONE" role="ACCIDENT_OUTCOME">liver and spleen laceration</mention>
+        <mention begin="1279" class="SPC" eid="E-39" end="1293" etype="ACCIDENT_OUTCOME" head-begin="1279" head-end="1293" metonymy="0" mid="s11-m5" mtype="NONE" role="ACCIDENT_OUTCOME">pelvic fracture</mention>
+        <mention begin="1299" class="SPC" eid="E-40" end="1310" etype="ACCIDENT_OUTCOME" head-begin="1299" head-end="1310" metonymy="0" mid="s11-m6" mtype="NONE" role="ACCIDENT_OUTCOME">brain injury</mention>
+        <mention begin="1330" class="SPC" eid="c8" end="1343" etype="PERSON" head-begin="1330" head-end="1343" metonymy="0" mid="s12-m1" mtype="NONE" role="PERSON">nine month old</mention>
+        <mention begin="1346" class="SPC" eid="c8" end="1348" etype="PERSON" head-begin="1346" head-end="1348" metonymy="0" mid="s12-m2" mtype="NONE" role="PERSON">who</mention>
+        <mention begin="1372" class="SPC" eid="E-41" end="1392" etype="PART_OF_CAR" head-begin="1372" head-end="1392" metonymy="0" mid="s12-m3" mtype="NONE" role="PART_OF_CAR">second row right seat</mention>
+        <mention begin="1394" class="SPC" eid="c7" end="1402" etype="PERSON" head-begin="1394" head-end="1402" metonymy="0" mid="s12-m4" mtype="NONE" role="PERSON">passenger</mention>
+        <mention begin="1409" class="SPC" eid="E-42" end="1421" etype="INCIDENT" head-begin="1409" head-end="1421" metonymy="0" mid="s12-m5" mtype="NONE" role="INCIDENT">fully ejected</mention>
+        <mention begin="1427" class="SPC" eid="E-43" end="1441" etype="ACCIDENT_OUTCOME" head-begin="1427" head-end="1441" metonymy="0" mid="s12-m6" mtype="NONE" role="ACCIDENT_OUTCOME">fatally injured</mention>
+        <mention begin="1444" class="SPC" eid="c8" end="1446" etype="PERSON" head-begin="1444" head-end="1446" metonymy="0" mid="s12-m7" mtype="NONE" role="PERSON">she</mention>
+        <mention begin="1475" class="SPC" eid="E-44" end="1497" etype="ACCIDENT_OUTCOME" head-begin="1475" head-end="1497" metonymy="0" mid="s12-m8" mtype="NONE" role="ACCIDENT_OUTCOME">arrival at the hospital</mention>
+        <mention begin="1504" class="SPC" eid="E-45" end="1526" etype="ACCIDENT_OUTCOME" head-begin="1504" head-end="1526" metonymy="0" mid="s12-m9" mtype="NONE" role="ACCIDENT_OUTCOME">spinal cord transection</mention>
+        <mention begin="1532" class="SPC" eid="E-46" end="1552" etype="ACCIDENT_OUTCOME" head-begin="1532" head-end="1552" metonymy="0" mid="s12-m10" mtype="NONE" role="ACCIDENT_OUTCOME">multiple brain trauma</mention>
+    </mentions>
+    <entities>
+        <entity class="SPC" eid="c1" generic="0" level="NONE" score="1" subtype="OTHER" type="VEHICLE">
+            <mentref mid="s0-m3">Vehicle one</mentref>
+            <mentref mid="s0-m4">V1</mentref>
+            <mentref mid="s0-m1">Camaro</mentref>
+            <mentref mid="s2-m4">V1</mentref>
+            <mentref mid="s3-m6">V1</mentref>
+            <mentref mid="s3-m7">V1</mentref>
+            <mentref mid="s5-m3">V1</mentref>
+            <mentref mid="s5-m11">it</mentref>
+            <mentref mid="s6-m2">V1</mentref>
+            <mentref mid="s7-m1">V1</mentref>
+            <mentref mid="s8-m2">V1</mentref>
+        </entity>
+        <entity class="SPC" eid="c2" generic="0" level="NONE" score="1" subtype="OTHER" type="VEHICLE">
+            <mentref mid="s1-m3">Vehicle two</mentref>
+            <mentref mid="s1-m4">V2</mentref>
+            <mentref mid="s1-m1">Civic</mentref>
+            <mentref mid="s2-m7">V2</mentref>
+            <mentref mid="s3-m1">V2</mentref>
+            <mentref mid="s3-m3">V2</mentref>
+            <mentref mid="s4-m1">V2</mentref>
+            <mentref mid="s4-m6">it</mentref>
+            <mentref mid="s7-m2">V2</mentref>
+            <mentref mid="s9-m2">V2</mentref>
+        </entity>
+        <entity class="SPC" eid="c3" generic="0" level="NONE" score="1" subtype="OTHER" type="VEHICLE">
+            <mentref mid="s5-m6">V3</mentref>
+            <mentref mid="s5-m1">pickup</mentref>
+            <mentref mid="s5-m9">which</mentref>
+            <mentref mid="s6-m1">V3</mentref>
+        </entity>
+        <entity class="SPC" eid="c4" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s0-m10">intersection</mentref>
+            <mentref mid="s1-m8">intersection</mentref>
+            <mentref mid="s2-m2">intersection</mentref>
+            <mentref mid="s5-m4">intersection</mentref>
+            <mentref mid="s5-m12">where</mentref>
+        </entity>
+        <entity class="SPC" eid="c5" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s5-m10">curb</mentref>
+            <mentref mid="s6-m3">curb</mentref>
+        </entity>
+        <entity class="SPC" eid="c6" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s4-m4">road over the northeast corner</mentref>
+            <mentref mid="s4-m7">where</mentref>
+        </entity>
+        <entity class="SPC" eid="c7" generic="0" level="NONE" score="1" subtype="OTHER" type="PERSON">
+            <mentref mid="s11-m2">passenger</mentref>
+            <mentref mid="s12-m4">passenger</mentref>
+        </entity>
+        <entity class="SPC" eid="c8" generic="0" level="NONE" score="1" subtype="OTHER" type="PERSON">
+            <mentref mid="s12-m1">nine month old</mentref>
+            <mentref mid="s12-m2">who</mentref>
+            <mentref mid="s12-m7">she</mentref>
+        </entity>
+        <entity class="SPC" eid="E-1" generic="0" level="NONE" score="1" subtype="OTHER" type="MODEL_YEAR">
+            <mentref mid="s0-m5">1988</mentref>
+        </entity>
+        <entity class="SPC" eid="E-2" generic="0" level="NONE" score="1" subtype="OTHER" type="MANUFACTURER">
+            <mentref mid="s0-m0">Chevrolet</mentref>
+        </entity>
+        <entity class="SPC" eid="E-3" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s0-m6">first lane</mentref>
+        </entity>
+        <entity class="SPC" eid="E-4" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s0-m9">two-lane, two-way, undivided, wet, bituminous roadway</mentref>
+        </entity>
+        <entity class="SPC" eid="E-5" generic="0" level="NONE" score="1" subtype="OTHER" type="CONDITION">
+            <mentref mid="s0-m8">wet</mentref>
+        </entity>
+        <entity class="SPC" eid="E-6" generic="0" level="NONE" score="1" subtype="OTHER" type="MODEL_YEAR">
+            <mentref mid="s1-m5">1989</mentref>
+        </entity>
+        <entity class="SPC" eid="E-7" generic="0" level="NONE" score="1" subtype="OTHER" type="MANUFACTURER">
+            <mentref mid="s1-m0">Honda</mentref>
+        </entity>
+        <entity class="SPC" eid="E-8" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s1-m6">first lane</mentref>
+        </entity>
+        <entity class="SPC" eid="E-9" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s1-m7">two-lane, two-way roadway</mentref>
+        </entity>
+        <entity class="SPC" eid="E-10" generic="0" level="NONE" score="1" subtype="OTHER" type="VEHICLE">
+            <mentref mid="s2-m1">vehicles</mentref>
+        </entity>
+        <entity class="SPC" eid="E-11" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s2-m3">front</mentref>
+        </entity>
+        <entity class="SPC" eid="E-12" generic="0" level="NONE" score="1" subtype="OTHER" type="INCIDENT">
+            <mentref mid="s2-m5">impacted</mentref>
+        </entity>
+        <entity class="SPC" eid="E-13" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s2-m6">right side</mentref>
+        </entity>
+        <entity class="SPC" eid="E-14" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s3-m2">front</mentref>
+        </entity>
+        <entity class="SPC" eid="E-15" generic="0" level="NONE" score="1" subtype="OTHER" type="INCIDENT">
+            <mentref mid="s3-m4">contacted</mentref>
+        </entity>
+        <entity class="SPC" eid="E-16" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s3-m5">right side</mentref>
+        </entity>
+        <entity class="SPC" eid="E-17" generic="0" level="NONE" score="1" subtype="OTHER" type="INCIDENT">
+            <mentref mid="s4-m2">departed</mentref>
+        </entity>
+        <entity class="SPC" eid="E-18" generic="0" level="NONE" score="1" subtype="OTHER" type="INCIDENT">
+            <mentref mid="s4-m5">came to rest</mentref>
+        </entity>
+        <entity class="SPC" eid="E-19" generic="0" level="NONE" score="1" subtype="OTHER" type="INCIDENT">
+            <mentref mid="s5-m5">impacted</mentref>
+        </entity>
+        <entity class="SPC" eid="E-20" generic="0" level="NONE" score="1" subtype="OTHER" type="MODEL_YEAR">
+            <mentref mid="s5-m7">1993</mentref>
+        </entity>
+        <entity class="SPC" eid="E-21" generic="0" level="NONE" score="1" subtype="OTHER" type="MANUFACTURER">
+            <mentref mid="s5-m0">Toyota</mentref>
+        </entity>
+        <entity class="SPC" eid="E-22" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s7-m3">towed</mentref>
+        </entity>
+        <entity class="SPC" eid="E-23" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s7-m4">damage</mentref>
+        </entity>
+        <entity class="SPC" eid="E-24" generic="0" level="NONE" score="1" subtype="OTHER" type="PERSON">
+            <mentref mid="s8-m1">driver</mentref>
+        </entity>
+        <entity class="SPC" eid="E-25" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s8-m3">hospitalized</mentref>
+        </entity>
+        <entity class="SPC" eid="E-26" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s8-m4">minor abrasion and contusion</mentref>
+        </entity>
+        <entity class="SPC" eid="E-27" generic="0" level="NONE" score="1" subtype="OTHER" type="PERSON">
+            <mentref mid="s9-m1">driver</mentref>
+        </entity>
+        <entity class="SPC" eid="E-28" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s9-m3">transported</mentref>
+        </entity>
+        <entity class="SPC" eid="E-29" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s9-m4">loss of consciousness</mentref>
+        </entity>
+        <entity class="SPC" eid="E-30" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s9-m5">neck and shoulder strain</mentref>
+        </entity>
+        <entity class="SPC" eid="E-31" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s10-m1">second row middle seat</mentref>
+        </entity>
+        <entity class="SPC" eid="E-32" generic="0" level="NONE" score="1" subtype="OTHER" type="PERSON">
+            <mentref mid="s10-m2">passenger</mentref>
+        </entity>
+        <entity class="SPC" eid="E-33" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s10-m3">child safety seat</mentref>
+        </entity>
+        <entity class="SPC" eid="E-34" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s10-m4">hospitalized</mentref>
+        </entity>
+        <entity class="SPC" eid="E-35" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s10-m5">multiple brain injury</mentref>
+        </entity>
+        <entity class="SPC" eid="E-36" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s11-m1">second row right seat</mentref>
+        </entity>
+        <entity class="SPC" eid="E-37" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s11-m3">hospitalized</mentref>
+        </entity>
+        <entity class="SPC" eid="E-38" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s11-m4">liver and spleen laceration</mentref>
+        </entity>
+        <entity class="SPC" eid="E-39" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s11-m5">pelvic fracture</mentref>
+        </entity>
+        <entity class="SPC" eid="E-40" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s11-m6">brain injury</mentref>
+        </entity>
+        <entity class="SPC" eid="E-41" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s12-m3">second row right seat</mentref>
+        </entity>
+        <entity class="SPC" eid="E-42" generic="0" level="NONE" score="1" subtype="OTHER" type="INCIDENT">
+            <mentref mid="s12-m5">fully ejected</mentref>
+        </entity>
+        <entity class="SPC" eid="E-43" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s12-m6">fatally injured</mentref>
+        </entity>
+        <entity class="SPC" eid="E-44" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s12-m8">arrival at the hospital</mentref>
+        </entity>
+        <entity class="SPC" eid="E-45" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s12-m9">spinal cord transection</mentref>
+        </entity>
+        <entity class="SPC" eid="E-46" generic="0" level="NONE" score="1" subtype="OTHER" type="ACCIDENT_OUTCOME">
+            <mentref mid="s12-m10">multiple brain trauma</mentref>
+        </entity>
+    </entities>
+    <relations version="unspecified">
+        <relation rid="s0-r1" subtype="OTHER" type="hasProperty">
+            <rel_entity_arg argnum="1" eid="c1"/>
+            <rel_entity_arg argnum="2" eid="E-2"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s0-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s0-m1">Camaro</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s0-m0">Chevrolet</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s0-r2" subtype="OTHER" type="hasProperty">
+            <rel_entity_arg argnum="1" eid="c1"/>
+            <rel_entity_arg argnum="2" eid="E-1"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s0-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s0-m1">Camaro</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s0-m5">1988</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s1-r1" subtype="OTHER" type="hasProperty">
+            <rel_entity_arg argnum="1" eid="c2"/>
+            <rel_entity_arg argnum="2" eid="E-6"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s1-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s1-m1">Civic</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s1-m5">1989</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s1-r2" subtype="OTHER" type="hasProperty">
+            <rel_entity_arg argnum="1" eid="c2"/>
+            <rel_entity_arg argnum="2" eid="E-7"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s1-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s1-m1">Civic</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s1-m0">Honda</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s2-r1" subtype="OTHER" type="locatedOn">
+            <rel_entity_arg argnum="1" eid="E-11"/>
+            <rel_entity_arg argnum="2" eid="c1"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s2-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s2-m3">front</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s2-m4">V1</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s2-r2" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-12"/>
+            <rel_entity_arg argnum="2" eid="E-11"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s2-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s2-m5">impacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s2-m3">front</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s2-r3" subtype="OTHER" type="locatedOn">
+            <rel_entity_arg argnum="1" eid="E-13"/>
+            <rel_entity_arg argnum="2" eid="c2"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s2-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s2-m6">right side</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s2-m7">V2</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s2-r4" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-12"/>
+            <rel_entity_arg argnum="2" eid="E-13"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s2-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s2-m5">impacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s2-m6">right side</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s3-r1" subtype="OTHER" type="locatedOn">
+            <rel_entity_arg argnum="1" eid="E-14"/>
+            <rel_entity_arg argnum="2" eid="c2"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s3-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s3-m2">front</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s3-m3">V2</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s3-r2" subtype="OTHER" type="locatedOn">
+            <rel_entity_arg argnum="1" eid="E-16"/>
+            <rel_entity_arg argnum="2" eid="c1"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s3-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s3-m5">right side</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s3-m6">V1</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s3-r3" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-15"/>
+            <rel_entity_arg argnum="2" eid="E-16"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s3-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s3-m4">contacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s3-m5">right side</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s3-r4" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-15"/>
+            <rel_entity_arg argnum="2" eid="E-14"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s3-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s3-m4">contacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s3-m2">front</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s4-r1" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-17"/>
+            <rel_entity_arg argnum="2" eid="c2"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s4-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s4-m2">departed</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s4-m1">V2</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s4-r2" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-17"/>
+            <rel_entity_arg argnum="2" eid="c6"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s4-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s4-m2">departed</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s4-m4">road over the northeast corner</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s4-r4" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-18"/>
+            <rel_entity_arg argnum="2" eid="c6"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s4-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s4-m5">came to rest</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s4-m4">road over the northeast corner</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s4-r5" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-18"/>
+            <rel_entity_arg argnum="2" eid="c2"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s4-r5-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s4-m5">came to rest</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s4-m6">it</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s4-r6" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-18"/>
+            <rel_entity_arg argnum="2" eid="c6"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s4-r6-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s4-m5">came to rest</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s4-m7">where</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s5-r1" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-19"/>
+            <rel_entity_arg argnum="2" eid="c3"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s5-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s5-m5">impacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s5-m6">V3</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s5-r2" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-19"/>
+            <rel_entity_arg argnum="2" eid="c1"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s5-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s5-m5">impacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s5-m11">it</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s5-r3" subtype="OTHER" type="hasProperty">
+            <rel_entity_arg argnum="1" eid="c3"/>
+            <rel_entity_arg argnum="2" eid="E-21"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s5-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s5-m1">pickup</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s5-m0">Toyota</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s5-r4" subtype="OTHER" type="hasProperty">
+            <rel_entity_arg argnum="1" eid="c3"/>
+            <rel_entity_arg argnum="2" eid="E-20"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s5-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s5-m1">pickup</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s5-m7">1993</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s7-r1" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c2"/>
+            <rel_entity_arg argnum="2" eid="E-22"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s7-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s7-m2">V2</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s7-m3">towed</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s7-r2" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c2"/>
+            <rel_entity_arg argnum="2" eid="E-23"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s7-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s7-m2">V2</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s7-m4">damage</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s7-r3" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c1"/>
+            <rel_entity_arg argnum="2" eid="E-22"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s7-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s7-m1">V1</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s7-m3">towed</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s7-r4" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c1"/>
+            <rel_entity_arg argnum="2" eid="E-23"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s7-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s7-m1">V1</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s7-m4">damage</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s8-r1" subtype="OTHER" type="occupantOf">
+            <rel_entity_arg argnum="1" eid="E-24"/>
+            <rel_entity_arg argnum="2" eid="c1"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s8-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s8-m1">driver</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s8-m2">V1</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s8-r2" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="E-24"/>
+            <rel_entity_arg argnum="2" eid="E-25"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s8-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s8-m1">driver</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s8-m3">hospitalized</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s8-r3" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="E-24"/>
+            <rel_entity_arg argnum="2" eid="E-26"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s8-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s8-m1">driver</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s8-m4">minor abrasion and contusion</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s9-r1" subtype="OTHER" type="occupantOf">
+            <rel_entity_arg argnum="1" eid="E-27"/>
+            <rel_entity_arg argnum="2" eid="c2"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s9-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s9-m1">driver</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s9-m2">V2</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s9-r2" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="E-27"/>
+            <rel_entity_arg argnum="2" eid="E-28"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s9-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s9-m1">driver</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s9-m3">transported</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s9-r3" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="E-27"/>
+            <rel_entity_arg argnum="2" eid="E-30"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s9-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s9-m1">driver</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s9-m5">neck and shoulder strain</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s9-r4" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="E-27"/>
+            <rel_entity_arg argnum="2" eid="E-29"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s9-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s9-m1">driver</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s9-m4">loss of consciousness</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s10-r1" subtype="OTHER" type="occupantOf">
+            <rel_entity_arg argnum="1" eid="E-32"/>
+            <rel_entity_arg argnum="2" eid="E-31"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s10-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s10-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s10-m1">second row middle seat</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s10-r2" subtype="OTHER" type="occupantOf">
+            <rel_entity_arg argnum="1" eid="E-32"/>
+            <rel_entity_arg argnum="2" eid="E-33"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s10-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s10-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s10-m3">child safety seat</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s10-r3" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="E-32"/>
+            <rel_entity_arg argnum="2" eid="E-34"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s10-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s10-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s10-m4">hospitalized</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s10-r4" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="E-32"/>
+            <rel_entity_arg argnum="2" eid="E-35"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s10-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s10-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s10-m5">multiple brain injury</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s11-r1" subtype="OTHER" type="occupantOf">
+            <rel_entity_arg argnum="1" eid="c7"/>
+            <rel_entity_arg argnum="2" eid="E-36"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s11-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s11-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s11-m1">second row right seat</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s11-r2" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c7"/>
+            <rel_entity_arg argnum="2" eid="E-37"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s11-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s11-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s11-m3">hospitalized</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s11-r3" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c7"/>
+            <rel_entity_arg argnum="2" eid="E-38"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s11-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s11-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s11-m4">liver and spleen laceration</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s11-r4" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c7"/>
+            <rel_entity_arg argnum="2" eid="E-39"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s11-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s11-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s11-m5">pelvic fracture</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s11-r5" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c7"/>
+            <rel_entity_arg argnum="2" eid="E-40"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s11-r5-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s11-m2">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s11-m6">brain injury</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s12-r2" subtype="OTHER" type="occupantOf">
+            <rel_entity_arg argnum="1" eid="c7"/>
+            <rel_entity_arg argnum="2" eid="E-41"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s12-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s12-m4">passenger</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s12-m3">second row right seat</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s12-r3" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-42"/>
+            <rel_entity_arg argnum="2" eid="c8"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s12-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s12-m5">fully ejected</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s12-m2">who</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s12-r4" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c8"/>
+            <rel_entity_arg argnum="2" eid="E-43"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s12-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s12-m2">who</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s12-m6">fatally injured</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s12-r5" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c8"/>
+            <rel_entity_arg argnum="2" eid="E-44"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s12-r5-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s12-m7">she</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s12-m8">arrival at the hospital</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s12-r6" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c8"/>
+            <rel_entity_arg argnum="2" eid="E-45"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s12-r6-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s12-m7">she</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s12-m9">spinal cord transection</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s12-r7" subtype="OTHER" type="sufferedFrom">
+            <rel_entity_arg argnum="1" eid="c8"/>
+            <rel_entity_arg argnum="2" eid="E-46"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s12-r7-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s12-m7">she</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s12-m10">multiple brain trauma</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+    </relations>
+    <sgml_sent_info/>
+    <sgml_char_info/>
+    <profile/>
+    <username/>
+    <removed/>
+    <edited/>
+</doc>

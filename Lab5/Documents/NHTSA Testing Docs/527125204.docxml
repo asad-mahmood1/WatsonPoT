@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>This on-site investigation focused on the dynamics of a 2008 Ford Escape involved in a two-vehicle crash and subsequent rollover. The crash occurred in September 2009 in the state of Washington.  The Ford was being driven by a 30-year-old female and an 8-year-old female occupied the front right seat.  The other vehicle was a 2000 Honda Civic that was being driven by an 18-year-old female; a 16-year-old female occupied the front right seat. The crash site was a four-leg intersection that was controlled by posted stop signs for northbound and southbound traffic.  The Ford was traveling westbound and entered the intersection. The Honda was traveling northbound, entered the intersection, and the front end of the Honda impacted the left side of the Ford.  The Ford initiated a counterclockwise rotation, overturned, and rolled two quarter-turns.  The Ford came to rest on its roof in the west leg of the intersection and the Honda came to rest within the intersection.  The Ford was equipped with combination rollover/side impact inflatable curtain (IC) air bags and during the crash the left and right IC air bags deployed.  The occupants of the Ford sustained minor injuries and were transported to a local hospital.  The Ford was towed due to damage and later declared a total loss by the insurance company.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="20">
+      <text>This on-site investigation focused on the dynamics of a 2008 Ford Escape involved in a two-vehicle crash and subsequent rollover.</text>
+      <parse score="-13.135500">[S [NP This_DT on-site_JJ investigation_NN NP] [VP focused_VBD [PP on_IN [NP [NP [NP [NP the_DT dynamics_NNS NP] [PP of_IN [NP a_DT 2008_CD Ford_NNP Escape_NNP NP] PP] NP] [VP involved_VBN [PP in_IN [NP a_DT two-vehicle_JJ crash_NN NP] PP] VP] NP] and_CC [NP subsequent_JJ rollover_NN NP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>This DT 2 -I on-site JJ 2 -I investigation NN -1 NP focused VBD 2 VP on IN 3 PP the DT 6 -I dynamics NNS 19 NP of IN 6 PP a DT 11 -I 2008 CD 11 -I Ford NNP 11 -I Escape NNP 7 NP involved VBN 6 VP in IN 12 PP a DT 16 -I two-vehicle JJ 16 -I crash NN 13 NP and CC 19 -E subsequent JJ 19 -I rollover NN 4 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP This_DT on-site_JJ investigation_NN NP:3-ARG0] [VP focused_VBD:focused.01 [PP on_IN [NP [NP [NP [NP the_DT dynamics_NNS NP] [PP of_IN [NP a_DT 2008_CD Ford_NNP Escape_NNP NP] PP] NP:12-ARG1] [VP involved_VBN:involved.01 [PP in_IN [NP a_DT two-vehicle_JJ crash_NN NP] PP:12-ARG2] VP] NP] and_CC [NP subsequent_JJ rollover_NN NP] NP] PP:3-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">This</token>
+        <token tid="1" begin="5" end="11" type="0">on-site</token>
+        <token tid="2" begin="13" end="25" type="0">investigation</token>
+        <token tid="3" begin="27" end="33" type="0">focused</token>
+        <token tid="4" begin="35" end="36" type="0">on</token>
+        <token tid="5" begin="38" end="40" type="0">the</token>
+        <token tid="6" begin="42" end="49" type="0">dynamics</token>
+        <token tid="7" begin="51" end="52" type="0">of</token>
+        <token tid="8" begin="54" end="54" type="0">a</token>
+        <token tid="9" begin="56" end="59" type="0">2008</token>
+        <token tid="10" begin="61" end="64" type="0">Ford</token>
+        <token tid="11" begin="66" end="71" type="0">Escape</token>
+        <token tid="12" begin="73" end="80" type="0">involved</token>
+        <token tid="13" begin="82" end="83" type="0">in</token>
+        <token tid="14" begin="85" end="85" type="0">a</token>
+        <token tid="15" begin="87" end="97" type="0">two-vehicle</token>
+        <token tid="16" begin="99" end="103" type="0">crash</token>
+        <token tid="17" begin="105" end="107" type="0">and</token>
+        <token tid="18" begin="109" end="118" type="0">subsequent</token>
+        <token tid="19" begin="120" end="127" type="0">rollover</token>
+        <token tid="20" begin="128" end="128" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="21" end="32">
+      <text>The crash occurred in September 2009 in the state of Washington.</text>
+      <parse score="-1.455200">[S [NP The_DT crash_NN NP] [VP occurred_VBD [PP in_IN [NP September_NNP 2009_CD NP] PP] [PP in_IN [NP [NP the_DT state_NN NP] [PP of_IN [NP Washington_NNP NP] PP] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I crash NN -1 NP occurred VBD 1 VP in IN 2 PP September NNP 3 NP 2009 CD 4 -I in IN 2 PP the DT 8 -I state NN 6 NP of IN 8 PP Washington NNP 9 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT crash_NN NP:2-ARG1] [VP occurred_VBD:occurred.01 [PP in_IN [NP September_NNP 2009_CD NP] PP:2-ARGM-TMP] [PP in_IN [NP [NP the_DT state_NN NP] [PP of_IN [NP Washington_NNP NP] PP] NP] PP:2-ARGM-TMP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="21" begin="130" end="132" type="0">The</token>
+        <token tid="22" begin="134" end="138" type="0">crash</token>
+        <token tid="23" begin="140" end="147" type="0">occurred</token>
+        <token tid="24" begin="149" end="150" type="0">in</token>
+        <token tid="25" begin="152" end="160" type="0">September</token>
+        <token tid="26" begin="162" end="165" type="0">2009</token>
+        <token tid="27" begin="167" end="168" type="0">in</token>
+        <token tid="28" begin="170" end="172" type="0">the</token>
+        <token tid="29" begin="174" end="178" type="0">state</token>
+        <token tid="30" begin="180" end="181" type="0">of</token>
+        <token tid="31" begin="183" end="192" type="0">Washington</token>
+        <token tid="32" begin="193" end="193" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="33" end="59">
+      <text>The Ford was being driven by a 30-year-old female and an 8-year-old female occupied the front right seat.</text>
+      <parse score="-8.029650">[S [NP The_DT Ford_NNP NP] [VP was_VBD [VP being_VBG [VP driven_VBN [PP by_IN [NP [NP a_DT [ADJP [NML 30_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] and_CC [NP an_DT [ADJP [NML 8_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] NP] PP] VP] VP] VP] [VP occupied_VBD [NP the_DT front_JJ right_JJ seat_NN NP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Ford NNP -1 NP was VBD 1 VP being VBG 2 VP driven VBN 3 VP by IN 4 PP a DT 12 -I 30 CD 9 -I - HYPH 9 -I year NN 11 NML - HYPH 11 -I old JJ 12 ADJP female NN 20 NP and CC 20 -E an DT 20 -I 8 CD 17 -I - HYPH 17 -I year NN 19 NML - HYPH 19 -I old JJ 20 ADJP female NN 5 NP occupied VBD 1 VP the DT 25 -I front JJ 25 -I right JJ 25 -I seat NN 21 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Ford_NNP NP:4-ARG1/21-ARG0] [VP was_VBD [VP being_VBG [VP driven_VBN:driven.01 [PP by_IN [NP [NP a_DT [ADJP [NML 30_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] and_CC [NP an_DT [ADJP [NML 8_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] NP] PP:4-ARG0] VP] VP] VP] [VP occupied_VBD:occupied.01 [NP the_DT front_JJ right_JJ seat_NN NP:21-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="33" begin="196" end="198" type="0">The</token>
+        <token tid="34" begin="200" end="203" type="0">Ford</token>
+        <token tid="35" begin="205" end="207" type="0">was</token>
+        <token tid="36" begin="209" end="213" type="0">being</token>
+        <token tid="37" begin="215" end="220" type="0">driven</token>
+        <token tid="38" begin="222" end="223" type="0">by</token>
+        <token tid="39" begin="225" end="225" type="0">a</token>
+        <token tid="40" begin="227" end="228" type="0">30</token>
+        <token tid="41" begin="229" end="229" type="2048">-</token>
+        <token tid="42" begin="230" end="233" type="0">year</token>
+        <token tid="43" begin="234" end="234" type="2048">-</token>
+        <token tid="44" begin="235" end="237" type="0">old</token>
+        <token tid="45" begin="239" end="244" type="0">female</token>
+        <token tid="46" begin="246" end="248" type="0">and</token>
+        <token tid="47" begin="250" end="251" type="0">an</token>
+        <token tid="48" begin="253" end="253" type="2048">8</token>
+        <token tid="49" begin="254" end="254" type="2048">-</token>
+        <token tid="50" begin="255" end="258" type="0">year</token>
+        <token tid="51" begin="259" end="259" type="2048">-</token>
+        <token tid="52" begin="260" end="262" type="0">old</token>
+        <token tid="53" begin="264" end="269" type="0">female</token>
+        <token tid="54" begin="271" end="278" type="0">occupied</token>
+        <token tid="55" begin="280" end="282" type="0">the</token>
+        <token tid="56" begin="284" end="288" type="0">front</token>
+        <token tid="57" begin="290" end="294" type="0">right</token>
+        <token tid="58" begin="296" end="299" type="0">seat</token>
+        <token tid="59" begin="300" end="300" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="60" end="93">
+      <text>The other vehicle was a 2000 Honda Civic that was being driven by an 18-year-old female; a 16-year-old female occupied the front right seat.</text>
+      <parse score="-10.494400">[S [S [NP The_DT other_JJ vehicle_NN NP] [VP was_VBD [NP [NP a_DT 2000_CD Honda_NNP Civic_NNP NP] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP being_VBG [VP driven_VBN [PP by_IN [NP an_DT [ADJP [NML 18_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] PP] VP] VP] VP] S] SBAR] NP] VP] S] ;_: [S [NP a_DT [ADJP [NML 16_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] [VP occupied_VBD [NP the_DT front_JJ right_JJ seat_NN NP] VP] S] ._. S]</parse>
+      <dependency_parse>The DT 2 -I other JJ 2 -I vehicle NN -1 NP was VBD 2 VP a DT 7 -I 2000 CD 7 -I Honda NNP 7 -I Civic NNP 3 NP that WDT 9 WHNP was VBD 7 VP being VBG 9 VP driven VBN 10 VP by IN 11 PP an DT 19 -I 18 CD 16 -I - HYPH 16 -I year NN 18 NML - HYPH 18 -I old JJ 19 ADJP female NN 12 NP ; : 2 -E a DT 27 -I 16 CD 24 -I - HYPH 24 -I year NN 26 NML - HYPH 26 -I old JJ 27 ADJP female NN 2 NP occupied VBD 27 VP the DT 32 -I front JJ 32 -I right JJ 32 -I seat NN 28 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP The_DT other_JJ vehicle_NN NP] [VP was_VBD [NP [NP a_DT 2000_CD Honda_NNP Civic_NNP NP:11-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP being_VBG [VP driven_VBN:driven.01 [PP by_IN [NP an_DT [ADJP [NML 18_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP] PP:11-ARG0] VP] VP] VP] S] SBAR] NP] VP] S] ;_: [S [NP a_DT [ADJP [NML 16_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_NN NP:28-ARG0] [VP occupied_VBD:occupied.01 [NP the_DT front_JJ right_JJ seat_NN NP:28-ARG1] VP] S] ._. S]</srl>
+      <tokens>
+        <token tid="60" begin="303" end="305" type="0">The</token>
+        <token tid="61" begin="307" end="311" type="0">other</token>
+        <token tid="62" begin="313" end="319" type="0">vehicle</token>
+        <token tid="63" begin="321" end="323" type="0">was</token>
+        <token tid="64" begin="325" end="325" type="0">a</token>
+        <token tid="65" begin="327" end="330" type="0">2000</token>
+        <token tid="66" begin="332" end="336" type="0">Honda</token>
+        <token tid="67" begin="338" end="342" type="0">Civic</token>
+        <token tid="68" begin="344" end="347" type="0">that</token>
+        <token tid="69" begin="349" end="351" type="0">was</token>
+        <token tid="70" begin="353" end="357" type="0">being</token>
+        <token tid="71" begin="359" end="364" type="0">driven</token>
+        <token tid="72" begin="366" end="367" type="0">by</token>
+        <token tid="73" begin="369" end="370" type="0">an</token>
+        <token tid="74" begin="372" end="373" type="0">18</token>
+        <token tid="75" begin="374" end="374" type="2048">-</token>
+        <token tid="76" begin="375" end="378" type="0">year</token>
+        <token tid="77" begin="379" end="379" type="2048">-</token>
+        <token tid="78" begin="380" end="382" type="0">old</token>
+        <token tid="79" begin="384" end="389" type="0">female</token>
+        <token tid="80" begin="390" end="390" type="2048">;</token>
+        <token tid="81" begin="392" end="392" type="0">a</token>
+        <token tid="82" begin="394" end="395" type="0">16</token>
+        <token tid="83" begin="396" end="396" type="2048">-</token>
+        <token tid="84" begin="397" end="400" type="0">year</token>
+        <token tid="85" begin="401" end="401" type="2048">-</token>
+        <token tid="86" begin="402" end="404" type="0">old</token>
+        <token tid="87" begin="406" end="411" type="0">female</token>
+        <token tid="88" begin="413" end="420" type="0">occupied</token>
+        <token tid="89" begin="422" end="424" type="0">the</token>
+        <token tid="90" begin="426" end="430" type="0">front</token>
+        <token tid="91" begin="432" end="436" type="0">right</token>
+        <token tid="92" begin="438" end="441" type="0">seat</token>
+        <token tid="93" begin="442" end="442" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="4" begin="94" end="113">
+      <text>The crash site was a four-leg intersection that was controlled by posted stop signs for northbound and southbound traffic.</text>
+      <parse score="-6.556820">[S [NP The_DT crash_NN site_NN NP] [VP was_VBD [NP [NP a_DT four-leg_JJ intersection_NN NP] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP controlled_VBN [PP by_IN [NP [NP posted_VBN stop_NN signs_NNS NP] [PP for_IN [NP [ADJP northbound_JJ and_CC southbound_JJ ADJP] traffic_NN NP] PP] NP] PP] VP] VP] S] SBAR] NP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I crash NN 2 -I site NN -1 NP was VBD 2 VP a DT 6 -I four-leg JJ 6 -I intersection NN 3 NP that WDT 8 WHNP was VBD 6 VP controlled VBN 8 VP by IN 9 PP posted VBN 13 -I stop NN 13 -I signs NNS 10 NP for IN 13 PP northbound JJ 18 ADJP and CC 15 -I southbound JJ 15 -I traffic NN 14 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT crash_NN site_NN NP] [VP was_VBD [NP [NP a_DT four-leg_JJ intersection_NN NP:9-ARG1] [SBAR [WHNP that_WDT WHNP] [S [VP was_VBD [VP controlled_VBN:controlled.01 [PP by_IN [NP [NP posted_VBN:posted.01 stop_NN signs_NNS NP] [PP for_IN [NP [ADJP northbound_JJ and_CC southbound_JJ ADJP] traffic_NN NP] PP] NP] PP:9-ARG0] VP] VP] S] SBAR] NP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="94" begin="444" end="446" type="0">The</token>
+        <token tid="95" begin="448" end="452" type="0">crash</token>
+        <token tid="96" begin="454" end="457" type="0">site</token>
+        <token tid="97" begin="459" end="461" type="0">was</token>
+        <token tid="98" begin="463" end="463" type="0">a</token>
+        <token tid="99" begin="465" end="472" type="0">four-leg</token>
+        <token tid="100" begin="474" end="485" type="0">intersection</token>
+        <token tid="101" begin="487" end="490" type="0">that</token>
+        <token tid="102" begin="492" end="494" type="0">was</token>
+        <token tid="103" begin="496" end="505" type="0">controlled</token>
+        <token tid="104" begin="507" end="508" type="0">by</token>
+        <token tid="105" begin="510" end="515" type="0">posted</token>
+        <token tid="106" begin="517" end="520" type="0">stop</token>
+        <token tid="107" begin="522" end="526" type="0">signs</token>
+        <token tid="108" begin="528" end="530" type="0">for</token>
+        <token tid="109" begin="532" end="541" type="0">northbound</token>
+        <token tid="110" begin="543" end="545" type="0">and</token>
+        <token tid="111" begin="547" end="556" type="0">southbound</token>
+        <token tid="112" begin="558" end="564" type="0">traffic</token>
+        <token tid="113" begin="565" end="565" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="5" begin="114" end="123">
+      <text>The Ford was traveling westbound and entered the intersection.</text>
+      <parse score="-4.818650">[S [NP The_DT Ford_NNP NP] [VP [VP was_VBD [VP traveling_VBG [NP westbound_NN NP] VP] VP] and_CC [VP entered_VBD [NP the_DT intersection_NN NP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Ford NNP -1 NP was VBD 1 VP traveling VBG 2 VP westbound NN 3 NP and CC 2 -E entered VBD 2 VP the DT 8 -I intersection NN 6 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Ford_NNP NP:3-ARG0/6-ARG0] [VP [VP was_VBD [VP traveling_VBG:traveling.01 [NP westbound_NN NP:3-ARG1] VP] VP] and_CC [VP entered_VBD:entered.01 [NP the_DT intersection_NN NP:6-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="114" begin="568" end="570" type="0">The</token>
+        <token tid="115" begin="572" end="575" type="0">Ford</token>
+        <token tid="116" begin="577" end="579" type="0">was</token>
+        <token tid="117" begin="581" end="589" type="0">traveling</token>
+        <token tid="118" begin="591" end="599" type="0">westbound</token>
+        <token tid="119" begin="601" end="603" type="0">and</token>
+        <token tid="120" begin="605" end="611" type="0">entered</token>
+        <token tid="121" begin="613" end="615" type="0">the</token>
+        <token tid="122" begin="617" end="628" type="0">intersection</token>
+        <token tid="123" begin="629" end="629" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="6" begin="124" end="148">
+      <text>The Honda was traveling northbound, entered the intersection, and the front end of the Honda impacted the left side of the Ford.</text>
+      <parse score="-17.129000">[S [S [S [NP The_DT Honda_NNP NP] [VP was_VBD [VP traveling_VBG [NP northbound_NN NP] VP] VP] ,_, [VP entered_VBD [NP the_DT intersection_NN NP] VP] S] ,_, and_CC S] [NP [NP [NP [NP the_DT front_JJ end_NN NP] [PP of_IN [NP [NP the_DT Honda_NNP NP] [VP impacted_VBN [NP [NP the_DT left_JJ side_NN NP] [PP of_IN [NP the_DT Ford_NNP NP] PP] NP] VP] NP] PP] NP] ._. NP] NP] S]</parse>
+      <dependency_parse>The DT 1 -I Honda NNP -1 NP was VBD 1 VP traveling VBG 2 VP northbound NN 3 NP , , 1 -E entered VBD 1 VP the DT 8 -I intersection NN 6 NP , , 1 -E and CC 1 -E the DT 13 -I front JJ 13 -I end NN 1 NP of IN 13 PP the DT 16 -I Honda NNP 14 NP impacted VBN 16 VP the DT 20 -I left JJ 20 -I side NN 17 NP of IN 20 PP the DT 23 -I Ford NNP 21 NP . . 13 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [S [NP The_DT Honda_NNP NP:3-ARG0/6-ARG0] [VP was_VBD [VP traveling_VBG:traveling.01 [NP northbound_NN NP:3-ARG1] VP] VP] ,_, [VP entered_VBD:entered.01 [NP the_DT intersection_NN NP:6-ARG1] VP] S] ,_, and_CC S] [NP [NP [NP [NP the_DT front_JJ end_NN NP] [PP of_IN [NP [NP the_DT Honda_NNP NP:17-ARG1] [VP impacted_VBN:impacted.01 [NP [NP the_DT left_JJ side_NN NP] [PP of_IN [NP the_DT Ford_NNP NP] PP] NP:17-ARG1] VP] NP] PP] NP] ._. NP] NP] S]</srl>
+      <tokens>
+        <token tid="124" begin="631" end="633" type="0">The</token>
+        <token tid="125" begin="635" end="639" type="0">Honda</token>
+        <token tid="126" begin="641" end="643" type="0">was</token>
+        <token tid="127" begin="645" end="653" type="0">traveling</token>
+        <token tid="128" begin="655" end="664" type="0">northbound</token>
+        <token tid="129" begin="665" end="665" type="2048">,</token>
+        <token tid="130" begin="667" end="673" type="0">entered</token>
+        <token tid="131" begin="675" end="677" type="0">the</token>
+        <token tid="132" begin="679" end="690" type="0">intersection</token>
+        <token tid="133" begin="691" end="691" type="2048">,</token>
+        <token tid="134" begin="693" end="695" type="0">and</token>
+        <token tid="135" begin="697" end="699" type="0">the</token>
+        <token tid="136" begin="701" end="705" type="0">front</token>
+        <token tid="137" begin="707" end="709" type="0">end</token>
+        <token tid="138" begin="711" end="712" type="0">of</token>
+        <token tid="139" begin="714" end="716" type="0">the</token>
+        <token tid="140" begin="718" end="722" type="0">Honda</token>
+        <token tid="141" begin="724" end="731" type="0">impacted</token>
+        <token tid="142" begin="733" end="735" type="0">the</token>
+        <token tid="143" begin="737" end="740" type="0">left</token>
+        <token tid="144" begin="742" end="745" type="0">side</token>
+        <token tid="145" begin="747" end="748" type="0">of</token>
+        <token tid="146" begin="750" end="752" type="0">the</token>
+        <token tid="147" begin="754" end="757" type="0">Ford</token>
+        <token tid="148" begin="758" end="758" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="7" begin="149" end="164">
+      <text>The Ford initiated a counterclockwise rotation, overturned, and rolled two quarter-turns.</text>
+      <parse score="-15.218700">[S [NP The_DT Ford_NNP NP] [VP [VP initiated_VBD [NP a_DT counterclockwise_NN rotation_NN NP] ,_, [S [VP overturned_VBN VP] S] VP] ,_, and_CC [VP rolled_VBD [NP two_CD quarter_NN -_HYPH turns_NNS NP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Ford NNP -1 NP initiated VBD 1 VP a DT 5 -I counterclockwise NN 5 -I rotation NN 2 NP , , 2 -I overturned VBN 2 VP , , 2 -E and CC 2 -E rolled VBD 2 VP two CD 14 -I quarter NN 14 -I - HYPH 14 -I turns NNS 10 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Ford_NNP NP:2-ARG0/7-ARG1/10-ARG0] [VP [VP initiated_VBD:initiated.01 [NP a_DT counterclockwise_NN rotation_NN NP:2-ARG1] ,_, [S [VP overturned_VBN:overturned.01 VP] S] VP] ,_, and_CC [VP rolled_VBD:rolled.01 [NP two_CD quarter_NN -_HYPH turns_NNS NP:10-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="149" begin="761" end="763" type="0">The</token>
+        <token tid="150" begin="765" end="768" type="0">Ford</token>
+        <token tid="151" begin="770" end="778" type="0">initiated</token>
+        <token tid="152" begin="780" end="780" type="0">a</token>
+        <token tid="153" begin="782" end="797" type="0">counterclockwise</token>
+        <token tid="154" begin="799" end="806" type="0">rotation</token>
+        <token tid="155" begin="807" end="807" type="2048">,</token>
+        <token tid="156" begin="809" end="818" type="0">overturned</token>
+        <token tid="157" begin="819" end="819" type="2048">,</token>
+        <token tid="158" begin="821" end="823" type="0">and</token>
+        <token tid="159" begin="825" end="830" type="0">rolled</token>
+        <token tid="160" begin="832" end="834" type="0">two</token>
+        <token tid="161" begin="836" end="842" type="0">quarter</token>
+        <token tid="162" begin="843" end="843" type="2048">-</token>
+        <token tid="163" begin="844" end="848" type="0">turns</token>
+        <token tid="164" begin="849" end="849" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="8" begin="165" end="189">
+      <text>The Ford came to rest on its roof in the west leg of the intersection and the Honda came to rest within the intersection.</text>
+      <parse score="-8.673580">[S [NP The_DT Ford_NNP NP] [VP came_VBD [S [VP to_TO [VP rest_VB [PP on_IN [NP its_PRP$ roof_NN NP] PP] [PP in_IN [NP [NP the_DT west_NN leg_NN NP] [PP of_IN [NP [NP the_DT intersection_NN NP] and_CC [NP the_DT Honda_NNP NP] NP] PP] NP] PP] [VP came_VBD [S [VP to_TO [VP rest_VB [PP within_IN [NP the_DT intersection_NN NP] PP] VP] VP] S] VP] VP] VP] S] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Ford NNP -1 NP came VBD 1 VP to TO 4 -E rest VB 2 VP on IN 4 PP its PRP$ 7 -I roof NN 5 NP in IN 4 PP the DT 11 -I west NN 11 -I leg NN 8 NP of IN 11 PP the DT 14 -I intersection NN 17 NP and CC 17 -E the DT 17 -I Honda NNP 12 NP came VBD 4 VP to TO 20 -E rest VB 18 VP within IN 20 PP the DT 23 -I intersection NN 21 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Ford_NNP NP:2-ARG1/4-ARG0/20-ARG0] [VP came_VBD:came.01 [S [VP to_TO [VP rest_VB:rest.01 [PP on_IN [NP its_PRP$ roof_NN NP] PP:4-ARG2] [PP in_IN [NP [NP the_DT west_NN leg_NN NP] [PP of_IN [NP [NP the_DT intersection_NN NP] and_CC [NP the_DT Honda_NNP NP] NP] PP] NP] PP:4-ARGM-LOC] [VP came_VBD:came.01 [S [VP to_TO [VP rest_VB:rest.01 [PP within_IN [NP the_DT intersection_NN NP] PP:20-ARGM-LOC] VP] VP] S] VP] VP] VP] S:2-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="165" begin="852" end="854" type="0">The</token>
+        <token tid="166" begin="856" end="859" type="0">Ford</token>
+        <token tid="167" begin="861" end="864" type="0">came</token>
+        <token tid="168" begin="866" end="867" type="0">to</token>
+        <token tid="169" begin="869" end="872" type="0">rest</token>
+        <token tid="170" begin="874" end="875" type="0">on</token>
+        <token tid="171" begin="877" end="879" type="0">its</token>
+        <token tid="172" begin="881" end="884" type="0">roof</token>
+        <token tid="173" begin="886" end="887" type="0">in</token>
+        <token tid="174" begin="889" end="891" type="0">the</token>
+        <token tid="175" begin="893" end="896" type="0">west</token>
+        <token tid="176" begin="898" end="900" type="0">leg</token>
+        <token tid="177" begin="902" end="903" type="0">of</token>
+        <token tid="178" begin="905" end="907" type="0">the</token>
+        <token tid="179" begin="909" end="920" type="0">intersection</token>
+        <token tid="180" begin="922" end="924" type="0">and</token>
+        <token tid="181" begin="926" end="928" type="0">the</token>
+        <token tid="182" begin="930" end="934" type="0">Honda</token>
+        <token tid="183" begin="936" end="939" type="0">came</token>
+        <token tid="184" begin="941" end="942" type="0">to</token>
+        <token tid="185" begin="944" end="947" type="0">rest</token>
+        <token tid="186" begin="949" end="954" type="0">within</token>
+        <token tid="187" begin="956" end="958" type="0">the</token>
+        <token tid="188" begin="960" end="971" type="0">intersection</token>
+        <token tid="189" begin="972" end="972" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="9" begin="190" end="219">
+      <text>The Ford was equipped with combination rollover/side impact inflatable curtain (IC) air bags and during the crash the left and right IC air bags deployed.</text>
+      <parse score="-31.175400">[S [NP The_DT Ford_NNP NP] [VP was_VBD [VP equipped_VBN [PP with_IN [NP combination_NN rollover_NN /_SYM side_JJ impact_NN NP] PP] VP] VP] [NP inflatable_JJ curtain_NN NP] [NP (_-LRB- IC_NNP NP] [VP [VP )_-RRB- [NP air_NN bags_NNS NP] VP] and_CC [PP during_IN [NP the_DT crash_NN NP] PP] [NP [NP the_DT left_NN NP] and_CC [NP [NP right_JJ IC_NNP air_NN bags_NNS NP] [VP deployed_VBN VP] NP] NP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Ford NNP -1 NP was VBD 1 VP equipped VBN 2 VP with IN 3 PP combination NN 9 -I rollover NN 9 -I / SYM 9 -I side JJ 9 -I impact NN 4 NP inflatable JJ 11 -I curtain NN 1 NP ( -LRB- 13 -I IC NNP 1 NP ) -RRB- 1 VP air NN 16 -I bags NNS 14 NP and CC 14 -E during IN 14 PP the DT 20 -I crash NN 18 NP the DT 22 -I left NN 27 NP and CC 27 -E right JJ 27 -I IC NNP 27 -I air NN 27 -I bags NNS 14 NP deployed VBN 27 VP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Ford_NNP NP:3-ARG1] [VP was_VBD [VP equipped_VBN:equipped.01 [PP with_IN [NP combination_NN rollover_NN /_SYM side_JJ impact_NN NP] PP:3-ARG2] VP] VP] [NP inflatable_JJ curtain_NN NP:3-ARGM-TMP] [NP (_-LRB- IC_NNP NP:3-ARG2] [VP [VP )_-RRB- [NP air_NN bags_NNS NP] VP] and_CC [PP during_IN [NP the_DT crash_NN NP] PP] [NP [NP the_DT left_NN NP] and_CC [NP [NP right_JJ IC_NNP air_NN bags_NNS NP:28-ARG1] [VP deployed_VBN:deployed.01 VP] NP] NP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="190" begin="975" end="977" type="0">The</token>
+        <token tid="191" begin="979" end="982" type="0">Ford</token>
+        <token tid="192" begin="984" end="986" type="0">was</token>
+        <token tid="193" begin="988" end="995" type="0">equipped</token>
+        <token tid="194" begin="997" end="1000" type="0">with</token>
+        <token tid="195" begin="1002" end="1012" type="0">combination</token>
+        <token tid="196" begin="1014" end="1021" type="0">rollover</token>
+        <token tid="197" begin="1022" end="1022" type="2048">/</token>
+        <token tid="198" begin="1023" end="1026" type="0">side</token>
+        <token tid="199" begin="1028" end="1033" type="0">impact</token>
+        <token tid="200" begin="1035" end="1044" type="0">inflatable</token>
+        <token tid="201" begin="1046" end="1052" type="0">curtain</token>
+        <token tid="202" begin="1054" end="1054" type="2048">(</token>
+        <token tid="203" begin="1055" end="1056" type="0">IC</token>
+        <token tid="204" begin="1057" end="1057" type="2048">)</token>
+        <token tid="205" begin="1059" end="1061" type="0">air</token>
+        <token tid="206" begin="1063" end="1066" type="0">bags</token>
+        <token tid="207" begin="1068" end="1070" type="0">and</token>
+        <token tid="208" begin="1072" end="1077" type="0">during</token>
+        <token tid="209" begin="1079" end="1081" type="0">the</token>
+        <token tid="210" begin="1083" end="1087" type="0">crash</token>
+        <token tid="211" begin="1089" end="1091" type="0">the</token>
+        <token tid="212" begin="1093" end="1096" type="0">left</token>
+        <token tid="213" begin="1098" end="1100" type="0">and</token>
+        <token tid="214" begin="1102" end="1106" type="0">right</token>
+        <token tid="215" begin="1108" end="1109" type="0">IC</token>
+        <token tid="216" begin="1111" end="1113" type="0">air</token>
+        <token tid="217" begin="1115" end="1118" type="0">bags</token>
+        <token tid="218" begin="1120" end="1127" type="0">deployed</token>
+        <token tid="219" begin="1128" end="1128" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="10" begin="220" end="235">
+      <text>The occupants of the Ford sustained minor injuries and were transported to a local hospital.</text>
+      <parse score="-4.110520">[S [NP [NP The_DT occupants_NNS NP] [PP of_IN [NP the_DT Ford_NNP NP] PP] NP] [VP [VP sustained_VBD [NP minor_JJ injuries_NNS NP] VP] and_CC [VP were_VBD [VP transported_VBN [PP to_TO [NP a_DT local_JJ hospital_NN NP] PP] VP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I occupants NNS -1 NP of IN 1 PP the DT 4 -I Ford NNP 2 NP sustained VBD 1 VP minor JJ 7 -I injuries NNS 5 NP and CC 5 -E were VBD 5 VP transported VBN 9 VP to TO 10 PP a DT 14 -I local JJ 14 -I hospital NN 11 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT occupants_NNS NP] [PP of_IN [NP the_DT Ford_NNP NP] PP] NP:5-ARG0/10-ARG1] [VP [VP sustained_VBD:sustained.01 [NP minor_JJ injuries_NNS NP:5-ARG1] VP] and_CC [VP were_VBD [VP transported_VBN:transported.01 [PP to_TO [NP a_DT local_JJ hospital_NN NP] PP:10-ARG2] VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="220" begin="1131" end="1133" type="0">The</token>
+        <token tid="221" begin="1135" end="1143" type="0">occupants</token>
+        <token tid="222" begin="1145" end="1146" type="0">of</token>
+        <token tid="223" begin="1148" end="1150" type="0">the</token>
+        <token tid="224" begin="1152" end="1155" type="0">Ford</token>
+        <token tid="225" begin="1157" end="1165" type="0">sustained</token>
+        <token tid="226" begin="1167" end="1171" type="0">minor</token>
+        <token tid="227" begin="1173" end="1180" type="0">injuries</token>
+        <token tid="228" begin="1182" end="1184" type="0">and</token>
+        <token tid="229" begin="1186" end="1189" type="0">were</token>
+        <token tid="230" begin="1191" end="1201" type="0">transported</token>
+        <token tid="231" begin="1203" end="1204" type="0">to</token>
+        <token tid="232" begin="1206" end="1206" type="0">a</token>
+        <token tid="233" begin="1208" end="1212" type="0">local</token>
+        <token tid="234" begin="1214" end="1221" type="0">hospital</token>
+        <token tid="235" begin="1222" end="1222" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="11" begin="236" end="253">
+      <text>The Ford was towed due to damage and later declared a total loss by the insurance company.</text>
+      <parse score="-5.565190">[S [NP The_DT Ford_NNP NP] [VP [VP was_VBD [VP towed_VBN [PP due_JJ to_TO [NP damage_NN NP] PP] VP] VP] and_CC [ADVP later_RB ADVP] [VP declared_VBD [NP a_DT total_JJ loss_NN NP] [PP by_IN [NP the_DT insurance_NN company_NN NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Ford NNP -1 NP was VBD 1 VP towed VBN 2 VP due JJ 5 -I to TO 3 PP damage NN 5 NP and CC 2 -E later RB 2 ADVP declared VBD 2 VP a DT 12 -I total JJ 12 -I loss NN 9 NP by IN 9 PP the DT 16 -I insurance NN 16 -I company NN 13 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Ford_NNP NP:3-ARG1/9-ARG0] [VP [VP was_VBD [VP towed_VBN:towed.01 [PP due_JJ to_TO [NP damage_NN NP] PP:3-ARGM-CAU] VP] VP] and_CC [ADVP later_RB ADVP:9-ARGM-TMP] [VP declared_VBD:declared.01 [NP a_DT total_JJ loss_NN NP:9-ARG1] [PP by_IN [NP the_DT insurance_NN company_NN NP] PP:9-ARG0] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="236" begin="1225" end="1227" type="0">The</token>
+        <token tid="237" begin="1229" end="1232" type="0">Ford</token>
+        <token tid="238" begin="1234" end="1236" type="0">was</token>
+        <token tid="239" begin="1238" end="1242" type="0">towed</token>
+        <token tid="240" begin="1244" end="1246" type="0">due</token>
+        <token tid="241" begin="1248" end="1249" type="0">to</token>
+        <token tid="242" begin="1251" end="1256" type="0">damage</token>
+        <token tid="243" begin="1258" end="1260" type="0">and</token>
+        <token tid="244" begin="1262" end="1266" type="0">later</token>
+        <token tid="245" begin="1268" end="1275" type="0">declared</token>
+        <token tid="246" begin="1277" end="1277" type="0">a</token>
+        <token tid="247" begin="1279" end="1283" type="0">total</token>
+        <token tid="248" begin="1285" end="1288" type="0">loss</token>
+        <token tid="249" begin="1290" end="1291" type="0">by</token>
+        <token tid="250" begin="1293" end="1295" type="0">the</token>
+        <token tid="251" begin="1297" end="1305" type="0">insurance</token>
+        <token tid="252" begin="1307" end="1313" type="0">company</token>
+        <token tid="253" begin="1314" end="1314" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="-M1" mtype="NONE" begin="56" end="59" head-begin="56" head-end="59" etype="MODEL_YEAR" role="VEHICLE" metonymy="0" class="SPC" score="0.993390" corefScore="1.000000" eid="-E18">2008</mention>
+    <mention mid="-M19" mtype="NAM" begin="61" end="64" head-begin="61" head-end="64" eid="-E18" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Ford</mention>
+    <mention mid="-M20" mtype="NAM" begin="66" end="71" head-begin="66" head-end="71" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Escape</mention>
+    
+    <mention mid="-M21" mtype="NAM" begin="200" end="203" head-begin="200" head-end="203" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Ford</mention>
+    <mention mid="-M8" mtype="NOM" begin="239" end="244" head-begin="239" head-end="244" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.819645" corefScore="1.000000">female</mention>
+    <mention mid="-M10" mtype="NOM" begin="264" end="269" head-begin="264" head-end="269" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.581161" corefScore="0.839807">female</mention>
+    <mention mid="-M12" mtype="NOM" begin="313" end="319" head-begin="313" head-end="319" eid="-E6" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.930955" corefScore="1.000000">vehicle</mention>
+    <mention mid="-M13" mtype="NONE" begin="327" end="330" head-begin="327" head-end="330" eid="-E17" etype="MODEL_YEAR" role="VEHICLE" metonymy="0" class="SPC" score="0.903329" corefScore="0.662158">2000</mention>
+    <mention mid="-M22" mtype="NAM" begin="332" end="336" head-begin="332" head-end="336" eid="-E21" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="-M23" mtype="NAM" begin="338" end="342" head-begin="338" head-end="342" eid="-E22" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Civic</mention>
+    <mention mid="-M16" mtype="NOM" begin="384" end="389" head-begin="384" head-end="389" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.940452" corefScore="0.797740">female</mention>
+    <mention mid="-M18" mtype="NOM" begin="406" end="411" head-begin="406" head-end="411" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.846650" corefScore="0.878293">female</mention>
+    <mention mid="-M24" mtype="NAM" begin="572" end="575" head-begin="572" head-end="575" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Ford</mention>
+    <mention mid="-M25" mtype="NAM" begin="635" end="639" head-begin="635" head-end="639" eid="-E24" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="-M26" mtype="NAM" begin="718" end="722" head-begin="718" head-end="722" eid="-E25" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="-M27" mtype="NAM" begin="754" end="757" head-begin="754" head-end="757" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Ford</mention>
+    <mention mid="-M28" mtype="NAM" begin="765" end="768" head-begin="765" head-end="768" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Ford</mention>
+    <mention mid="-M29" mtype="NAM" begin="856" end="859" head-begin="856" head-end="859" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Ford</mention>
+    <mention mid="-M30" mtype="NAM" begin="930" end="934" head-begin="930" head-end="934" eid="-E29" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Honda</mention>
+    <mention mid="-M31" mtype="NAM" begin="979" end="982" head-begin="979" head-end="982" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Ford</mention>
+    <mention mid="-M32" mtype="NAM" begin="1152" end="1155" head-begin="1152" head-end="1155" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Ford</mention>
+    <mention mid="-M33" mtype="NAM" begin="1229" end="1232" head-begin="1229" head-end="1232" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000" eid="-E18">Ford</mention>
+  <mention begin="87" class="SPC" end="97" etype="VEHICLE" head-begin="87" head-end="97" metonymy="0" mid="527125204.txt.docxml-M1" mtype="NOM" role="VEHICLE" eid="527125204.txt.docxml-E1">two-vehicle</mention><mention begin="99" class="SPC" end="103" etype="INCIDENT" head-begin="99" head-end="103" metonymy="0" mid="527125204.txt.docxml-M2" mtype="NOM" role="INCIDENT" eid="527125204.txt.docxml-E4">crash</mention><mention begin="120" class="SPC" end="127" etype="INCIDENT" head-begin="120" head-end="127" metonymy="0" mid="527125204.txt.docxml-M3" mtype="NOM" role="INCIDENT" eid="527125204.txt.docxml-E17">rollover</mention><mention begin="134" class="SPC" end="138" etype="INCIDENT" head-begin="134" head-end="138" metonymy="0" mid="527125204.txt.docxml-M4" mtype="NOM" role="INCIDENT" eid="527125204.txt.docxml-E4">crash</mention><mention begin="284" class="SPC" end="299" etype="PART_OF_CAR" head-begin="284" head-end="299" metonymy="0" mid="527125204.txt.docxml-M5" mtype="NOM" role="PART_OF_CAR" eid="527125204.txt.docxml-E5">front right seat</mention><mention begin="426" class="SPC" end="441" etype="PART_OF_CAR" head-begin="426" head-end="441" metonymy="0" mid="527125204.txt.docxml-M6" mtype="NOM" role="PART_OF_CAR" eid="527125204.txt.docxml-E6">front right seat</mention><mention begin="448" class="SPC" end="452" etype="INCIDENT" head-begin="448" head-end="452" metonymy="0" mid="527125204.txt.docxml-M7" mtype="NOM" role="INCIDENT" eid="527125204.txt.docxml-E7">crash</mention><mention begin="465" class="SPC" end="485" etype="STRUCTURE" head-begin="465" head-end="485" metonymy="0" mid="527125204.txt.docxml-M8" mtype="NOM" role="STRUCTURE" eid="527125204.txt.docxml-E22">four-leg intersection</mention><mention begin="487" class="SPC" end="490" etype="STRUCTURE" head-begin="487" head-end="490" metonymy="0" mid="527125204.txt.docxml-M9" mtype="PRO" role="STRUCTURE" eid="527125204.txt.docxml-E22">that</mention><mention begin="510" class="SPC" end="526" etype="STRUCTURE" head-begin="510" head-end="526" metonymy="0" mid="527125204.txt.docxml-M10" mtype="NOM" role="STRUCTURE" eid="527125204.txt.docxml-E10">posted stop signs</mention><mention begin="617" class="SPC" end="628" etype="STRUCTURE" head-begin="617" head-end="628" metonymy="0" mid="527125204.txt.docxml-M11" mtype="NOM" role="STRUCTURE" eid="527125204.txt.docxml-E11">intersection</mention><mention begin="679" class="SPC" end="690" etype="STRUCTURE" head-begin="679" head-end="690" metonymy="0" mid="527125204.txt.docxml-M12" mtype="NOM" role="STRUCTURE" eid="527125204.txt.docxml-E22">intersection</mention><mention begin="701" class="SPC" end="709" etype="PART_OF_CAR" head-begin="701" head-end="709" metonymy="0" mid="527125204.txt.docxml-M13" mtype="NOM" role="PART_OF_CAR" eid="527125204.txt.docxml-E13">front end</mention><mention begin="724" class="SPC" end="731" etype="INCIDENT" head-begin="724" head-end="731" metonymy="0" mid="527125204.txt.docxml-M14" mtype="NONE" role="INCIDENT" eid="527125204.txt.docxml-E23">impacted</mention><mention begin="737" class="SPC" end="745" etype="PART_OF_CAR" head-begin="737" head-end="745" metonymy="0" mid="527125204.txt.docxml-M15" mtype="NOM" role="PART_OF_CAR" eid="527125204.txt.docxml-E15">left side</mention><mention begin="809" class="SPC" end="818" etype="INCIDENT" head-begin="809" head-end="818" metonymy="0" mid="527125204.txt.docxml-M16" mtype="NONE" role="INCIDENT" eid="527125204.txt.docxml-E16">overturned</mention><mention begin="825" class="SPC" end="830" etype="INCIDENT" head-begin="825" head-end="830" metonymy="0" mid="527125204.txt.docxml-M17" mtype="NONE" role="INCIDENT" eid="527125204.txt.docxml-E17">rolled</mention><mention begin="861" class="SPC" end="872" etype="INCIDENT" head-begin="861" head-end="872" metonymy="0" mid="527125204.txt.docxml-M18" mtype="NONE" role="INCIDENT" eid="527125204.txt.docxml-E17">came to rest</mention><mention begin="877" class="SPC" end="879" etype="MANUFACTURER" head-begin="877" head-end="879" metonymy="0" mid="527125204.txt.docxml-M19" mtype="PRO" role="VEHICLE" eid="-E18">its</mention><mention begin="881" class="SPC" end="884" etype="PART_OF_CAR" head-begin="881" head-end="884" metonymy="0" mid="527125204.txt.docxml-M20" mtype="NOM" role="PART_OF_CAR" eid="527125204.txt.docxml-E20">roof</mention><mention begin="898" class="SPC" end="900" etype="STRUCTURE" head-begin="898" head-end="900" metonymy="0" mid="527125204.txt.docxml-M21" mtype="NOM" role="STRUCTURE" eid="527125204.txt.docxml-E21">leg</mention><mention begin="909" class="SPC" end="920" etype="STRUCTURE" head-begin="909" head-end="920" metonymy="0" mid="527125204.txt.docxml-M22" mtype="NOM" role="STRUCTURE" eid="527125204.txt.docxml-E22">intersection</mention><mention begin="936" class="SPC" end="947" etype="INCIDENT" head-begin="936" head-end="947" metonymy="0" mid="527125204.txt.docxml-M23" mtype="NONE" role="INCIDENT" eid="527125204.txt.docxml-E23">came to rest</mention><mention begin="960" class="SPC" end="971" etype="STRUCTURE" head-begin="960" head-end="971" metonymy="0" mid="527125204.txt.docxml-M24" mtype="NOM" role="STRUCTURE" eid="527125204.txt.docxml-E22">intersection</mention><mention begin="1002" class="SPC" end="1066" etype="PART_OF_CAR" head-begin="1002" head-end="1066" metonymy="0" mid="527125204.txt.docxml-M25" mtype="NOM" role="PART_OF_CAR" eid="527125204.txt.docxml-E25">combination rollover/side impact inflatable curtain (IC) air bags</mention><mention begin="1083" class="SPC" end="1087" etype="INCIDENT" head-begin="1083" head-end="1087" metonymy="0" mid="527125204.txt.docxml-M26" mtype="NOM" role="INCIDENT" eid="527125204.txt.docxml-E4">crash</mention><mention begin="1093" class="SPC" end="1118" etype="PART_OF_CAR" head-begin="1093" head-end="1118" metonymy="0" mid="527125204.txt.docxml-M27" mtype="NOM" role="PART_OF_CAR" eid="527125204.txt.docxml-E27">left and right IC air bags</mention><mention begin="1120" class="SPC" end="1127" etype="ACCIDENT_OUTCOME" head-begin="1120" head-end="1127" metonymy="0" mid="527125204.txt.docxml-M28" mtype="NONE" role="ACCIDENT_OUTCOME" eid="527125204.txt.docxml-E28">deployed</mention><mention begin="1135" class="SPC" end="1143" etype="PERSON" head-begin="1135" head-end="1143" metonymy="0" mid="527125204.txt.docxml-M29" mtype="NOM" role="PERSON" eid="527125204.txt.docxml-E29">occupants</mention><mention begin="1167" class="SPC" end="1180" etype="ACCIDENT_OUTCOME" head-begin="1167" head-end="1180" metonymy="0" mid="527125204.txt.docxml-M30" mtype="NOM" role="ACCIDENT_OUTCOME" eid="527125204.txt.docxml-E30">minor injuries</mention><mention begin="1191" class="SPC" end="1221" etype="ACCIDENT_OUTCOME" head-begin="1191" head-end="1221" metonymy="0" mid="527125204.txt.docxml-M31" mtype="NONE" role="ACCIDENT_OUTCOME" eid="527125204.txt.docxml-E31">transported to a local hospital</mention><mention begin="1238" class="SPC" end="1242" etype="ACCIDENT_OUTCOME" head-begin="1238" head-end="1242" metonymy="0" mid="527125204.txt.docxml-M32" mtype="NONE" role="ACCIDENT_OUTCOME" eid="527125204.txt.docxml-E32">towed</mention><mention begin="1251" class="SPC" end="1256" etype="ACCIDENT_OUTCOME" head-begin="1251" head-end="1256" metonymy="0" mid="527125204.txt.docxml-M33" mtype="NOM" role="ACCIDENT_OUTCOME" eid="527125204.txt.docxml-E33">damage</mention><mention begin="1279" class="SPC" end="1288" etype="ACCIDENT_OUTCOME" head-begin="1279" head-end="1288" metonymy="0" mid="527125204.txt.docxml-M34" mtype="NOM" role="ACCIDENT_OUTCOME" eid="527125204.txt.docxml-E34">total loss</mention></mentions>
+  <entities>
+    
+    <entity eid="-E29" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M30">Honda</mentref>
+    </entity>
+    
+    
+    <entity eid="-E21" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M22">Honda</mentref>
+    </entity>
+    <entity eid="-E22" type="MODEL" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M23">Civic</mentref>
+    </entity>
+    
+    <entity eid="-E24" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M25">Honda</mentref>
+    </entity>
+    <entity eid="-E25" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M26">Honda</mentref>
+    </entity>
+    
+    
+    <entity eid="-E5" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.875831">
+      <mentref mid="-M10">female</mentref>
+      <mentref mid="-M18">female</mentref>
+      <mentref mid="-M8">female</mentref>
+      <mentref mid="-M16">female</mentref>
+    </entity>
+    
+    <entity eid="-E6" type="VEHICLE" generic="0" class="SPC" level="NOM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M12">vehicle</mentref>
+    </entity>
+    
+    <entity eid="-E17" type="MODEL_YEAR" generic="0" class="SPC" level="NONE" subtype="OTHER" score="0.662158">
+      <mentref mid="-M13">2000</mentref>
+    </entity>
+    
+    
+    <entity eid="-E18" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M19">Ford</mentref>
+    <mentref mid="-M1">2008</mentref><mentref mid="-M20">Escape</mentref><mentref mid="-M21">Ford</mentref><mentref mid="-M24">Ford</mentref><mentref mid="-M27">Ford</mentref><mentref mid="-M28">Ford</mentref><mentref mid="-M29">Ford</mentref><mentref mid="-M31">Ford</mentref><mentref mid="-M32">Ford</mentref><mentref mid="-M33">Ford</mentref><mentref mid="527125204.txt.docxml-M19">its</mentref></entity>
+    
+  <entity class="SPC" eid="527125204.txt.docxml-E1" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="VEHICLE"><mentref mid="527125204.txt.docxml-M1">two-vehicle</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E4" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="527125204.txt.docxml-M4">crash</mentref><mentref mid="527125204.txt.docxml-M2">crash</mentref><mentref mid="527125204.txt.docxml-M26">crash</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E5" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="527125204.txt.docxml-M5">front right seat</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E6" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="527125204.txt.docxml-M6">front right seat</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E7" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="527125204.txt.docxml-M7">crash</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E10" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="527125204.txt.docxml-M10">posted stop signs</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E11" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="527125204.txt.docxml-M11">intersection</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E13" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="527125204.txt.docxml-M13">front end</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E15" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="527125204.txt.docxml-M15">left side</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E16" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="527125204.txt.docxml-M16">overturned</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E17" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="527125204.txt.docxml-M17">rolled</mentref><mentref mid="527125204.txt.docxml-M3">rollover</mentref><mentref mid="527125204.txt.docxml-M18">came to rest</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E20" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="527125204.txt.docxml-M20">roof</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E21" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="527125204.txt.docxml-M21">leg</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E22" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="527125204.txt.docxml-M22">intersection</mentref><mentref mid="527125204.txt.docxml-M12">intersection</mentref><mentref mid="527125204.txt.docxml-M24">intersection</mentref><mentref mid="527125204.txt.docxml-M8">four-leg intersection</mentref><mentref mid="527125204.txt.docxml-M9">that</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E23" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="527125204.txt.docxml-M23">came to rest</mentref><mentref mid="527125204.txt.docxml-M14">impacted</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E25" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="527125204.txt.docxml-M25">combination rollover/side impact inflatable curtain (IC) air bags</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E27" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="527125204.txt.docxml-M27">left and right IC air bags</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E28" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="527125204.txt.docxml-M28">deployed</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E29" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PERSON"><mentref mid="527125204.txt.docxml-M29">occupants</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E30" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="527125204.txt.docxml-M30">minor injuries</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E31" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="527125204.txt.docxml-M31">transported to a local hospital</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E32" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="527125204.txt.docxml-M32">towed</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E33" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="527125204.txt.docxml-M33">damage</mentref></entity><entity class="SPC" eid="527125204.txt.docxml-E34" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="527125204.txt.docxml-M34">total loss</mentref></entity></entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+
+  <relation rid="527125204.txt.docxml-R1" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E18"/><rel_entity_arg argnum="2" eid="-E18"/><relmentions><relmention rmid="527125204.txt.docxml-R1-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M1">2008</rel_mention_arg><rel_mention_arg argnum="2" mid="-M19">Ford</rel_mention_arg></relmention><relmention rmid="527125204.txt.docxml-R1-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M19">Ford</rel_mention_arg><rel_mention_arg argnum="2" mid="-M20">Escape</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R2" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E4"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E1"/><relmentions><relmention rmid="527125204.txt.docxml-R2-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M2">crash</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M1">two-vehicle</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R3" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E17"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E1"/><relmentions><relmention rmid="527125204.txt.docxml-R3-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M3">rollover</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M1">two-vehicle</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R4" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E5"/><rel_entity_arg argnum="2" eid="-E18"/><relmentions><relmention rmid="527125204.txt.docxml-R4-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M8">female</rel_mention_arg><rel_mention_arg argnum="2" mid="-M21">Ford</rel_mention_arg></relmention><relmention rmid="527125204.txt.docxml-R4-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M10">female</rel_mention_arg><rel_mention_arg argnum="2" mid="-M21">Ford</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R5" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E5"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E5"/><relmentions><relmention rmid="527125204.txt.docxml-R5-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M10">female</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M5">front right seat</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R6" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E21"/><rel_entity_arg argnum="2" eid="-E22"/><relmentions><relmention rmid="527125204.txt.docxml-R6-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M22">Honda</rel_mention_arg><rel_mention_arg argnum="2" mid="-M23">Civic</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R7" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E17"/><rel_entity_arg argnum="2" eid="-E21"/><relmentions><relmention rmid="527125204.txt.docxml-R7-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M13">2000</rel_mention_arg><rel_mention_arg argnum="2" mid="-M22">Honda</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R8" type="hasProperty" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E6"/><rel_entity_arg argnum="2" eid="-E21"/><relmentions><relmention rmid="527125204.txt.docxml-R8-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M12">vehicle</rel_mention_arg><rel_mention_arg argnum="2" mid="-M22">Honda</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R9" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E5"/><rel_entity_arg argnum="2" eid="-E21"/><relmentions><relmention rmid="527125204.txt.docxml-R9-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M16">female</rel_mention_arg><rel_mention_arg argnum="2" mid="-M22">Honda</rel_mention_arg></relmention><relmention rmid="527125204.txt.docxml-R9-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M18">female</rel_mention_arg><rel_mention_arg argnum="2" mid="-M22">Honda</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R10" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E5"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E6"/><relmentions><relmention rmid="527125204.txt.docxml-R10-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M16">female</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M6">front right seat</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R11" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E7"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E22"/><relmentions><relmention rmid="527125204.txt.docxml-R11-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M7">crash</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M8">four-leg intersection</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R12" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E7"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E10"/><relmentions><relmention rmid="527125204.txt.docxml-R12-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M7">crash</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M10">posted stop signs</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R13" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E13"/><rel_entity_arg argnum="2" eid="-E25"/><relmentions><relmention rmid="527125204.txt.docxml-R13-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M13">front end</rel_mention_arg><rel_mention_arg argnum="2" mid="-M26">Honda</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R14" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E23"/><rel_entity_arg argnum="2" eid="-E25"/><relmentions><relmention rmid="527125204.txt.docxml-R14-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M14">impacted</rel_mention_arg><rel_mention_arg argnum="2" mid="-M26">Honda</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R15" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E15"/><rel_entity_arg argnum="2" eid="-E18"/><relmentions><relmention rmid="527125204.txt.docxml-R15-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M15">left side</rel_mention_arg><rel_mention_arg argnum="2" mid="-M27">Ford</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R16" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E16"/><rel_entity_arg argnum="2" eid="-E18"/><relmentions><relmention rmid="527125204.txt.docxml-R16-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M16">overturned</rel_mention_arg><rel_mention_arg argnum="2" mid="-M28">Ford</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R17" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E17"/><rel_entity_arg argnum="2" eid="-E18"/><relmentions><relmention rmid="527125204.txt.docxml-R17-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M17">rolled</rel_mention_arg><rel_mention_arg argnum="2" mid="-M28">Ford</rel_mention_arg></relmention><relmention rmid="527125204.txt.docxml-R17-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M18">came to rest</rel_mention_arg><rel_mention_arg argnum="2" mid="-M29">Ford</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R18" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E20"/><rel_entity_arg argnum="2" eid="-E18"/><relmentions><relmention rmid="527125204.txt.docxml-R18-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M20">roof</rel_mention_arg><rel_mention_arg argnum="2" mid="-M29">Ford</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R19" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E23"/><rel_entity_arg argnum="2" eid="-E29"/><relmentions><relmention rmid="527125204.txt.docxml-R19-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M23">came to rest</rel_mention_arg><rel_mention_arg argnum="2" mid="-M30">Honda</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R20" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E27"/><rel_entity_arg argnum="2" eid="-E18"/><relmentions><relmention rmid="527125204.txt.docxml-R20-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M27">left and right IC air bags</rel_mention_arg><rel_mention_arg argnum="2" mid="-M31">Ford</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R21" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E27"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E28"/><relmentions><relmention rmid="527125204.txt.docxml-R21-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M27">left and right IC air bags</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M28">deployed</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R22" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E29"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E30"/><relmentions><relmention rmid="527125204.txt.docxml-R22-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M29">occupants</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M30">minor injuries</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R23" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="527125204.txt.docxml-E29"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E31"/><relmentions><relmention rmid="527125204.txt.docxml-R23-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="527125204.txt.docxml-M29">occupants</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M31">transported to a local hospital</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R24" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E18"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E32"/><relmentions><relmention rmid="527125204.txt.docxml-R24-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M33">Ford</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M32">towed</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R25" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E18"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E33"/><relmentions><relmention rmid="527125204.txt.docxml-R25-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M33">Ford</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M33">damage</rel_mention_arg></relmention></relmentions></relation><relation rid="527125204.txt.docxml-R26" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E18"/><rel_entity_arg argnum="2" eid="527125204.txt.docxml-E34"/><relmentions><relmention rmid="527125204.txt.docxml-R26-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M33">Ford</rel_mention_arg><rel_mention_arg argnum="2" mid="527125204.txt.docxml-M34">total loss</rel_mention_arg></relmention></relmentions></relation></relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+
+
+<profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels"/><username name="altieric@us.ibm.com"/><removed/><edited/></doc>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>V1 was westbound on a two-lane roadway in a curve to the left.  V1 departed the roadway to the right and rotated counterclockwise.  The right side of V1 traveled down a steep embankment that ran parallel to the roadway.  V1 rolled over five quarter tuens to the right, coming to rest on its right side.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="13">
+      <text>V1 was westbound on a two-lane roadway in a curve to the left.</text>
+      <parse score="-6.417470">[S [NP V1_NN NP] [VP was_VBD [VP westbound_VBN [PP on_IN [NP a_DT two-lane_JJ roadway_NN NP] PP] [PP in_IN [NP a_DT curve_NN NP] PP] [PP to_TO [NP the_DT left_NN NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>V1 NN -1 NP was VBD 0 VP westbound VBN 1 VP on IN 2 PP a DT 6 -I two-lane JJ 6 -I roadway NN 3 NP in IN 2 PP a DT 9 -I curve NN 7 NP to TO 2 PP the DT 12 -I left NN 10 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP V1_NN NP:2-ARG1] [VP was_VBD [VP westbound_VBN:***.01 [PP on_IN [NP a_DT two-lane_JJ roadway_NN NP] PP:2-ARGM-LOC] [PP in_IN [NP a_DT curve_NN NP] PP:2-ARGM-LOC] [PP to_TO [NP the_DT left_NN NP] PP:2-ARG2] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="1" type="0">V1</token>
+        <token tid="1" begin="3" end="5" type="0">was</token>
+        <token tid="2" begin="7" end="15" type="0">westbound</token>
+        <token tid="3" begin="17" end="18" type="0">on</token>
+        <token tid="4" begin="20" end="20" type="0">a</token>
+        <token tid="5" begin="22" end="29" type="0">two-lane</token>
+        <token tid="6" begin="31" end="37" type="0">roadway</token>
+        <token tid="7" begin="39" end="40" type="0">in</token>
+        <token tid="8" begin="42" end="42" type="0">a</token>
+        <token tid="9" begin="44" end="48" type="0">curve</token>
+        <token tid="10" begin="50" end="51" type="0">to</token>
+        <token tid="11" begin="53" end="55" type="0">the</token>
+        <token tid="12" begin="57" end="60" type="0">left</token>
+        <token tid="13" begin="61" end="61" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="14" end="24">
+      <text>V1 departed the roadway to the right and rotated counterclockwise.</text>
+      <parse score="-8.267610">[S [NP V1_NN NP] [VP [VP departed_VBD [NP the_DT roadway_NN NP] [PP to_TO [NP the_DT right_NN NP] PP] VP] and_CC [VP rotated_VBD [NP counterclockwise_NN NP] VP] VP] ._. S]</parse>
+      <dependency_parse>V1 NN -1 NP departed VBD 0 VP the DT 3 -I roadway NN 1 NP to TO 1 PP the DT 6 -I right NN 4 NP and CC 1 -E rotated VBD 1 VP counterclockwise NN 8 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP V1_NN NP:1-ARG0/8-ARG0] [VP [VP departed_VBD:departed.01 [NP the_DT roadway_NN NP:1-ARG1] [PP to_TO [NP the_DT right_NN NP] PP:1-ARG2] VP] and_CC [VP rotated_VBD:***.01 [NP counterclockwise_NN NP:8-ARG1] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="14" begin="64" end="65" type="0">V1</token>
+        <token tid="15" begin="67" end="74" type="0">departed</token>
+        <token tid="16" begin="76" end="78" type="0">the</token>
+        <token tid="17" begin="80" end="86" type="0">roadway</token>
+        <token tid="18" begin="88" end="89" type="0">to</token>
+        <token tid="19" begin="91" end="93" type="0">the</token>
+        <token tid="20" begin="95" end="99" type="0">right</token>
+        <token tid="21" begin="101" end="103" type="0">and</token>
+        <token tid="22" begin="105" end="111" type="0">rotated</token>
+        <token tid="23" begin="113" end="128" type="0">counterclockwise</token>
+        <token tid="24" begin="129" end="129" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="25" end="41">
+      <text>The right side of V1 traveled down a steep embankment that ran parallel to the roadway.</text>
+      <parse score="-7.374060">[S [NP [NP The_DT right_JJ side_NN NP] [PP of_IN [NP V1_NNP NP] PP] NP] [VP traveled_VBD [PRT down_RP PRT] [NP [NP a_DT steep_JJ embankment_NN NP] [SBAR [WHNP that_WDT WHNP] [S [VP ran_VBD [NP parallel_NN NP] [PP to_TO [NP the_DT roadway_NN NP] PP] VP] S] SBAR] NP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I right JJ 2 -I side NN -1 NP of IN 2 PP V1 NNP 3 NP traveled VBD 2 VP down RP 5 PRT a DT 9 -I steep JJ 9 -I embankment NN 5 NP that WDT 11 WHNP ran VBD 9 VP parallel NN 11 NP to TO 11 PP the DT 15 -I roadway NN 13 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT right_JJ side_NN NP] [PP of_IN [NP V1_NNP NP] PP] NP:5-ARG0] [VP traveled_VBD:traveled.01 [PRT down_RP PRT] [NP [NP a_DT steep_JJ embankment_NN NP:11-ARG0] [SBAR [WHNP that_WDT WHNP] [S [VP ran_VBD:ran.01 [NP parallel_NN NP:11-ARG1] [PP to_TO [NP the_DT roadway_NN NP] PP:11-ARG2] VP] S] SBAR] NP:5-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="25" begin="132" end="134" type="0">The</token>
+        <token tid="26" begin="136" end="140" type="0">right</token>
+        <token tid="27" begin="142" end="145" type="0">side</token>
+        <token tid="28" begin="147" end="148" type="0">of</token>
+        <token tid="29" begin="150" end="151" type="0">V1</token>
+        <token tid="30" begin="153" end="160" type="0">traveled</token>
+        <token tid="31" begin="162" end="165" type="0">down</token>
+        <token tid="32" begin="167" end="167" type="0">a</token>
+        <token tid="33" begin="169" end="173" type="0">steep</token>
+        <token tid="34" begin="175" end="184" type="0">embankment</token>
+        <token tid="35" begin="186" end="189" type="0">that</token>
+        <token tid="36" begin="191" end="193" type="0">ran</token>
+        <token tid="37" begin="195" end="202" type="0">parallel</token>
+        <token tid="38" begin="204" end="205" type="0">to</token>
+        <token tid="39" begin="207" end="209" type="0">the</token>
+        <token tid="40" begin="211" end="217" type="0">roadway</token>
+        <token tid="41" begin="218" end="218" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="42" end="59">
+      <text>V1 rolled over five quarter tuens to the right, coming to rest on its right side.</text>
+      <parse score="-5.516450">[S [NP V1_NN NP] [VP rolled_VBD [NP [QP over_IN five_CD QP] quarter_NN tuens_NNS NP] [PP to_TO [NP the_DT right_NN NP] PP] ,_, [S [VP coming_VBG [S [VP to_TO [VP rest_VB [PP on_IN [NP its_PRP$ right_JJ side_NN NP] PP] VP] VP] S] VP] S] VP] ._. S]</parse>
+      <dependency_parse>V1 NN -1 NP rolled VBD 0 VP over IN 3 -I five CD 5 QP quarter NN 5 -I tuens NNS 1 NP to TO 1 PP the DT 8 -I right NN 6 NP , , 1 -I coming VBG 1 VP to TO 12 -E rest VB 10 VP on IN 12 PP its PRP$ 16 -I right JJ 16 -I side NN 13 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP V1_NN NP:1-ARG0] [VP rolled_VBD:rolled.01 [NP [QP over_IN five_CD QP] quarter_NN tuens_NNS NP:1-ARG1] [PP to_TO [NP the_DT right_NN NP] PP:1-ARG2] ,_, [S [VP coming_VBG:coming.01 [S [VP to_TO [VP rest_VB:rest.01 [PP on_IN [NP its_PRP$ right_JJ side_NN NP] PP:12-ARGM-LOC] VP] VP] S] VP] S] VP] ._. S]</srl>
+      <tokens>
+        <token tid="42" begin="221" end="222" type="0">V1</token>
+        <token tid="43" begin="224" end="229" type="0">rolled</token>
+        <token tid="44" begin="231" end="234" type="0">over</token>
+        <token tid="45" begin="236" end="239" type="0">five</token>
+        <token tid="46" begin="241" end="247" type="0">quarter</token>
+        <token tid="47" begin="249" end="253" type="0">tuens</token>
+        <token tid="48" begin="255" end="256" type="0">to</token>
+        <token tid="49" begin="258" end="260" type="0">the</token>
+        <token tid="50" begin="262" end="266" type="0">right</token>
+        <token tid="51" begin="267" end="267" type="2048">,</token>
+        <token tid="52" begin="269" end="274" type="0">coming</token>
+        <token tid="53" begin="276" end="277" type="0">to</token>
+        <token tid="54" begin="279" end="282" type="0">rest</token>
+        <token tid="55" begin="284" end="285" type="0">on</token>
+        <token tid="56" begin="287" end="289" type="0">its</token>
+        <token tid="57" begin="291" end="295" type="0">right</token>
+        <token tid="58" begin="297" end="300" type="0">side</token>
+        <token tid="59" begin="301" end="301" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    
+    
+    
+    
+  <mention begin="0" class="SPC" end="1" etype="VEHICLE" head-begin="0" head-end="1" metonymy="0" mid="520132205.txt.docxml-M1" mtype="NOM" role="VEHICLE" eid="520132205.txt.docxml-E2">V1</mention><mention begin="64" class="SPC" end="65" etype="VEHICLE" head-begin="64" head-end="65" metonymy="0" mid="520132205.txt.docxml-M2" mtype="NOM" role="VEHICLE" eid="520132205.txt.docxml-E2">V1</mention><mention begin="150" class="SPC" end="151" etype="VEHICLE" head-begin="150" head-end="151" metonymy="0" mid="520132205.txt.docxml-M3" mtype="NOM" role="VEHICLE" eid="520132205.txt.docxml-E2">V1</mention><mention begin="221" class="SPC" end="222" etype="VEHICLE" head-begin="221" head-end="222" metonymy="0" mid="520132205.txt.docxml-M4" mtype="NOM" role="VEHICLE" eid="520132205.txt.docxml-E2">V1</mention><mention begin="22" class="SPC" end="37" etype="STRUCTURE" head-begin="22" head-end="37" metonymy="0" mid="520132205.txt.docxml-M5" mtype="NOM" role="STRUCTURE" eid="520132205.txt.docxml-E5">two-lane roadway</mention><mention begin="44" class="SPC" end="48" etype="STRUCTURE" head-begin="44" head-end="48" metonymy="0" mid="520132205.txt.docxml-M6" mtype="NOM" role="STRUCTURE" eid="520132205.txt.docxml-E6">curve</mention><mention begin="105" class="SPC" end="111" etype="INCIDENT" head-begin="105" head-end="111" metonymy="0" mid="520132205.txt.docxml-M7" mtype="NONE" role="INCIDENT" eid="520132205.txt.docxml-E7">rotated</mention><mention begin="80" class="SPC" end="86" etype="STRUCTURE" head-begin="80" head-end="86" metonymy="0" mid="520132205.txt.docxml-M8" mtype="NOM" role="STRUCTURE" eid="520132205.txt.docxml-E5">roadway</mention><mention begin="136" class="SPC" end="145" etype="PART_OF_CAR" head-begin="136" head-end="145" metonymy="0" mid="520132205.txt.docxml-M10" mtype="NOM" role="PART_OF_CAR" eid="520132205.txt.docxml-E10">right side</mention><mention begin="175" class="SPC" end="184" etype="STRUCTURE" head-begin="175" head-end="184" metonymy="0" mid="520132205.txt.docxml-M11" mtype="NOM" role="STRUCTURE" eid="520132205.txt.docxml-E12">embankment</mention><mention begin="186" class="SPC" end="189" etype="STRUCTURE" head-begin="186" head-end="189" metonymy="0" mid="520132205.txt.docxml-M12" mtype="PRO" role="STRUCTURE" eid="520132205.txt.docxml-E12">that</mention><mention begin="211" class="SPC" end="217" etype="STRUCTURE" head-begin="211" head-end="217" metonymy="0" mid="520132205.txt.docxml-M13" mtype="NOM" role="STRUCTURE" eid="520132205.txt.docxml-E5">roadway</mention><mention begin="224" class="SPC" end="253" etype="INCIDENT" head-begin="224" head-end="253" metonymy="0" mid="520132205.txt.docxml-M14" mtype="NONE" role="INCIDENT" eid="520132205.txt.docxml-E14">rolled over five quarter tuens</mention><mention begin="269" class="SPC" end="282" etype="INCIDENT" head-begin="269" head-end="282" metonymy="0" mid="520132205.txt.docxml-M15" mtype="NONE" role="INCIDENT" eid="520132205.txt.docxml-E15">coming to rest</mention><mention begin="287" class="SPC" end="289" etype="VEHICLE" head-begin="287" head-end="289" metonymy="0" mid="520132205.txt.docxml-M16" mtype="PRO" role="VEHICLE" eid="520132205.txt.docxml-E2">its</mention><mention begin="291" class="SPC" end="300" etype="PART_OF_CAR" head-begin="291" head-end="300" metonymy="0" mid="520132205.txt.docxml-M17" mtype="NOM" role="PART_OF_CAR" eid="520132205.txt.docxml-E10">right side</mention><mention begin="153" class="SPC" end="165" etype="INCIDENT" head-begin="153" head-end="165" metonymy="0" mid="520132205.txt.docxml-M18" mtype="NONE" role="INCIDENT" eid="520132205.txt.docxml-E16">traveled down</mention></mentions>
+  <entities>
+    
+  <entity class="SPC" eid="520132205.txt.docxml-E2" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="VEHICLE"><mentref mid="520132205.txt.docxml-M2">V1</mentref><mentref mid="520132205.txt.docxml-M1">V1</mentref><mentref mid="520132205.txt.docxml-M4">V1</mentref><mentref mid="520132205.txt.docxml-M3">V1</mentref><mentref mid="520132205.txt.docxml-M16">its</mentref></entity><entity class="SPC" eid="520132205.txt.docxml-E5" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="520132205.txt.docxml-M5">two-lane roadway</mentref><mentref mid="520132205.txt.docxml-M13">roadway</mentref><mentref mid="520132205.txt.docxml-M8">roadway</mentref></entity><entity class="SPC" eid="520132205.txt.docxml-E6" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="520132205.txt.docxml-M6">curve</mentref></entity><entity class="SPC" eid="520132205.txt.docxml-E7" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="520132205.txt.docxml-M7">rotated</mentref></entity><entity class="SPC" eid="520132205.txt.docxml-E10" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="520132205.txt.docxml-M10">right side</mentref><mentref mid="520132205.txt.docxml-M17">right side</mentref></entity><entity class="SPC" eid="520132205.txt.docxml-E12" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="520132205.txt.docxml-M12">that</mentref><mentref mid="520132205.txt.docxml-M11">embankment</mentref></entity><entity class="SPC" eid="520132205.txt.docxml-E14" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="520132205.txt.docxml-M14">rolled over five quarter tuens</mentref></entity><entity class="SPC" eid="520132205.txt.docxml-E15" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="520132205.txt.docxml-M15">coming to rest</mentref></entity><entity class="SPC" eid="520132205.txt.docxml-E16" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="520132205.txt.docxml-M18">traveled down</mentref></entity></entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+
+  <relation rid="520132205.txt.docxml-R2" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="520132205.txt.docxml-E7"/><rel_entity_arg argnum="2" eid="520132205.txt.docxml-E2"/><relmentions><relmention rmid="520132205.txt.docxml-R2-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="520132205.txt.docxml-M7">rotated</rel_mention_arg><rel_mention_arg argnum="2" mid="520132205.txt.docxml-M2">V1</rel_mention_arg></relmention></relmentions></relation><relation rid="520132205.txt.docxml-R3" type="locatedOn" subtype="OTHER"><rel_entity_arg argnum="1" eid="520132205.txt.docxml-E10"/><rel_entity_arg argnum="2" eid="520132205.txt.docxml-E2"/><relmentions><relmention rmid="520132205.txt.docxml-R3-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="520132205.txt.docxml-M10">right side</rel_mention_arg><rel_mention_arg argnum="2" mid="520132205.txt.docxml-M3">V1</rel_mention_arg></relmention></relmentions></relation><relation rid="520132205.txt.docxml-R5" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="520132205.txt.docxml-E16"/><rel_entity_arg argnum="2" eid="520132205.txt.docxml-E12"/><relmentions><relmention rmid="520132205.txt.docxml-R5-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="520132205.txt.docxml-M18">traveled down</rel_mention_arg><rel_mention_arg argnum="2" mid="520132205.txt.docxml-M11">embankment</rel_mention_arg></relmention></relmentions></relation><relation rid="520132205.txt.docxml-R6" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="520132205.txt.docxml-E16"/><rel_entity_arg argnum="2" eid="520132205.txt.docxml-E10"/><relmentions><relmention rmid="520132205.txt.docxml-R6-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="520132205.txt.docxml-M18">traveled down</rel_mention_arg><rel_mention_arg argnum="2" mid="520132205.txt.docxml-M10">right side</rel_mention_arg></relmention></relmentions></relation><relation rid="520132205.txt.docxml-R7" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="520132205.txt.docxml-E14"/><rel_entity_arg argnum="2" eid="520132205.txt.docxml-E2"/><relmentions><relmention rmid="520132205.txt.docxml-R7-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="520132205.txt.docxml-M14">rolled over five quarter tuens</rel_mention_arg><rel_mention_arg argnum="2" mid="520132205.txt.docxml-M4">V1</rel_mention_arg></relmention></relmentions></relation><relation rid="520132205.txt.docxml-R8" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="520132205.txt.docxml-E15"/><rel_entity_arg argnum="2" eid="520132205.txt.docxml-E10"/><relmentions><relmention rmid="520132205.txt.docxml-R8-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="520132205.txt.docxml-M15">coming to rest</rel_mention_arg><rel_mention_arg argnum="2" mid="520132205.txt.docxml-M17">right side</rel_mention_arg></relmention></relmentions></relation><relation rid="520132205.txt.docxml-R9" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="520132205.txt.docxml-E15"/><rel_entity_arg argnum="2" eid="520132205.txt.docxml-E2"/><relmentions><relmention rmid="520132205.txt.docxml-R9-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="520132205.txt.docxml-M15">coming to rest</rel_mention_arg><rel_mention_arg argnum="2" mid="520132205.txt.docxml-M4">V1</rel_mention_arg></relmention></relmentions></relation></relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+
+
+<profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels"/><username name="mnasr@us.ibm.com"/></doc>

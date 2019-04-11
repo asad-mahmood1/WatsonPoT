@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>This crash is of special interest because the cae vehicle backed over a child pedestrian {2-year-old, WHite (Hispanic) male} who sustained critical injuries resulting in his death.
+
+The available information in this case indicated that the case vehicle's driver (i.e., the child's uncle] and the child's father were outside a residence talking.  It is not known if the driver was in the vehicle at the time.  The child's father went into the residence to retreive an item that the case vehicle's driver had forgotten. The father came back out, and the child reportedly followed him out the door, unknown to the father.  The father gave the item to the driver, who began to back out of the driveway and backed over the child with the left rear wheel.  The child was killed.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="36">
+      <text>This crash is of special interest because the cae vehicle backed over a child pedestrian {2-year-old, WHite (Hispanic) male} who sustained critical injuries resulting in his death.</text>
+      <parse score="-16.568800">[S [NP This_DT crash_NN NP] [VP is_VBZ [PP of_IN [NP special_JJ interest_NN NP] PP] [SBAR because_IN [S [NP the_DT cae_NN vehicle_NN NP] [VP backed_VBD [PP over_IN [NP [NP [NP a_DT child_NN pedestrian_NN NP] {_-LRB- [ADJP [NML 2_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] ,_, WHite_JJ [ADJP (_-LRB- Hispanic_JJ ADJP] )_-RRB- male_NN }_-RRB- NP] [SBAR [WHNP who_WP WHNP] [S [VP sustained_VBD [NP [NP critical_JJ injuries_NNS NP] [VP resulting_VBG [PP in_IN [NP his_PRP$ death_NN NP] PP] VP] NP] VP] S] SBAR] NP] PP] VP] S] SBAR] VP] ._. S]</parse>
+      <dependency_parse>This DT 1 -I crash NN -1 NP is VBZ 1 VP of IN 2 PP special JJ 5 -I interest NN 3 NP because IN 9 -E the DT 9 -I cae NN 9 -I vehicle NN 2 NP backed VBD 9 VP over IN 10 PP a DT 14 -I child NN 14 -I pedestrian NN 26 NP { -LRB- 26 -I 2 CD 18 -I - HYPH 18 -I year NN 20 NML - HYPH 20 -I old JJ 26 ADJP , , 26 -I WHite JJ 26 -I ( -LRB- 24 -I Hispanic JJ 26 ADJP ) -RRB- 26 -I male NN 11 NP } -RRB- 26 -I who WP 29 WHNP sustained VBD 26 VP critical JJ 31 -I injuries NNS 29 NP resulting VBG 31 VP in IN 32 PP his PRP$ 35 -I death NN 33 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP This_DT crash_NN NP] [VP is_VBZ [PP of_IN [NP special_JJ interest_NN NP] PP] [SBAR because_IN [S [NP the_DT cae_NN vehicle_NN NP:10-ARG1] [VP backed_VBD:backed.01 [PP over_IN [NP [NP [NP a_DT child_NN pedestrian_NN NP] {_-LRB- [ADJP [NML 2_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] ,_, WHite_JJ [ADJP (_-LRB- Hispanic_JJ ADJP] )_-RRB- male_NN }_-RRB- NP:29-ARG0] [SBAR [WHNP who_WP WHNP] [S [VP sustained_VBD:sustained.01 [NP [NP critical_JJ injuries_NNS NP:32-ARG2] [VP resulting_VBG:resulting.01 [PP in_IN [NP his_PRP$ death_NN NP] PP:32-ARGM-LOC] VP] NP:29-ARG1] VP] S] SBAR] NP] PP:10-ARG1] VP] S] SBAR] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="3" type="0">This</token>
+        <token tid="1" begin="5" end="9" type="0">crash</token>
+        <token tid="2" begin="11" end="12" type="0">is</token>
+        <token tid="3" begin="14" end="15" type="0">of</token>
+        <token tid="4" begin="17" end="23" type="0">special</token>
+        <token tid="5" begin="25" end="32" type="0">interest</token>
+        <token tid="6" begin="34" end="40" type="0">because</token>
+        <token tid="7" begin="42" end="44" type="0">the</token>
+        <token tid="8" begin="46" end="48" type="0">cae</token>
+        <token tid="9" begin="50" end="56" type="0">vehicle</token>
+        <token tid="10" begin="58" end="63" type="0">backed</token>
+        <token tid="11" begin="65" end="68" type="0">over</token>
+        <token tid="12" begin="70" end="70" type="0">a</token>
+        <token tid="13" begin="72" end="76" type="0">child</token>
+        <token tid="14" begin="78" end="87" type="0">pedestrian</token>
+        <token tid="15" begin="89" end="89" type="2048">{</token>
+        <token tid="16" begin="90" end="90" type="2048">2</token>
+        <token tid="17" begin="91" end="91" type="2048">-</token>
+        <token tid="18" begin="92" end="95" type="0">year</token>
+        <token tid="19" begin="96" end="96" type="2048">-</token>
+        <token tid="20" begin="97" end="99" type="0">old</token>
+        <token tid="21" begin="100" end="100" type="2048">,</token>
+        <token tid="22" begin="102" end="106" type="0">WHite</token>
+        <token tid="23" begin="108" end="108" type="2048">(</token>
+        <token tid="24" begin="109" end="116" type="0">Hispanic</token>
+        <token tid="25" begin="117" end="117" type="2048">)</token>
+        <token tid="26" begin="119" end="122" type="0">male</token>
+        <token tid="27" begin="123" end="123" type="2048">}</token>
+        <token tid="28" begin="125" end="127" type="0">who</token>
+        <token tid="29" begin="129" end="137" type="0">sustained</token>
+        <token tid="30" begin="139" end="146" type="0">critical</token>
+        <token tid="31" begin="148" end="155" type="0">injuries</token>
+        <token tid="32" begin="157" end="165" type="0">resulting</token>
+        <token tid="33" begin="167" end="168" type="0">in</token>
+        <token tid="34" begin="170" end="172" type="0">his</token>
+        <token tid="35" begin="174" end="178" type="0">death</token>
+        <token tid="36" begin="179" end="179" type="14336">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="37" end="68">
+      <text>The available information in this case indicated that the case vehicle's driver (i.e., the child's uncle] and the child's father were outside a residence talking.</text>
+      <parse score="-18.972300">[S [NP [NP The_DT available_JJ information_NN NP] [PP in_IN [NP this_DT case_NN NP] PP] NP] [VP indicated_VBD [SBAR that_IN [S [NP [NP [NP [NP the_DT case_NN vehicle_NN 's_POS NP] driver_NN NP] (_-LRB- [ADVP i.e._FW ADVP] ,_, [NP [NP the_DT child_NN 's_POS NP] uncle_NN NP] ]_-RRB- NP] and_CC [NP the_DT child_NN 's_POS NP] father_NN NP] [VP were_VBD [PP outside_IN [NP a_DT residence_NN NP] PP] [S [VP talking_VBG VP] S] VP] S] SBAR] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I available JJ 2 -I information NN -1 NP in IN 2 PP this DT 5 -I case NN 3 NP indicated VBD 2 VP that IN 25 -E the DT 10 -I case NN 10 -I vehicle NN 12 NP 's POS 10 -I driver NN 19 NP ( -LRB- 19 -E i.e. FW 19 ADVP , , 19 -E the DT 17 -I child NN 19 NP 's POS 17 -I uncle NN 25 NP ] -RRB- 19 -E and CC 25 -I the DT 23 -I child NN 25 NP 's POS 23 -I father NN 6 NP were VBD 25 VP outside IN 26 PP a DT 29 -I residence NN 27 NP talking VBG 26 VP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT available_JJ information_NN NP] [PP in_IN [NP this_DT case_NN NP] PP] NP:6-ARG0] [VP indicated_VBD:indicated.01 [SBAR that_IN [S [NP [NP [NP [NP the_DT case_NN vehicle_NN 's_POS NP] driver_NN NP] (_-LRB- [ADVP i.e._FW ADVP] ,_, [NP [NP the_DT child_NN 's_POS NP] uncle_NN NP] ]_-RRB- NP] and_CC [NP the_DT child_NN 's_POS NP] father_NN NP:30-ARG1] [VP were_VBD [PP outside_IN [NP a_DT residence_NN NP] PP] [S [VP talking_VBG:talking.01 VP] S] VP] S] SBAR:6-ARG1] VP] ._. S]</srl>
+      <tokens>
+        <token tid="37" begin="182" end="184" type="0">The</token>
+        <token tid="38" begin="186" end="194" type="0">available</token>
+        <token tid="39" begin="196" end="206" type="0">information</token>
+        <token tid="40" begin="208" end="209" type="0">in</token>
+        <token tid="41" begin="211" end="214" type="0">this</token>
+        <token tid="42" begin="216" end="219" type="0">case</token>
+        <token tid="43" begin="221" end="229" type="0">indicated</token>
+        <token tid="44" begin="231" end="234" type="0">that</token>
+        <token tid="45" begin="236" end="238" type="0">the</token>
+        <token tid="46" begin="240" end="243" type="0">case</token>
+        <token tid="47" begin="245" end="251" type="0">vehicle</token>
+        <token tid="48" begin="252" end="253" type="0">'s</token>
+        <token tid="49" begin="255" end="260" type="0">driver</token>
+        <token tid="50" begin="262" end="262" type="2048">(</token>
+        <token tid="51" begin="263" end="266" type="0">i.e.</token>
+        <token tid="52" begin="267" end="267" type="2048">,</token>
+        <token tid="53" begin="269" end="271" type="0">the</token>
+        <token tid="54" begin="273" end="277" type="0">child</token>
+        <token tid="55" begin="278" end="279" type="0">'s</token>
+        <token tid="56" begin="281" end="285" type="0">uncle</token>
+        <token tid="57" begin="286" end="286" type="2048">]</token>
+        <token tid="58" begin="288" end="290" type="0">and</token>
+        <token tid="59" begin="292" end="294" type="0">the</token>
+        <token tid="60" begin="296" end="300" type="0">child</token>
+        <token tid="61" begin="301" end="302" type="0">'s</token>
+        <token tid="62" begin="304" end="309" type="0">father</token>
+        <token tid="63" begin="311" end="314" type="0">were</token>
+        <token tid="64" begin="316" end="322" type="0">outside</token>
+        <token tid="65" begin="324" end="324" type="0">a</token>
+        <token tid="66" begin="326" end="334" type="0">residence</token>
+        <token tid="67" begin="336" end="342" type="0">talking</token>
+        <token tid="68" begin="343" end="343" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="69" end="83">
+      <text>It is not known if the driver was in the vehicle at the time.</text>
+      <parse score="-1.241220">[S [NP It_PRP NP] [VP is_VBZ not_RB [VP known_VBN [SBAR if_IN [S [NP the_DT driver_NN NP] [VP was_VBD [PP in_IN [NP the_DT vehicle_NN NP] PP] [PP at_IN [NP the_DT time_NN NP] PP] VP] S] SBAR] VP] VP] ._. S]</parse>
+      <dependency_parse>It PRP -1 NP is VBZ 0 VP not RB 1 -I known VBN 1 VP if IN 6 -E the DT 6 -I driver NN 3 NP was VBD 6 VP in IN 7 PP the DT 10 -I vehicle NN 8 NP at IN 7 PP the DT 13 -I time NN 11 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP It_PRP NP:3-ARG1] [VP is_VBZ not_RB [VP known_VBN:known.01 [SBAR if_IN [S [NP the_DT driver_NN NP] [VP was_VBD [PP in_IN [NP the_DT vehicle_NN NP] PP] [PP at_IN [NP the_DT time_NN NP] PP] VP] S] SBAR:3-ARGM-TMP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="69" begin="346" end="347" type="0">It</token>
+        <token tid="70" begin="349" end="350" type="0">is</token>
+        <token tid="71" begin="352" end="354" type="0">not</token>
+        <token tid="72" begin="356" end="360" type="0">known</token>
+        <token tid="73" begin="362" end="363" type="0">if</token>
+        <token tid="74" begin="365" end="367" type="0">the</token>
+        <token tid="75" begin="369" end="374" type="0">driver</token>
+        <token tid="76" begin="376" end="378" type="0">was</token>
+        <token tid="77" begin="380" end="381" type="0">in</token>
+        <token tid="78" begin="383" end="385" type="0">the</token>
+        <token tid="79" begin="387" end="393" type="0">vehicle</token>
+        <token tid="80" begin="395" end="396" type="0">at</token>
+        <token tid="81" begin="398" end="400" type="0">the</token>
+        <token tid="82" begin="402" end="405" type="0">time</token>
+        <token tid="83" begin="406" end="406" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="84" end="104">
+      <text>The child's father went into the residence to retreive an item that the case vehicle's driver had forgotten.</text>
+      <parse score="-7.466780">[S [NP [NP The_DT child_NN 's_POS NP] father_NN NP] [VP went_VBD [PP into_IN [NP the_DT residence_NN NP] PP] [S [VP to_TO [VP retreive_VB [NP an_DT item_NN NP] [SBAR that_IN [S [NP [NP the_DT case_NN vehicle_NN 's_POS NP] driver_NN NP] [VP had_VBD [VP forgotten_VBN VP] VP] S] SBAR] VP] VP] S] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I child NN 3 NP 's POS 1 -I father NN -1 NP went VBD 3 VP into IN 4 PP the DT 7 -I residence NN 5 NP to TO 9 -E retreive VB 4 VP an DT 11 -I item NN 9 NP that IN 17 -E the DT 15 -I case NN 15 -I vehicle NN 17 NP 's POS 15 -I driver NN 9 NP had VBD 17 VP forgotten VBN 18 VP . . 3 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT child_NN 's_POS NP] father_NN NP:4-ARG1/9-ARG0] [VP went_VBD:went.01 [PP into_IN [NP the_DT residence_NN NP] PP:4-ARG2] [S [VP to_TO [VP retreive_VB:***.01 [NP an_DT item_NN NP:9-ARG1] [SBAR that_IN [S [NP [NP the_DT case_NN vehicle_NN 's_POS NP] driver_NN NP:19-ARG0] [VP had_VBD [VP forgotten_VBN:forgotten.01 VP] VP] S] SBAR:9-ARG2] VP] VP] S] VP] ._. S]</srl>
+      <tokens>
+        <token tid="84" begin="409" end="411" type="0">The</token>
+        <token tid="85" begin="413" end="417" type="0">child</token>
+        <token tid="86" begin="418" end="419" type="0">'s</token>
+        <token tid="87" begin="421" end="426" type="0">father</token>
+        <token tid="88" begin="428" end="431" type="0">went</token>
+        <token tid="89" begin="433" end="436" type="0">into</token>
+        <token tid="90" begin="438" end="440" type="0">the</token>
+        <token tid="91" begin="442" end="450" type="0">residence</token>
+        <token tid="92" begin="452" end="453" type="0">to</token>
+        <token tid="93" begin="455" end="462" type="0">retreive</token>
+        <token tid="94" begin="464" end="465" type="0">an</token>
+        <token tid="95" begin="467" end="470" type="0">item</token>
+        <token tid="96" begin="472" end="475" type="0">that</token>
+        <token tid="97" begin="477" end="479" type="0">the</token>
+        <token tid="98" begin="481" end="484" type="0">case</token>
+        <token tid="99" begin="486" end="492" type="0">vehicle</token>
+        <token tid="100" begin="493" end="494" type="0">'s</token>
+        <token tid="101" begin="496" end="501" type="0">driver</token>
+        <token tid="102" begin="503" end="505" type="0">had</token>
+        <token tid="103" begin="507" end="515" type="0">forgotten</token>
+        <token tid="104" begin="516" end="516" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="4" begin="105" end="125">
+      <text>The father came back out, and the child reportedly followed him out the door, unknown to the father.</text>
+      <parse score="-6.081090">[S [S [NP The_DT father_NN NP] [VP came_VBD [ADVP back_RB out_RB ADVP] VP] S] ,_, and_CC [S [NP the_DT child_NN NP] [ADVP reportedly_RB ADVP] [VP followed_VBD [NP him_PRP NP] [PRT out_RP PRT] [NP [NP the_DT door_NN NP] ,_, [ADJP unknown_JJ [PP to_TO [NP the_DT father_NN NP] PP] ADJP] NP] VP] S] ._. S]</parse>
+      <dependency_parse>The DT 1 -I father NN -1 NP came VBD 1 VP back RB 2 ADVP out RB 3 -I , , 1 -E and CC 1 -E the DT 8 -I child NN 1 NP reportedly RB 8 ADVP followed VBD 8 VP him PRP 10 NP out RP 10 PRT the DT 14 -I door NN 10 NP , , 14 -E unknown JJ 14 ADJP to TO 16 PP the DT 19 -I father NN 17 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [NP The_DT father_NN NP:2-ARG1] [VP came_VBD:came.01 [ADVP back_RB out_RB ADVP:2-ARGM-DIR] VP] S] ,_, and_CC [S [NP the_DT child_NN NP:10-ARG0] [ADVP reportedly_RB ADVP] [VP followed_VBD:followed.01 [NP him_PRP NP:10-ARG1] [PRT out_RP PRT] [NP [NP the_DT door_NN NP] ,_, [ADJP unknown_JJ [PP to_TO [NP the_DT father_NN NP] PP] ADJP] NP:10-ARG2] VP] S] ._. S]</srl>
+      <tokens>
+        <token tid="105" begin="518" end="520" type="0">The</token>
+        <token tid="106" begin="522" end="527" type="0">father</token>
+        <token tid="107" begin="529" end="532" type="0">came</token>
+        <token tid="108" begin="534" end="537" type="0">back</token>
+        <token tid="109" begin="539" end="541" type="0">out</token>
+        <token tid="110" begin="542" end="542" type="2048">,</token>
+        <token tid="111" begin="544" end="546" type="0">and</token>
+        <token tid="112" begin="548" end="550" type="0">the</token>
+        <token tid="113" begin="552" end="556" type="0">child</token>
+        <token tid="114" begin="558" end="567" type="0">reportedly</token>
+        <token tid="115" begin="569" end="576" type="0">followed</token>
+        <token tid="116" begin="578" end="580" type="0">him</token>
+        <token tid="117" begin="582" end="584" type="0">out</token>
+        <token tid="118" begin="586" end="588" type="0">the</token>
+        <token tid="119" begin="590" end="593" type="0">door</token>
+        <token tid="120" begin="594" end="594" type="2048">,</token>
+        <token tid="121" begin="596" end="602" type="0">unknown</token>
+        <token tid="122" begin="604" end="605" type="0">to</token>
+        <token tid="123" begin="607" end="609" type="0">the</token>
+        <token tid="124" begin="611" end="616" type="0">father</token>
+        <token tid="125" begin="617" end="617" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="5" begin="126" end="153">
+      <text>The father gave the item to the driver, who began to back out of the driveway and backed over the child with the left rear wheel.</text>
+      <parse score="-6.634630">[S [NP The_DT father_NN NP] [VP gave_VBD [NP the_DT item_NN NP] [PP to_TO [NP [NP the_DT driver_NN NP] ,_, [SBAR [WHNP who_WP WHNP] [S [VP [VP began_VBD [S [VP to_TO [VP back_VB [PP out_IN [PP of_IN [NP the_DT driveway_NN NP] PP] PP] VP] VP] S] VP] and_CC [VP backed_VBD [PP over_IN [NP [NP the_DT child_NN NP] [PP with_IN [NP the_DT left_JJ rear_JJ wheel_NN NP] PP] NP] PP] VP] VP] S] SBAR] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I father NN -1 NP gave VBD 1 VP the DT 4 -I item NN 2 NP to TO 2 PP the DT 7 -I driver NN 5 NP , , 7 -E who WP 10 WHNP began VBD 7 VP to TO 12 -E back VB 10 VP out IN 12 PP of IN 13 PP the DT 16 -I driveway NN 14 NP and CC 10 -E backed VBD 10 VP over IN 18 PP the DT 21 -I child NN 19 NP with IN 21 PP the DT 26 -I left JJ 26 -I rear JJ 26 -I wheel NN 22 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT father_NN NP:2-ARG0] [VP gave_VBD:gave.01 [NP the_DT item_NN NP:2-ARG1] [PP to_TO [NP [NP the_DT driver_NN NP:10-ARG1/12-ARG0/18-ARG0] ,_, [SBAR [WHNP who_WP WHNP] [S [VP [VP began_VBD:began.01 [S [VP to_TO [VP back_VB:back.01 [PP out_IN [PP of_IN [NP the_DT driveway_NN NP] PP] PP:12-ARG1] VP] VP] S:10-ARG1] VP] and_CC [VP backed_VBD:backed.01 [PP over_IN [NP [NP the_DT child_NN NP] [PP with_IN [NP the_DT left_JJ rear_JJ wheel_NN NP] PP] NP] PP:18-ARG1] VP] VP] S] SBAR] NP] PP:2-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="126" begin="620" end="622" type="0">The</token>
+        <token tid="127" begin="624" end="629" type="0">father</token>
+        <token tid="128" begin="631" end="634" type="0">gave</token>
+        <token tid="129" begin="636" end="638" type="0">the</token>
+        <token tid="130" begin="640" end="643" type="0">item</token>
+        <token tid="131" begin="645" end="646" type="0">to</token>
+        <token tid="132" begin="648" end="650" type="0">the</token>
+        <token tid="133" begin="652" end="657" type="0">driver</token>
+        <token tid="134" begin="658" end="658" type="2048">,</token>
+        <token tid="135" begin="660" end="662" type="0">who</token>
+        <token tid="136" begin="664" end="668" type="0">began</token>
+        <token tid="137" begin="670" end="671" type="0">to</token>
+        <token tid="138" begin="673" end="676" type="0">back</token>
+        <token tid="139" begin="678" end="680" type="0">out</token>
+        <token tid="140" begin="682" end="683" type="0">of</token>
+        <token tid="141" begin="685" end="687" type="0">the</token>
+        <token tid="142" begin="689" end="696" type="0">driveway</token>
+        <token tid="143" begin="698" end="700" type="0">and</token>
+        <token tid="144" begin="702" end="707" type="0">backed</token>
+        <token tid="145" begin="709" end="712" type="0">over</token>
+        <token tid="146" begin="714" end="716" type="0">the</token>
+        <token tid="147" begin="718" end="722" type="0">child</token>
+        <token tid="148" begin="724" end="727" type="0">with</token>
+        <token tid="149" begin="729" end="731" type="0">the</token>
+        <token tid="150" begin="733" end="736" type="0">left</token>
+        <token tid="151" begin="738" end="741" type="0">rear</token>
+        <token tid="152" begin="743" end="747" type="0">wheel</token>
+        <token tid="153" begin="748" end="748" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="6" begin="154" end="158">
+      <text>The child was killed.</text>
+      <parse score="-0.332916">[S [NP The_DT child_NN NP] [VP was_VBD [VP killed_VBN VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I child NN -1 NP was VBD 1 VP killed VBN 2 VP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT child_NN NP:3-ARG1] [VP was_VBD [VP killed_VBN:killed.01 VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="154" begin="751" end="753" type="0">The</token>
+        <token tid="155" begin="755" end="759" type="0">child</token>
+        <token tid="156" begin="761" end="763" type="0">was</token>
+        <token tid="157" begin="765" end="770" type="0">killed</token>
+        <token tid="158" begin="771" end="771" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="-M1" mtype="NOM" begin="50" end="56" head-begin="50" head-end="56" eid="-E3" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.943872" corefScore="1.000000">vehicle</mention>
+    
+    
+    <mention mid="-M6" mtype="PRO" begin="125" end="127" head-begin="125" head-end="127" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.746049" corefScore="0.483237" eid="804176546.txt.docxml-E12">who</mention>
+    
+    <mention mid="-M8" mtype="NOM" begin="245" end="251" head-begin="245" head-end="251" eid="-E3" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.986066" corefScore="0.983064">vehicle</mention>
+    <mention mid="-M9" mtype="NOM" begin="255" end="260" head-begin="255" head-end="260" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.379490" corefScore="0.652930" eid="-E6">driver</mention>
+    <mention mid="-M10" mtype="NOM" begin="273" end="277" head-begin="273" head-end="277" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997445" corefScore="0.761131" eid="804176546.txt.docxml-E12">child</mention>
+    <mention mid="-M11" mtype="NOM" begin="281" end="285" head-begin="281" head-end="285" eid="-E6" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.962416" corefScore="0.519694">uncle</mention>
+    <mention mid="-M12" mtype="NOM" begin="296" end="300" head-begin="296" head-end="300" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.995670" corefScore="0.957796" eid="804176546.txt.docxml-E12">child</mention>
+    <mention mid="-M13" mtype="NOM" begin="304" end="309" head-begin="304" head-end="309" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.968557" corefScore="0.431416" eid="804176546.txt.docxml-E23">father</mention>
+    <mention mid="-M14" mtype="NOM" begin="369" end="374" head-begin="369" head-end="374" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.575969" corefScore="0.507397" eid="-E6">driver</mention>
+    <mention mid="-M15" mtype="NOM" begin="387" end="393" head-begin="387" head-end="393" eid="-E3" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.980256" corefScore="0.983064">vehicle</mention>
+    <mention mid="-M16" mtype="NOM" begin="413" end="417" head-begin="413" head-end="417" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998643" corefScore="0.961688" eid="804176546.txt.docxml-E12">child</mention>
+    <mention mid="-M17" mtype="NOM" begin="421" end="426" head-begin="421" head-end="426" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.986852" corefScore="0.856234" eid="804176546.txt.docxml-E23">father</mention>
+    <mention mid="-M18" mtype="NOM" begin="486" end="492" head-begin="486" head-end="492" eid="-E3" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.986066" corefScore="0.983064">vehicle</mention>
+    <mention mid="-M19" mtype="NOM" begin="496" end="501" head-begin="496" head-end="501" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.661762" corefScore="0.507397" eid="-E6">driver</mention>
+    <mention mid="-M20" mtype="NOM" begin="522" end="527" head-begin="522" head-end="527" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.991611" corefScore="0.881549" eid="804176546.txt.docxml-E23">father</mention>
+    <mention mid="-M21" mtype="NOM" begin="552" end="556" head-begin="552" head-end="556" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.986693" corefScore="0.952247" eid="804176546.txt.docxml-E12">child</mention>
+    <mention mid="-M22" mtype="PRO" begin="578" end="580" head-begin="578" head-end="580" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.977819" corefScore="0.832914" eid="804176546.txt.docxml-E23">him</mention>
+    <mention mid="-M23" mtype="NOM" begin="611" end="616" head-begin="611" head-end="616" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998158" corefScore="0.951139" eid="804176546.txt.docxml-E23">father</mention>
+    <mention mid="-M24" mtype="NOM" begin="624" end="629" head-begin="624" head-end="629" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.998525" corefScore="0.916523" eid="804176546.txt.docxml-E23">father</mention>
+    <mention mid="-M25" mtype="NOM" begin="652" end="657" head-begin="652" head-end="657" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.753665" corefScore="0.455242" eid="-E6">driver</mention>
+    <mention mid="-M26" mtype="PRO" begin="660" end="662" head-begin="660" head-end="662" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.988896" corefScore="1.000000" eid="-E6">who</mention>
+    <mention mid="-M27" mtype="NOM" begin="718" end="722" head-begin="718" head-end="722" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.990539" corefScore="0.950796" eid="804176546.txt.docxml-E12">child</mention>
+    <mention mid="-M29" mtype="NOM" begin="755" end="759" head-begin="755" head-end="759" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997991" corefScore="0.943440" eid="804176546.txt.docxml-E12">child</mention>
+  <mention begin="5" class="SPC" end="9" etype="INCIDENT" head-begin="5" head-end="9" metonymy="0" mid="804176546.txt.docxml-M1" mtype="NOM" role="INCIDENT" eid="804176546.txt.docxml-E2">crash</mention><mention begin="58" class="SPC" end="68" etype="INCIDENT" head-begin="58" head-end="68" metonymy="0" mid="804176546.txt.docxml-M2" mtype="NONE" role="INCIDENT" eid="804176546.txt.docxml-E2">backed over</mention><mention begin="78" class="SPC" end="87" etype="PERSON" head-begin="78" head-end="87" metonymy="0" mid="804176546.txt.docxml-M3" mtype="NOM" role="PERSON" eid="804176546.txt.docxml-E12">pedestrian</mention><mention begin="119" class="SPC" end="122" etype="PERSON" head-begin="119" head-end="122" metonymy="0" mid="804176546.txt.docxml-M4" mtype="NOM" role="PERSON" eid="804176546.txt.docxml-E12">male</mention><mention begin="139" class="SPC" end="178" etype="ACCIDENT_OUTCOME" head-begin="139" head-end="178" metonymy="0" mid="804176546.txt.docxml-M5" mtype="NOM" role="ACCIDENT_OUTCOME" eid="804176546.txt.docxml-E11">critical injuries resulting in his death</mention><mention begin="326" class="SPC" end="334" etype="STRUCTURE" head-begin="326" head-end="334" metonymy="0" mid="804176546.txt.docxml-M6" mtype="NOM" role="STRUCTURE" eid="804176546.txt.docxml-E6">residence</mention><mention begin="673" class="SPC" end="680" etype="INCIDENT" head-begin="673" head-end="680" metonymy="0" mid="804176546.txt.docxml-M7" mtype="NONE" role="INCIDENT" eid="804176546.txt.docxml-E7">back out</mention><mention begin="689" class="SPC" end="696" etype="STRUCTURE" head-begin="689" head-end="696" metonymy="0" mid="804176546.txt.docxml-M8" mtype="NOM" role="STRUCTURE" eid="804176546.txt.docxml-E8">driveway</mention><mention begin="702" class="SPC" end="712" etype="INCIDENT" head-begin="702" head-end="712" metonymy="0" mid="804176546.txt.docxml-M9" mtype="NONE" role="INCIDENT" eid="804176546.txt.docxml-E2">backed over</mention><mention begin="733" class="SPC" end="747" etype="PART_OF_CAR" head-begin="733" head-end="747" metonymy="0" mid="804176546.txt.docxml-M10" mtype="NOM" role="PART_OF_CAR" eid="804176546.txt.docxml-E10">left rear wheel</mention><mention begin="765" class="SPC" end="770" etype="ACCIDENT_OUTCOME" head-begin="765" head-end="770" metonymy="0" mid="804176546.txt.docxml-M11" mtype="NONE" role="ACCIDENT_OUTCOME" eid="804176546.txt.docxml-E11">killed</mention></mentions>
+  <entities>
+    
+    
+    
+    
+    <entity eid="-E6" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.519694">
+      <mentref mid="-M11">uncle</mentref>
+    <mentref mid="-M9">driver</mentref><mentref mid="-M14">driver</mentref><mentref mid="-M19">driver</mentref><mentref mid="-M25">driver</mentref><mentref mid="-M26">who</mentref></entity>
+    <entity eid="-E3" type="VEHICLE" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.987271">
+      <mentref mid="-M1">vehicle</mentref>
+      <mentref mid="-M15">vehicle</mentref>
+      <mentref mid="-M8">vehicle</mentref>
+      <mentref mid="-M18">vehicle</mentref>
+    </entity>
+    
+    
+  <entity class="SPC" eid="804176546.txt.docxml-E2" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="804176546.txt.docxml-M2">backed over</mentref><mentref mid="804176546.txt.docxml-M1">crash</mentref><mentref mid="804176546.txt.docxml-M9">backed over</mentref></entity><entity class="SPC" eid="804176546.txt.docxml-E6" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="804176546.txt.docxml-M6">residence</mentref></entity><entity class="SPC" eid="804176546.txt.docxml-E7" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="INCIDENT"><mentref mid="804176546.txt.docxml-M7">back out</mentref></entity><entity class="SPC" eid="804176546.txt.docxml-E8" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="STRUCTURE"><mentref mid="804176546.txt.docxml-M8">driveway</mentref></entity><entity class="SPC" eid="804176546.txt.docxml-E10" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PART_OF_CAR"><mentref mid="804176546.txt.docxml-M10">left rear wheel</mentref></entity><entity class="SPC" eid="804176546.txt.docxml-E11" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="ACCIDENT_OUTCOME"><mentref mid="804176546.txt.docxml-M11">killed</mentref><mentref mid="804176546.txt.docxml-M5">critical injuries resulting in his death</mentref></entity><entity class="SPC" eid="804176546.txt.docxml-E12" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PERSON"><mentref mid="804176546.txt.docxml-M4">male</mentref><mentref mid="804176546.txt.docxml-M3">pedestrian</mentref><mentref mid="-M6">who</mentref><mentref mid="-M10">child</mentref><mentref mid="-M12">child</mentref><mentref mid="-M21">child</mentref><mentref mid="-M27">child</mentref><mentref mid="-M29">child</mentref><mentref mid="-M16">child</mentref></entity><entity class="SPC" eid="804176546.txt.docxml-E23" generic="0" level="NONE" subtype="OTHER" score="1.0" probability="1.0" type="PERSON"><mentref mid="-M17">father</mentref><mentref mid="-M13">father</mentref><mentref mid="-M20">father</mentref><mentref mid="-M22">him</mentref><mentref mid="-M23">father</mentref><mentref mid="-M24">father</mentref></entity></entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+
+  <relation rid="804176546.txt.docxml-R1" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="804176546.txt.docxml-E2"/><rel_entity_arg argnum="2" eid="-E3"/><relmentions><relmention rmid="804176546.txt.docxml-R1-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="804176546.txt.docxml-M1">crash</rel_mention_arg><rel_mention_arg argnum="2" mid="-M1">vehicle</rel_mention_arg></relmention><relmention rmid="804176546.txt.docxml-R1-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="804176546.txt.docxml-M2">backed over</rel_mention_arg><rel_mention_arg argnum="2" mid="-M1">vehicle</rel_mention_arg></relmention></relmentions></relation><relation rid="804176546.txt.docxml-R2" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="804176546.txt.docxml-E2"/><rel_entity_arg argnum="2" eid="804176546.txt.docxml-E12"/><relmentions><relmention rmid="804176546.txt.docxml-R2-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="804176546.txt.docxml-M2">backed over</rel_mention_arg><rel_mention_arg argnum="2" mid="804176546.txt.docxml-M3">pedestrian</rel_mention_arg></relmention><relmention rmid="804176546.txt.docxml-R2-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="804176546.txt.docxml-M9">backed over</rel_mention_arg><rel_mention_arg argnum="2" mid="-M27">child</rel_mention_arg></relmention></relmentions></relation><relation rid="804176546.txt.docxml-R3" type="sufferedFrom" subtype="OTHER"><rel_entity_arg argnum="1" eid="804176546.txt.docxml-E12"/><rel_entity_arg argnum="2" eid="804176546.txt.docxml-E11"/><relmentions><relmention rmid="804176546.txt.docxml-R3-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M6">who</rel_mention_arg><rel_mention_arg argnum="2" mid="804176546.txt.docxml-M5">critical injuries resulting in his death</rel_mention_arg></relmention><relmention rmid="804176546.txt.docxml-R3-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M29">child</rel_mention_arg><rel_mention_arg argnum="2" mid="804176546.txt.docxml-M11">killed</rel_mention_arg></relmention></relmentions></relation><relation rid="804176546.txt.docxml-R4" type="occupantOf" subtype="OTHER"><rel_entity_arg argnum="1" eid="-E6"/><rel_entity_arg argnum="2" eid="-E3"/><relmentions><relmention rmid="804176546.txt.docxml-R4-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="-M9">driver</rel_mention_arg><rel_mention_arg argnum="2" mid="-M8">vehicle</rel_mention_arg></relmention><relmention rmid="804176546.txt.docxml-R4-2" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M14">driver</rel_mention_arg><rel_mention_arg argnum="2" mid="-M15">vehicle</rel_mention_arg></relmention><relmention rmid="804176546.txt.docxml-R4-3" tense="UNSPECIFIED" score="1.0" modality="ASSERTED" class="SPECIFIC"><rel_mention_arg argnum="1" mid="-M19">driver</rel_mention_arg><rel_mention_arg argnum="2" mid="-M18">vehicle</rel_mention_arg></relmention></relmentions></relation><relation rid="804176546.txt.docxml-R5" type="impactPoint" subtype="OTHER"><rel_entity_arg argnum="1" eid="804176546.txt.docxml-E2"/><rel_entity_arg argnum="2" eid="804176546.txt.docxml-E10"/><relmentions><relmention rmid="804176546.txt.docxml-R5-1" tense="UNSPECIFIED" modality="ASSERTED" class="SPECIFIC" score="1.0"><rel_mention_arg argnum="1" mid="804176546.txt.docxml-M9">backed over</rel_mention_arg><rel_mention_arg argnum="2" mid="804176546.txt.docxml-M10">left rear wheel</rel_mention_arg></relmention></relmentions></relation></relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+
+
+<profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels"/><username name="harkavy@us.ibm.com"/><removed/><edited/></doc>

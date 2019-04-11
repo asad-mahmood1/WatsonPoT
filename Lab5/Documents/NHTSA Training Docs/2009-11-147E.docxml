@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<doc id="">
+    <text>V2 was stopped in traffic behind v3 at an intersection. V1 was northbound in the same lane. The front of v1 contacted the back of v2. The front of v2 contacted the back of v3.</text>
+    <sents>
+        <sent begin="0" end="10" sid="0">
+            <text>V2 was stopped in traffic behind v3 at an intersection.</text>
+            <parse score="-5.35499">[S [NP V2_NN NP] [VP was_VBD [VP stopped_VBN [PP in_IN [NP traffic_NN NP] PP] [PP behind_IN [NP [NP v3_NN NP] [PP at_IN [NP an_DT intersection_NN NP] PP] NP] PP] VP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="0" end="1" tid="0" type="0">V2</token>
+                <token begin="3" end="5" tid="1" type="0">was</token>
+                <token begin="7" end="13" tid="2" type="0">stopped</token>
+                <token begin="15" end="16" tid="3" type="0">in</token>
+                <token begin="18" end="24" tid="4" type="0">traffic</token>
+                <token begin="26" end="31" tid="5" type="0">behind</token>
+                <token begin="33" end="34" tid="6" type="0">v3</token>
+                <token begin="36" end="37" tid="7" type="0">at</token>
+                <token begin="39" end="40" tid="8" type="0">an</token>
+                <token begin="42" end="53" tid="9" type="0">intersection</token>
+                <token begin="54" end="54" tid="10" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="11" end="18" sid="1">
+            <text>V1 was northbound in the same lane.</text>
+            <parse score="-2.17253">[S [NP V1_NN NP] [VP was_VBD [ADJP northbound_JJ ADJP] [PP in_IN [NP the_DT same_JJ lane_NN NP] PP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="56" end="57" tid="11" type="0">V1</token>
+                <token begin="59" end="61" tid="12" type="0">was</token>
+                <token begin="63" end="72" tid="13" type="0">northbound</token>
+                <token begin="74" end="75" tid="14" type="0">in</token>
+                <token begin="77" end="79" tid="15" type="0">the</token>
+                <token begin="81" end="84" tid="16" type="0">same</token>
+                <token begin="86" end="89" tid="17" type="0">lane</token>
+                <token begin="90" end="90" tid="18" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="19" end="28" sid="2">
+            <text>The front of v1 contacted the back of v2.</text>
+            <parse score="-3.88">[S [NP [NP The_DT front_NN NP] [PP of_IN [NP v1_NN NP] PP] NP] [VP contacted_VBD [NP [NP the_DT back_NN NP] [PP of_IN [NP v2_NN NP] PP] NP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="92" end="94" tid="19" type="0">The</token>
+                <token begin="96" end="100" tid="20" type="0">front</token>
+                <token begin="102" end="103" tid="21" type="0">of</token>
+                <token begin="105" end="106" tid="22" type="0">v1</token>
+                <token begin="108" end="116" tid="23" type="0">contacted</token>
+                <token begin="118" end="120" tid="24" type="0">the</token>
+                <token begin="122" end="125" tid="25" type="0">back</token>
+                <token begin="127" end="128" tid="26" type="0">of</token>
+                <token begin="130" end="131" tid="27" type="0">v2</token>
+                <token begin="132" end="132" tid="28" type="6144">.</token>
+            </tokens>
+        </sent>
+        <sent begin="29" end="38" sid="3">
+            <text>The front of v2 contacted the back of v3.</text>
+            <parse score="-4.66993">[S [NP [NP The_DT front_NN NP] [PP of_IN [NP v2_CD NP] PP] NP] [VP contacted_VBD [NP [NP the_DT back_NN NP] [PP of_IN [NP v3_NN NP] PP] NP] VP] ._. S]</parse>
+            <tokens>
+                <token begin="134" end="136" tid="29" type="0">The</token>
+                <token begin="138" end="142" tid="30" type="0">front</token>
+                <token begin="144" end="145" tid="31" type="0">of</token>
+                <token begin="147" end="148" tid="32" type="0">v2</token>
+                <token begin="150" end="158" tid="33" type="0">contacted</token>
+                <token begin="160" end="162" tid="34" type="0">the</token>
+                <token begin="164" end="167" tid="35" type="0">back</token>
+                <token begin="169" end="170" tid="36" type="0">of</token>
+                <token begin="172" end="173" tid="37" type="0">v3</token>
+                <token begin="174" end="174" tid="38" type="6144">.</token>
+            </tokens>
+        </sent>
+    </sents>
+    <mentions>
+        <mention begin="0" class="SPC" eid="c2" end="1" etype="VEHICLE" head-begin="0" head-end="1" metonymy="0" mid="s0-m1" mtype="NONE" role="VEHICLE">V2</mention>
+        <mention begin="18" class="SPC" eid="E-1" end="24" etype="CONDITION" head-begin="18" head-end="24" metonymy="0" mid="s0-m3" mtype="NONE" role="CONDITION">traffic</mention>
+        <mention begin="33" class="SPC" eid="c3" end="34" etype="VEHICLE" head-begin="33" head-end="34" metonymy="0" mid="s0-m2" mtype="NONE" role="VEHICLE">v3</mention>
+        <mention begin="42" class="SPC" eid="E-2" end="53" etype="STRUCTURE" head-begin="42" head-end="53" metonymy="0" mid="s0-m4" mtype="NONE" role="STRUCTURE">intersection</mention>
+        <mention begin="56" class="SPC" eid="c1" end="57" etype="VEHICLE" head-begin="56" head-end="57" metonymy="0" mid="s1-m1" mtype="NONE" role="VEHICLE">V1</mention>
+        <mention begin="86" class="SPC" eid="E-3" end="89" etype="STRUCTURE" head-begin="86" head-end="89" metonymy="0" mid="s1-m2" mtype="NONE" role="STRUCTURE">lane</mention>
+        <mention begin="96" class="SPC" eid="E-4" end="100" etype="PART_OF_CAR" head-begin="96" head-end="100" metonymy="0" mid="s2-m3" mtype="NONE" role="PART_OF_CAR">front</mention>
+        <mention begin="105" class="SPC" eid="c1" end="106" etype="VEHICLE" head-begin="105" head-end="106" metonymy="0" mid="s2-m1" mtype="NONE" role="VEHICLE">v1</mention>
+        <mention begin="108" class="SPC" eid="E-5" end="116" etype="INCIDENT" head-begin="108" head-end="116" metonymy="0" mid="s2-m4" mtype="NONE" role="INCIDENT">contacted</mention>
+        <mention begin="122" class="SPC" eid="E-6" end="125" etype="PART_OF_CAR" head-begin="122" head-end="125" metonymy="0" mid="s2-m5" mtype="NONE" role="PART_OF_CAR">back</mention>
+        <mention begin="130" class="SPC" eid="c2" end="131" etype="VEHICLE" head-begin="130" head-end="131" metonymy="0" mid="s2-m2" mtype="NONE" role="VEHICLE">v2</mention>
+        <mention begin="138" class="SPC" eid="E-7" end="142" etype="PART_OF_CAR" head-begin="138" head-end="142" metonymy="0" mid="s3-m3" mtype="NONE" role="PART_OF_CAR">front</mention>
+        <mention begin="147" class="SPC" eid="c2" end="148" etype="VEHICLE" head-begin="147" head-end="148" metonymy="0" mid="s3-m2" mtype="NONE" role="VEHICLE">v2</mention>
+        <mention begin="150" class="SPC" eid="E-8" end="158" etype="INCIDENT" head-begin="150" head-end="158" metonymy="0" mid="s3-m4" mtype="NONE" role="INCIDENT">contacted</mention>
+        <mention begin="164" class="SPC" eid="E-9" end="167" etype="PART_OF_CAR" head-begin="164" head-end="167" metonymy="0" mid="s3-m5" mtype="NONE" role="PART_OF_CAR">back</mention>
+        <mention begin="172" class="SPC" eid="c3" end="173" etype="VEHICLE" head-begin="172" head-end="173" metonymy="0" mid="s3-m1" mtype="NONE" role="VEHICLE">v3</mention>
+    </mentions>
+    <entities>
+        <entity class="SPC" eid="c1" generic="0" level="NONE" score="1" subtype="OTHER" type="VEHICLE">
+            <mentref mid="s1-m1">V1</mentref>
+            <mentref mid="s2-m1">v1</mentref>
+        </entity>
+        <entity class="SPC" eid="c2" generic="0" level="NONE" score="1" subtype="OTHER" type="VEHICLE">
+            <mentref mid="s0-m1">V2</mentref>
+            <mentref mid="s2-m2">v2</mentref>
+            <mentref mid="s3-m2">v2</mentref>
+        </entity>
+        <entity class="SPC" eid="c3" generic="0" level="NONE" score="1" subtype="OTHER" type="VEHICLE">
+            <mentref mid="s0-m2">v3</mentref>
+            <mentref mid="s3-m1">v3</mentref>
+        </entity>
+        <entity class="SPC" eid="E-1" generic="0" level="NONE" score="1" subtype="OTHER" type="CONDITION">
+            <mentref mid="s0-m3">traffic</mentref>
+        </entity>
+        <entity class="SPC" eid="E-2" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s0-m4">intersection</mentref>
+        </entity>
+        <entity class="SPC" eid="E-3" generic="0" level="NONE" score="1" subtype="OTHER" type="STRUCTURE">
+            <mentref mid="s1-m2">lane</mentref>
+        </entity>
+        <entity class="SPC" eid="E-4" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s2-m3">front</mentref>
+        </entity>
+        <entity class="SPC" eid="E-5" generic="0" level="NONE" score="1" subtype="OTHER" type="INCIDENT">
+            <mentref mid="s2-m4">contacted</mentref>
+        </entity>
+        <entity class="SPC" eid="E-6" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s2-m5">back</mentref>
+        </entity>
+        <entity class="SPC" eid="E-7" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s3-m3">front</mentref>
+        </entity>
+        <entity class="SPC" eid="E-8" generic="0" level="NONE" score="1" subtype="OTHER" type="INCIDENT">
+            <mentref mid="s3-m4">contacted</mentref>
+        </entity>
+        <entity class="SPC" eid="E-9" generic="0" level="NONE" score="1" subtype="OTHER" type="PART_OF_CAR">
+            <mentref mid="s3-m5">back</mentref>
+        </entity>
+    </entities>
+    <relations version="unspecified">
+        <relation rid="s2-r1" subtype="OTHER" type="locatedOn">
+            <rel_entity_arg argnum="1" eid="E-4"/>
+            <rel_entity_arg argnum="2" eid="c1"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s2-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s2-m3">front</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s2-m1">v1</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s2-r2" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-5"/>
+            <rel_entity_arg argnum="2" eid="E-4"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s2-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s2-m4">contacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s2-m3">front</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s2-r3" subtype="OTHER" type="locatedOn">
+            <rel_entity_arg argnum="1" eid="E-6"/>
+            <rel_entity_arg argnum="2" eid="c2"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s2-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s2-m5">back</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s2-m2">v2</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s2-r4" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-5"/>
+            <rel_entity_arg argnum="2" eid="E-6"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s2-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s2-m4">contacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s2-m5">back</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s3-r1" subtype="OTHER" type="locatedOn">
+            <rel_entity_arg argnum="1" eid="E-7"/>
+            <rel_entity_arg argnum="2" eid="c2"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s3-r1-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s3-m3">front</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s3-m2">v2</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s3-r2" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-8"/>
+            <rel_entity_arg argnum="2" eid="E-7"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s3-r2-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s3-m4">contacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s3-m3">front</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s3-r3" subtype="OTHER" type="locatedOn">
+            <rel_entity_arg argnum="1" eid="E-9"/>
+            <rel_entity_arg argnum="2" eid="c3"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s3-r3-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s3-m5">back</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s3-m1">v3</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+        <relation rid="s3-r4" subtype="OTHER" type="impactPoint">
+            <rel_entity_arg argnum="1" eid="E-8"/>
+            <rel_entity_arg argnum="2" eid="E-9"/>
+            <relmentions>
+                <relmention class="OTHER" modality="OTHER" rmid="s3-r4-1" score="1" tense="UNSPECIFIED">
+                    <rel_mention_arg argnum="1" mid="s3-m4">contacted</rel_mention_arg>
+                    <rel_mention_arg argnum="2" mid="s3-m5">back</rel_mention_arg>
+                </relmention>
+            </relmentions>
+        </relation>
+    </relations>
+    <sgml_sent_info/>
+    <sgml_char_info/>
+    <profile/>
+    <username/>
+    <removed/>
+    <edited/>
+</doc>

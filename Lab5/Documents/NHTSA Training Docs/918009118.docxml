@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="">
+  <text>.This on-site investigation focused on a pedestrian fatality incident that involved a 2006 Toyota Prius hybrid.  The investigation was assigned to determine if the sequence of events were related to a quiet car scenario, such that if the vehicle was operating solely on electric power, it would have been operating in a quiet mode.  The crash occurred on a divided roadway in a mid-block area at a marked pedestrian crosswalk during nighttime hours.  A marked pedestrian crosswalk with controls requiring traffic to stop for pedestrians in the crosswalk was present.  The crosswalk area was lighted by overhead luminaires.  A 37-year-old female pedestrian was crossing in an easterly direction in the crosswalk when struck by the northbound Toyota. The driver of a non-contact vehicle slowed his vehicle to allow the pedestrian to cross in front of him.  The Toyota was traveling behind the non-contact vehicle and passed the non-contact vehicle on the right, striking the pedestrian in the crosswalk.  The pedestrian was transported to a local hospital and transferred to a regional trauma center where she expired from her injuries.
+</text>
+  <sents>
+    <sent sid="0" begin="0" end="16">
+      <text>.This on-site investigation focused on a pedestrian fatality incident that involved a 2006 Toyota Prius hybrid.</text>
+      <parse score="-12.903000">[S [S [VP .This_VBG [NP on-site_JJ investigation_NN NP] VP] S] [VP focused_VBD [PP on_IN [NP [NP a_DT pedestrian_NN fatality_NN incident_NN NP] [SBAR [WHNP that_WDT WHNP] [S [VP involved_VBD [NP a_DT 2006_CD [NML Toyota_NNP Prius_NNP NML] hybrid_NN NP] VP] S] SBAR] NP] PP] VP] ._. S]</parse>
+      <dependency_parse>.This VBG -1 VP on-site JJ 2 -I investigation NN 0 NP focused VBD 0 VP on IN 3 PP a DT 8 -I pedestrian NN 8 -I fatality NN 8 -I incident NN 4 NP that WDT 10 WHNP involved VBD 8 VP a DT 15 -I 2006 CD 15 -I Toyota NNP 14 -I Prius NNP 15 NML hybrid NN 10 NP . . 0 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [S [VP .This_VBG:***.01 [NP on-site_JJ investigation_NN NP:0-ARG1] VP] S] [VP focused_VBD:focused.01 [PP on_IN [NP [NP a_DT pedestrian_NN fatality_NN incident_NN NP:10-ARG2] [SBAR [WHNP that_WDT WHNP] [S [VP involved_VBD:involved.01 [NP a_DT 2006_CD [NML Toyota_NNP Prius_NNP NML] hybrid_NN NP:10-ARG1] VP] S] SBAR] NP] PP:3-ARG2] VP] ._. S]</srl>
+      <tokens>
+        <token tid="0" begin="0" end="4" type="0">.This</token>
+        <token tid="1" begin="6" end="12" type="0">on-site</token>
+        <token tid="2" begin="14" end="26" type="0">investigation</token>
+        <token tid="3" begin="28" end="34" type="0">focused</token>
+        <token tid="4" begin="36" end="37" type="0">on</token>
+        <token tid="5" begin="39" end="39" type="0">a</token>
+        <token tid="6" begin="41" end="50" type="0">pedestrian</token>
+        <token tid="7" begin="52" end="59" type="0">fatality</token>
+        <token tid="8" begin="61" end="68" type="0">incident</token>
+        <token tid="9" begin="70" end="73" type="0">that</token>
+        <token tid="10" begin="75" end="82" type="0">involved</token>
+        <token tid="11" begin="84" end="84" type="0">a</token>
+        <token tid="12" begin="86" end="89" type="0">2006</token>
+        <token tid="13" begin="91" end="96" type="0">Toyota</token>
+        <token tid="14" begin="98" end="102" type="0">Prius</token>
+        <token tid="15" begin="104" end="109" type="0">hybrid</token>
+        <token tid="16" begin="110" end="110" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="1" begin="17" end="57">
+      <text>The investigation was assigned to determine if the sequence of events were related to a quiet car scenario, such that if the vehicle was operating solely on electric power, it would have been operating in a quiet mode.</text>
+      <parse score="-9.065510">[S [NP The_DT investigation_NN NP] [VP was_VBD [VP assigned_VBN [S [VP to_TO [VP determine_VB [SBAR if_IN [S [NP [NP the_DT sequence_NN NP] [PP of_IN [NP events_NNS NP] PP] NP] [VP were_VBD [VP related_VBN [PP to_TO [NP [NP a_DT quiet_JJ car_NN scenario_NN NP] ,_, [PP such_JJ that_IN [SBAR if_IN [S [NP the_DT vehicle_NN NP] [VP was_VBD [VP operating_VBG [PP [ADVP solely_RB ADVP] on_IN [NP electric_JJ power_NN NP] PP] VP] VP] S] SBAR] PP] NP] PP] VP] VP] S] SBAR] VP] VP] S] VP] VP] ,_, [NP it_PRP NP] [VP would_MD [VP have_VB [VP been_VBN [VP operating_VBG [PP in_IN [NP a_DT quiet_JJ mode_NN NP] PP] VP] VP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I investigation NN -1 NP was VBD 1 VP assigned VBN 2 VP to TO 5 -E determine VB 3 VP if IN 8 -E the DT 8 -I sequence NN 5 NP of IN 8 PP events NNS 9 NP were VBD 8 VP related VBN 11 VP to TO 12 PP a DT 17 -I quiet JJ 17 -I car NN 17 -I scenario NN 13 NP , , 17 -E such JJ 20 -I that IN 17 PP if IN 23 -E the DT 23 -I vehicle NN 20 NP was VBD 23 VP operating VBG 24 VP solely RB 27 ADVP on IN 25 PP electric JJ 29 -I power NN 27 NP , , 1 -E it PRP 1 NP would MD 33 -E have VB 1 VP been VBN 33 VP operating VBG 34 VP in IN 35 PP a DT 39 -I quiet JJ 39 -I mode NN 36 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT investigation_NN NP:3-ARG1/5-ARG1/35-ARG1] [VP was_VBD [VP assigned_VBN:assigned.01 [S [VP to_TO [VP determine_VB:determine.01 [SBAR if_IN [S [NP [NP the_DT sequence_NN NP] [PP of_IN [NP events_NNS NP] PP] NP:12-ARG1] [VP were_VBD [VP related_VBN:related.01 [PP to_TO [NP [NP a_DT quiet_JJ car_NN scenario_NN NP] ,_, [PP such_JJ that_IN [SBAR if_IN [S [NP the_DT vehicle_NN NP:25-ARG1] [VP was_VBD [VP operating_VBG:operating.01 [PP [ADVP solely_RB ADVP] on_IN [NP electric_JJ power_NN NP] PP] VP] VP] S] SBAR] PP] NP] PP:12-ARG2] VP] VP] S] SBAR:5-ARG1] VP] VP] S:3-ARG2] VP] VP] ,_, [NP it_PRP NP:3-ARG1/35-ARG1] [VP would_MD [VP have_VB [VP been_VBN [VP operating_VBG:operating.01 [PP in_IN [NP a_DT quiet_JJ mode_NN NP] PP:35-ARGM-LOC] VP] VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="17" begin="113" end="115" type="0">The</token>
+        <token tid="18" begin="117" end="129" type="0">investigation</token>
+        <token tid="19" begin="131" end="133" type="0">was</token>
+        <token tid="20" begin="135" end="142" type="0">assigned</token>
+        <token tid="21" begin="144" end="145" type="0">to</token>
+        <token tid="22" begin="147" end="155" type="0">determine</token>
+        <token tid="23" begin="157" end="158" type="0">if</token>
+        <token tid="24" begin="160" end="162" type="0">the</token>
+        <token tid="25" begin="164" end="171" type="0">sequence</token>
+        <token tid="26" begin="173" end="174" type="0">of</token>
+        <token tid="27" begin="176" end="181" type="0">events</token>
+        <token tid="28" begin="183" end="186" type="0">were</token>
+        <token tid="29" begin="188" end="194" type="0">related</token>
+        <token tid="30" begin="196" end="197" type="0">to</token>
+        <token tid="31" begin="199" end="199" type="0">a</token>
+        <token tid="32" begin="201" end="205" type="0">quiet</token>
+        <token tid="33" begin="207" end="209" type="0">car</token>
+        <token tid="34" begin="211" end="218" type="0">scenario</token>
+        <token tid="35" begin="219" end="219" type="2048">,</token>
+        <token tid="36" begin="221" end="224" type="0">such</token>
+        <token tid="37" begin="226" end="229" type="0">that</token>
+        <token tid="38" begin="231" end="232" type="0">if</token>
+        <token tid="39" begin="234" end="236" type="0">the</token>
+        <token tid="40" begin="238" end="244" type="0">vehicle</token>
+        <token tid="41" begin="246" end="248" type="0">was</token>
+        <token tid="42" begin="250" end="258" type="0">operating</token>
+        <token tid="43" begin="260" end="265" type="0">solely</token>
+        <token tid="44" begin="267" end="268" type="0">on</token>
+        <token tid="45" begin="270" end="277" type="0">electric</token>
+        <token tid="46" begin="279" end="283" type="0">power</token>
+        <token tid="47" begin="284" end="284" type="2048">,</token>
+        <token tid="48" begin="286" end="287" type="0">it</token>
+        <token tid="49" begin="289" end="293" type="0">would</token>
+        <token tid="50" begin="295" end="298" type="0">have</token>
+        <token tid="51" begin="300" end="303" type="0">been</token>
+        <token tid="52" begin="305" end="313" type="0">operating</token>
+        <token tid="53" begin="315" end="316" type="0">in</token>
+        <token tid="54" begin="318" end="318" type="0">a</token>
+        <token tid="55" begin="320" end="324" type="0">quiet</token>
+        <token tid="56" begin="326" end="329" type="0">mode</token>
+        <token tid="57" begin="330" end="330" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="2" begin="58" end="77">
+      <text>The crash occurred on a divided roadway in a mid-block area at a marked pedestrian crosswalk during nighttime hours.</text>
+      <parse score="-9.716170">[S [NP The_DT crash_NN NP] [VP occurred_VBD [PP on_IN [NP [NP a_DT divided_JJ roadway_NN NP] [PP in_IN [NP a_DT mid-block_JJ area_NN NP] PP] NP] PP] [PP at_IN [NP a_DT marked_VBN pedestrian_NN crosswalk_NNS NP] PP] [PP during_IN [NP nighttime_NN hours_NNS NP] PP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I crash NN -1 NP occurred VBD 1 VP on IN 2 PP a DT 6 -I divided JJ 6 -I roadway NN 3 NP in IN 6 PP a DT 10 -I mid-block JJ 10 -I area NN 7 NP at IN 2 PP a DT 15 -I marked VBN 15 -I pedestrian NN 15 -I crosswalk NNS 11 NP during IN 2 PP nighttime NN 18 -I hours NNS 16 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT crash_NN NP:2-ARG1] [VP occurred_VBD:occurred.01 [PP on_IN [NP [NP a_DT divided_JJ roadway_NN NP] [PP in_IN [NP a_DT mid-block_JJ area_NN NP] PP] NP] PP] [PP at_IN [NP a_DT marked_VBN:marked.01 pedestrian_NN crosswalk_NNS NP] PP] [PP during_IN [NP nighttime_NN hours_NNS NP] PP:2-ARGM-TMP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="58" begin="333" end="335" type="0">The</token>
+        <token tid="59" begin="337" end="341" type="0">crash</token>
+        <token tid="60" begin="343" end="350" type="0">occurred</token>
+        <token tid="61" begin="352" end="353" type="0">on</token>
+        <token tid="62" begin="355" end="355" type="0">a</token>
+        <token tid="63" begin="357" end="363" type="0">divided</token>
+        <token tid="64" begin="365" end="371" type="0">roadway</token>
+        <token tid="65" begin="373" end="374" type="0">in</token>
+        <token tid="66" begin="376" end="376" type="0">a</token>
+        <token tid="67" begin="378" end="386" type="0">mid-block</token>
+        <token tid="68" begin="388" end="391" type="0">area</token>
+        <token tid="69" begin="393" end="394" type="0">at</token>
+        <token tid="70" begin="396" end="396" type="0">a</token>
+        <token tid="71" begin="398" end="403" type="0">marked</token>
+        <token tid="72" begin="405" end="414" type="0">pedestrian</token>
+        <token tid="73" begin="416" end="424" type="0">crosswalk</token>
+        <token tid="74" begin="426" end="431" type="0">during</token>
+        <token tid="75" begin="433" end="441" type="0">nighttime</token>
+        <token tid="76" begin="443" end="447" type="0">hours</token>
+        <token tid="77" begin="448" end="448" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="3" begin="78" end="95">
+      <text>A marked pedestrian crosswalk with controls requiring traffic to stop for pedestrians in the crosswalk was present.</text>
+      <parse score="-13.277100">[S [NP [NP A_DT marked_VBN pedestrian_NN NP] [SBAR [S [VP crosswalk_VB [PP with_IN [NP [NP controls_NNS NP] [VP requiring_VBG [NP traffic_NN NP] [S [VP to_TO [VP stop_VB [PP for_IN [NP [NP pedestrians_NNS NP] [PP in_IN [NP the_DT crosswalk_NN NP] PP] NP] PP] VP] VP] S] VP] NP] PP] VP] S] SBAR] NP] [VP was_VBD [ADJP present_JJ ADJP] VP] ._. S]</parse>
+      <dependency_parse>A DT 2 -I marked VBN 2 -I pedestrian NN -1 NP crosswalk VB 2 VP with IN 3 PP controls NNS 4 NP requiring VBG 5 VP traffic NN 6 NP to TO 9 -E stop VB 6 VP for IN 9 PP pedestrians NNS 10 NP in IN 11 PP the DT 14 -I crosswalk NN 12 NP was VBD 2 VP present JJ 15 ADJP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP A_DT marked_VBN:marked.01 pedestrian_NN NP:3-ARG0] [SBAR [S [VP crosswalk_VB:***.01 [PP with_IN [NP [NP controls_NNS NP:6-ARG0] [VP requiring_VBG:requiring.01 [NP traffic_NN NP:6-ARG1] [S [VP to_TO [VP stop_VB:stop.01 [PP for_IN [NP [NP pedestrians_NNS NP] [PP in_IN [NP the_DT crosswalk_NN NP] PP] NP] PP:9-ARG1] VP] VP] S] VP] NP] PP:3-ARG2] VP] S] SBAR] NP] [VP was_VBD [ADJP present_JJ ADJP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="78" begin="451" end="451" type="0">A</token>
+        <token tid="79" begin="453" end="458" type="0">marked</token>
+        <token tid="80" begin="460" end="469" type="0">pedestrian</token>
+        <token tid="81" begin="471" end="479" type="0">crosswalk</token>
+        <token tid="82" begin="481" end="484" type="0">with</token>
+        <token tid="83" begin="486" end="493" type="0">controls</token>
+        <token tid="84" begin="495" end="503" type="0">requiring</token>
+        <token tid="85" begin="505" end="511" type="0">traffic</token>
+        <token tid="86" begin="513" end="514" type="0">to</token>
+        <token tid="87" begin="516" end="519" type="0">stop</token>
+        <token tid="88" begin="521" end="523" type="0">for</token>
+        <token tid="89" begin="525" end="535" type="0">pedestrians</token>
+        <token tid="90" begin="537" end="538" type="0">in</token>
+        <token tid="91" begin="540" end="542" type="0">the</token>
+        <token tid="92" begin="544" end="552" type="0">crosswalk</token>
+        <token tid="93" begin="554" end="556" type="0">was</token>
+        <token tid="94" begin="558" end="564" type="0">present</token>
+        <token tid="95" begin="565" end="565" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="4" begin="96" end="104">
+      <text>The crosswalk area was lighted by overhead luminaires.</text>
+      <parse score="-2.057960">[S [NP The_DT crosswalk_JJ area_NN NP] [VP was_VBD [VP lighted_VBN [PP by_IN [NP overhead_JJ luminaires_NNS NP] PP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 2 -I crosswalk JJ 2 -I area NN -1 NP was VBD 2 VP lighted VBN 3 VP by IN 4 PP overhead JJ 7 -I luminaires NNS 5 NP . . 2 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT crosswalk_JJ area_NN NP:4-ARG1] [VP was_VBD [VP lighted_VBN:lighted.01 [PP by_IN [NP overhead_JJ luminaires_NNS NP] PP:4-ARG0] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="96" begin="568" end="570" type="0">The</token>
+        <token tid="97" begin="572" end="580" type="0">crosswalk</token>
+        <token tid="98" begin="582" end="585" type="0">area</token>
+        <token tid="99" begin="587" end="589" type="0">was</token>
+        <token tid="100" begin="591" end="597" type="0">lighted</token>
+        <token tid="101" begin="599" end="600" type="0">by</token>
+        <token tid="102" begin="602" end="609" type="0">overhead</token>
+        <token tid="103" begin="611" end="620" type="0">luminaires</token>
+        <token tid="104" begin="621" end="621" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="5" begin="105" end="128">
+      <text>A 37-year-old female pedestrian was crossing in an easterly direction in the crosswalk when struck by the northbound Toyota.</text>
+      <parse score="-8.985930">[S [NP A_DT [ADJP [NML 37_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_JJ pedestrian_NN NP] [VP was_VBD [VP crossing_VBG [PP in_IN [NP an_DT easterly_JJ direction_NN NP] PP] [PP in_IN [NP the_DT crosswalk_NN NP] PP] [SBAR [WHADVP when_WRB WHADVP] [S [VP struck_VBN [PP by_IN [NP the_DT northbound_JJ Toyota_NNP NP] PP] VP] S] SBAR] VP] VP] ._. S]</parse>
+      <dependency_parse>A DT 7 -I 37 CD 3 -I - HYPH 3 -I year NN 5 NML - HYPH 5 -I old JJ 7 ADJP female JJ 7 -I pedestrian NN -1 NP was VBD 7 VP crossing VBG 8 VP in IN 9 PP an DT 13 -I easterly JJ 13 -I direction NN 10 NP in IN 9 PP the DT 16 -I crosswalk NN 14 NP when WRB 18 WHADVP struck VBN 9 VP by IN 18 PP the DT 22 -I northbound JJ 22 -I Toyota NNP 19 NP . . 7 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP A_DT [ADJP [NML 37_CD -_HYPH year_NN NML] -_HYPH old_JJ ADJP] female_JJ pedestrian_NN NP:9-ARG0] [VP was_VBD [VP crossing_VBG:crossing.01 [PP in_IN [NP an_DT easterly_JJ direction_NN NP] PP:9-ARGM-LOC] [PP in_IN [NP the_DT crosswalk_NN NP] PP:9-ARGM-TMP] [SBAR [WHADVP when_WRB WHADVP] [S [VP struck_VBN:struck.01 [PP by_IN [NP the_DT northbound_JJ Toyota_NNP NP] PP:18-ARG0] VP] S] SBAR:9-ARGM-TMP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="105" begin="624" end="624" type="0">A</token>
+        <token tid="106" begin="626" end="627" type="0">37</token>
+        <token tid="107" begin="628" end="628" type="2048">-</token>
+        <token tid="108" begin="629" end="632" type="0">year</token>
+        <token tid="109" begin="633" end="633" type="2048">-</token>
+        <token tid="110" begin="634" end="636" type="0">old</token>
+        <token tid="111" begin="638" end="643" type="0">female</token>
+        <token tid="112" begin="645" end="654" type="0">pedestrian</token>
+        <token tid="113" begin="656" end="658" type="0">was</token>
+        <token tid="114" begin="660" end="667" type="0">crossing</token>
+        <token tid="115" begin="669" end="670" type="0">in</token>
+        <token tid="116" begin="672" end="673" type="0">an</token>
+        <token tid="117" begin="675" end="682" type="0">easterly</token>
+        <token tid="118" begin="684" end="692" type="0">direction</token>
+        <token tid="119" begin="694" end="695" type="0">in</token>
+        <token tid="120" begin="697" end="699" type="0">the</token>
+        <token tid="121" begin="701" end="709" type="0">crosswalk</token>
+        <token tid="122" begin="711" end="714" type="0">when</token>
+        <token tid="123" begin="716" end="721" type="0">struck</token>
+        <token tid="124" begin="723" end="724" type="0">by</token>
+        <token tid="125" begin="726" end="728" type="0">the</token>
+        <token tid="126" begin="730" end="739" type="0">northbound</token>
+        <token tid="127" begin="741" end="746" type="0">Toyota</token>
+        <token tid="128" begin="747" end="747" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="6" begin="129" end="148">
+      <text>The driver of a non-contact vehicle slowed his vehicle to allow the pedestrian to cross in front of him.</text>
+      <parse score="-4.160310">[S [NP [NP The_DT driver_NN NP] [PP of_IN [NP a_DT non-contact_JJ vehicle_NN NP] PP] NP] [VP slowed_VBD [NP his_PRP$ vehicle_NN NP] [S [VP to_TO [VP allow_VB [S [NP the_DT pedestrian_NN NP] [VP to_TO [VP cross_VB [PP in_IN [NP [NP front_NN NP] [PP of_IN [NP him_PRP NP] PP] NP] PP] VP] VP] S] VP] VP] S] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I driver NN -1 NP of IN 1 PP a DT 5 -I non-contact JJ 5 -I vehicle NN 2 NP slowed VBD 1 VP his PRP$ 8 -I vehicle NN 6 NP to TO 10 -E allow VB 6 VP the DT 12 -I pedestrian NN 10 NP to TO 14 -E cross VB 12 VP in IN 14 PP front NN 15 NP of IN 16 PP him PRP 17 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP [NP The_DT driver_NN NP] [PP of_IN [NP a_DT non-contact_JJ vehicle_NN NP] PP] NP:6-ARG0] [VP slowed_VBD:slowed.01 [NP his_PRP$ vehicle_NN NP:6-ARG1] [S [VP to_TO [VP allow_VB:allow.01 [S [NP the_DT pedestrian_NN NP:14-ARG0] [VP to_TO [VP cross_VB:cross.01 [PP in_IN [NP [NP front_NN NP] [PP of_IN [NP him_PRP NP] PP] NP] PP:14-ARGM-LOC] VP] VP] S:10-ARG1] VP] VP] S] VP] ._. S]</srl>
+      <tokens>
+        <token tid="129" begin="749" end="751" type="0">The</token>
+        <token tid="130" begin="753" end="758" type="0">driver</token>
+        <token tid="131" begin="760" end="761" type="0">of</token>
+        <token tid="132" begin="763" end="763" type="0">a</token>
+        <token tid="133" begin="765" end="775" type="0">non-contact</token>
+        <token tid="134" begin="777" end="783" type="0">vehicle</token>
+        <token tid="135" begin="785" end="790" type="0">slowed</token>
+        <token tid="136" begin="792" end="794" type="0">his</token>
+        <token tid="137" begin="796" end="802" type="0">vehicle</token>
+        <token tid="138" begin="804" end="805" type="0">to</token>
+        <token tid="139" begin="807" end="811" type="0">allow</token>
+        <token tid="140" begin="813" end="815" type="0">the</token>
+        <token tid="141" begin="817" end="826" type="0">pedestrian</token>
+        <token tid="142" begin="828" end="829" type="0">to</token>
+        <token tid="143" begin="831" end="835" type="0">cross</token>
+        <token tid="144" begin="837" end="838" type="0">in</token>
+        <token tid="145" begin="840" end="844" type="0">front</token>
+        <token tid="146" begin="846" end="847" type="0">of</token>
+        <token tid="147" begin="849" end="851" type="0">him</token>
+        <token tid="148" begin="852" end="852" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="7" begin="149" end="172">
+      <text>The Toyota was traveling behind the non-contact vehicle and passed the non-contact vehicle on the right, striking the pedestrian in the crosswalk.</text>
+      <parse score="-8.227940">[S [NP The_DT Toyota_NNP NP] [VP [VP was_VBD [VP traveling_VBG [PP behind_IN [NP the_DT non-contact_JJ vehicle_NN NP] PP] VP] VP] and_CC [VP passed_VBD [NP the_DT non-contact_JJ vehicle_NN NP] [PP on_IN [NP the_DT right_NN NP] PP] ,_, [S [VP striking_VBG [NP the_DT pedestrian_NN NP] [PP in_IN [NP the_DT crosswalk_NN NP] PP] VP] S] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I Toyota NNP -1 NP was VBD 1 VP traveling VBG 2 VP behind IN 3 PP the DT 7 -I non-contact JJ 7 -I vehicle NN 4 NP and CC 2 -E passed VBD 2 VP the DT 12 -I non-contact JJ 12 -I vehicle NN 9 NP on IN 9 PP the DT 15 -I right NN 13 NP , , 9 -I striking VBG 9 VP the DT 19 -I pedestrian NN 17 NP in IN 17 PP the DT 22 -I crosswalk NN 20 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT Toyota_NNP NP:3-ARG0/9-ARG0/17-ARG0] [VP [VP was_VBD [VP traveling_VBG:traveling.01 [PP behind_IN [NP the_DT non-contact_JJ vehicle_NN NP] PP:3-ARGM-LOC] VP] VP] and_CC [VP passed_VBD:passed.01 [NP the_DT non-contact_JJ vehicle_NN NP:9-ARG1] [PP on_IN [NP the_DT right_NN NP] PP:9-ARG2] ,_, [S [VP striking_VBG:striking.01 [NP the_DT pedestrian_NN NP:17-ARG1] [PP in_IN [NP the_DT crosswalk_NN NP] PP:17-ARGM-LOC] VP] S] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="149" begin="855" end="857" type="0">The</token>
+        <token tid="150" begin="859" end="864" type="0">Toyota</token>
+        <token tid="151" begin="866" end="868" type="0">was</token>
+        <token tid="152" begin="870" end="878" type="0">traveling</token>
+        <token tid="153" begin="880" end="885" type="0">behind</token>
+        <token tid="154" begin="887" end="889" type="0">the</token>
+        <token tid="155" begin="891" end="901" type="0">non-contact</token>
+        <token tid="156" begin="903" end="909" type="0">vehicle</token>
+        <token tid="157" begin="911" end="913" type="0">and</token>
+        <token tid="158" begin="915" end="920" type="0">passed</token>
+        <token tid="159" begin="922" end="924" type="0">the</token>
+        <token tid="160" begin="926" end="936" type="0">non-contact</token>
+        <token tid="161" begin="938" end="944" type="0">vehicle</token>
+        <token tid="162" begin="946" end="947" type="0">on</token>
+        <token tid="163" begin="949" end="951" type="0">the</token>
+        <token tid="164" begin="953" end="957" type="0">right</token>
+        <token tid="165" begin="958" end="958" type="2048">,</token>
+        <token tid="166" begin="960" end="967" type="0">striking</token>
+        <token tid="167" begin="969" end="971" type="0">the</token>
+        <token tid="168" begin="973" end="982" type="0">pedestrian</token>
+        <token tid="169" begin="984" end="985" type="0">in</token>
+        <token tid="170" begin="987" end="989" type="0">the</token>
+        <token tid="171" begin="991" end="999" type="0">crosswalk</token>
+        <token tid="172" begin="1000" end="1000" type="6144">.</token>
+      </tokens>
+    </sent>
+    <sent sid="8" begin="173" end="194">
+      <text>The pedestrian was transported to a local hospital and transferred to a regional trauma center where she expired from her injuries.</text>
+      <parse score="-6.702670">[S [NP The_DT pedestrian_NN NP] [VP was_VBD [VP [VP transported_VBN [PP to_TO [NP a_DT local_JJ hospital_NN NP] PP] VP] and_CC [VP transferred_VBN [PP to_TO [NP [NP a_DT regional_JJ trauma_NN center_NN NP] [SBAR [WHADVP where_WRB WHADVP] [S [NP she_PRP NP] [VP expired_VBD [PP from_IN [NP her_PRP$ injuries_NNS NP] PP] VP] S] SBAR] NP] PP] VP] VP] VP] ._. S]</parse>
+      <dependency_parse>The DT 1 -I pedestrian NN -1 NP was VBD 1 VP transported VBN 2 VP to TO 3 PP a DT 7 -I local JJ 7 -I hospital NN 4 NP and CC 3 -E transferred VBN 3 VP to TO 9 PP a DT 14 -I regional JJ 14 -I trauma NN 14 -I center NN 10 NP where WRB 16 WHADVP she PRP 14 NP expired VBD 16 VP from IN 17 PP her PRP$ 20 -I injuries NNS 18 NP . . 1 -E </dependency_parse>
+      <usd_dependency_parse>NULL</usd_dependency_parse>
+      <srl>[S [NP The_DT pedestrian_NN NP:3-ARG1/9-ARG1] [VP was_VBD [VP [VP transported_VBN:transported.01 [PP to_TO [NP a_DT local_JJ hospital_NN NP] PP:3-ARG2] VP] and_CC [VP transferred_VBN:transferred.01 [PP to_TO [NP [NP a_DT regional_JJ trauma_NN center_NN NP] [SBAR [WHADVP where_WRB WHADVP] [S [NP she_PRP NP:17-ARG1] [VP expired_VBD:expired.01 [PP from_IN [NP her_PRP$ injuries_NNS NP] PP:17-ARG1] VP] S] SBAR] NP] PP:9-ARG2] VP] VP] VP] ._. S]</srl>
+      <tokens>
+        <token tid="173" begin="1003" end="1005" type="0">The</token>
+        <token tid="174" begin="1007" end="1016" type="0">pedestrian</token>
+        <token tid="175" begin="1018" end="1020" type="0">was</token>
+        <token tid="176" begin="1022" end="1032" type="0">transported</token>
+        <token tid="177" begin="1034" end="1035" type="0">to</token>
+        <token tid="178" begin="1037" end="1037" type="0">a</token>
+        <token tid="179" begin="1039" end="1043" type="0">local</token>
+        <token tid="180" begin="1045" end="1052" type="0">hospital</token>
+        <token tid="181" begin="1054" end="1056" type="0">and</token>
+        <token tid="182" begin="1058" end="1068" type="0">transferred</token>
+        <token tid="183" begin="1070" end="1071" type="0">to</token>
+        <token tid="184" begin="1073" end="1073" type="0">a</token>
+        <token tid="185" begin="1075" end="1082" type="0">regional</token>
+        <token tid="186" begin="1084" end="1089" type="0">trauma</token>
+        <token tid="187" begin="1091" end="1096" type="0">center</token>
+        <token tid="188" begin="1098" end="1102" type="0">where</token>
+        <token tid="189" begin="1104" end="1106" type="0">she</token>
+        <token tid="190" begin="1108" end="1114" type="0">expired</token>
+        <token tid="191" begin="1116" end="1119" type="0">from</token>
+        <token tid="192" begin="1121" end="1123" type="0">her</token>
+        <token tid="193" begin="1125" end="1132" type="0">injuries</token>
+        <token tid="194" begin="1133" end="1133" type="6144">.</token>
+      </tokens>
+    </sent>
+  </sents>
+  <mentions>
+    <mention mid="918009118.txt.docxml-M1" mtype="NOM" begin="41" end="50" head-begin="41" head-end="50" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">pedestrian</mention>
+    <mention mid="918009118.txt.docxml-M2" mtype="NOM" begin="52" end="68" head-begin="52" head-end="68" eid="918009118.txt.docxml-E2" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">fatality incident</mention>
+    <mention mid="-M1" mtype="NONE" begin="86" end="89" head-begin="86" head-end="89" eid="-E16" etype="MODEL_YEAR" role="MODEL_YEAR" metonymy="0" class="SPC" score="0.956533" corefScore="1.000000">2006</mention>
+    <mention mid="-M35" mtype="NAM" begin="91" end="96" head-begin="91" head-end="96" eid="-E15" etype="MANUFACTURER" role="MANUFACTURER" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Toyota</mention>
+    <mention mid="-M36" mtype="NAM" begin="98" end="102" head-begin="98" head-end="102" eid="-E16" etype="MODEL" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Prius</mention>
+    <mention mid="-M4" mtype="NOM" begin="207" end="209" head-begin="207" head-end="209" eid="918009118.txt.docxml-E22" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.961530" corefScore="1.000000">car</mention>
+    <mention mid="-M5" mtype="NOM" begin="238" end="244" head-begin="238" head-end="244" eid="918009118.txt.docxml-E23" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.953319" corefScore="0.929728">vehicle</mention>
+    <mention mid="918009118.txt.docxml-M3" mtype="NOM" begin="337" end="341" head-begin="337" head-end="341" eid="918009118.txt.docxml-E3" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">crash</mention>
+    <mention mid="918009118.txt.docxml-M4" mtype="NOM" begin="357" end="371" head-begin="357" head-end="371" eid="918009118.txt.docxml-E4" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">divided roadway</mention>
+    <mention mid="918009118.txt.docxml-M5" mtype="NOM" begin="378" end="386" head-begin="378" head-end="386" eid="918009118.txt.docxml-E5" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">mid-block</mention>
+    <mention mid="918009118.txt.docxml-M6" mtype="NOM" begin="405" end="424" head-begin="405" head-end="424" eid="918009118.txt.docxml-E6" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">pedestrian crosswalk</mention>
+    <mention mid="918009118.txt.docxml-M7" mtype="NOM" begin="460" end="479" head-begin="460" head-end="479" eid="918009118.txt.docxml-E9" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">pedestrian crosswalk</mention>
+    <mention mid="918009118.txt.docxml-M9" mtype="NOM" begin="544" end="552" head-begin="544" head-end="552" eid="918009118.txt.docxml-E9" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">crosswalk</mention>
+    <mention mid="918009118.txt.docxml-M10" mtype="NOM" begin="572" end="580" head-begin="572" head-end="580" eid="918009118.txt.docxml-E9" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">crosswalk</mention>
+    <mention mid="918009118.txt.docxml-M11" mtype="NOM" begin="602" end="620" head-begin="602" head-end="620" eid="918009118.txt.docxml-E11" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">overhead luminaires</mention>
+    <mention mid="-M15" mtype="NOM" begin="645" end="654" head-begin="645" head-end="654" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.353314" corefScore="0.679319">pedestrian</mention>
+    <mention mid="918009118.txt.docxml-M12" mtype="NONE" begin="660" end="667" head-begin="660" head-end="667" eid="918009118.txt.docxml-E12" etype="CONDITION" role="CONDITION" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">crossing</mention>
+    <mention mid="918009118.txt.docxml-M13" mtype="NOM" begin="701" end="709" head-begin="701" head-end="709" eid="918009118.txt.docxml-E9" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">crosswalk</mention>
+    <mention mid="918009118.txt.docxml-M14" mtype="NONE" begin="716" end="721" head-begin="716" head-end="721" eid="918009118.txt.docxml-E14" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">struck</mention>
+    <mention mid="-M37" mtype="NAM" begin="741" end="746" head-begin="741" head-end="746" eid="-E17" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Toyota</mention>
+    <mention mid="-M18" mtype="NOM" begin="753" end="758" head-begin="753" head-end="758" eid="-E9" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.700137" corefScore="0.533760">driver</mention>
+    <mention mid="-M19" mtype="NOM" begin="777" end="783" head-begin="777" head-end="783" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.989997" corefScore="0.863068">vehicle</mention>
+    <mention mid="-M20" mtype="PRO" begin="792" end="794" head-begin="792" head-end="794" eid="-E9" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.978549" corefScore="0.705843">his</mention>
+    <mention mid="-M21" mtype="NOM" begin="796" end="802" head-begin="796" head-end="802" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.989196" corefScore="0.885749">vehicle</mention>
+    <mention mid="-M22" mtype="NOM" begin="817" end="826" head-begin="817" head-end="826" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.583492" corefScore="0.701261">pedestrian</mention>
+    <mention mid="-M23" mtype="PRO" begin="849" end="851" head-begin="849" head-end="851" eid="-E9" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.966422" corefScore="0.942145">him</mention>
+    <mention mid="-M38" mtype="NAM" begin="859" end="864" head-begin="859" head-end="864" eid="-E16" etype="MANUFACTURER" role="VEHICLE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">Toyota</mention>
+    <mention mid="-M25" mtype="NOM" begin="903" end="909" head-begin="903" head-end="909" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.991390" corefScore="0.980885">vehicle</mention>
+    <mention mid="-M27" mtype="NOM" begin="938" end="944" head-begin="938" head-end="944" eid="-E2" etype="VEHICLE" role="VEHICLE" metonymy="0" class="SPC" score="0.990876" corefScore="0.980885">vehicle</mention>
+    <mention mid="918009118.txt.docxml-M15" mtype="NONE" begin="960" end="967" head-begin="960" head-end="967" eid="918009118.txt.docxml-E15" etype="INCIDENT" role="INCIDENT" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">striking</mention>
+    <mention mid="-M28" mtype="NOM" begin="973" end="982" head-begin="973" head-end="982" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.684477" corefScore="0.701261">pedestrian</mention>
+    <mention mid="918009118.txt.docxml-M16" mtype="NOM" begin="991" end="999" head-begin="991" head-end="999" eid="918009118.txt.docxml-E9" etype="STRUCTURE" role="STRUCTURE" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">crosswalk</mention>
+    <mention mid="-M30" mtype="NOM" begin="1007" end="1016" head-begin="1007" head-end="1016" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.879302" corefScore="0.832404">pedestrian</mention>
+    <mention mid="918009118.txt.docxml-M17" mtype="NONE" begin="1022" end="1052" head-begin="1022" head-end="1052" eid="918009118.txt.docxml-E17" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">transported to a local hospital</mention>
+    <mention mid="918009118.txt.docxml-M18" mtype="NONE" begin="1058" end="1096" head-begin="1058" head-end="1096" eid="918009118.txt.docxml-E18" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">transferred to a regional trauma center</mention>
+    <mention mid="918009118.txt.docxml-M19" mtype="PRO" begin="1098" end="1102" head-begin="1098" head-end="1102" eid="918009118.txt.docxml-E19" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">where</mention>
+    <mention mid="-M33" mtype="PRO" begin="1104" end="1106" head-begin="1104" head-end="1106" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.997940" corefScore="0.465831">she</mention>
+    <mention mid="918009118.txt.docxml-M20" mtype="NONE" begin="1108" end="1114" head-begin="1108" head-end="1114" eid="918009118.txt.docxml-E20" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">expired</mention>
+    <mention mid="-M34" mtype="PRO" begin="1121" end="1123" head-begin="1121" head-end="1123" eid="-E5" etype="PERSON" role="PERSON" metonymy="0" class="SPC" score="0.987793" corefScore="0.950068">her</mention>
+    <mention mid="918009118.txt.docxml-M21" mtype="NOM" begin="1125" end="1132" head-begin="1125" head-end="1132" eid="918009118.txt.docxml-E21" etype="ACCIDENT_OUTCOME" role="ACCIDENT_OUTCOME" metonymy="0" class="SPC" score="1.000000" corefScore="1.000000">injuries</mention>
+  </mentions>
+  <entities>
+    <entity eid="918009118.txt.docxml-E11" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M11">overhead luminaires</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E12" type="CONDITION" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M12">crossing</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E15" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M15">striking</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E14" type="INCIDENT" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M14">struck</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E17" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M17">transported to a local hospital</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E19" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M19">where</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E18" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M18">transferred to a regional trauma center</mentref>
+    </entity>
+    <entity eid="-E5" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.764084">
+      <mentref mid="-M15">pedestrian</mentref>
+      <mentref mid="-M33">she</mentref>
+      <mentref mid="-M22">pedestrian</mentref>
+      <mentref mid="-M30">pedestrian</mentref>
+      <mentref mid="-M34">her</mentref>
+      <mentref mid="-M28">pedestrian</mentref>
+      <mentref mid="918009118.txt.docxml-M1">pedestrian</mentref>
+    </entity>
+    <entity eid="-E2" type="VEHICLE" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.938623">
+      <mentref mid="-M19">vehicle</mentref>
+      <mentref mid="-M21">vehicle</mentref>
+      <mentref mid="-M25">vehicle</mentref>
+      <mentref mid="-M27">vehicle</mentref>
+    </entity>
+    <entity eid="-E9" type="PERSON" generic="0" class="SPC" level="NOM" subtype="OTHER" score="0.708039">
+      <mentref mid="-M20">his</mentref>
+      <mentref mid="-M18">driver</mentref>
+      <mentref mid="-M23">him</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E5" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M5">mid-block</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E4" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M4">divided roadway</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E6" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M6">pedestrian crosswalk</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E3" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M3">crash</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E2" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M2">fatality incident</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E9" type="STRUCTURE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M10">crosswalk</mentref>
+      <mentref mid="918009118.txt.docxml-M7">pedestrian crosswalk</mentref>
+      <mentref mid="918009118.txt.docxml-M9">crosswalk</mentref>
+      <mentref mid="918009118.txt.docxml-M13">crosswalk</mentref>
+      <mentref mid="918009118.txt.docxml-M16">crosswalk</mentref>
+    </entity>
+    <entity eid="-E15" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M35">Toyota</mentref>
+    </entity>
+    <entity eid="-E17" type="MANUFACTURER" generic="0" class="SPC" level="NAM" subtype="OTHER" score="1.000000">
+      <mentref mid="-M37">Toyota</mentref>
+    </entity>
+    <entity eid="-E16" type="MODEL" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M38">Toyota</mentref>
+      <mentref mid="-M1">2006</mentref>
+      <mentref mid="-M36">Prius</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E20" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M20">expired</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E21" type="ACCIDENT_OUTCOME" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="918009118.txt.docxml-M21">injuries</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E22" type="VEHICLE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M4">car</mentref>
+    </entity>
+    <entity eid="918009118.txt.docxml-E23" type="VEHICLE" generic="0" class="SPC" level="NONE" subtype="OTHER" score="1.000000">
+      <mentref mid="-M5">vehicle</mentref>
+    </entity>
+  </entities>
+  <relations version="KLUE2_cascaded:2011_10_25">
+    <relation rid="918009118.txt.docxml-R4" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="918009118.txt.docxml-E4" argnum="1"/>
+      <rel_entity_arg eid="918009118.txt.docxml-E3" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R4-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="918009118.txt.docxml-M4" argnum="1">divided roadway</rel_mention_arg>
+          <rel_mention_arg mid="918009118.txt.docxml-M3" argnum="2">crash</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R5" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="918009118.txt.docxml-E14" argnum="1"/>
+      <rel_entity_arg eid="918009118.txt.docxml-E9" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R5-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="918009118.txt.docxml-M14" argnum="1">struck</rel_mention_arg>
+          <rel_mention_arg mid="918009118.txt.docxml-M13" argnum="2">crosswalk</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R6" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="918009118.txt.docxml-E14" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R6-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="918009118.txt.docxml-M14" argnum="1">struck</rel_mention_arg>
+          <rel_mention_arg mid="-M15" argnum="2">pedestrian</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R7" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="918009118.txt.docxml-E14" argnum="1"/>
+      <rel_entity_arg eid="-E17" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R7-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="918009118.txt.docxml-M14" argnum="1">struck</rel_mention_arg>
+          <rel_mention_arg mid="-M37" argnum="2">Toyota</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R1" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E16" argnum="1"/>
+      <rel_entity_arg eid="-E15" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R1-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M36" argnum="1">Prius</rel_mention_arg>
+          <rel_mention_arg mid="-M35" argnum="2">Toyota</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R2" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="918009118.txt.docxml-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R2-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="918009118.txt.docxml-M1" argnum="1">pedestrian</rel_mention_arg>
+          <rel_mention_arg mid="918009118.txt.docxml-M2" argnum="2">fatality incident</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R3" type="occupantOf" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="-E16" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R3-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="918009118.txt.docxml-M1" argnum="1">pedestrian</rel_mention_arg>
+          <rel_mention_arg mid="-M36" argnum="2">Prius</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R8" type="occupantOf" subtype="OTHER">
+      <rel_entity_arg eid="-E9" argnum="1"/>
+      <rel_entity_arg eid="-E2" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R8-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M18" argnum="1">driver</rel_mention_arg>
+          <rel_mention_arg mid="-M19" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+        <relmention rmid="918009118.txt.docxml-R8-2" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M20" argnum="1">his</rel_mention_arg>
+          <rel_mention_arg mid="-M21" argnum="2">vehicle</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R9" type="hasProperty" subtype="OTHER">
+      <rel_entity_arg eid="-E2" argnum="1"/>
+      <rel_entity_arg eid="-E16" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R9-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M25" argnum="1">vehicle</rel_mention_arg>
+          <rel_mention_arg mid="-M38" argnum="2">Toyota</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R14" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="918009118.txt.docxml-E20" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R14-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M33" argnum="1">she</rel_mention_arg>
+          <rel_mention_arg mid="918009118.txt.docxml-M20" argnum="2">expired</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R15" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="918009118.txt.docxml-E21" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R15-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M34" argnum="1">her</rel_mention_arg>
+          <rel_mention_arg mid="918009118.txt.docxml-M21" argnum="2">injuries</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R12" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="918009118.txt.docxml-E17" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R12-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M30" argnum="1">pedestrian</rel_mention_arg>
+          <rel_mention_arg mid="918009118.txt.docxml-M17" argnum="2">transported to a local hospital</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R13" type="sufferedFrom" subtype="OTHER">
+      <rel_entity_arg eid="-E5" argnum="1"/>
+      <rel_entity_arg eid="918009118.txt.docxml-E18" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R13-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="-M30" argnum="1">pedestrian</rel_mention_arg>
+          <rel_mention_arg mid="918009118.txt.docxml-M18" argnum="2">transferred to a regional trauma center</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R10" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="918009118.txt.docxml-E15" argnum="1"/>
+      <rel_entity_arg eid="-E5" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R10-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="918009118.txt.docxml-M15" argnum="1">striking</rel_mention_arg>
+          <rel_mention_arg mid="-M28" argnum="2">pedestrian</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+    <relation rid="918009118.txt.docxml-R11" type="impactPoint" subtype="OTHER">
+      <rel_entity_arg eid="918009118.txt.docxml-E15" argnum="1"/>
+      <rel_entity_arg eid="918009118.txt.docxml-E9" argnum="2"/>
+      <relmentions>
+        <relmention rmid="918009118.txt.docxml-R11-1" score="1.000000" class="SPECIFIC" modality="ASSERTED" tense="UNSPECIFIED">
+          <rel_mention_arg mid="918009118.txt.docxml-M15" argnum="1">striking</rel_mention_arg>
+          <rel_mention_arg mid="918009118.txt.docxml-M16" argnum="2">crosswalk</rel_mention_arg>
+          </relmention>
+      </relmentions>
+    </relation>
+  </relations>
+  <sgml_sent_info>
+
+  </sgml_sent_info>
+  <sgml_char_info>
+
+  </sgml_char_info>
+  <profile colormap="auto-entity-types,auto-roles,klue-mention-type,auto-class" rels="auto-rels" />
+<username name="rpassaro@us.ibm.com" />
+<removed />
+<edited />
+
+</doc>
